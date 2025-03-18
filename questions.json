@@ -11,11 +11,11 @@
           { "question": "Qual fração é equivalente a 3/4?", "options": ["9/12", "5/8", "6/10", "2/3"], "answer": 0 },
           { "question": "A fração que representa corretamente 25% é:", "options": ["1/4", "1/2", "3/5", "2/7"], "answer": 0 }
     ],
-    "ciencia": [
+    "7ph05ciencias": [
         { "question": "Qual o símbolo químico da água?", "options": ["H2O", "O2", "CO2", "NaCl"], "answer": 0 },
         { "question": "Quem formulou a teoria da relatividade?", "options": ["Newton", "Einstein", "Tesla", "Galileu"], "answer": 1 }
     ],
-    "historia": [
+    "7ph05historia": [
         { "question": "Em que ano o Brasil foi descoberto?", "options": ["1492", "1500", "1822", "1889"], "answer": 1 },
         { "question": "Quem foi o primeiro presidente do Brasil?", "options": ["Juscelino Kubitschek", "Getúlio Vargas", "Deodoro da Fonseca", "Dom Pedro II"], "answer": 2 }
     ]
