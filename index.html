@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Quiz Interativo</title>
-    <meta name="description" content="Teste seus conhecimentos com este quiz interativo!">
-    <meta name="keywords" content="quiz, conhecimento, perguntas, desafio">
-    <meta name="author" content="Especialista Web">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>🎯 Super Quiz Interativo</h1>
-    </header>
-
-    <section id="quiz-container">
-        <h2>Teste seus conhecimentos!</h2>
+    <div id="theme-selection" class="modal">
+        <div class="modal-content">
+            <h2>Escolha um tema</h2>
+            <select id="theme-selector">
+                <option value="geral">Geral</option>
+                <option value="ciencia">Ciência</option>
+                <option value="historia">História</option>
+            </select>
+            <button id="start-quiz">Iniciar</button>
+        </div>
+    </div>
+    
+    <div class="container" style="display: none;">
+        <h1 id="quiz-title">Quiz Interativo</h1>
+        <div id="timer" class="timer">Tempo: <span id="time-counter">0</span> s</div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
         <div id="quiz"></div>
-        <button id="submit">Ver Resultado</button>
-        <p id="result"></p>
-        <div id="progress-bar"></div>
-    </section>
 
-    <footer>
-        <p>&copy; 2025 Super Quiz - Todos os direitos reservados.</p>
-    </footer>
+        <div id="result"></div>
+        <div class="result-buttons">
+            <button id="restart" style="display: none;">Recomeçar</button>
+            <button id="view-report" style="display: none;">Ver Relatório</button>
+        </div>
+
+        <div id="report-container" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
