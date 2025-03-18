@@ -1,45 +1,150 @@
-const quizData = [
-    { question: "Qual é a capital do Brasil?", options: ["Rio de Janeiro", "Brasília", "São Paulo", "Belo Horizonte"], correct: "Brasília" },
-    { question: "Quem descobriu o Brasil?", options: ["Pedro Álvares Cabral", "Cristóvão Colombo", "Vasco da Gama", "Dom Pedro I"], correct: "Pedro Álvares Cabral" },
-    { question: "Qual é o maior planeta do sistema solar?", options: ["Terra", "Júpiter", "Marte", "Saturno"], correct: "Júpiter" }
-];
+document.addEventListener("DOMContentLoaded", function () {
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let startTime;
+    let timerInterval;
+    let selectedTheme = "Quiz Interativo"; 
+    let userAnswers = [];
 
-const quizContainer = document.getElementById("quiz");
-const submitButton = document.getElementById("submit");
-const resultText = document.getElementById("result");
-const progressBar = document.getElementById("progress-bar");
+    const questions = {
+        geral: [
+            { question: "Qual é a capital do Brasil?", options: ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"], answer: 1 },
+            { question: "Quanto é 2 + 2?", options: ["3", "4", "5", "6"], answer: 1 }
+        ],
+        ciencia: [
+            { question: "Qual o símbolo químico da água?", options: ["H2O", "O2", "CO2", "NaCl"], answer: 0 },
+            { question: "Quem formulou a teoria da relatividade?", options: ["Newton", "Einstein", "Tesla", "Galileu"], answer: 1 }
+        ],
+        historia: [
+            { question: "Em que ano o Brasil foi descoberto?", options: ["1492", "1500", "1822", "1889"], answer: 1 },
+            { question: "Quem foi o primeiro presidente do Brasil?", options: ["Juscelino Kubitschek", "Getúlio Vargas", "Deodoro da Fonseca", "Dom Pedro II"], answer: 2 }
+        ]
+    };
 
-function loadQuiz() {
-    quizContainer.innerHTML = "";
-    let questionCount = 0;
+    const modal = document.getElementById("theme-selection");
+    const themeSelector = document.getElementById("theme-selector");
+    const startQuizButton = document.getElementById("start-quiz");
+    const container = document.querySelector(".container");
+    const title = document.querySelector("h1");
+    const quizContainer = document.getElementById("quiz");
+    const timerDisplay = document.getElementById("time-counter");
+    const restartButton = document.getElementById("restart");
+    const resultContainer = document.getElementById("result");
+    const viewReportButton = document.getElementById("view-report");
+    const reportContainer = document.getElementById("report-container");
 
-    quizData.forEach((q, index) => {
-        questionCount++;
-        const questionBlock = document.createElement("div");
-        questionBlock.classList.add("question-block");
+    let currentQuestions = [];
 
-        const questionTitle = document.createElement("h3");
-        questionTitle.textContent = `${index + 1}. ${q.question}`;
-        questionBlock.appendChild(questionTitle);
+    startQuizButton.addEventListener("click", function () {
+        selectedTheme = themeSelector.value;
+        title.textContent = selectedTheme.charAt(0).toUpperCase() + selectedTheme.slice(1);
+        modal.style.display = "none";
+        container.style.display = "block";
+        startQuiz();
+    });
 
-        q.options.forEach(option => {
-            const label = document.createElement("label");
-            const input = document.createElement("input");
-            input.type = "radio";
-            input.name = `question${index}`;
-            input.value = option;
-            label.appendChild(input);
-            label.appendChild(document.createTextNode(option));
-            questionBlock.appendChild(label);
+    function startQuiz() {
+        currentQuestions = questions[selectedTheme];
+        currentQuestionIndex = 0;
+        score = 0;
+        userAnswers = [];
+        startTime = new Date().getTime();
+        updateTimer();
+        timerInterval = setInterval(updateTimer, 1000);
+
+        restartButton.style.display = "none";
+        viewReportButton.style.display = "none";
+        reportContainer.style.display = "none";
+        resultContainer.innerHTML = "";
+        
+        showQuestion();
+    }
+
+    function updateTimer() {
+        let elapsedTime = Math.floor((new Date().getTime() - startTime) / 1000);
+        timerDisplay.textContent = elapsedTime;
+    }
+
+    function showQuestion() {
+        if (currentQuestionIndex >= currentQuestions.length) {
+            endQuiz();
+            return;
+        }
+
+        const questionData = currentQuestions[currentQuestionIndex];
+        quizContainer.innerHTML = `<h2>${questionData.question}</h2>`;
+
+        questionData.options.forEach((option, index) => {
+            const button = document.createElement("button");
+            button.classList.add("option");
+            button.textContent = option;
+            button.addEventListener("click", function () {
+                checkAnswer(index);
+            });
+            quizContainer.appendChild(button);
+        });
+    }
+
+    function checkAnswer(selectedIndex) {
+        userAnswers.push({
+            question: currentQuestions[currentQuestionIndex].question,
+            options: currentQuestions[currentQuestionIndex].options,
+            correctAnswer: currentQuestions[currentQuestionIndex].answer,
+            userAnswer: selectedIndex
         });
 
-        quizContainer.appendChild(questionBlock);
+        if (selectedIndex === currentQuestions[currentQuestionIndex].answer) {
+            score++;
+        }
+        currentQuestionIndex++;
+        showQuestion();
+    }
+
+    function endQuiz() {
+        clearInterval(timerInterval);
+        quizContainer.innerHTML = "";
+        resultContainer.innerHTML = `<h2>Resultado Final</h2>
+                                     <p>Pontuação: ${score} / ${currentQuestions.length}</p>
+                                     <p>Tempo total: ${timerDisplay.textContent} segundos</p>`;
+
+        restartButton.style.display = "block";
+        viewReportButton.style.display = "block";
+    }
+
+    restartButton.addEventListener("click", function () {
+        container.style.display = "none";
+        modal.style.display = "flex"; // ✅ Agora o modal volta visível e centralizado
+        modal.style.justifyContent = "center";
+        modal.style.alignItems = "center";
+        restartButton.style.display = "none";
+        viewReportButton.style.display = "none";
+        resultContainer.innerHTML = "";
     });
-}
 
-submitButton.addEventListener("click", () => {
-    progressBar.style.width = "100%";
-    alert("Processando resultados...");
+    viewReportButton.addEventListener("click", function () {
+        if (reportContainer.style.display === "none") {
+            reportContainer.style.display = "block";
+            generateReport();
+        } else {
+            reportContainer.style.display = "none";
+        }
+    });
+
+    function generateReport() {
+        reportContainer.innerHTML = "<h2>Relatório</h2>";
+        userAnswers.forEach((entry, index) => {
+            const questionBlock = document.createElement("div");
+            questionBlock.classList.add("report-item");
+
+            const isCorrect = entry.userAnswer === entry.correctAnswer;
+            const marker = isCorrect ? "✅" : "❌";
+
+            questionBlock.innerHTML = `
+                <p><strong>${marker} Pergunta ${index + 1}:</strong> ${entry.question}</p>
+                <p><strong>Sua Resposta:</strong> ${entry.options[entry.userAnswer]}</p>
+                <hr>
+            `;
+            reportContainer.appendChild(questionBlock);
+        });
+    }
 });
-
-loadQuiz();
