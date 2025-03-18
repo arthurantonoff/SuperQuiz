@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let score = 0;
     let startTime;
     let timerInterval;
-    let selectedTheme = "Quiz Interativo"; 
+    let selectedTheme = "";  
     let userAnswers = [];
-    let questions = {};
+    let questions = {}; // Agora só carrega do JSON externo
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
@@ -21,29 +21,65 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentQuestions = [];
 
-    // Função para carregar o JSON externo
-    async function loadQuestions() {
-        try {
-            const response = await fetch('https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json');
-            if (!response.ok) {
-                throw new Error('Erro ao carregar o arquivo JSON');
-            }
-            questions = await response.json();
-        } catch (error) {
-            console.error('Erro:', error);
+    // Função para carregar as perguntas do JSON externo
+    function loadExternalQuestions() {
+        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Erro ao carregar perguntas.");
+                }
+                return response.json();
+            })
+            .then(data => {
+                questions = data;
+                populateThemes(); // Atualiza os temas dinamicamente
+            })
+            .catch(error => {
+                console.error("Erro ao carregar questões externas:", error);
+                alert("Não foi possível carregar as perguntas. Tente novamente mais tarde.");
+            });
+    }
+
+    // Preenche o seletor de temas dinamicamente
+    function populateThemes() {
+        themeSelector.innerHTML = ""; // Limpa o seletor antes de preencher
+
+        if (Object.keys(questions).length === 0) {
+            let option = document.createElement("option");
+            option.value = "";
+            option.textContent = "Nenhum tema disponível";
+            option.disabled = true;
+            option.selected = true;
+            themeSelector.appendChild(option);
+            return;
         }
+
+        Object.keys(questions).forEach(theme => {
+            let option = document.createElement("option");
+            option.value = theme;
+            option.textContent = formatThemeName(theme);
+            themeSelector.appendChild(option);
+        });
+    }
+
+    // Converte nomes de temas para um formato mais legível
+    function formatThemeName(theme) {
+        return theme.replace(/\d+/, '').replace(/_/g, ' ').trim().toUpperCase();
     }
 
     startQuizButton.addEventListener("click", function () {
         selectedTheme = themeSelector.value;
-        title.textContent = selectedTheme.charAt(0).toUpperCase() + selectedTheme.slice(1);
+        if (!questions[selectedTheme]) {
+            alert("Tema não encontrado. Tente outro.");
+            return;
+        }
+        title.textContent = formatThemeName(selectedTheme);
         modal.style.display = "none";
         container.style.display = "block";
         startQuiz();
     });
 
-    async function startQuiz() {
-        await loadQuestions();
+    function startQuiz() {
         currentQuestions = questions[selectedTheme];
         currentQuestionIndex = 0;
         score = 0;
@@ -56,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
         viewReportButton.style.display = "none";
         reportContainer.style.display = "none";
         resultContainer.innerHTML = "";
-        
+
         showQuestion();
     }
 
@@ -147,4 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
             reportContainer.appendChild(questionBlock);
         });
     }
+
+    // Carrega as perguntas externas ao iniciar
+    loadExternalQuestions();
 });
