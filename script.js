@@ -80,21 +80,38 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startQuiz() {
-        currentQuestions = questions[selectedTheme];
-        currentQuestionIndex = 0;
-        score = 0;
-        userAnswers = [];
-        startTime = new Date().getTime();
-        updateTimer();
-        timerInterval = setInterval(updateTimer, 1000);
+    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
+        .then(response => response.json())
+        .then(data => {
+            if (data[selectedTheme]) {
+                const allQuestions = data[selectedTheme];
+                currentQuestions = shuffleArray(allQuestions).slice(0, 15); // Seleciona 15 questões aleatórias
 
-        restartButton.style.display = "none";
-        viewReportButton.style.display = "none";
-        reportContainer.style.display = "none";
-        resultContainer.innerHTML = "";
+                currentQuestionIndex = 0;
+                score = 0;
+                userAnswers = [];
+                startTime = new Date().getTime();
+                updateTimer();
+                timerInterval = setInterval(updateTimer, 1000);
 
-        showQuestion();
-    }
+                restartButton.style.display = "none";
+                viewReportButton.style.display = "none";
+                reportContainer.style.display = "none";
+                resultContainer.innerHTML = "";
+
+                showQuestion();
+            } else {
+                console.error("Tema não encontrado no JSON");
+            }
+        })
+        .catch(error => console.error("Erro ao carregar as questões:", error));
+}
+
+// Função para embaralhar as questões
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
 
     function updateTimer() {
         let elapsedTime = Math.floor((new Date().getTime() - startTime) / 1000);
