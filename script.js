@@ -102,24 +102,42 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function showQuestion() {
-        if (currentQuestionIndex >= currentQuestions.length) {
-            endQuiz();
-            return;
-        }
+    if (currentQuestionIndex >= currentQuestions.length) {
+        endQuiz();
+        return;
+    }
 
-        const questionData = currentQuestions[currentQuestionIndex];
+    const questionData = currentQuestions[currentQuestionIndex];
+
+    // Aplica a classe para transição antes de trocar o conteúdo
+    quizContainer.classList.add("hidden");
+
+    setTimeout(() => {
         quizContainer.innerHTML = `<h2>${questionData.question}</h2>`;
 
         questionData.options.forEach((option, index) => {
             const button = document.createElement("button");
             button.classList.add("option");
             button.textContent = option;
+
             button.addEventListener("click", function () {
-                checkAnswer(index);
+                // Efeito de clique antes da transição
+                button.classList.add("selected");
+                setTimeout(() => {
+                    checkAnswer(index);
+                }, 200); // Pequeno atraso para a transição ser perceptível
             });
+
             quizContainer.appendChild(button);
         });
-    }
+
+        // Remove a classe para exibir a questão suavemente
+        setTimeout(() => {
+            quizContainer.classList.remove("hidden");
+        }, 100);
+    }, 200);
+}
+
 
     function checkAnswer(selectedIndex) {
         userAnswers.push({
