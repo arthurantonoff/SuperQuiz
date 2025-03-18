@@ -5,21 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let timerInterval;
     let selectedTheme = "Quiz Interativo"; 
     let userAnswers = [];
-
-    const questions = {
-        geral: [
-            { question: "Qual é a capital do Brasil?", options: ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"], answer: 1 },
-            { question: "Quanto é 2 + 2?", options: ["3", "4", "5", "6"], answer: 1 }
-        ],
-        ciencia: [
-            { question: "Qual o símbolo químico da água?", options: ["H2O", "O2", "CO2", "NaCl"], answer: 0 },
-            { question: "Quem formulou a teoria da relatividade?", options: ["Newton", "Einstein", "Tesla", "Galileu"], answer: 1 }
-        ],
-        historia: [
-            { question: "Em que ano o Brasil foi descoberto?", options: ["1492", "1500", "1822", "1889"], answer: 1 },
-            { question: "Quem foi o primeiro presidente do Brasil?", options: ["Juscelino Kubitschek", "Getúlio Vargas", "Deodoro da Fonseca", "Dom Pedro II"], answer: 2 }
-        ]
-    };
+    let questions = {};
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
@@ -35,6 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentQuestions = [];
 
+    // Função para carregar o JSON externo
+    async function loadQuestions() {
+        try {
+            const response = await fetch('https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json');
+            if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo JSON');
+            }
+            questions = await response.json();
+        } catch (error) {
+            console.error('Erro:', error);
+        }
+    }
+
     startQuizButton.addEventListener("click", function () {
         selectedTheme = themeSelector.value;
         title.textContent = selectedTheme.charAt(0).toUpperCase() + selectedTheme.slice(1);
@@ -43,7 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
         startQuiz();
     });
 
-    function startQuiz() {
+    async function startQuiz() {
+        await loadQuestions();
         currentQuestions = questions[selectedTheme];
         currentQuestionIndex = 0;
         score = 0;
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     restartButton.addEventListener("click", function () {
         container.style.display = "none";
-        modal.style.display = "flex"; // ✅ Agora o modal volta visível e centralizado
+        modal.style.display = "flex";
         modal.style.justifyContent = "center";
         modal.style.alignItems = "center";
         restartButton.style.display = "none";
