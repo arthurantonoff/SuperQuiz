@@ -1,7 +1,15 @@
 {
-    "geral": [
-        { "question": "Qual é a capital do Brasil?", "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"], "answer": 1 },
-        { "question": "Quanto é 2 + 2?", "options": ["3", "4", "5", "6"], "answer": 1 }
+    "7ph01matematica": [
+          { "question": "Qual é o resultado da soma 1/3 + 2/5?", "options": ["5/8", "11/15", "7/9", "13/15"], "answer": 1 },
+          { "question": "A fração 8/12 é equivalente a:", "options": ["2/3", "3/4", "4/5", "1/2"], "answer": 0 },
+          { "question": "O número decimal 0,75 pode ser representado como a fração:", "options": ["3/4", "2/5", "1/3", "5/8"], "answer": 0 },
+          { "question": "A multiplicação 2/7 × 3/5 resulta em:", "options": ["6/12", "6/35", "5/14", "3/10"], "answer": 1 },
+          { "question": "O inverso da fração 4/9 é:", "options": ["9/4", "3/2", "2/3", "4/5"], "answer": 0 },
+          { "question": "Qual fração representa corretamente o número decimal 0,2?", "options": ["1/5", "1/2", "2/9", "3/7"], "answer": 0 },
+          { "question": "A subtração 5/6 - 1/4 resulta em:", "options": ["7/12", "4/5", "10/24", "3/8"], "answer": 0 },
+          { "question": "A fração irredutível de 12/20 é:", "options": ["3/5", "2/3", "4/7", "6/10"], "answer": 0 },
+          { "question": "Qual fração é equivalente a 3/4?", "options": ["9/12", "5/8", "6/10", "2/3"], "answer": 0 },
+          { "question": "A fração que representa corretamente 25% é:", "options": ["1/4", "1/2", "3/5", "2/7"], "answer": 0 }
     ],
     "ciencia": [
         { "question": "Qual o símbolo químico da água?", "options": ["H2O", "O2", "CO2", "NaCl"], "answer": 0 },
