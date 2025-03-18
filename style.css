@@ -126,3 +126,22 @@ button, .option {
     font-weight: bold;
     color: #ffffff;
 }
+
+/* Adiciona uma transição suave para mudanças de tela */
+.container, .modal-content, #quiz, #result {
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Esconde elementos de forma suave */
+.hidden {
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+}
+
+/* Destaca a opção selecionada antes da transição */
+.option:active {
+    background-color: #555;
+    transform: scale(0.95);
+    transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
