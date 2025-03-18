@@ -74,6 +74,6 @@
         { "question": "Quem formulou a teoria da relatividade?", "options": ["Newton", "Einstein", "Tesla", "Galileu"], "answer": 1 }
     ],
     "ICARO": [
-        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 4 }
+        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 }
     ]
 }
