@@ -1,6 +1,38 @@
 {
+        "7ph04matematica": [
+          { "question": "Se um número negativo é somado a um positivo maior, o resultado será:", "options": ["Sempre positivo", "Sempre negativo", "Zero", "Depende dos valores envolvidos"], "answer": 0 },
+          { "question": "A expressão (-5)² - (-3)³ resulta em:", "options": ["28", "2", "-2", "52"], "answer": 1 },
+          { "question": "Se a temperatura caiu de 12°C para -6°C, a variação foi de:", "options": ["-18°C", "18°C", "-6°C", "6°C"], "answer": 1 },
+          { "question": "O produto de dois números negativos sempre resulta em:", "options": ["Um número positivo", "Um número negativo", "Zero", "Um número irracional"], "answer": 0 },
+          { "question": "A raiz quadrada de 144 é:", "options": ["12", "-12", "±12", "10"], "answer": 2 },
+          { "question": "Se (-2)³ + 4² - 6 = X, então X vale:", "options": ["10", "12", "-10", "18"], "answer": 1 },
+          { "question": "Um ciclista percorreu -30 km em 5 horas. Sua velocidade média foi:", "options": ["-5 km/h", "6 km/h", "5 km/h", "-6 km/h"], "answer": 2 },
+          { "question": "Se (-4)² - (-3)³ + (-2)² = X, qual o valor de X?", "options": ["27", "-27", "35", "19"], "answer": 3 },
+          { "question": "O valor absoluto de -17 é:", "options": ["-17", "17", "0", "Depende do contexto"], "answer": 1 },
+          { "question": "Se um número negativo for elevado a um expoente ímpar, o resultado será:", "options": ["Positivo", "Negativo", "Zero", "Depende do número"], "answer": 1 },
+          { "question": "Qual o resultado da expressão (-3)² + (-4)² - (-2)³?", "options": ["25", "-25", "31", "35"], "answer": 2 },
+          { "question": "O dobro do oposto de -8 é:", "options": ["16", "-16", "8", "-8"], "answer": 0 },
+          { "question": "Se um número for elevado ao quadrado e resultar em 49, quais são os valores possíveis?", "options": ["7", "-7", "0", "±7"], "answer": 3 },
+          { "question": "A soma de dois números opostos resulta em:", "options": ["Zero", "O maior deles", "O menor deles", "Um número positivo"], "answer": 0 },
+          { "question": "Qual o resultado da expressão (-2)⁵ + (-3)³ - (-4)²?", "options": ["-39", "-23", "-35", "-31"], "answer": 1 },
+          { "question": "Se um elevador sobe 12 andares e depois desce 15, em qual andar ele está se começou do térreo?", "options": ["-3", "3", "12", "-15"], "answer": 0 },
+          { "question": "Uma dívida de R$ 1.200,00 será paga em 4 parcelas iguais. Qual o valor de cada parcela?", "options": ["R$ -300,00", "R$ 300,00", "R$ -400,00", "R$ 400,00"], "answer": 0 },
+          { "question": "A raiz cúbica de -125 somada à raiz quadrada de 64 resulta em:", "options": ["3", "-3", "5", "2"], "answer": 3 },
+          { "question": "O saldo de uma conta bancária era de -R$ 150,00. O cliente depositou R$ 200,00 e depois sacou R$ 75,00. Qual é o saldo final?", "options": ["R$ 25,00", "R$ -25,00", "R$ 75,00", "R$ -75,00"], "answer": 1 },
+          { "question": "Se um número negativo for elevado a um expoente par, o resultado será:", "options": ["Negativo", "Positivo", "Zero", "Depende do número"], "answer": 1 },
+          { "question": "Qual o resultado da expressão (-6)² - (-4)³ + (-2)²?", "options": ["28", "36", "48", "50"], "answer": 0 },
+          { "question": "Se um número negativo for dividido por um número positivo, o resultado será:", "options": ["Sempre positivo", "Sempre negativo", "Depende dos valores", "Zero"], "answer": 1 },
+          { "question": "Um investidor teve um prejuízo de R$ 800,00 em um mês e um lucro de R$ 1.200,00 no mês seguinte. Qual é o saldo final?", "options": ["R$ 2.000,00", "R$ 400,00", "R$ -400,00", "R$ 800,00"], "answer": 1 },
+          { "question": "Se um número for multiplicado por -1, o resultado será:", "options": ["Seu oposto", "O mesmo número", "Sempre positivo", "Zero"], "answer": 0 },
+          { "question": "A raiz cúbica de -216 somada à raiz quadrada de 100 é igual a:", "options": ["-16", "16", "14", "-14"], "answer": 2 },
+          { "question": "O triplo do oposto de -7 é:", "options": ["21", "-21", "7", "-7"], "answer": 0 },
+          { "question": "O valor absoluto de |-15| + |-8| - |-3| é:", "options": ["20", "10", "26", "24"], "answer": 2 },
+          { "question": "Se um número for elevado a um expoente ímpar, o resultado:", "options": ["Sempre será negativo", "Sempre será positivo", "Mantém o sinal original", "Depende do número"], "answer": 2 },
+          { "question": "Se a temperatura era de -2°C e caiu mais 9°C, qual é a temperatura atual?", "options": ["-7°C", "-9°C", "-11°C", "-12°C"], "answer": 2 }
+    ]
+    ,
     "7ph05matematica": [
-           { "question": "Qual é o resultado da soma 1/3 + 2/5?", "options": ["5/8", "11/15", "7/9", "13/15"], "answer": 1 },
+          { "question": "Qual é o resultado da soma 1/3 + 2/5?", "options": ["5/8", "11/15", "7/9", "13/15"], "answer": 1 },
           { "question": "A fração 8/12 é equivalente a:", "options": ["2/3", "3/4", "4/5", "1/2"], "answer": 0 },
           { "question": "O número decimal 0,75 pode ser representado como a fração:", "options": ["3/4", "2/5", "1/3", "5/8"], "answer": 0 },
           { "question": "A multiplicação 2/7 × 3/5 resulta em:", "options": ["6/12", "6/35", "5/14", "3/10"], "answer": 1 },
@@ -41,8 +73,7 @@
         { "question": "Qual o símbolo químico da água?", "options": ["H2O", "O2", "CO2", "NaCl"], "answer": 0 },
         { "question": "Quem formulou a teoria da relatividade?", "options": ["Newton", "Einstein", "Tesla", "Galileu"], "answer": 1 }
     ],
-    "7ph05historia": [
-        { "question": "Em que ano o Brasil foi descoberto?", "options": ["1492", "1500", "1822", "1889"], "answer": 1 },
-        { "question": "Quem foi o primeiro presidente do Brasil?", "options": ["Juscelino Kubitschek", "Getúlio Vargas", "Deodoro da Fonseca", "Dom Pedro II"], "answer": 2 }
+    "ICARO": [
+        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 4 }
     ]
 }
