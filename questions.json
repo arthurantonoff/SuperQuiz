@@ -251,6 +251,6 @@
   { "question": "Qual foi um dos principais desafios para os reis absolutistas?", "options": ["Controlar a nobreza e a burguesia", "Evitar a expansão colonial", "Manter o feudalismo", "Abolir a economia mercantil"], "answer": 0 }
 ],
     "ICARO": [
-        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 }
+        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 },{ "question": "teste", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 }
     ]
 }
