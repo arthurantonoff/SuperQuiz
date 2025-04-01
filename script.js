@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             if (data[selectedTheme]) {
                 const allQuestions = data[selectedTheme];
-                currentQuestions = shuffleArray(allQuestions).slice(0, 15); // Seleciona 15 questões aleatórias
+                currentQuestions = shuffleArray(allQuestions).slice(0, 25); // Seleciona 25 questões aleatórias
 
                 currentQuestionIndex = 0;
                 score = 0;
