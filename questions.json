@@ -568,6 +568,7 @@
 ],
 
     "ICARO": [
-        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 },{ "question": "teste", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 }
+        { "question": "QUAL É O HORÁRIO CERTO PARAR DE ESTUDAR E IR PARA A CAMA?", "options": ["21H59", "22H47", "18H22", "21H00"], "answer": 3 },
+        { "question": "QUAL A NOTA MÍNIMA EM PROVAS PARA NÃO TER NENHUM TIPO DE CASTIGO?", "options": ["60%", "65%", "70%", "80%"], "answer": 2 }
     ]
 }
