@@ -402,9 +402,5 @@
   { "question": "O Concílio de Trento reafirmou a necessidade de:", "options": ["Permitir o livre exame da Bíblia", "Manter o latim nas missas", "Abolir os sacramentos", "Proibir o celibato"], "answer": 1 },
   { "question": "As medidas do Concílio de Trento visavam:", "options": ["Fortalecer a autoridade da Igreja", "Abolir as práticas religiosas tradicionais", "Divulgar as teses protestantes", "Unificar todas as religiões"], "answer": 0 },
   { "question": "O Tribunal da Inquisição era um instrumento de:", "options": ["Promoção da liberdade", "Coerção religiosa", "Difusão científica", "Reforma anglicana"], "answer": 1 }
-],
-    "windows": [
-  { "question": "Qual comando do Prompt de Comando permite associar um caminho a uma letra de unidade no Windows 11?", "options": ["ASSOC", "SUBST", "SET", "PATH"], "answer": 1 },
-  { "question": "O recurso 'Mica Effect' do Windows 11 visa qual dos seguintes objetivos principais?", "options": ["Reduzir consumo de bateria", "Melhorar desempenho gráfico com integração visual", "Aumentar segurança em processos críticos", "Otimizar inicialização de serviços"], "answer": 1 }
 ]
 }
