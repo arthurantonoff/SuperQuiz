@@ -1,5 +1,6 @@
 {
-    "windows11":[
+"windows11_parte1": [
   { "question": "Qual comando do Prompt de Comando permite associar um caminho a uma letra de unidade no Windows 11?", "options": ["ASSOC", "SUBST", "SET", "PATH"], "answer": 1 },
+  { "question": "O recurso 'Mica Effect' do Windows 11 visa qual dos seguintes objetivos principais?", "options": ["Reduzir consumo de bateria", "Melhorar desempenho gráfico com integração visual", "Aumentar segurança em processos críticos", "Otimizar inicialização de serviços"], "answer": 1 }
 ]
 }
