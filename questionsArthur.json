@@ -1,5 +1,1 @@
-{
-    "windows11":[
-  { "question": "Qual comando do Prompt de Comando permite associar um caminho a uma letra de unidade no Windows 11?", "options": ["ASSOC", "SUBST", "SET", "PATH"], "answer": 1 },
-]
-}
+.
