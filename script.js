@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    let nquestions = 40;
     let currentQuestionIndex = 0;
     let score = 0;
     let startTime;
@@ -7,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let userAnswers = [];
     let questions = {}; // Agora só carrega do JSON externo
     let url = "https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json";
-    let nquestions = 40;
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
