@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Função para carregar as perguntas do JSON externo
     function loadExternalQuestions() {
-        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions-arthur.json")
+        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Erro ao carregar perguntas.");
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startQuiz() {
-    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions-arthur.json")
+    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
         .then(response => response.json())
         .then(data => {
             if (data[selectedTheme]) {
