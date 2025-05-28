@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Função para carregar as perguntas do JSON externo
     function loadExternalQuestions() {
-        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questionsArthur.json")
+        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions-arthur.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Erro ao carregar perguntas.");
