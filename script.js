@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let selectedTheme = "";  
     let userAnswers = [];
     let questions = {}; // Agora só carrega do JSON externo
+    let url = "https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json";
+    let nquestions = 40;
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
@@ -23,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Função para carregar as perguntas do JSON externo
     function loadExternalQuestions() {
-        fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
+        fetch(url)
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Erro ao carregar perguntas.");
@@ -80,12 +82,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startQuiz() {
-    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
+    fetch(url)
         .then(response => response.json())
         .then(data => {
             if (data[selectedTheme]) {
                 const allQuestions = data[selectedTheme];
-                currentQuestions = shuffleArray(allQuestions).slice(0, 15); // Seleciona 25 questões aleatórias
+                currentQuestions = shuffleArray(allQuestions).slice(0, nquestions); // Seleciona 25 questões aleatórias
 
                 currentQuestionIndex = 0;
                 score = 0;
