@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let selectedTheme = "";  
     let userAnswers = [];
     let questions = {}; // Agora só carrega do JSON externo
-    let url = "https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions-arthur.json";
+    let url = "https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json";
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
