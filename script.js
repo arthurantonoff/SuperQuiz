@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startQuiz() {
-    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json")
+    fetch("https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions-arthur.json")
         .then(response => response.json())
         .then(data => {
             if (data[selectedTheme]) {
