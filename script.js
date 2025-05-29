@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let nquestions = 40;
+    let nquestions = 20;
     let currentQuestionIndex = 0;
     let score = 0;
     let startTime;
