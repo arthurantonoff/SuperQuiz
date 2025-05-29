@@ -1085,7 +1085,6 @@
   { "question": "Rotacionando o ponto (1,1) em 90° anti-horário ao redor da origem, sua imagem será:", "options": ["(-1,1)", "(1,-1)", "(-1,-1)", "(1,1)"], "answer": 0 },
   { "question": "Refletindo o ponto (4,-5) sobre o eixo x, obtemos:", "options": ["(-4,-5)", "(4,5)", "(-4,5)", "(4,-5)"], "answer": 1 },
   { "question": "O ponto (3,-2) após translação pela regra (x - 1, y + 4) será:", "options": ["(2,2)", "(4,2)", "(2,-6)", "(4,-6)"], "answer": 0 },
-"7ph09matematica_parte2": [
   { "question": "Ao refletir um triângulo sobre o eixo y, cada ponto do triângulo terá sua coordenada x:", "options": ["Mantida", "Multiplicada por 2", "Invertida", "Anulada"], "answer": 2 },
   { "question": "Uma figura foi transladada conforme a regra (x + 3, y - 4). O ponto inicial (1,2) se transformou em:", "options": ["(4,-2)", "(4,6)", "(2,-2)", "(4,-4)"], "answer": 0 },
   { "question": "Após uma rotação de 180° em torno da origem, o ponto (6,-8) se transforma em:", "options": ["(-6,8)", "(6,8)", "(-8,6)", "(-6,-8)"], "answer": 0 },
