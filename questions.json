@@ -398,7 +398,7 @@
   { "question": "O tratamento de esgoto impacta diretamente na:", "options": ["Aumento das doenças infecciosas", "Melhoria da qualidade ambiental e da saúde pública", "Contaminação dos solos", "Privatização dos serviços de saúde"], "answer": 1 },
   { "question": "O SUS é importante para garantir:", "options": ["A privatização do atendimento médico", "O acesso universal e gratuito à saúde", "A suspensão das campanhas de vacinação", "A exclusão das áreas rurais"], "answer": 1 },
   { "question": "A coleta e o tratamento adequados de resíduos sólidos são fundamentais para:", "options": ["Favorecer a proliferação de doenças", "Garantir saúde pública e preservar o meio ambiente", "Suspender a coleta seletiva", "Privatizar os serviços públicos"], "answer": 1 }
-]
+],
      "7ph06historia": [
   { "question": "Qual foi o principal centro geoeconômico europeu na transição da Idade Média para a Moderna?", "options": ["França", "Península Ibérica", "Península Itálica", "Império Bizantino"], "answer": 2 },
   { "question": "O pensamento escolástico tinha como principal objetivo:", "options": ["Negar a fé religiosa", "Unir a razão e a fé cristã", "Valorizar o empirismo", "Romper com a tradição católica"], "answer": 1 },
