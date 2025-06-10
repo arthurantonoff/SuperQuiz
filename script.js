@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let timerInterval;
     let selectedTheme = "";  
     let userAnswers = [];
-    let questions = {}; // Agora só carrega do JSON externo
-    let url = "https://raw.githubusercontent.com/arthurantonoff/SuperQuiz/main/questions.json";
+    let questions = {}; // Agora carrega do Supabase
+
+    const SUPABASE_URL = "https://<SEU_PROJETO>.supabase.co"; // substitua pelo seu
+    const SUPABASE_ANON_KEY = "<SUA_ANON_KEY>"; // substitua pelo seu
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
@@ -23,29 +25,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentQuestions = [];
 
-    // Função para carregar as perguntas do JSON externo
-    function loadExternalQuestions() {
-        fetch(url)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Erro ao carregar perguntas.");
+    async function loadQuizzesFromSupabase() {
+        try {
+            const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=id,titulo,perguntas&ativo=eq.true`, {
+                headers: {
+                    apikey: SUPABASE_ANON_KEY,
+                    Authorization: `Bearer ${SUPABASE_ANON_KEY}`
                 }
-                return response.json();
-            })
-            .then(data => {
-                questions = data;
-                populateThemes(); // Atualiza os temas dinamicamente
-            })
-            .catch(error => {
-                console.error("Erro ao carregar questões externas:", error);
-                alert("Não foi possível carregar as perguntas. Tente novamente mais tarde.");
             });
+            const data = await res.json();
+            data.forEach(quiz => {
+                questions[quiz.id] = quiz.perguntas;
+            });
+            populateThemes();
+        } catch (error) {
+            console.error("Erro ao carregar quizzes do Supabase:", error);
+            alert("Não foi possível carregar os temas. Tente novamente mais tarde.");
+        }
     }
 
-    // Preenche o seletor de temas dinamicamente
     function populateThemes() {
-        themeSelector.innerHTML = ""; // Limpa o seletor antes de preencher
-
+        themeSelector.innerHTML = "";
         if (Object.keys(questions).length === 0) {
             let option = document.createElement("option");
             option.value = "";
@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
             themeSelector.appendChild(option);
             return;
         }
-
         Object.keys(questions).forEach(theme => {
             let option = document.createElement("option");
             option.value = theme;
@@ -64,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Converte nomes de temas para um formato mais legível
     function formatThemeName(theme) {
         return theme.replace(/\d+/, '').replace(/_/g, ' ').trim().toUpperCase();
     }
@@ -82,38 +80,27 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startQuiz() {
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            if (data[selectedTheme]) {
-                const allQuestions = data[selectedTheme];
-                currentQuestions = shuffleArray(allQuestions).slice(0, nquestions); // Seleciona 25 questões aleatórias
+        const allQuestions = questions[selectedTheme];
+        currentQuestions = shuffleArray(allQuestions).slice(0, nquestions);
 
-                currentQuestionIndex = 0;
-                score = 0;
-                userAnswers = [];
-                startTime = new Date().getTime();
-                updateTimer();
-                timerInterval = setInterval(updateTimer, 1000);
+        currentQuestionIndex = 0;
+        score = 0;
+        userAnswers = [];
+        startTime = new Date().getTime();
+        updateTimer();
+        timerInterval = setInterval(updateTimer, 1000);
 
-                restartButton.style.display = "none";
-                viewReportButton.style.display = "none";
-                reportContainer.style.display = "none";
-                resultContainer.innerHTML = "";
+        restartButton.style.display = "none";
+        viewReportButton.style.display = "none";
+        reportContainer.style.display = "none";
+        resultContainer.innerHTML = "";
 
-                showQuestion();
-            } else {
-                console.error("Tema não encontrado no JSON");
-            }
-        })
-        .catch(error => console.error("Erro ao carregar as questões:", error));
-}
+        showQuestion();
+    }
 
-// Função para embaralhar as questões
-function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
-
+    function shuffleArray(array) {
+        return array.sort(() => Math.random() - 0.5);
+    }
 
     function updateTimer() {
         let elapsedTime = Math.floor((new Date().getTime() - startTime) / 1000);
@@ -121,42 +108,33 @@ function shuffleArray(array) {
     }
 
     function showQuestion() {
-    if (currentQuestionIndex >= currentQuestions.length) {
-        endQuiz();
-        return;
-    }
+        if (currentQuestionIndex >= currentQuestions.length) {
+            endQuiz();
+            return;
+        }
 
-    const questionData = currentQuestions[currentQuestionIndex];
+        const questionData = currentQuestions[currentQuestionIndex];
+        quizContainer.classList.add("hidden");
 
-    // Aplica a classe para transição antes de trocar o conteúdo
-    quizContainer.classList.add("hidden");
-
-    setTimeout(() => {
-        quizContainer.innerHTML = `<h2>${questionData.question}</h2>`;
-
-        questionData.options.forEach((option, index) => {
-            const button = document.createElement("button");
-            button.classList.add("option");
-            button.textContent = option;
-
-            button.addEventListener("click", function () {
-                // Efeito de clique antes da transição
-                button.classList.add("selected");
-                setTimeout(() => {
-                    checkAnswer(index);
-                }, 200); // Pequeno atraso para a transição ser perceptível
-            });
-
-            quizContainer.appendChild(button);
-        });
-
-        // Remove a classe para exibir a questão suavemente
         setTimeout(() => {
-            quizContainer.classList.remove("hidden");
-        }, 100);
-    }, 200);
-}
-
+            quizContainer.innerHTML = `<h2>${questionData.question}</h2>`;
+            questionData.options.forEach((option, index) => {
+                const button = document.createElement("button");
+                button.classList.add("option");
+                button.textContent = option;
+                button.addEventListener("click", function () {
+                    button.classList.add("selected");
+                    setTimeout(() => {
+                        checkAnswer(index);
+                    }, 200);
+                });
+                quizContainer.appendChild(button);
+            });
+            setTimeout(() => {
+                quizContainer.classList.remove("hidden");
+            }, 100);
+        }, 200);
+    }
 
     function checkAnswer(selectedIndex) {
         userAnswers.push({
@@ -165,7 +143,6 @@ function shuffleArray(array) {
             correctAnswer: currentQuestions[currentQuestionIndex].answer,
             userAnswer: selectedIndex
         });
-
         if (selectedIndex === currentQuestions[currentQuestionIndex].answer) {
             score++;
         }
@@ -179,7 +156,6 @@ function shuffleArray(array) {
         resultContainer.innerHTML = `<h2>Resultado Final</h2>
                                      <p>Pontuação: ${score} / ${currentQuestions.length}</p>
                                      <p>Tempo total: ${timerDisplay.textContent} segundos</p>`;
-
         restartButton.style.display = "block";
         viewReportButton.style.display = "block";
     }
@@ -208,10 +184,8 @@ function shuffleArray(array) {
         userAnswers.forEach((entry, index) => {
             const questionBlock = document.createElement("div");
             questionBlock.classList.add("report-item");
-
             const isCorrect = entry.userAnswer === entry.correctAnswer;
             const marker = isCorrect ? "✅" : "❌";
-
             questionBlock.innerHTML = `
                 <p><strong>${marker} Pergunta ${index + 1}:</strong> ${entry.question}</p>
                 <p><strong>Sua Resposta:</strong> ${entry.options[entry.userAnswer]}</p>
@@ -221,6 +195,5 @@ function shuffleArray(array) {
         });
     }
 
-    // Carrega as perguntas externas ao iniciar
-    loadExternalQuestions();
+    loadQuizzesFromSupabase();
 });
