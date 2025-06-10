@@ -1,0 +1,32 @@
+name: Upload Quizzes para Supabase
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v3
+
+    - name: Substituir variáveis no script.js
+      run: |
+        sed -i "s|__SUPABASE_URL__|${{ secrets.SUPABASE_URL }}|g" script.js
+        sed -i "s|__SUPABASE_ANON_KEY__|${{ secrets.SUPABASE_ANON_KEY }}|g" script.js
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Instalar dependências
+      run: pip install requests
+
+    - name: Executar script de upload
+      env:
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      run: python upload_quizzes.py
