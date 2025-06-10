@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let userAnswers = [];
     let questions = {}; // Agora carrega do Supabase
 
-    const SUPABASE_URL = "https://<SEU_PROJETO>.supabase.co"; // substitua pelo seu
-    const SUPABASE_ANON_KEY = "<SUA_ANON_KEY>"; // substitua pelo seu
+    const SUPABASE_URL = "__SUPABASE_URL__";
+    const SUPABASE_ANON_KEY = "__SUPABASE_ANON_KEY__";
 
     const modal = document.getElementById("theme-selection");
     const themeSelector = document.getElementById("theme-selector");
