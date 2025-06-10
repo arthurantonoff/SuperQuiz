@@ -12,6 +12,11 @@ jobs:
     - name: Checkout do código
       uses: actions/checkout@v3
 
+    - name: Substituir variáveis no script.js
+      run: |
+        sed -i "s|__SUPABASE_URL__|${{ secrets.SUPABASE_URL }}|g" script.js
+        sed -i "s|__SUPABASE_ANON_KEY__|${{ secrets.SUPABASE_ANON_KEY }}|g" script.js
+
     - name: Configurar Python
       uses: actions/setup-python@v4
       with:
