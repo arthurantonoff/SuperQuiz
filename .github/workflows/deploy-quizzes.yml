@@ -17,6 +17,14 @@ jobs:
         sed -i "s|__SUPABASE_URL__|${{ secrets.SUPABASE_URL }}|g" script.js
         sed -i "s|__SUPABASE_ANON_KEY__|${{ secrets.SUPABASE_ANON_KEY }}|g" script.js
 
+    - name: Verificar variáveis de ambiente (debug)
+      run: |
+        echo "🔍 SUPABASE_URL=${SUPABASE_URL}"
+        echo "🔍 SUPABASE_KEY length: ${#SUPABASE_KEY}"
+      env:
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
     - name: Configurar Python
       uses: actions/setup-python@v4
       with:
