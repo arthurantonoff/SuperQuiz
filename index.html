@@ -7,15 +7,30 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="theme-selection" class="modal">
+    <!-- TELA 1: Acesso via Pix -->
+    <div id="pix-access" class="modal">
+        <div class="modal-content">
+            <h2>Acesso via Pix</h2>
+            <p>Clique para gerar um código Pix e liberar o acesso:</p>
+            <button id="generate-pix">Gerar Acesso</button>
+            <div id="pix-qr" style="margin-top:10px; display:none;">
+                <p>Escaneie o QR Code abaixo:</p>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?data=pagamento_fake_pix&size=150x150" alt="QR Pix">
+                <button id="confirm-payment">Já paguei</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- TELA 2: Seleção de Tema -->
+    <div id="theme-selection" class="modal" style="display: none;">
         <div class="modal-content">
             <h2>Escolha um tema</h2>
-            <select id="theme-selector">
-            </select>
+            <select id="theme-selector"></select>
             <button id="start-quiz">Iniciar</button>
         </div>
     </div>
-    
+
+    <!-- TELA 3: Quiz -->
     <div class="container" style="display: none;">
         <h1 id="quiz-title">Quiz Interativo</h1>
         <div id="timer" class="timer">Tempo: <span id="time-counter">0</span> s</div>
@@ -33,6 +48,31 @@
         <div id="report-container" style="display: none;"></div>
     </div>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const pixAccessModal = document.getElementById("pix-access");
+        const pixButton = document.getElementById("generate-pix");
+        const pixQR = document.getElementById("pix-qr");
+        const confirmPayment = document.getElementById("confirm-payment");
+        const modal = document.getElementById("theme-selection");
+
+        if (!localStorage.getItem("pix_token")) {
+            pixAccessModal.style.display = "flex";
+        } else {
+            modal.style.display = "flex";
+        }
+
+        pixButton.addEventListener("click", function () {
+            pixQR.style.display = "block";
+        });
+
+        confirmPayment.addEventListener("click", function () {
+            localStorage.setItem("pix_token", "acesso_liberado");
+            pixAccessModal.style.display = "none";
+            modal.style.display = "flex";
+        });
+    });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
