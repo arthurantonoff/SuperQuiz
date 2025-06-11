@@ -24,10 +24,9 @@ body {
     height: 100vh;
 }
 
-/* Caixa de seleção do tema */
-
-#tema-section,
-#subtema-section {
+/* Caixa de seleção do tema e subtema */
+#titulo-selector,
+#subtema-selector {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -42,7 +41,7 @@ body {
 
 #carregar-subtemas,
 #start-quiz {
-  width: 50%;
+  width: 50% !important;
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
@@ -53,7 +52,6 @@ body {
   text-align: center;
   cursor: pointer;
 }
-
 
 /* Estilização dos botões e opções */
 button, .option {
@@ -81,7 +79,7 @@ button, .option {
 
 /* Ajuste para botões preencherem corretamente a tela final */
 #restart, #view-report {
-    width: calc(100% - 30px); /* Ocupa todo o espaço disponível, considerando o padding */
+    width: calc(100% - 30px);
     padding: 12px;
     font-size: 14px;
     margin-top: 10px;
@@ -91,25 +89,25 @@ button, .option {
 }
 
 /* Estilização do relatório para leitura rápida */
-#report-container {
+#report-container, #relatorio {
     background-color: #1e1e1e;
     padding: 8px;
     border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
-    max-width: 450px; /* Reduzi a largura */
+    max-width: 450px;
     margin: 15px auto;
-    font-size: 12px; /* Fonte menor */
+    font-size: 12px;
 }
 
 /* Estilo de cada item do relatório */
-.report-item {
+.report-item, .relatorio-item {
     background: #292929;
     padding: 6px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
-    line-height: 1.3; /* Reduzi o espaçamento */
+    line-height: 1.4;
 }
 
 /* Ajuste no título do relatório */
