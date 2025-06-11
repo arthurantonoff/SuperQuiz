@@ -16,35 +16,29 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
-def gerar_titulo(id):
-    id_formatado = id.upper().replace("PH", "PH - ")
-    if "CIENCIAS" in id_formatado:
-        return id_formatado.replace("CIENCIAS", "CIÊNCIAS")
-    return id_formatado
-
-def enviar_quiz(tema, subtema_id, perguntas):
+def enviar_quiz(titulo, subtema, perguntas):
     data = {
-        "tema": tema,
-        "titulo": subtema_id,
+        "titulo": titulo,
+        "subtema": subtema,
         "ativo": True,
         "perguntas": perguntas
     }
 
     response = requests.post(f"{SUPABASE_URL}/rest/v1/quizzes", headers=HEADERS, data=json.dumps(data))
     if response.status_code == 201:
-        print(f"✅ Enviado com sucesso: {tema} / {subtema_id}")
+        print(f"✅ Enviado com sucesso: {titulo} / {subtema}")
     elif response.status_code == 409:
-        print(f"⚠️ Já existe: {tema} / {subtema_id} (considere usar UPSERT)")
+        print(f"⚠️ Já existe: {titulo} / {subtema} (considere usar UPSERT)")
     else:
-        print(f"❌ Erro ao enviar {subtema_id}: {response.status_code} - {response.text}")
+        print(f"❌ Erro ao enviar {subtema}: {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
     try:
         with open("questions.json", "r", encoding="utf-8") as f:
             estrutura = json.load(f)
-            for tema, subtemas in estrutura.items():
-                for subtema_id, perguntas in subtemas.items():
-                    enviar_quiz(tema, subtema_id, perguntas)
+            for titulo, subtemas in estrutura.items():
+                for subtema, perguntas in subtemas.items():
+                    enviar_quiz(titulo, subtema, perguntas)
     except FileNotFoundError:
         print("❌ Arquivo questions.json não encontrado.")
         sys.exit(1)
