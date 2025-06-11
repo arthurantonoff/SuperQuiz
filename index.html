@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperQuiz</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        section {
+            display: none;
+            height: 100vh;
+            overflow: hidden;
+        }
+        section.active {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <section id="qr-section">
+    <section id="qr-section" class="active">
         <h2>Acesse via Pix</h2>
         <div class="qr-container">
             <p>Simulação do QR Code aqui</p>
@@ -15,7 +30,7 @@
         </div>
     </section>
 
-    <section id="tema-section" style="display: none;">
+    <section id="tema-section">
         <div class="container">
             <h2>Selecione o tema do questionário</h2>
             <select id="titulo-selector"></select>
@@ -23,13 +38,13 @@
         </div>
     </section>
 
-    <section id="quiz-section" style="display: none;">
+    <section id="quiz-section">
         <div class="container">
             <div id="quiz"></div>
         </div>
     </section>
 
-    <section id="result-section" style="display: none;">
+    <section id="result-section">
         <div class="container">
             <div id="result"></div>
             <button onclick="location.reload()">Tentar novamente</button>
@@ -40,6 +55,12 @@
         <p>&copy; SuperQuiz - Todos os direitos reservados</p>
     </footer>
 
+    <script>
+        function mostrarEtapa(id) {
+            document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+            document.getElementById(id).classList.add("active");
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
