@@ -1,77 +1,80 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const SUPABASE_URL = "https://jszlastvwxefajjuquxt.supabase.co";
-    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impzemxhc3R2d3hlZmFqanVxdXh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1ODMwODUsImV4cCI6MjA2NTE1OTA4NX0.onXBoSa9j6EeVBZxWncZ5uAGDIONHJQBajAzzgzCz18";
+    const SUPABASE_URL = "__SUPABASE_URL__";
+    const SUPABASE_ANON_KEY = "__SUPABASE_ANON_KEY__";
     const LIMITE_QUESTOES = 20;
 
-    const etapas = {
-        qr: document.getElementById("qr-section"),
-        tema: document.getElementById("tema-section"),
-        quiz: document.getElementById("quiz-section"),
-        resultado: document.getElementById("result-section")
-    };
-
-    function mostrarEtapa(nome) {
-        Object.values(etapas).forEach(sec => sec.style.display = "none");
-        etapas[nome].style.display = "block";
-    }
-
-    const pagarButton = document.getElementById("pagar-button");
-    pagarButton.addEventListener("click", () => {
-        localStorage.setItem("acesso-liberado", "true");
-        mostrarEtapa("tema");
-        carregarTítulos();
-    });
-
     const tituloSelector = document.getElementById("titulo-selector");
+    const subtemaSelector = document.getElementById("subtema-selector");
+    const carregarSubtemasBtn = document.getElementById("carregar-subtemas");
     const iniciarQuizButton = document.getElementById("start-quiz");
 
-    let quizzesPorTitulo = {}; // agrupamento por titulo
-    let quizzesSelecionados = [];
+    let quizzes = [];
+    let quizzesFiltrados = [];
     let perguntasAtuais = [];
     let currentIndex = 0;
     let score = 0;
     let respostas = [];
 
-    async function carregarTítulos() {
+    document.getElementById("pagar-button").addEventListener("click", () => {
+        localStorage.setItem("acesso-liberado", "true");
+        mostrarEtapa("tema-section");
+        carregarTitulos();
+    });
+
+    async function carregarTitulos() {
         try {
-            const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=id,titulo,perguntas&ativo=eq.true`, {
+            const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=id,titulo,subtema,perguntas&ativo=eq.true`, {
                 headers: {
                     apikey: SUPABASE_ANON_KEY,
                     Authorization: `Bearer ${SUPABASE_ANON_KEY}`
                 }
             });
-            const quizzes = await res.json();
 
-            quizzesPorTitulo = quizzes.reduce((acc, quiz) => {
-                if (!acc[quiz.titulo]) acc[quiz.titulo] = [];
-                acc[quiz.titulo].push(quiz);
-                return acc;
-            }, {});
+            quizzes = await res.json();
 
-            tituloSelector.innerHTML = "<option value='' disabled selected>Escolha um tema</option>";
-            Object.keys(quizzesPorTitulo).forEach(titulo => {
+            const titulosUnicos = [...new Set(quizzes.map(q => q.titulo))];
+            tituloSelector.innerHTML = "<option value='' disabled selected>Selecione um tema</option>";
+            titulosUnicos.forEach(titulo => {
                 const option = document.createElement("option");
                 option.value = titulo;
                 option.textContent = titulo;
                 tituloSelector.appendChild(option);
             });
         } catch (e) {
-            alert("Erro ao carregar temas.");
+            alert("Erro ao carregar títulos.");
         }
     }
 
-    iniciarQuizButton.addEventListener("click", () => {
-        const titulo = tituloSelector.value;
-        if (!titulo || !quizzesPorTitulo[titulo]) return;
+    carregarSubtemasBtn.addEventListener("click", () => {
+        const tituloSelecionado = tituloSelector.value;
+        if (!tituloSelecionado) return;
 
-        quizzesSelecionados = quizzesPorTitulo[titulo];
-        perguntasAtuais = shuffleArray(quizzesSelecionados.flatMap(q => q.perguntas)).slice(0, LIMITE_QUESTOES);
+        quizzesFiltrados = quizzes.filter(q => q.titulo === tituloSelecionado);
+
+        const subtemasUnicos = [...new Set(quizzesFiltrados.map(q => q.subtema))];
+        subtemaSelector.innerHTML = "<option value='' disabled selected>Selecione um subtema</option>";
+        subtemasUnicos.forEach(subtema => {
+            const option = document.createElement("option");
+            option.value = subtema;
+            option.textContent = subtema;
+            subtemaSelector.appendChild(option);
+        });
+
+        mostrarEtapa("subtema-section");
+    });
+
+    iniciarQuizButton.addEventListener("click", () => {
+        const subtemaSelecionado = subtemaSelector.value;
+        if (!subtemaSelecionado) return;
+
+        const quizSelecionado = quizzesFiltrados.find(q => q.subtema === subtemaSelecionado);
+        perguntasAtuais = shuffleArray(quizSelecionado.perguntas).slice(0, LIMITE_QUESTOES);
 
         score = 0;
         currentIndex = 0;
         respostas = [];
 
-        mostrarEtapa("quiz");
+        mostrarEtapa("quiz-section");
         exibirPergunta();
     });
 
@@ -95,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.textContent = op;
             btn.className = "option";
             btn.onclick = () => {
-                respostas.push({ pergunta: atual.question, correta: atual.answer, marcada: i });
+                respostas.push({ pergunta: atual.question, correta: atual.answer, marcada: i, op });
                 if (i === atual.answer) score++;
                 currentIndex++;
                 exibirPergunta();
@@ -105,20 +108,30 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function mostrarResultado() {
-        mostrarEtapa("resultado");
+        mostrarEtapa("result-section");
         const resultContainer = document.getElementById("result");
         resultContainer.innerHTML = `<h2>Você acertou ${score} de ${perguntasAtuais.length} perguntas.</h2>`;
+
+        const relatorioContainer = document.getElementById("relatorio");
+        relatorioContainer.innerHTML = "";
+        respostas.forEach((r, index) => {
+            const div = document.createElement("div");
+            div.className = r.marcada === r.correta ? "resposta-correta" : "resposta-incorreta";
+            div.innerHTML = `<strong>${index + 1}.</strong> ${r.pergunta}<br>
+                Sua resposta: ${r.op} (${r.marcada})<br>
+                Correta: ${r.correta}<br><br>`;
+            relatorioContainer.appendChild(div);
+        });
     }
 
     function shuffleArray(arr) {
         return arr.sort(() => Math.random() - 0.5);
     }
 
-    // Inicialização
     if (localStorage.getItem("acesso-liberado") === "true") {
-        mostrarEtapa("tema");
-        carregarTítulos();
+        mostrarEtapa("tema-section");
+        carregarTitulos();
     } else {
-        mostrarEtapa("qr");
+        mostrarEtapa("qr-section");
     }
 });
