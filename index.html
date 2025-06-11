@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperQuiz</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        section {
-            display: none;
-            height: 100vh;
-            overflow-y: auto;
-        }
-        section.active {
-            display: block;
-        }
-        .resposta-correta {
-            background-color: #d4edda;
-        }
-        .resposta-incorreta {
-            background-color: #f8d7da;
-        }
-        .resposta-info {
-            background-color: #fff3cd;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SuperQuiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    section {
+      display: none;
+      height: 100vh;
+      overflow-y: auto;
+    }
+    section.active {
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    <section id="qr-section" class="active">
-        <h2>Acesse via Pix</h2>
-        <div class="qr-container">
-            <p>Simulação do QR Code aqui</p>
-            <button id="pagar-button">Já paguei</button>
-        </div>
-    </section>
 
-    <section id="tema-section">
-        <div class="container">
-            <h2>Selecione o tema do questionário</h2>
-            <select id="titulo-selector"></select>
-            <button id="start-quiz">Iniciar Quiz</button>
-        </div>
-    </section>
+  <!-- 1. QR Code -->
+  <section id="qr-section" class="active">
+    <h2>Acesse via Pix</h2>
+    <div class="qr-container">
+      <p>Simulação do QR Code</p>
+      <button id="pagar-button">Já paguei</button>
+    </div>
+  </section>
 
-    <section id="quiz-section">
-        <div class="container">
-            <div id="quiz"></div>
-        </div>
-    </section>
+  <!-- 2. Escolha do Título -->
+  <section id="tema-section">
+    <div class="container">
+      <h2>Escolha o Tema</h2>
+      <select id="titulo-selector"></select>
+      <button id="carregar-subtemas" style="margin-top: 10px;">Ver Subtemas</button>
+    </div>
+  </section>
 
-    <section id="result-section">
-        <div class="container">
-            <div id="result"></div>
-            <div id="relatorio"></div>
-            <button onclick="location.reload()">Tentar novamente</button>
-        </div>
-    </section>
+  <!-- 3. Escolha do Subtema -->
+  <section id="subtema-section">
+    <div class="container">
+      <h2>Escolha o Subtema</h2>
+      <select id="subtema-selector"></select>
+      <button id="start-quiz" style="margin-top: 10px;">Iniciar Quiz</button>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; SuperQuiz - Todos os direitos reservados</p>
-    </footer>
+  <!-- 4. Quiz -->
+  <section id="quiz-section">
+    <div class="container">
+      <div id="quiz"></div>
+    </div>
+  </section>
 
-    <script>
-        function mostrarEtapa(id) {
-            document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
-            document.getElementById(id).classList.add("active");
-        }
-    </script>
-    <script src="script.js"></script>
+  <!-- 5. Resultado + Relatório -->
+  <section id="result-section">
+    <div class="container">
+      <div id="result"></div>
+      <div id="relatorio"></div>
+      <button onclick="location.reload()">Tentar novamente</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; SuperQuiz - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    function mostrarEtapa(id) {
+      document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+
+  <script src="script.js"></script>
 </body>
 </html>
