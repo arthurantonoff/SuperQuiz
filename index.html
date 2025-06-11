@@ -3,76 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Interativo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SuperQuiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- TELA 1: Acesso via Pix -->
-    <div id="pix-access" class="modal">
-        <div class="modal-content">
-            <h2>Acesso via Pix</h2>
-            <p>Clique para gerar um código Pix e liberar o acesso:</p>
-            <button id="generate-pix">Gerar Acesso</button>
-            <div id="pix-qr" style="margin-top:10px; display:none;">
-                <p>Escaneie o QR Code abaixo:</p>
-                <img src="https://api.qrserver.com/v1/create-qr-code/?data=pagamento_fake_pix&size=150x150" alt="QR Pix">
-                <button id="confirm-payment">Já paguei</button>
-            </div>
-        </div>
-    </div>
+    <section id="qr-section">
+        <h2>Acesse via Pix</h2>
+        <p>Simulação do QR Code aqui</p>
+        <button id="pagar-button">Já paguei</button>
+    </section>
 
-    <!-- TELA 2: Seleção de Tema -->
-    <div id="theme-selection" class="modal" style="display: none;">
-        <div class="modal-content">
-            <h2>Escolha um tema</h2>
-            <select id="theme-selector"></select>
-            <button id="start-quiz">Iniciar</button>
-        </div>
-    </div>
+    <section id="tema-section" style="display: none;">
+        <h2>Escolha o título</h2>
+        <select id="titulo-selector"></select>
+        <button id="start-quiz">Iniciar Quiz</button>
+    </section>
 
-    <!-- TELA 3: Quiz -->
-    <div class="container" style="display: none;">
-        <h1 id="quiz-title">Quiz Interativo</h1>
-        <div id="timer" class="timer">Tempo: <span id="time-counter">0</span> s</div>
-        <div id="progress-container">
-            <div id="progress-bar"></div>
-        </div>
+    <section id="quiz-section" style="display: none;">
         <div id="quiz"></div>
+    </section>
 
+    <section id="result-section" style="display: none;">
         <div id="result"></div>
-        <div class="result-buttons">
-            <button id="restart" style="display: none;">Recomeçar</button>
-            <button id="view-report" style="display: none;">Ver Relatório</button>
-        </div>
+    </section>
 
-        <div id="report-container" style="display: none;"></div>
-    </div>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const pixAccessModal = document.getElementById("pix-access");
-        const pixButton = document.getElementById("generate-pix");
-        const pixQR = document.getElementById("pix-qr");
-        const confirmPayment = document.getElementById("confirm-payment");
-        const modal = document.getElementById("theme-selection");
-
-        if (!localStorage.getItem("pix_token")) {
-            pixAccessModal.style.display = "flex";
-        } else {
-            modal.style.display = "flex";
-        }
-
-        pixButton.addEventListener("click", function () {
-            pixQR.style.display = "block";
-        });
-
-        confirmPayment.addEventListener("click", function () {
-            localStorage.setItem("pix_token", "acesso_liberado");
-            pixAccessModal.style.display = "none";
-            modal.style.display = "flex";
-        });
-    });
-    </script>
     <script src="script.js"></script>
 </body>
 </html>
