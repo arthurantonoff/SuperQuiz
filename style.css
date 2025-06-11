@@ -25,17 +25,22 @@ body {
 }
 
 /* Caixa de seleção do tema */
-#theme-selector,tema-section,subtema-section {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #444;
-    color: white;
-    font-size: 14px;
-    text-align: center;
+#titulo-selector,
+#subtema-selector,
+#carregar-subtemas,
+#start-quiz {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
 }
+
 
 /* Estilização dos botões e opções */
 button, .option {
