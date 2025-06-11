@@ -9,23 +9,36 @@
 <body>
     <section id="qr-section">
         <h2>Acesse via Pix</h2>
-        <p>Simulação do QR Code aqui</p>
-        <button id="pagar-button">Já paguei</button>
+        <div class="qr-container">
+            <p>Simulação do QR Code aqui</p>
+            <button id="pagar-button">Já paguei</button>
+        </div>
     </section>
 
     <section id="tema-section" style="display: none;">
-        <h2>Escolha o título</h2>
-        <select id="titulo-selector"></select>
-        <button id="start-quiz">Iniciar Quiz</button>
+        <div class="container">
+            <h2>Selecione o tema do questionário</h2>
+            <select id="titulo-selector"></select>
+            <button id="start-quiz">Iniciar Quiz</button>
+        </div>
     </section>
 
     <section id="quiz-section" style="display: none;">
-        <div id="quiz"></div>
+        <div class="container">
+            <div id="quiz"></div>
+        </div>
     </section>
 
     <section id="result-section" style="display: none;">
-        <div id="result"></div>
+        <div class="container">
+            <div id="result"></div>
+            <button onclick="location.reload()">Tentar novamente</button>
+        </div>
     </section>
+
+    <footer>
+        <p>&copy; SuperQuiz - Todos os direitos reservados</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
