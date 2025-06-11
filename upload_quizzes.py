@@ -22,28 +22,29 @@ def gerar_titulo(id):
         return id_formatado.replace("CIENCIAS", "CIÊNCIAS")
     return id_formatado
 
-def enviar_quiz(id, perguntas):
+def enviar_quiz(tema, subtema_id, perguntas):
     data = {
-        "id": id,
-        "titulo": gerar_titulo(id),
+        "tema": tema,
+        "titulo": subtema_id,
         "ativo": True,
         "perguntas": perguntas
     }
 
     response = requests.post(f"{SUPABASE_URL}/rest/v1/quizzes", headers=HEADERS, data=json.dumps(data))
     if response.status_code == 201:
-        print(f"✅ Enviado com sucesso: {id}")
+        print(f"✅ Enviado com sucesso: {tema} / {subtema_id}")
     elif response.status_code == 409:
-        print(f"⚠️ Já existe: {id} (considere usar UPSERT)")
+        print(f"⚠️ Já existe: {tema} / {subtema_id} (considere usar UPSERT)")
     else:
-        print(f"❌ Erro ao enviar {id}: {response.status_code} - {response.text}")
+        print(f"❌ Erro ao enviar {subtema_id}: {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
     try:
         with open("questions.json", "r", encoding="utf-8") as f:
-            base = json.load(f)
-            for tema_id, perguntas in base.items():
-                enviar_quiz(tema_id, perguntas)
+            estrutura = json.load(f)
+            for tema, subtemas in estrutura.items():
+                for subtema_id, perguntas in subtemas.items():
+                    enviar_quiz(tema, subtema_id, perguntas)
     except FileNotFoundError:
         print("❌ Arquivo questions.json não encontrado.")
         sys.exit(1)
