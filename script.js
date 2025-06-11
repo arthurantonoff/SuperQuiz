@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const SUPABASE_URL = "__SUPABASE_URL__";
-    const SUPABASE_ANON_KEY = "__SUPABASE_ANON_KEY__";
+    const SUPABASE_URL = "https://jszlastvwxefajjuquxt.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impzemxhc3R2d3hlZmFqanVxdXh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1ODMwODUsImV4cCI6MjA2NTE1OTA4NX0.onXBoSa9j6EeVBZxWncZ5uAGDIONHJQBajAzzgzCz18";
     const LIMITE_QUESTOES = 20;
 
     const etapas = {
