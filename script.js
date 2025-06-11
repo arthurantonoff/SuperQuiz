@@ -116,9 +116,9 @@ document.addEventListener("DOMContentLoaded", function () {
         relatorioContainer.innerHTML = "";
         respostas.forEach((r, index) => {
             const div = document.createElement("div");
-            div.className = r.marcada === r.correta ? "resposta-correta" : "resposta-incorreta";
+            div.className = "relatorio-item";
             div.innerHTML = `<strong>${index + 1}.</strong> ${r.pergunta}<br>
-                Sua resposta: ${r.op} (${r.marcada})<br>;
+                Sua resposta: ${r.op} (${r.marcada})<br>`;
             relatorioContainer.appendChild(div);
         });
     }
