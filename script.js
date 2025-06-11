@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const div = document.createElement("div");
             div.className = r.marcada === r.correta ? "resposta-correta" : "resposta-incorreta";
             div.innerHTML = `<strong>${index + 1}.</strong> ${r.pergunta}<br>
-                Sua resposta: ${r.op} (${r.marcada})<br>
+                Sua resposta: ${r.op} (${r.marcada})<br>;
             relatorioContainer.appendChild(div);
         });
     }
