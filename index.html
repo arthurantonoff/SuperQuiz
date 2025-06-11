@@ -14,10 +14,19 @@
         section {
             display: none;
             height: 100vh;
-            overflow: hidden;
+            overflow-y: auto;
         }
         section.active {
             display: block;
+        }
+        .resposta-correta {
+            background-color: #d4edda;
+        }
+        .resposta-incorreta {
+            background-color: #f8d7da;
+        }
+        .resposta-info {
+            background-color: #fff3cd;
         }
     </style>
 </head>
@@ -47,6 +56,7 @@
     <section id="result-section">
         <div class="container">
             <div id="result"></div>
+            <div id="relatorio"></div>
             <button onclick="location.reload()">Tentar novamente</button>
         </div>
     </section>
