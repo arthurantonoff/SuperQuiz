@@ -1,8 +1,8 @@
 name: Upload Quizzes para Supabase
 
-on:
-  push:
-    branches: [ main ]
+#on:
+#  push:
+#    branches: [ main ]
 
 jobs:
   upload:
