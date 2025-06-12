@@ -130,7 +130,6 @@ function exibirPergunta() {
   const quiz = document.getElementById("quiz");
   quiz.innerHTML = "";
   if (currentIndex >= perguntasAtuais.length) return mostrarResultado();
-  iniciarTimer();
   const pergunta = perguntasAtuais[currentIndex];
   quiz.innerHTML = `<h2>${pergunta.question}</h2>`;
   pergunta.options.forEach((op, i) => {
@@ -146,22 +145,6 @@ function exibirPergunta() {
     quiz.appendChild(btn);
   });
   atualizarBarra();
-}
-
-function iniciarTimer() {
-  let tempo = TEMPO_POR_PERGUNTA;
-  const display = document.getElementById("time-counter");
-  display.textContent = tempo;
-  timer = setInterval(() => {
-    tempo--;
-    display.textContent = tempo;
-    if (tempo <= 0) {
-      clearInterval(timer);
-      respostas.push({ pergunta: perguntasAtuais[currentIndex].question, correta: perguntasAtuais[currentIndex].answer, marcada: -1, op: "(sem resposta)" });
-      currentIndex++;
-      exibirPergunta();
-    }
-  }, 1000);
 }
 
 function mostrarResultado() {
