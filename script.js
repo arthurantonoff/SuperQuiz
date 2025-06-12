@@ -158,13 +158,24 @@ function exibirPergunta() {
 function mostrarResultado() {
   clearInterval(timer);
   mostrarEtapa("result-section");
+
   document.getElementById("result").innerHTML = `<h2>Você acertou ${score} de ${perguntasAtuais.length} perguntas.</h2>`;
+
   const relatorio = document.getElementById("relatorio");
   relatorio.innerHTML = "";
-  respostas.forEach((r, i) => {
+
+  respostas.forEach((r, index) => {
+    const isCorrect = r.marcada === r.correta;
+    const marker = isCorrect ? "✅" : "❌";
+
     const div = document.createElement("div");
-    div.className = "relatorio-item";
-    div.innerHTML = `<strong>${i + 1}.</strong> ${r.pergunta}<br>Sua resposta: ${r.op}<br>`;
+    div.className = "relatorio-item " + (isCorrect ? "correto" : "incorreto");
+
+    div.innerHTML = `
+      <p><strong>${marker} Pergunta ${index + 1}:</strong> ${r.pergunta}</p>
+      <p><strong>Sua resposta:</strong> ${r.op}</p>
+    `;
+
     relatorio.appendChild(div);
   });
 }

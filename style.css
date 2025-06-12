@@ -202,3 +202,11 @@ button:hover, .option:hover {
   max-width: 500px;
   text-align: center;
 }
+
+.report-item.correto {
+  border-left: 4px solid rgba(76, 175, 80, 0.1); /* verde claro e discreto */
+}
+
+.report-item.incorreto {
+  border-left: 4px solid rgba(244, 67, 54, 0.1); /* vermelho claro e discreto */
+}
