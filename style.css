@@ -1,30 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
 }
 
-/* Estrutura principal */
 .container, .modal-content {
-    max-width: 600px;
-    margin: auto;
-    padding: 15px;
-    background-color: #1e1e1e;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
 
-/* Centralização da tela inicial */
 .modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* Caixa de seleção do tema e subtema */
 #titulo-selector,
 #subtema-selector {
   width: 100%;
@@ -53,111 +50,136 @@ body {
   cursor: pointer;
 }
 
-/* Estilização dos botões e opções */
 button, .option {
-    background-color: #1e1e1e;
-    color: white;
-    border: 1px solid #444;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    width: 100%;
-    transition: background 0.1s ease-in-out, border 0.1s ease-in-out;
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  transition: background 0.1s ease-in-out, border 0.1s ease-in-out;
 }
 
-/* Resultado final mais compacto */
+button:hover, .option:hover {
+  background-color: #333;
+  border-color: #666;
+}
+
 #result {
-    background: none;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 1.4;
+  background: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4;
 }
 
-/* Ajuste para botões preencherem corretamente a tela final */
-#restart, #view-report {
-    width: calc(100% - 30px);
-    padding: 12px;
-    font-size: 14px;
-    margin-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#restart, #view-report, #reiniciar {
+  width: calc(100% - 30px);
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Estilização do relatório para leitura rápida */
 #report-container, #relatorio {
-    background-color: #1e1e1e;
-    padding: 8px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
-    max-width: 450px;
-    margin: 15px auto;
-    font-size: 12px;
+  background-color: #1e1e1e;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+  max-width: 450px;
+  margin: 15px auto;
+  font-size: 12px;
 }
 
-/* Estilo de cada item do relatório */
 .report-item, .relatorio-item {
-    background: #292929;
-    padding: 6px;
-    margin-bottom: 8px;
-    border-radius: 5px;
-    font-size: 12px;
-    text-align: left;
-    line-height: 1.4;
+  background: #292929;
+  padding: 6px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.4;
 }
 
-/* Ajuste no título do relatório */
 #report-container h2 {
-    font-size: 14px;
-    margin-bottom: 8px;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 
-/* Estilização do cronômetro */
 #time-container {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #1e1e1e;
-    padding: 8px 12px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
-    font-size: 14px;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  background-color: #1e1e1e;
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  opacity: 0.8;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 #time-label {
-    font-size: 14px;
-    color: #ffffff;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 #time-counter {
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-/* Adiciona uma transição suave para mudanças de tela */
 .container, .modal-content, #quiz, #result {
-    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* Esconde elementos de forma suave */
 .hidden {
-    opacity: 0;
-    transform: translateY(10px);
-    pointer-events: none;
+  display: none !important;
 }
 
-/* Destaca a opção selecionada antes da transição */
 .option:active {
-    background-color: #555;
-    transform: scale(0.95);
-    transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+  background-color: #555;
+  transform: scale(0.95);
+  transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+#progress-bar {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  z-index: 9999;
+}
+
+#instrucoes-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  z-index: 10000;
+  max-width: 500px;
+  text-align: center;
 }
