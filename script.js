@@ -1,10 +1,10 @@
+// script.js com busca sob demanda de títulos, subtemas e perguntas
+
 const SUPABASE_URL = "https://jszlastvwxefajjuquxt.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impzemxhc3R2d3hlZmFqanVxdXh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1ODMwODUsImV4cCI6MjA2NTE1OTA4NX0.onXBoSa9j6EeVBZxWncZ5uAGDIONHJQBajAzzgzCz18";
 const LIMITE_QUESTOES = 20;
 const TEMPO_POR_PERGUNTA = 20; // segundos
 
-let quizzes = [];
-let quizzesFiltrados = [];
 let perguntasAtuais = [];
 let currentIndex = 0;
 let score = 0;
@@ -25,19 +25,32 @@ document.addEventListener("DOMContentLoaded", function () {
   const tituloSelector = document.getElementById("titulo-selector");
   const subtemaSelector = document.getElementById("subtema-selector");
 
-  document.getElementById("carregar-subtemas").addEventListener("click", () => {
+  document.getElementById("carregar-subtemas").addEventListener("click", async () => {
     const tituloSelecionado = tituloSelector.value;
     if (!tituloSelecionado) return;
-    quizzesFiltrados = quizzes.filter(q => q.titulo === tituloSelecionado);
-    const subtemasUnicos = [...new Set(quizzesFiltrados.map(q => q.subtema))];
-    subtemaSelector.innerHTML = "<option disabled selected>Selecione um subtema</option>";
-    subtemasUnicos.forEach(subtema => {
-      const option = document.createElement("option");
-      option.value = subtema;
-      option.textContent = subtema;
-      subtemaSelector.appendChild(option);
-    });
-    mostrarEtapa("subtema-section");
+    mostrarLoading(true);
+    try {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=subtema&titulo=eq.${tituloSelecionado}`, {
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`
+        }
+      });
+      const dados = await res.json();
+      const subtemasUnicos = [...new Set(dados.map(q => q.subtema))];
+      subtemaSelector.innerHTML = "<option disabled selected>Selecione um subtema</option>";
+      subtemasUnicos.forEach(subtema => {
+        const option = document.createElement("option");
+        option.value = subtema;
+        option.textContent = subtema;
+        subtemaSelector.appendChild(option);
+      });
+      mostrarEtapa("subtema-section");
+    } catch (e) {
+      alert("Erro ao carregar subtemas.");
+      console.error(e);
+    }
+    mostrarLoading(false);
   });
 
   document.getElementById("abrir-instrucoes").addEventListener("click", () => {
@@ -50,16 +63,30 @@ document.addEventListener("DOMContentLoaded", function () {
     mostrarEtapa("tema-section");
   });
 
-  document.getElementById("start-quiz").addEventListener("click", () => {
+  document.getElementById("start-quiz").addEventListener("click", async () => {
     const subtemaSelecionado = subtemaSelector.value;
-    if (!subtemaSelecionado) return;
-    const quizSelecionado = quizzesFiltrados.find(q => q.subtema === subtemaSelecionado);
-    perguntasAtuais = shuffleArray(quizSelecionado.perguntas).slice(0, LIMITE_QUESTOES);
-    score = 0;
-    currentIndex = 0;
-    respostas = [];
-    mostrarEtapa("quiz-section");
-    exibirPergunta();
+    const tituloSelecionado = document.getElementById("titulo-selector").value;
+    if (!subtemaSelecionado || !tituloSelecionado) return;
+    mostrarLoading(true);
+    try {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=perguntas&titulo=eq.${tituloSelecionado}&subtema=eq.${subtemaSelecionado}`, {
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`
+        }
+      });
+      const data = await res.json();
+      perguntasAtuais = shuffleArray(data[0]?.perguntas || []).slice(0, LIMITE_QUESTOES);
+      score = 0;
+      currentIndex = 0;
+      respostas = [];
+      mostrarEtapa("quiz-section");
+      exibirPergunta();
+    } catch (e) {
+      alert("Erro ao carregar perguntas.");
+      console.error(e);
+    }
+    mostrarLoading(false);
   });
 
   document.getElementById("reiniciar").addEventListener("click", () => {
@@ -73,14 +100,14 @@ document.addEventListener("DOMContentLoaded", function () {
 async function carregarTitulos() {
   mostrarLoading(true);
   try {
-    const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?ativo=eq.true&select=id,titulo,subtema,perguntas`, {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=titulo`, {
       headers: {
         apikey: SUPABASE_ANON_KEY,
         Authorization: `Bearer ${SUPABASE_ANON_KEY}`
       }
     });
-    quizzes = await res.json();
-    const titulosUnicos = [...new Set(quizzes.map(q => q.titulo))];
+    const data = await res.json();
+    const titulosUnicos = [...new Set(data.map(q => q.titulo))];
     const selector = document.getElementById("titulo-selector");
     selector.innerHTML = "<option disabled selected>Selecione um tema</option>";
     titulosUnicos.forEach(titulo => {
