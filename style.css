@@ -204,9 +204,9 @@ button:hover, .option:hover {
 }
 
 .report-item.correto {
-  border-left: 4px solid rgba(76, 175, 80, 0.1); /* verde claro e discreto */
+  border-left: 4px solid rgba(76, 175, 80, 0.3); /* verde claro e discreto */
 }
 
 .report-item.incorreto {
-  border-left: 4px solid rgba(244, 67, 54, 0.1); /* vermelho claro e discreto */
+  border-left: 4px solid rgba(244, 67, 54, 0.3); /* vermelho claro e discreto */
 }
