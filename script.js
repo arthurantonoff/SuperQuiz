@@ -95,6 +95,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   carregarTitulos();
   mostrarEtapa("tema-section");
+
+  // Mostra a tela de doação QR ao carregar a página pela primeira vez
+  document.getElementById("loadingQR").classList.remove("hidden");
+
+    // Botão de fechar
+  document.getElementById("fechar-loading").addEventListener("click", () => {
+    document.getElementById("loadingQR").classList.add("hidden");
+  });
 });
 
 async function carregarTitulos() {
