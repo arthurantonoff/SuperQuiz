@@ -1,4 +1,5 @@
 { "7ATB-P4":{
+  
   "7ph10geografia": [
     { "question": "O que motivou a criação das cidades-satélites ao redor de Brasília?", "options": ["Falta de escolas públicas", "Preservação ambiental", "Alta no preço dos alimentos", "Dificuldade de moradia para os candangos"], "answer": 3 },
     { "question": "Quem são os 'candangos' mencionados no estudo da construção de Brasília?", "options": ["Turistas", "Engenheiros europeus", "Trabalhadores migrantes de várias regiões do Brasil", "Refugiados políticos"], "answer": 2 },
@@ -86,11 +87,9 @@
   { "question": "O termo 'migração' abrange:", "options": ["Apenas deslocamentos internacionais", "Apenas mudanças por guerra", "Todo deslocamento permanente ou temporário de pessoas", "Movimentos comerciais de bens"], "answer": 2 },
   { "question": "Taguatinga surgiu como uma:", "options": ["Capital estadual", "Área militar", "Cidade-satélite para abrigar trabalhadores", "Zona franca industrial"], "answer": 2 },
   { "question": "As cidades-satélites são exemplos de políticas públicas de:", "options": ["Educação técnica", "Exportação", "Habitação urbana", "Militarização territorial"], "answer": 2 }
-]
-},
+],
 
-{
-  "7ph11geografia": [
+"7ph11geografia": [
     { "question": "Qual setor da economia está diretamente relacionado ao espaço rural brasileiro?", "options": ["Setor terciário", "Setor secundário", "Setor primário", "Setor quaternário"], "answer": 2 },
     { "question": "O que caracteriza as pequenas propriedades rurais no Brasil?", "options": ["Produção em larga escala e exportação", "Uso de tecnologia de ponta", "Produção familiar com venda de excedente", "Alta mecanização e cultivo de monocultura"], "answer": 2 },
     { "question": "Que tipo de técnica agropastoril é caracterizada por baixos investimentos e práticas tradicionais?", "options": ["Irrigação intensiva", "Técnica extensiva", "Produção vertical", "Agricultura de precisão"], "answer": 1 },
@@ -172,9 +171,5 @@
   { "question": "A ampliação da capacidade produtiva pode resultar em:", "options": ["Maior dependência externa", "Reflorestamento", "Maior aproveitamento da terra", "Fim da agroindústria"], "answer": 2 },
   { "question": "Quem produz os insumos agrícolas no CAI?", "options": ["Setor primário", "Setor terciário", "Indústrias", "Governo federal"], "answer": 2 }
 ]
-}
-
-
-
 }
 }
