@@ -23,12 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     async function carregarTitulos() {
         try {
-            const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?select=id,titulo,subtema,perguntas&ativo=eq.true`, {
+            const res = await fetch(`${SUPABASE_URL}/rest/v1/quizzes?ativo=eq.true&select=id,titulo,subtema,perguntas`, {
                 headers: {
                     apikey: SUPABASE_ANON_KEY,
                     Authorization: `Bearer ${SUPABASE_ANON_KEY}`
                 }
             });
+
 
             quizzes = await res.json();
 
