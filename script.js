@@ -1,5 +1,3 @@
-// script.js COMPLETO com melhorias funcionais e visuais
-
 const SUPABASE_URL = "https://jszlastvwxefajjuquxt.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impzemxhc3R2d3hlZmFqanVxdXh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1ODMwODUsImV4cCI6MjA2NTE1OTA4NX0.onXBoSa9j6EeVBZxWncZ5uAGDIONHJQBajAzzgzCz18";
 const LIMITE_QUESTOES = 20;
@@ -15,7 +13,8 @@ let timer;
 
 function mostrarEtapa(id) {
   document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
-  document.getElementById(id).classList.add("active");
+  const destino = document.getElementById(id);
+  if (destino) destino.classList.add("active");
 }
 
 function mostrarLoading(ativo) {
@@ -25,12 +24,6 @@ function mostrarLoading(ativo) {
 document.addEventListener("DOMContentLoaded", function () {
   const tituloSelector = document.getElementById("titulo-selector");
   const subtemaSelector = document.getElementById("subtema-selector");
-
-  document.getElementById("pagar-button").addEventListener("click", () => {
-    localStorage.setItem("acesso-liberado", "true");
-    mostrarEtapa("tema-section");
-    carregarTitulos();
-  });
 
   document.getElementById("carregar-subtemas").addEventListener("click", () => {
     const tituloSelecionado = tituloSelector.value;
@@ -73,12 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.reload();
   });
 
+  mostrarEtapa("tema-section");
   carregarTitulos();
-  if (localStorage.getItem("acesso-liberado") === "true") {
-    mostrarEtapa("tema-section");
-  } else {
-    mostrarEtapa("qr-section");
-  }
 });
 
 async function carregarTitulos() {
@@ -102,6 +91,7 @@ async function carregarTitulos() {
     });
   } catch (e) {
     alert("Erro ao carregar títulos.");
+    console.error(e);
   }
   mostrarLoading(false);
 }
@@ -110,20 +100,16 @@ function exibirPergunta() {
   clearInterval(timer);
   const container = document.getElementById("quiz");
   container.innerHTML = "";
-
   if (currentIndex >= perguntasAtuais.length) {
     mostrarResultado();
     return;
   }
-
   atualizarBarra();
   iniciarTimer();
-
   const atual = perguntasAtuais[currentIndex];
   const h2 = document.createElement("h2");
   h2.textContent = atual.question;
   container.appendChild(h2);
-
   atual.options.forEach((op, i) => {
     const btn = document.createElement("button");
     btn.textContent = op;
