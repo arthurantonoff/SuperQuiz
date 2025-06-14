@@ -1,807 +1,91 @@
 { "7ATB-P4":
 {
-  "7ph07matematica": 
-[
-  {
-    "question": "Para multiplicar dois números decimais, devemos:",
-    "options": [
-      "Multiplicar normalmente e ajustar as casas decimais",
-      "Somar as casas decimais",
-      "Subtrair os valores",
-      "Converter para fração antes"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando -1,78 por 5, obtemos:",
-    "options": [
-      "-8,90",
-      "8,90",
-      "-6,90",
-      "6,90"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A propriedade comutativa da multiplicação afirma que:",
-    "options": [
-      "A ordem dos fatores altera o produto",
-      "A ordem dos fatores não altera o produto",
-      "O produto sempre é positivo",
-      "Só se aplica a números inteiros"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para multiplicar duas frações, devemos:",
-    "options": [
-      "Somar numeradores e denominadores",
-      "Multiplicar numeradores e denominadores",
-      "Multiplicar cruzado",
-      "Somar numeradores e multiplicar denominadores"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O produto de uma fração por um inteiro pode ser feito transformando:",
-    "options": [
-      "A fração em decimal",
-      "O inteiro em fração com denominador 1",
-      "O denominador em zero",
-      "O numerador em zero"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado de -1,05 × (-7) é:",
-    "options": [
-      "-7,35",
-      "7,35",
-      "8,35",
-      "-8,35"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para dividir dois números decimais, devemos:",
-    "options": [
-      "Multiplicar os valores",
-      "Transformar ambos em frações",
-      "Igualar a quantidade de casas decimais e dividir",
-      "Subtrair os valores"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O inverso multiplicativo de 5 é:",
-    "options": [
-      "5",
-      "-5",
-      "1/5",
-      "5/1"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Dividir uma fração por outra é equivalente a:",
-    "options": [
-      "Multiplicar pela fração",
-      "Multiplicar pelo inverso da segunda fração",
-      "Somar as frações",
-      "Subtrair as frações"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado da divisão 0,1 ÷ 0,05 é:",
-    "options": [
-      "1",
-      "2",
-      "0,5",
-      "0,05"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Dividindo -2,14 por 0,2, obtemos:",
-    "options": [
-      "-10,7",
-      "10,7",
-      "-12,7",
-      "12,7"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Para multiplicar um número decimal por uma fração, devemos:",
-    "options": [
-      "Multiplicar diretamente",
-      "Transformar ambos na mesma representação",
-      "Subtrair os termos",
-      "Somar os termos"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A potência de base negativa com expoente par resulta em:",
-    "options": [
-      "Negativo",
-      "Positivo",
-      "Zero",
-      "Inverso"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado de (-0,5)² é:",
-    "options": [
-      "-0,25",
-      "0,25",
-      "-0,5",
-      "0,5"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para elevar uma fração a um expoente, devemos:",
-    "options": [
-      "Somar numerador e denominador",
-      "Multiplicar numerador e denominador pelo expoente",
-      "Elevar numerador e denominador separadamente",
-      "Elevar apenas o numerador"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "A propriedade distributiva da multiplicação sobre a adição afirma que:",
-    "options": [
-      "Multiplicar antes de somar",
-      "Somar antes de multiplicar",
-      "Multiplicar cada termo separadamente e depois somar",
-      "Multiplicar só o primeiro termo"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Multiplicando potências de mesma base, devemos:",
-    "options": [
-      "Somar os expoentes",
-      "Multiplicar os expoentes",
-      "Dividir os expoentes",
-      "Subtrair os expoentes"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Dividindo potências de mesma base, devemos:",
-    "options": [
-      "Somar os expoentes",
-      "Multiplicar os expoentes",
-      "Dividir os expoentes",
-      "Subtrair os expoentes"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "A potência de um quociente é calculada elevando:",
-    "options": [
-      "Apenas o numerador",
-      "Apenas o denominador",
-      "Numerador e denominador separadamente",
-      "O quociente total diretamente"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O resultado da raiz quadrada de 0,04 é:",
-    "options": [
-      "0,2",
-      "0,04",
-      "0,4",
-      "2"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A raiz quadrada de 1,44 é:",
-    "options": [
-      "1,4",
-      "1,2",
-      "1,44",
-      "12"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para calcular a raiz exata de uma fração, devemos extrair a raiz de:",
-    "options": [
-      "Somente do numerador",
-      "Somente do denominador",
-      "Do numerador e denominador separadamente",
-      "Do produto do numerador com o denominador"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "A propriedade fundamental do inverso multiplicativo afirma que:",
-    "options": [
-      "Produto do número por seu inverso é igual a zero",
-      "Produto do número por seu inverso é igual a 1",
-      "Soma do número com seu inverso é 1",
-      "Multiplicar inversos anula o número"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A raiz cúbica de -0,008 é:",
-    "options": [
-      "-0,8",
-      "-0,2",
-      "0,2",
-      "0,8"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Multiplicando duas frações: 2/3 × 3/5, obtemos:",
-    "options": [
-      "5/15",
-      "6/15",
-      "6/5",
-      "2/5"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na divisão 0,5 ÷ (-0,2), o resultado é:",
-    "options": [
-      "-2,5",
-      "2,5",
-      "0,25",
-      "-0,25"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A potência (-0,5)³ resulta em:",
-    "options": [
-      "0,125",
-      "-0,125",
-      "0,25",
-      "-0,25"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Toda fração representa:",
-    "options": [
-      "Uma soma",
-      "Uma divisão",
-      "Uma multiplicação",
-      "Uma potência"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A raiz quadrada de um número racional decimal pode ser calculada transformando-o em:",
-    "options": [
-      "Fração",
-      "Número complexo",
-      "Número negativo",
-      "Potência"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "O produto de -5,712 × 1,6 é:",
-    "options": [
-      "9,1392",
-      "-9,1392",
-      "9,912",
-      "-9,912"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O quociente de -2,14 ÷ 0,2 é:",
-    "options": [
-      "-10,7",
-      "10,7",
-      "-12,7",
-      "12,7"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Para dividir dois números com casas decimais diferentes, devemos:",
-    "options": [
-      "Transformar em frações",
-      "Igualar as casas decimais",
-      "Multiplicar os números",
-      "Subtrair as casas decimais"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado de (1,2)³ é:",
-    "options": [
-      "1,728",
-      "2,728",
-      "1,44",
-      "1,44"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A raiz quadrada de 169 é:",
-    "options": [
-      "12",
-      "13",
-      "14",
-      "15"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na potência de base negativa com expoente ímpar, o resultado é sempre:",
-    "options": [
-      "Positivo",
-      "Negativo",
-      "Zero",
-      "Indefinido"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A raiz cúbica de 125 é:",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O produto entre 4,39 e -0,36 é:",
-    "options": [
-      "1,5804",
-      "-1,5804",
-      "1,4394",
-      "-1,4394"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O quociente de (-0,375) ÷ (-1,5) é:",
-    "options": [
-      "-0,25",
-      "0,25",
-      "0,375",
-      "-0,375"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado de (-1,05) × (-7) é:",
-    "options": [
-      "7,35",
-      "-7,35",
-      "7,5",
-      "-7,5"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Na potenciação de um quociente, devemos elevar:",
-    "options": [
-      "Somente o numerador",
-      "Somente o denominador",
-      "Numerador e denominador separadamente",
-      "O quociente total"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Se um número racional negativo é elevado ao quadrado, o resultado será:",
-    "options": [
-      "Sempre negativo",
-      "Sempre positivo",
-      "Igual ao número original",
-      "Zero"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Multiplicando duas frações, como 3/4 × 2/5, o resultado é:",
-    "options": [
-      "6/20",
-      "5/10",
-      "6/10",
-      "3/5"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "O produto entre -3 e -0,5 é:",
-    "options": [
-      "-1,5",
-      "1,5",
-      "0,5",
-      "-0,5"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Dividindo 1,2 por 0,4, o resultado é:",
-    "options": [
-      "0,3",
-      "3",
-      "0,04",
-      "0,48"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para resolver a expressão (2/3)², devemos:",
-    "options": [
-      "Multiplicar 2 pelo quadrado de 3",
-      "Somar numerador e denominador antes",
-      "Elevar numerador e denominador ao quadrado separadamente",
-      "Multiplicar apenas o numerador"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O produto entre -0,25 e 4 é:",
-    "options": [
-      "1",
-      "-1",
-      "-0,75",
-      "0,75"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A raiz quadrada de uma fração como √(4/9) é:",
-    "options": [
-      "4/9",
-      "2/3",
-      "1/2",
-      "1/3"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O inverso multiplicativo de 3/4 é:",
-    "options": [
-      "4/3",
-      "3/4",
-      "-4/3",
-      "-3/4"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Se (−2)³ for calculado, o resultado será:",
-    "options": [
-      "-8",
-      "8",
-      "4",
-      "-4"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando potências de mesma base: 2³ × 2², o resultado será:",
-    "options": [
-      "2⁵",
-      "2⁶",
-      "2⁴",
-      "2³"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Dividindo potências de mesma base: 5⁴ ÷ 5², obtemos:",
-    "options": [
-      "5²",
-      "5³",
-      "5⁶",
-      "5⁰"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Para calcular √0,81, o resultado é:",
-    "options": [
-      "0,8",
-      "0,9",
-      "0,81",
-      "1"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A propriedade distributiva garante que 3 × (4 + 5) é igual a:",
-    "options": [
-      "3 × 4 + 5",
-      "3 + (4 × 5)",
-      "3 × 4 + 3 × 5",
-      "3 + 4 + 5"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O quociente entre -6 e 3 é:",
-    "options": [
-      "-2",
-      "2",
-      "0",
-      "-3"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando -0,4 por -2, obtemos:",
-    "options": [
-      "-0,8",
-      "0,8",
-      "0,4",
-      "-0,4"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O inverso multiplicativo de -2 é:",
-    "options": [
-      "-2",
-      "1/2",
-      "-1/2",
-      "2"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "A potência de uma fração negativa elevada a um expoente ímpar resultará sempre em:",
-    "options": [
-      "Negativo",
-      "Positivo",
-      "Zero",
-      "Inverso"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A raiz quadrada de 49 é:",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Dividindo -12 por -4, o resultado é:",
-    "options": [
-      "3",
-      "-3",
-      "4",
-      "-4"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando dois números racionais negativos, o resultado será:",
-    "options": [
-      "Sempre negativo",
-      "Sempre positivo",
-      "Zero",
-      "O menor dos números"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na expressão 2² × 2³, o resultado é:",
-    "options": [
-      "2⁵",
-      "2⁶",
-      "2³",
-      "2⁴"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Dividindo potências: 10³ ÷ 10², obtemos:",
-    "options": [
-      "10",
-      "100",
-      "1000",
-      "1"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A raiz cúbica de 27 é:",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "9"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Multiplicando 0,6 por 0,5, o resultado é:",
-    "options": [
-      "0,3",
-      "0,35",
-      "0,25",
-      "0,15"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "O produto de (−0,8) × (0,5) é:",
-    "options": [
-      "-0,4",
-      "0,4",
-      "-0,5",
-      "0,5"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Ao dividir -9 por 3, o resultado é:",
-    "options": [
-      "3",
-      "-3",
-      "-6",
-      "6"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Multiplicando duas frações negativas: (-2/3) × (-3/4), o resultado é:",
-    "options": [
-      "6/12",
-      "-6/12",
-      "-6/7",
-      "6/7"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A potência (-1)⁴ resulta em:",
-    "options": [
-      "-1",
-      "1",
-      "0",
-      "-4"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A raiz quadrada de 0,16 é:",
-    "options": [
-      "0,4",
-      "0,5",
-      "0,6",
-      "0,8"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Para dividir uma fração por outra, como 2/5 ÷ 4/5, devemos:",
-    "options": [
-      "Multiplicar por 4/5",
-      "Multiplicar por 5/4",
-      "Somar as frações",
-      "Dividir os denominadores"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Multiplicando -0,3 × 0,2, obtemos:",
-    "options": [
-      "0,6",
-      "-0,6",
-      "-0,06",
-      "0,06"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Se √x = 5, então x é:",
-    "options": [
-      "10",
-      "15",
-      "20",
-      "25"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Multiplicando três números: -1 × 2 × -3, o resultado será:",
-    "options": [
-      "-6",
-      "6",
-      "0",
-      "-2"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Dividindo -0,9 ÷ 0,3, obtemos:",
-    "options": [
-      "3",
-      "-3",
-      "-0,3",
-      "0,3"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A propriedade fundamental do inverso multiplicativo é que:",
-    "options": [
-      "Multiplicar um número por seu inverso resulta em 1",
-      "Multiplicar um número por seu inverso resulta em 0",
-      "Multiplicar um número por seu inverso resulta em -1",
-      "Não possui aplicação"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "A raiz quadrada de 36 é:",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na expressão (-2)², o resultado é:",
-    "options": [
-      "4",
-      "-4",
-      "2",
-      "-2"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando -4 × -0,5, o produto é:",
-    "options": [
-      "-2",
-      "2",
-      "0",
-      "1"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Dividindo 0,5 ÷ (-0,1), obtemos:",
-    "options": [
-      "-5",
-      "5",
-      "0,5",
-      "-0,5"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Multiplicando potências de mesma base: 3² × 3³, o resultado é:",
-    "options": [
-      "3⁵",
-      "3⁶",
-      "3³",
-      "3⁴"
-    ],
-    "answer": 0
-  }
-]
+  "7ph10ciencias": [
+    { "question": "Qual é o agente causador da gripe?", "options": ["Rhinovírus", "Coronavírus", "Vírus Influenza", "Retrovírus"], "answer": 2 },
+    { "question": "A transmissão da gripe ocorre principalmente por:", "options": ["Alimentos contaminados", "Água parada", "Gotículas expelidas no ar", "Picada de mosquito"], "answer": 2 },
+    { "question": "A vacina contra a gripe deve ser aplicada:", "options": ["Apenas em idosos", "Apenas uma vez na vida", "Anualmente", "Somente em crianças"], "answer": 2 },
+    { "question": "Qual é a principal diferença entre gripe e resfriado?", "options": ["O resfriado causa febre alta", "A gripe é causada por bactéria", "São causados por vírus diferentes", "A gripe não apresenta dor no corpo"], "answer": 2 },
+    { "question": "O resfriado é causado pelo:", "options": ["Vírus Influenza", "Retrovírus", "Coronavírus", "Rhinovírus"], "answer": 3 },
+    { "question": "Qual das alternativas é um sintoma comum da gripe?", "options": ["Dor nas articulações", "Dor de ouvido", "Dor no corpo e febre", "Manchas na pele"], "answer": 2 },
+    { "question": "A Covid-19 é causada por qual agente?", "options": ["HIV", "Vírus Influenza", "Coronavírus SARS-CoV-2", "Rhinovírus"], "answer": 2 },
+    { "question": "O uso de máscara e álcool em gel previne a transmissão de:", "options": ["Tuberculose", "Dengue", "Covid-19", "Leptospirose"], "answer": 2 },
+    { "question": "Qual das opções é um sintoma da Covid-19?", "options": ["Coceira na pele", "Falta de ar", "Dor abdominal intensa", "Tosse com sangue"], "answer": 1 },
+    { "question": "O vírus HIV ataca principalmente qual sistema?", "options": ["Digestivo", "Endócrino", "Imunológico", "Excretor"], "answer": 2 },
+    { "question": "O HIV pode ser transmitido por:", "options": ["Ar contaminado", "Contato com saliva", "Relação sexual sem proteção", "Picada de mosquito"], "answer": 2 },
+    { "question": "A AIDS é causada por um vírus que:", "options": ["Mata as células vermelhas", "Fortalece o sistema imune", "Ataca as células de defesa do corpo", "Gera infecção intestinal"], "answer": 2 },
+    { "question": "A dengue é transmitida por qual vetor?", "options": ["Mosca", "Mosquito *Aedes aegypti*", "Carrapato", "Ar contaminado"], "answer": 1 },
+    { "question": "A prevenção da dengue depende principalmente de:", "options": ["Uso de antibióticos", "Evitar aglomerações", "Eliminar focos de água parada", "Higienizar alimentos"], "answer": 2 },
+    { "question": "Um sintoma comum da dengue é:", "options": ["Coriza", "Dor atrás dos olhos", "Dor de garganta", "Infecção urinária"], "answer": 1 },
+    { "question": "A vacina contra dengue existe e deve ser aplicada com:", "options": ["Prescrição médica e histórico de infecção anterior", "Frequência semanal", "Crianças com até 2 anos", "Gestantes somente"], "answer": 0 },
+    { "question": "A tuberculose é causada por:", "options": ["Vírus Influenza", "Bactéria *Mycobacterium tuberculosis*", "Protozoário", "Fungo pulmonar"], "answer": 1 },
+    { "question": "A transmissão da tuberculose ocorre por meio de:", "options": ["Picadas", "Alimentos contaminados", "Gotículas no ar", "Contato com superfícies"], "answer": 2 },
+    { "question": "A vacina BCG é usada para prevenir:", "options": ["Leptospirose", "Dengue", "Tuberculose", "Tétano"], "answer": 2 },
+    { "question": "O tratamento da tuberculose é feito com:", "options": ["Antibióticos", "Antivirais", "Vacinas", "Analgésicos"], "answer": 0 },
+    { "question": "O tétano é causado por uma bactéria presente:", "options": ["Na água potável", "No solo contaminado", "No ar poluído", "No sangue humano"], "answer": 1 },
+    { "question": "A transmissão do tétano ocorre geralmente por:", "options": ["Contato direto com saliva", "Ferimentos com objetos enferrujados", "Relações sexuais", "Picadas de insetos"], "answer": 1 },
+    { "question": "A vacina usada para prevenir o tétano é:", "options": ["Vacina BCG", "Vacina DTP", "Vacina contra influenza", "Vacina contra sarampo"], "answer": 1 },
+    { "question": "A leptospirose é causada por qual agente?", "options": ["Vírus HIV", "Bactéria *Leptospira*", "Protozoário da malária", "Fungo dermatófico"], "answer": 1 },
+    { "question": "A leptospirose é comum após:", "options": ["Nevascas", "Enchentes", "Erupções vulcânicas", "Incêndios"], "answer": 1 },
+    { "question": "A transmissão da leptospirose ocorre por:", "options": ["Respiração", "Insetos", "Contato com urina de animais em água ou solo", "Contaminação de alimentos"], "answer": 2 },
+    { "question": "Um dos sintomas da leptospirose é:", "options": ["Dor no peito", "Vômito e febre", "Tosse seca", "Perda de cabelo"], "answer": 1 },
+    { "question": "A prevenção da leptospirose envolve:", "options": ["Evitar leite cru", "Uso de EPIs e saneamento", "Vacina anual", "Isolamento respiratório"], "answer": 1 },
+    { "question": "O uso inadequado de antibióticos pode gerar:", "options": ["Aumento da imunidade", "Resistência bacteriana", "Multiplicação de vírus", "Doenças autoimunes"], "answer": 1 },
+    { "question": "Quando ocorre resistência bacteriana?", "options": ["Com vacinação", "Uso correto de antibiótico", "Uso incorreto e frequente de antibióticos", "Contato com o frio"], "answer": 2 },
+    { "question": "A epidemiologia é a ciência que:", "options": ["Estuda plantas medicinais", "Analisa doenças e sua propagação", "Cura doenças com vacinas", "Pesquisa antibióticos"], "answer": 1 },
+    { "question": "O que é uma epidemia?", "options": ["Doença com distribuição constante", "Doença controlada", "Doença que surge com muitos casos em curto tempo", "Doença que só atinge animais"], "answer": 2 },
+    { "question": "Uma pandemia ocorre quando:", "options": ["Há muitos casos num país isolado", "A doença é endêmica", "Se espalha por muitos países e continentes", "É transmitida por insetos"], "answer": 2 },
+    { "question": "Endemia é uma doença que:", "options": ["Se espalha por todo o mundo", "Só aparece em laboratórios", "Persiste em uma região com frequência constante", "Surge de forma inesperada"], "answer": 2 },
+    { "question": "O coronavírus é um tipo de:", "options": ["Fungo", "Bactéria", "Vírus", "Protozoário"], "answer": 2 },
+    { "question": "A vacinação é importante porque:", "options": ["Evita necessidade de tratamento", "Estimula o corpo a produzir anticorpos", "Substitui o uso de antibióticos", "Elimina vírus já existentes"], "answer": 1 },
+    { "question": "Os vírus precisam de que para se reproduzir?", "options": ["Água", "Célula hospedeira", "Luz solar", "Glicose"], "answer": 1 },
+    { "question": "Uma das formas de evitar a AIDS é:", "options": ["Evitar locais fechados", "Lavar frutas", "Usar preservativo", "Tomar antibióticos"], "answer": 2 },
+    { "question": "As bactérias podem ser combatidas com:", "options": ["Vacina contra vírus", "Antibióticos", "Antitérmicos", "Analgésicos"], "answer": 1 },
+    { "question": "Os vírus são diferentes das bactérias porque:", "options": ["Têm núcleo celular", "Podem viver sozinhos", "Dependem de uma célula para se multiplicar", "São maiores que bactérias"], "answer": 2 },
+    { "question": "A sigla HIV significa:", "options": ["Hepatite Infecciosa Viral", "Vírus da Imunodeficiência Humana", "Herpes Inflamatória Viral", "Infecção Hemorrágica Viral"], "answer": 1 },
+    { "question": "O HIV pode ser transmitido por:", "options": ["Piscinas", "Beijo na bochecha", "Aparelhos odontológicos", "Sangue contaminado"], "answer": 3 },
+    { "question": "A tuberculose afeta principalmente:", "options": ["Pele", "Pulmões", "Ossos", "Estômago"], "answer": 1 },
+    { "question": "Doenças como dengue, AIDS e gripe são classificadas como:", "options": ["Genéticas", "Infecciosas virais", "Autoimunes", "Fúngicas"], "answer": 1 },
+    { "question": "Doenças como tétano, leptospirose e tuberculose são causadas por:", "options": ["Protozoários", "Vírus", "Fungos", "Bactérias"], "answer": 3 },
+  { "question": "A vacinação em massa é uma estratégia de:", "options": ["Isolamento social", "Educação ambiental", "Prevenção coletiva de doenças", "Aquecimento global"], "answer": 2 },
+  { "question": "A principal forma de evitar o tétano é:", "options": ["Tomar antibióticos", "Usar luvas de borracha", "Evitar objetos metálicos", "Manter o esquema vacinal em dia"], "answer": 3 },
+  { "question": "Qual agente infeccioso necessita obrigatoriamente de uma célula hospedeira para se multiplicar?", "options": ["Bactéria", "Vírus", "Fungo", "Protozoário"], "answer": 1 },
+  { "question": "Uma doença viral transmitida por inseto é:", "options": ["Leptospirose", "Gripe", "Dengue", "Tuberculose"], "answer": 2 },
+  { "question": "A leptospirose pode ser evitada com:", "options": ["Uso de repelente", "Redução da poluição do ar", "Higiene adequada e uso de EPIs", "Exercício físico"], "answer": 2 },
+  { "question": "O uso indiscriminado de antibióticos pode resultar em:", "options": ["Fortalecimento do sistema imune", "Resistência bacteriana", "Aumento da febre", "Cura imediata"], "answer": 1 },
+  { "question": "Qual a diferença entre epidemia e endemia?", "options": ["Epidemia é mais antiga", "Endemia é mais grave", "Endemia é constante em uma região, epidemia é repentina", "Não há diferença"], "answer": 2 },
+  { "question": "Um exemplo de pandemia é:", "options": ["Gripe comum", "Covid-19", "Tétano", "Tuberculose"], "answer": 1 },
+  { "question": "As máscaras ajudam na prevenção de:", "options": ["Leptospirose", "Tuberculose e Covid-19", "Tétano e dengue", "Doenças genéticas"], "answer": 1 },
+  { "question": "A AIDS enfraquece o corpo ao:", "options": ["Causar febre crônica", "Eliminar bactérias benéficas", "Comprometer o sistema imunológico", "Atacar o fígado"], "answer": 2 },
+  { "question": "Qual é a função do coquetel antirretroviral?", "options": ["Curar a AIDS", "Combater a dengue", "Controlar o HIV e impedir sua multiplicação", "Substituir o sistema imune"], "answer": 2 },
+  { "question": "O termo 'vetor' em saúde refere-se a:", "options": ["Causa da doença", "Medicamento", "Organismo transmissor", "Vacina"], "answer": 2 },
+  { "question": "Por que é perigoso interromper o uso de antibióticos antes do prazo?", "options": ["Causa alergia", "Dá sono", "Pode favorecer a resistência bacteriana", "Diminui a imunidade"], "answer": 2 },
+  { "question": "A vacina DTP protege contra quais doenças?", "options": ["Difteria, tétano e coqueluche", "Dengue, tuberculose e pólio", "Gripe, AIDS e Covid", "Sarampo, caxumba e rubéola"], "answer": 0 },
+  { "question": "Qual medida reduz a proliferação do *Aedes aegypti*?", "options": ["Aplicar antibióticos nas casas", "Evitar locais fechados", "Eliminar água parada", "Tomar vitaminas"], "answer": 2 },
+  { "question": "O vírus da gripe sofre mutações, por isso:", "options": ["A vacina não existe", "Não pode ser combatido", "A vacinação deve ser anual", "É resistente a antibióticos"], "answer": 2 },
+  { "question": "Qual doença é transmitida por relações sexuais desprotegidas?", "options": ["Tuberculose", "AIDS", "Leptospirose", "Tétano"], "answer": 1 },
+  { "question": "A água parada é ambiente ideal para:", "options": ["Multiplicação de bactérias intestinais", "Criação de esporos fúngicos", "Proliferação do mosquito da dengue", "Geração de vírus gripais"], "answer": 2 },
+  { "question": "A vacina BCG é geralmente aplicada em:", "options": ["Adultos com febre", "Idosos com tuberculose", "Bebês recém-nascidos", "Pessoas com HIV"], "answer": 2 },
+  { "question": "A exposição a enchentes aumenta o risco de contrair:", "options": ["Covid-19", "Tétano", "Leptospirose", "AIDS"], "answer": 2 },
+  { "question": "A infecção por HIV pode ser evitada com:", "options": ["Compartilhamento de agulhas", "Uso de preservativos", "Contato com sangue", "Doação de órgãos"], "answer": 1 },
+  { "question": "A tuberculose é contagiosa porque:", "options": ["É transmitida por água", "É transmitida por contato físico", "Se espalha pelo ar através da tosse", "Se passa por alimentos"], "answer": 2 },
+  { "question": "Bactérias podem viver em:", "options": ["Somente em corpos humanos", "Somente em ambientes secos", "Diversos ambientes, incluindo ar, água e solo", "Apenas em células vivas"], "answer": 2 },
+  { "question": "Um ambiente favorável ao mosquito da dengue é:", "options": ["Caixas d’água abertas", "Ar-condicionado", "Piso seco", "Gelo"], "answer": 0 },
+  { "question": "Por que não se deve tomar antibióticos sem prescrição?", "options": ["Podem causar gripes", "São todos iguais", "Podem não ser eficazes e gerar resistência", "Causam coceira"], "answer": 2 },
+  { "question": "A leptospirose pode ser evitada com o uso de:", "options": ["Máscaras", "Antibióticos preventivos", "Equipamentos de proteção e saneamento", "Chás caseiros"], "answer": 2 },
+  { "question": "Qual doença infecciosa é transmitida diretamente pelo ar?", "options": ["Tétano", "Tuberculose", "Leptospirose", "Dengue"], "answer": 1 },
+  { "question": "O HIV pode ser transmitido de mãe para filho por:", "options": ["Beijo na bochecha", "Amamentação", "Contato com suor", "Aperto de mão"], "answer": 1 },
+  { "question": "O uso racional de antibióticos ajuda a:", "options": ["Curar doenças virais", "Evitar epidemias", "Impedir resistência bacteriana", "Reduzir o contágio por insetos"], "answer": 2 },
+  { "question": "Qual é um exemplo de endemia no Brasil?", "options": ["Gripe suína", "Covid-19", "Dengue", "Ebola"], "answer": 2 },
+  { "question": "Uma epidemia pode se transformar em pandemia se:", "options": ["For controlada rapidamente", "Ficar restrita a uma região", "Se espalhar por vários países", "Atingir apenas crianças"], "answer": 2 },
+  { "question": "O combate à dengue deve ser feito por:", "options": ["Apenas o governo", "Apenas hospitais", "Toda a população", "Profissionais de saúde armados"], "answer": 2 },
+  { "question": "Um sintoma característico da dengue é:", "options": ["Tosse com catarro", "Dor atrás dos olhos", "Corrimento nasal", "Dores na orelha"], "answer": 1 },
+  { "question": "A infecção pelo HIV pode ser detectada por:", "options": ["Raio X", "Exame de sangue específico", "Análise de urina", "Observação de sintomas visuais"], "answer": 1 },
+  { "question": "Qual é o nome da bactéria causadora do tétano?", "options": ["Escherichia coli", "Clostridium tetani", "Streptococcus pneumoniae", "Leptospira interrogans"], "answer": 1 },
+  { "question": "Para evitar infecções respiratórias contagiosas, deve-se:", "options": ["Evitar falar em público", "Tossir com a mão aberta", "Lavar as mãos e usar máscara", "Não praticar esportes"], "answer": 2 },
+  { "question": "O estudo da propagação das doenças e sua prevenção é chamado de:", "options": ["Imunologia", "Virologia", "Epidemiologia", "Citologia"], "answer": 2 },
+  { "question": "A bactéria da tuberculose afeta principalmente os:", "options": ["Pulmões", "Intestinos", "Olhos", "Ossos"], "answer": 0 },
+  { "question": "Vírus e bactérias são diferentes porque:", "options": ["Vírus são maiores", "Vírus precisam de células vivas para se reproduzir", "Bactérias vivem no ar", "Bactérias causam apenas doenças boas"], "answer": 1 },
+  { "question": "A melhor forma de prevenir doenças infecciosas é:", "options": ["Comer doce", "Evitar o sol", "Higiene, vacinação e informação", "Ficar descalço"], "answer": 2 }
+    ]
 }
 }
