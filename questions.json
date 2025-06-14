@@ -1,796 +1,806 @@
 { "7ATB-P4":
 {
-  "7ph06matematica": 
+  "7ph07matematica": 
 [
   {
-    "question": "O que representa uma semínima na notação musical?",
+    "question": "Para multiplicar dois números decimais, devemos:",
     "options": [
-      "Metade de uma nota inteira",
-      "Um quarto de uma nota inteira",
-      "Um oitavo de uma nota inteira",
-      "Um décimo sexto de uma nota inteira"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Para somar números decimais, devemos:",
-    "options": [
-      "Multiplicar os algarismos",
-      "Alinhar vírgulas e somar cada ordem",
-      "Transformar em fração",
-      "Somar sem alinhar as casas decimais"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Qual operação foi utilizada para descobrir quanto faltava para atingir a meta de arrecadação de R$300,00?",
-    "options": [
-      "Adição",
-      "Multiplicação",
-      "Divisão",
-      "Subtração"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Como se deve proceder para somar frações com denominadores diferentes?",
-    "options": [
-      "Somar os numeradores diretamente",
-      "Encontrar o MMC e transformar em frações equivalentes",
-      "Multiplicar os denominadores",
-      "Subtrair os denominadores"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Quando adicionamos frações com denominadores iguais, devemos:",
-    "options": [
-      "Somar numeradores e denominadores",
-      "Multiplicar os numeradores",
-      "Somar apenas os numeradores",
-      "Multiplicar os denominadores"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Em um compasso musical, quantas colcheias equivalem a uma nota inteira?",
-    "options": [
-      "2",
-      "4",
-      "8",
-      "16"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Qual operação representa a diferença entre um compasso completo e o tempo ocupado pelas notas Dó e Ré?",
-    "options": [
-      "Adição",
-      "Subtração",
-      "Multiplicação",
-      "Divisão"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Qual fração representa uma semicolcheia?",
-    "options": [
-      "1/2",
-      "1/4",
-      "1/8",
-      "1/16"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Ao somar ou subtrair porcentagens, podemos:",
-    "options": [
-      "Usar apenas a forma decimal",
-      "Somar diretamente os valores percentuais",
-      "Transformar em fração e somar os denominadores",
-      "Multiplicar os percentuais"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em expressões com parênteses, colchetes e chaves, qual deve ser resolvido primeiro?",
-    "options": [
-      "Colchetes",
-      "Parênteses",
-      "Chaves",
-      "Todos simultaneamente"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na adição de dois números racionais com mesmo sinal, o que devemos fazer?",
-    "options": [
-      "Subtrair os módulos",
-      "Somar os módulos e manter o sinal",
-      "Somar os módulos e inverter o sinal",
-      "Ignorar os sinais"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Quando subtraímos dois números racionais, devemos:",
-    "options": [
-      "Adicionar o simétrico do segundo número ao primeiro",
-      "Somar diretamente",
-      "Multiplicar os dois",
-      "Dividir os módulos"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "O que representa a caixa de processo em um fluxograma?",
-    "options": [
-      "Decisão",
-      "Conector",
-      "Início ou fim",
-      "Uma etapa ou ação a ser realizada"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Para representar a entrada ou saída de dados no fluxograma usamos qual símbolo?",
-    "options": [
-      "Retângulo",
-      "Losango",
-      "Paralelogramo",
-      "Círculo"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O que é necessário fazer antes de somar frações com denominadores diferentes?",
-    "options": [
-      "Somar diretamente",
-      "Encontrar o mínimo múltiplo comum (MMC)",
-      "Multiplicar os numeradores",
-      "Inverter as frações"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em qual situação é adequado usar a representação decimal ao invés da fracionária?",
-    "options": [
-      "Quando os denominadores são diferentes",
-      "Quando lidamos com porcentagens ou valores monetários",
-      "Sempre",
-      "Quando as frações são unitárias"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na expressão 0,23 - (-2,98), qual é o resultado?",
-    "options": [
-      "-3,21",
-      "2,75",
-      "3,21",
-      "0,75"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O que indica um conector em um fluxograma?",
-    "options": [
-      "Entrada de dados",
-      "Decisão",
-      "Conexão entre diferentes partes do diagrama",
-      "Início do processo"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O valor total das doações de Ana (R$27,35), Bruno (R$54,60) e Carla (R$42,80) é:",
-    "options": [
-      "R$124,75",
-      "R$125,00",
-      "R$122,75",
-      "R$126,50"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Ao subtrair frações com mesmo denominador, devemos:",
-    "options": [
-      "Subtrair numeradores e manter o denominador",
-      "Subtrair denominadores",
-      "Multiplicar os numeradores",
-      "Dividir numeradores e denominadores"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Na música, frações são usadas principalmente para:",
-    "options": [
-      "Calcular altura da nota",
-      "Determinar frequência sonora",
-      "Representar duração das notas",
-      "Definir tonalidade"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Para expressar 25% como fração, escrevemos:",
-    "options": [
-      "1/4",
-      "1/2",
-      "1/3",
-      "1/5"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "O que indica uma mínima na notação musical?",
-    "options": [
-      "Metade de uma nota inteira",
-      "Um quarto de uma nota inteira",
-      "Oitavo de uma nota inteira",
-      "Um inteiro"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "No exemplo das doações, a diferença entre o total arrecadado (R$124,75) e a meta (R$300,00) é:",
-    "options": [
-      "R$125,25",
-      "R$175,25",
-      "R$175,50",
-      "R$174,75"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na adição de duas frações com denominadores iguais, a operação correta é:",
-    "options": [
-      "Somar numeradores e denominadores",
-      "Manter denominadores e somar numeradores",
-      "Multiplicar numeradores e denominadores",
-      "Dividir numeradores"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em qual representação podemos resolver adições de porcentagens?",
-    "options": [
-      "Apenas forma fracionária",
-      "Apenas forma decimal",
-      "Apenas forma gráfica",
-      "Forma percentual, fracionária ou decimal"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "O fluxograma serve principalmente para:",
-    "options": [
-      "Criar expressões numéricas",
-      "Representar graficamente a sequência de resolução de um problema",
-      "Resolver apenas problemas matemáticos complexos",
-      "Indicar frações equivalentes"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Ao realizar a adição de dois números racionais com sinais diferentes, devemos:",
-    "options": [
-      "Somar os módulos",
-      "Subtrair os módulos e manter o sinal do maior",
-      "Multiplicar os valores",
-      "Manter o sinal do menor"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O símbolo que representa decisão em um fluxograma é:",
-    "options": [
-      "Retângulo",
-      "Círculo",
-      "Paralelogramo",
-      "Losango"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Em expressões numéricas com parênteses, colchetes e chaves, a ordem correta de resolução é:",
-    "options": [
-      "Chaves > Colchetes > Parênteses",
-      "Parênteses > Colchetes > Chaves",
-      "Colchetes > Chaves > Parênteses",
-      "Parênteses > Chaves > Colchetes"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na resolução de expressões numéricas com racionais, devemos aplicar sempre:",
-    "options": [
-      "A regra dos sinais",
-      "A propriedade distributiva",
-      "A multiplicação cruzada",
-      "A regra de três"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Para adicionar 0,02 + 0,05 + 0,77, o resultado em porcentagem é:",
-    "options": [
-      "74%",
-      "84%",
-      "68%",
-      "92%"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "No exemplo do tanque com ¾ cheio, após remover ¼, quanto restará?",
-    "options": [
-      "1/4",
-      "2/4",
-      "1/2",
-      "3/4"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "A função do fluxograma na matemática é:",
-    "options": [
-      "Resolver expressões automaticamente",
-      "Ilustrar de forma gráfica a sequência de passos para resolver um problema",
-      "Indicar o resultado final",
-      "Calcular MMC"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O que deve ser feito para subtrair números racionais na forma decimal?",
-    "options": [
-      "Alinhar vírgulas e subtrair cada ordem",
-      "Multiplicar os valores",
-      "Transformar em fração",
-      "Subtrair e depois converter para porcentagem"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Na notação musical, uma colcheia corresponde a:",
-    "options": [
-      "1/4",
-      "1/2",
-      "1/8",
-      "1/16"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Para subtrair 0,56 - 1,52, o resultado será:",
-    "options": [
-      "0,96",
-      "-0,96",
-      "2,08",
-      "-2,08"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em um fluxograma, o símbolo oval indica:",
-    "options": [
-      "Decisão",
-      "Início ou fim do processo",
-      "Processo",
-      "Conector"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O denominador comum entre as frações 1/2, 1/4 e 1/8 é:",
-    "options": [
-      "2",
-      "4",
-      "6",
-      "8"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Para adicionar porcentagens como 12% + 39%, o procedimento correto é:",
-    "options": [
-      "Somar diretamente os percentuais",
-      "Multiplicar os percentuais",
-      "Converter para fração e subtrair",
-      "Transformar em decimal antes"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Em uma apresentação musical, a soma das notas de 1/2 (mínima), 1/4 (semínima) e 1/8 (colcheia) resulta em:",
-    "options": [
-      "7/8",
-      "3/4",
-      "5/8",
-      "1"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Se um tanque estava com 3/4 de água e foi retirado 1/3 do total, quanto resta?",
-    "options": [
-      "1/2",
-      "1/4",
-      "1/2 + 1/12",
-      "3/4"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Ao resolver 0,25 + (-0,75), o resultado será:",
-    "options": [
-      "1",
-      "0,5",
-      "-0,5",
-      "-1"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Em fluxogramas, quando encontramos uma decisão representada por um losango, isso significa que:",
-    "options": [
-      "Devemos encerrar o processo",
-      "Há necessidade de escolher entre duas alternativas",
-      "O cálculo está incorreto",
-      "O processo é automático"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Se ao calcular uma expressão numérica surgirem parênteses, colchetes e chaves, devemos iniciar pela:",
-    "options": [
-      "Chaves",
-      "Colchetes",
-      "Parênteses",
-      "Expressão mais longa"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "No exemplo das doações, para atingir a meta de R$300,00 faltavam:",
-    "options": [
-      "R$175,25",
-      "R$175,50",
-      "R$200,00",
-      "R$125,00"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Ao somar frações equivalentes a 1/2 + 2/4 + 4/8, obtemos:",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A adição de porcentagens como 12% + 39% pode ser feita:",
-    "options": [
-      "Somando diretamente: 51%",
-      "Convertendo para frações",
-      "Somando 12 + 39 e dividindo por 2",
-      "Multiplicando 12 x 39"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Ao resolver uma expressão com múltiplas operações, devemos:",
-    "options": [
-      "Executar na ordem que aparece",
-      "Aplicar a regra dos sinais e respeitar a hierarquia de operações",
-      "Fazer primeiro as multiplicações",
-      "Ignorar parênteses"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em um fluxograma, o símbolo de paralelogramo indica:",
-    "options": [
-      "Decisão",
-      "Entrada ou saída de dados",
-      "Processo",
-      "Conexão"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Quando adicionamos dois números racionais com sinais contrários, o resultado será:",
-    "options": [
-      "Sempre positivo",
-      "Sempre negativo",
-      "De acordo com o maior módulo",
-      "Sempre zero"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "A subtração de 1,23 - (-0,77) resulta em:",
-    "options": [
-      "0,46",
-      "2",
-      "-2",
-      "-0,46"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em um compasso, a combinação de uma mínima e duas semínimas equivale a:",
-    "options": [
-      "1",
-      "1 e 1/2",
-      "2",
-      "2 e 1/2"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "O resultado da expressão (-3) + (+7) é:",
-    "options": [
-      "-10",
-      "+4",
-      "-4",
-      "+10"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Ao subtrair duas frações com denominadores diferentes, como 1/3 - 1/4, devemos:",
-    "options": [
-      "Subtrair diretamente",
-      "Encontrar o MMC (12) e fazer frações equivalentes",
-      "Multiplicar os numeradores",
-      "Somar os denominadores"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na música, a sequência 1/4 + 1/8 + 1/16 representa a adição de notas que somam aproximadamente:",
-    "options": [
-      "0,5",
-      "0,75",
-      "0,9375",
-      "1"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O fluxo de resolução de um problema pode ser representado por:",
-    "options": [
-      "Expressões numéricas",
-      "Frações",
-      "Fluxogramas",
-      "Diagramas de Venn"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "No fluxograma, a caixa de processo é usada para:",
-    "options": [
-      "Indicar uma decisão",
-      "Mostrar uma ação a ser realizada",
-      "Encerrar o processo",
-      "Exibir o resultado"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em expressões com parênteses, como (-2) - [(-3) + 5], devemos primeiro:",
-    "options": [
-      "Resolver os parênteses (-3)",
-      "Resolver os colchetes",
-      "Subtrair diretamente",
-      "Multiplicar os termos"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Ao somar números decimais como 2,35 + 3,6 + 0,05, devemos:",
-    "options": [
-      "Alinhar as casas decimais e somar",
-      "Transformar em fração antes",
-      "Multiplicar os valores",
-      "Somar diretamente sem alinhar"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Em expressões como 7 - (-5), devemos:",
-    "options": [
-      "Manter o sinal negativo",
-      "Transformar a subtração em adição: 7 + 5",
+      "Multiplicar normalmente e ajustar as casas decimais",
+      "Somar as casas decimais",
       "Subtrair os valores",
-      "Multiplicar os números"
+      "Converter para fração antes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando -1,78 por 5, obtemos:",
+    "options": [
+      "-8,90",
+      "8,90",
+      "-6,90",
+      "6,90"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A propriedade comutativa da multiplicação afirma que:",
+    "options": [
+      "A ordem dos fatores altera o produto",
+      "A ordem dos fatores não altera o produto",
+      "O produto sempre é positivo",
+      "Só se aplica a números inteiros"
     ],
     "answer": 1
   },
   {
-    "question": "Em uma arrecadação, foram doados R$27,35, R$54,60 e R$42,80. A soma foi:",
+    "question": "Para multiplicar duas frações, devemos:",
     "options": [
-      "R$120,75",
-      "R$124,75",
-      "R$130,75",
-      "R$140,75"
+      "Somar numeradores e denominadores",
+      "Multiplicar numeradores e denominadores",
+      "Multiplicar cruzado",
+      "Somar numeradores e multiplicar denominadores"
     ],
     "answer": 1
   },
   {
-    "question": "Na representação fracionária da música, a colcheia corresponde a:",
+    "question": "O produto de uma fração por um inteiro pode ser feito transformando:",
     "options": [
-      "1/2",
-      "1/4",
-      "1/8",
-      "1/16"
+      "A fração em decimal",
+      "O inteiro em fração com denominador 1",
+      "O denominador em zero",
+      "O numerador em zero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O resultado de -1,05 × (-7) é:",
+    "options": [
+      "-7,35",
+      "7,35",
+      "8,35",
+      "-8,35"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para dividir dois números decimais, devemos:",
+    "options": [
+      "Multiplicar os valores",
+      "Transformar ambos em frações",
+      "Igualar a quantidade de casas decimais e dividir",
+      "Subtrair os valores"
     ],
     "answer": 2
   },
   {
-    "question": "Em uma expressão complexa com várias operações, devemos sempre:",
+    "question": "O inverso multiplicativo de 5 é:",
     "options": [
-      "Resolver da esquerda para a direita",
-      "Começar pelas operações dentro dos parênteses",
-      "Multiplicar primeiro",
-      "Dividir primeiro"
+      "5",
+      "-5",
+      "1/5",
+      "5/1"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Dividir uma fração por outra é equivalente a:",
+    "options": [
+      "Multiplicar pela fração",
+      "Multiplicar pelo inverso da segunda fração",
+      "Somar as frações",
+      "Subtrair as frações"
     ],
     "answer": 1
   },
   {
-    "question": "O símbolo que representa 'Início ou Fim' em um fluxograma é:",
+    "question": "O resultado da divisão 0,1 ÷ 0,05 é:",
     "options": [
-      "Retângulo",
-      "Oval",
-      "Losango",
-      "Paralelogramo"
+      "1",
+      "2",
+      "0,5",
+      "0,05"
     ],
     "answer": 1
   },
   {
-    "question": "Quando realizamos a subtração de frações como 5/6 - 1/2, o MMC será:",
+    "question": "Dividindo -2,14 por 0,2, obtemos:",
     "options": [
-      "3",
-      "6",
-      "12",
+      "-10,7",
+      "10,7",
+      "-12,7",
+      "12,7"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para multiplicar um número decimal por uma fração, devemos:",
+    "options": [
+      "Multiplicar diretamente",
+      "Transformar ambos na mesma representação",
+      "Subtrair os termos",
+      "Somar os termos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A potência de base negativa com expoente par resulta em:",
+    "options": [
+      "Negativo",
+      "Positivo",
+      "Zero",
+      "Inverso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O resultado de (-0,5)² é:",
+    "options": [
+      "-0,25",
+      "0,25",
+      "-0,5",
+      "0,5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para elevar uma fração a um expoente, devemos:",
+    "options": [
+      "Somar numerador e denominador",
+      "Multiplicar numerador e denominador pelo expoente",
+      "Elevar numerador e denominador separadamente",
+      "Elevar apenas o numerador"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A propriedade distributiva da multiplicação sobre a adição afirma que:",
+    "options": [
+      "Multiplicar antes de somar",
+      "Somar antes de multiplicar",
+      "Multiplicar cada termo separadamente e depois somar",
+      "Multiplicar só o primeiro termo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Multiplicando potências de mesma base, devemos:",
+    "options": [
+      "Somar os expoentes",
+      "Multiplicar os expoentes",
+      "Dividir os expoentes",
+      "Subtrair os expoentes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Dividindo potências de mesma base, devemos:",
+    "options": [
+      "Somar os expoentes",
+      "Multiplicar os expoentes",
+      "Dividir os expoentes",
+      "Subtrair os expoentes"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "A potência de um quociente é calculada elevando:",
+    "options": [
+      "Apenas o numerador",
+      "Apenas o denominador",
+      "Numerador e denominador separadamente",
+      "O quociente total diretamente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O resultado da raiz quadrada de 0,04 é:",
+    "options": [
+      "0,2",
+      "0,04",
+      "0,4",
       "2"
     ],
-    "answer": 1
-  },
-  {
-    "question": "Em um fluxograma, para indicar uma verificação ou escolha usamos:",
-    "options": [
-      "Círculo",
-      "Losango",
-      "Retângulo",
-      "Paralelogramo"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Na operação 5 + (-3), o resultado é:",
-    "options": [
-      "2",
-      "-2",
-      "8",
-      "-8"
-    ],
     "answer": 0
   },
   {
-    "question": "Para subtrair -2,5 - (+1,5), o resultado será:",
+    "question": "A raiz quadrada de 1,44 é:",
     "options": [
-      "-1",
-      "+4",
-      "-4",
-      "+1"
+      "1,4",
+      "1,2",
+      "1,44",
+      "12"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para calcular a raiz exata de uma fração, devemos extrair a raiz de:",
+    "options": [
+      "Somente do numerador",
+      "Somente do denominador",
+      "Do numerador e denominador separadamente",
+      "Do produto do numerador com o denominador"
     ],
     "answer": 2
   },
   {
-    "question": "A expressão 3/4 + 1/8 resulta em:",
+    "question": "A propriedade fundamental do inverso multiplicativo afirma que:",
     "options": [
-      "5/8",
-      "7/8",
-      "1",
-      "7/4"
+      "Produto do número por seu inverso é igual a zero",
+      "Produto do número por seu inverso é igual a 1",
+      "Soma do número com seu inverso é 1",
+      "Multiplicar inversos anula o número"
     ],
     "answer": 1
   },
   {
-    "question": "Quando resolvemos uma expressão com números racionais, devemos aplicar a:",
+    "question": "A raiz cúbica de -0,008 é:",
     "options": [
-      "Regra da multiplicação cruzada",
-      "Regra dos sinais",
-      "Regra do MMC para adições",
-      "Regra da distributiva sempre"
+      "-0,8",
+      "-0,2",
+      "0,2",
+      "0,8"
     ],
     "answer": 1
   },
   {
-    "question": "Se o total doado foi de R$124,75 e a meta era R$300, quanto falta?",
+    "question": "Multiplicando duas frações: 2/3 × 3/5, obtemos:",
     "options": [
-      "R$175,25",
-      "R$175,50",
-      "R$176,00",
-      "R$174,50"
+      "5/15",
+      "6/15",
+      "6/5",
+      "2/5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na divisão 0,5 ÷ (-0,2), o resultado é:",
+    "options": [
+      "-2,5",
+      "2,5",
+      "0,25",
+      "-0,25"
     ],
     "answer": 0
   },
   {
-    "question": "Na resolução de expressões envolvendo múltiplos parênteses, o correto é:",
+    "question": "A potência (-0,5)³ resulta em:",
     "options": [
-      "Começar pelas chaves",
-      "Resolver do interno para o externo: parênteses, colchetes, chaves",
-      "Resolver primeiro a maior expressão",
-      "Ignorar parênteses"
+      "0,125",
+      "-0,125",
+      "0,25",
+      "-0,25"
     ],
     "answer": 1
   },
   {
-    "question": "A expressão -3 - (-7) resulta em:",
+    "question": "Toda fração representa:",
     "options": [
-      "-10",
+      "Uma soma",
+      "Uma divisão",
+      "Uma multiplicação",
+      "Uma potência"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A raiz quadrada de um número racional decimal pode ser calculada transformando-o em:",
+    "options": [
+      "Fração",
+      "Número complexo",
+      "Número negativo",
+      "Potência"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O produto de -5,712 × 1,6 é:",
+    "options": [
+      "9,1392",
+      "-9,1392",
+      "9,912",
+      "-9,912"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O quociente de -2,14 ÷ 0,2 é:",
+    "options": [
+      "-10,7",
+      "10,7",
+      "-12,7",
+      "12,7"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para dividir dois números com casas decimais diferentes, devemos:",
+    "options": [
+      "Transformar em frações",
+      "Igualar as casas decimais",
+      "Multiplicar os números",
+      "Subtrair as casas decimais"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O resultado de (1,2)³ é:",
+    "options": [
+      "1,728",
+      "2,728",
+      "1,44",
+      "1,44"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A raiz quadrada de 169 é:",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na potência de base negativa com expoente ímpar, o resultado é sempre:",
+    "options": [
+      "Positivo",
+      "Negativo",
+      "Zero",
+      "Indefinido"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A raiz cúbica de 125 é:",
+    "options": [
+      "3",
       "4",
+      "5",
+      "6"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O produto entre 4,39 e -0,36 é:",
+    "options": [
+      "1,5804",
+      "-1,5804",
+      "1,4394",
+      "-1,4394"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O quociente de (-0,375) ÷ (-1,5) é:",
+    "options": [
+      "-0,25",
+      "0,25",
+      "0,375",
+      "-0,375"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O resultado de (-1,05) × (-7) é:",
+    "options": [
+      "7,35",
+      "-7,35",
+      "7,5",
+      "-7,5"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Na potenciação de um quociente, devemos elevar:",
+    "options": [
+      "Somente o numerador",
+      "Somente o denominador",
+      "Numerador e denominador separadamente",
+      "O quociente total"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Se um número racional negativo é elevado ao quadrado, o resultado será:",
+    "options": [
+      "Sempre negativo",
+      "Sempre positivo",
+      "Igual ao número original",
+      "Zero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Multiplicando duas frações, como 3/4 × 2/5, o resultado é:",
+    "options": [
+      "6/20",
+      "5/10",
+      "6/10",
+      "3/5"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O produto entre -3 e -0,5 é:",
+    "options": [
+      "-1,5",
+      "1,5",
+      "0,5",
+      "-0,5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dividindo 1,2 por 0,4, o resultado é:",
+    "options": [
+      "0,3",
+      "3",
+      "0,04",
+      "0,48"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para resolver a expressão (2/3)², devemos:",
+    "options": [
+      "Multiplicar 2 pelo quadrado de 3",
+      "Somar numerador e denominador antes",
+      "Elevar numerador e denominador ao quadrado separadamente",
+      "Multiplicar apenas o numerador"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O produto entre -0,25 e 4 é:",
+    "options": [
+      "1",
+      "-1",
+      "-0,75",
+      "0,75"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A raiz quadrada de uma fração como √(4/9) é:",
+    "options": [
+      "4/9",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O inverso multiplicativo de 3/4 é:",
+    "options": [
+      "4/3",
+      "3/4",
+      "-4/3",
+      "-3/4"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Se (−2)³ for calculado, o resultado será:",
+    "options": [
+      "-8",
+      "8",
+      "4",
+      "-4"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando potências de mesma base: 2³ × 2², o resultado será:",
+    "options": [
+      "2⁵",
+      "2⁶",
+      "2⁴",
+      "2³"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Dividindo potências de mesma base: 5⁴ ÷ 5², obtemos:",
+    "options": [
+      "5²",
+      "5³",
+      "5⁶",
+      "5⁰"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para calcular √0,81, o resultado é:",
+    "options": [
+      "0,8",
+      "0,9",
+      "0,81",
+      "1"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A propriedade distributiva garante que 3 × (4 + 5) é igual a:",
+    "options": [
+      "3 × 4 + 5",
+      "3 + (4 × 5)",
+      "3 × 4 + 3 × 5",
+      "3 + 4 + 5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O quociente entre -6 e 3 é:",
+    "options": [
+      "-2",
+      "2",
+      "0",
+      "-3"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando -0,4 por -2, obtemos:",
+    "options": [
+      "-0,8",
+      "0,8",
+      "0,4",
+      "-0,4"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O inverso multiplicativo de -2 é:",
+    "options": [
+      "-2",
+      "1/2",
+      "-1/2",
+      "2"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A potência de uma fração negativa elevada a um expoente ímpar resultará sempre em:",
+    "options": [
+      "Negativo",
+      "Positivo",
+      "Zero",
+      "Inverso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A raiz quadrada de 49 é:",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dividindo -12 por -4, o resultado é:",
+    "options": [
+      "3",
+      "-3",
+      "4",
+      "-4"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando dois números racionais negativos, o resultado será:",
+    "options": [
+      "Sempre negativo",
+      "Sempre positivo",
+      "Zero",
+      "O menor dos números"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na expressão 2² × 2³, o resultado é:",
+    "options": [
+      "2⁵",
+      "2⁶",
+      "2³",
+      "2⁴"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Dividindo potências: 10³ ÷ 10², obtemos:",
+    "options": [
       "10",
+      "100",
+      "1000",
+      "1"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A raiz cúbica de 27 é:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Multiplicando 0,6 por 0,5, o resultado é:",
+    "options": [
+      "0,3",
+      "0,35",
+      "0,25",
+      "0,15"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O produto de (−0,8) × (0,5) é:",
+    "options": [
+      "-0,4",
+      "0,4",
+      "-0,5",
+      "0,5"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ao dividir -9 por 3, o resultado é:",
+    "options": [
+      "3",
+      "-3",
+      "-6",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Multiplicando duas frações negativas: (-2/3) × (-3/4), o resultado é:",
+    "options": [
+      "6/12",
+      "-6/12",
+      "-6/7",
+      "6/7"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A potência (-1)⁴ resulta em:",
+    "options": [
+      "-1",
+      "1",
+      "0",
       "-4"
     ],
     "answer": 1
   },
   {
-    "question": "Se transformarmos 0,75 para fração, teremos:",
+    "question": "A raiz quadrada de 0,16 é:",
     "options": [
-      "1/4",
-      "2/3",
-      "3/4",
-      "1/3"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "O símbolo que representa uma entrada ou saída no fluxograma é:",
-    "options": [
-      "Losango",
-      "Retângulo",
-      "Paralelogramo",
-      "Oval"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Ao resolver a expressão: [(2 + 3) - {4 - (1 + 1)}], o resultado será:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Em expressões como 5 - (-3), devemos transformar em:",
-    "options": [
-      "5 + 3",
-      "5 - 3",
-      "-5 + 3",
-      "-5 - 3"
+      "0,4",
+      "0,5",
+      "0,6",
+      "0,8"
     ],
     "answer": 0
   },
   {
-    "question": "O resultado de 2/5 + 3/10 é:",
+    "question": "Para dividir uma fração por outra, como 2/5 ÷ 4/5, devemos:",
     "options": [
-      "1/2",
-      "7/10",
-      "9/10",
+      "Multiplicar por 4/5",
+      "Multiplicar por 5/4",
+      "Somar as frações",
+      "Dividir os denominadores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Multiplicando -0,3 × 0,2, obtemos:",
+    "options": [
+      "0,6",
+      "-0,6",
+      "-0,06",
+      "0,06"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Se √x = 5, então x é:",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Multiplicando três números: -1 × 2 × -3, o resultado será:",
+    "options": [
+      "-6",
+      "6",
+      "0",
+      "-2"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dividindo -0,9 ÷ 0,3, obtemos:",
+    "options": [
+      "3",
+      "-3",
+      "-0,3",
+      "0,3"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A propriedade fundamental do inverso multiplicativo é que:",
+    "options": [
+      "Multiplicar um número por seu inverso resulta em 1",
+      "Multiplicar um número por seu inverso resulta em 0",
+      "Multiplicar um número por seu inverso resulta em -1",
+      "Não possui aplicação"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A raiz quadrada de 36 é:",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na expressão (-2)², o resultado é:",
+    "options": [
+      "4",
+      "-4",
+      "2",
+      "-2"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando -4 × -0,5, o produto é:",
+    "options": [
+      "-2",
+      "2",
+      "0",
       "1"
     ],
     "answer": 1
+  },
+  {
+    "question": "Dividindo 0,5 ÷ (-0,1), obtemos:",
+    "options": [
+      "-5",
+      "5",
+      "0,5",
+      "-0,5"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Multiplicando potências de mesma base: 3² × 3³, o resultado é:",
+    "options": [
+      "3⁵",
+      "3⁶",
+      "3³",
+      "3⁴"
+    ],
+    "answer": 0
   }
 ]
 }
