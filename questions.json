@@ -1,92 +1,797 @@
 { "7ATB-P4":
 {
-  "7ph10historia": [
-    { "question": "O que foi a Expansão Marítima Europeia?", "options": ["Uma guerra religiosa entre europeus", "A corrida por metais na África", "O processo de viagens oceânicas em busca de novas rotas comerciais e territórios", "A construção de navios durante a Idade Média"], "answer": 2 },
-    { "question": "Qual evento de 1453 impulsionou os europeus a buscar novas rotas comerciais?", "options": ["Descobrimento da América", "Tratado de Tordesilhas", "Queda de Constantinopla", "Fundação da Escola de Sagres"], "answer": 2 },
-    { "question": "A queda de Constantinopla dificultou o acesso a qual região?", "options": ["América", "Oceania", "África", "Oriente"], "answer": 3 },
-    { "question": "Qual era o principal objetivo econômico da Expansão Marítima?", "options": ["Propagar o cristianismo", "Encontrar metais preciosos e especiarias", "Fundar universidades", "Descobrir monstros marinhos"], "answer": 1 },
-    { "question": "Quais foram os dois países pioneiros nas Grandes Navegações?", "options": ["Itália e França", "Espanha e Alemanha", "Portugal e Espanha", "Inglaterra e Holanda"], "answer": 2 },
-    { "question": "Qual tratado dividiu as terras entre Portugal e Espanha em 1494?", "options": ["Tratado de Lisboa", "Tratado de Paris", "Tratado de Tordesilhas", "Tratado de Calicute"], "answer": 2 },
-    { "question": "Qual invenção oriental foi fundamental para a navegação europeia?", "options": ["Turbina", "Bússola", "Roda d'água", "Trena"], "answer": 1 },
-    { "question": "A Escola de Sagres é símbolo de quê?", "options": ["Educação clerical", "Invenção da bússola", "Centro de conhecimentos náuticos", "Reforma religiosa"], "answer": 2 },
-    { "question": "Quem comandou a viagem que passou pelo Cabo das Tormentas?", "options": ["Pedro Álvares Cabral", "Gil Eanes", "Vasco da Gama", "Bartolomeu Dias"], "answer": 3 },
-    { "question": "O Cabo das Tormentas foi renomeado para:", "options": ["Cabo Real", "Cabo da Boa Esperança", "Cabo do Inferno", "Cabo do Mar"], "answer": 1 },
-
-    { "question": "A chegada de Colombo à América ocorreu em qual ano?", "options": ["1492", "1498", "1500", "1515"], "answer": 0 },
-    { "question": "Qual navegador chegou às Índias contornando a África?", "options": ["Pedro Álvares Cabral", "Cristóvão Colombo", "Gil Eanes", "Vasco da Gama"], "answer": 3 },
-    { "question": "Por que os portugueses buscaram uma rota contornando a África?", "options": ["Para fugir da Espanha", "Para evitar os italianos e otomanos", "Por causa das monções asiáticas", "Para descobrir o Brasil"], "answer": 1 },
-    { "question": "O pioneirismo português se deve a:", "options": ["Revolução industrial", "Localização geográfica e estabilidade política", "Apoio da França", "Colonização da América"], "answer": 1 },
-    { "question": "Qual instrumento permitia medir a posição das estrelas no céu?", "options": ["Barômetro", "Altímetro", "Astrolábio", "Termômetro"], "answer": 2 },
-    { "question": "A bússola aponta sempre para:", "options": ["O sul", "O leste", "O oeste", "O norte magnético"], "answer": 3 },
-    { "question": "Qual navegador quebrou o mito do Cabo Bojador?", "options": ["Cristóvão Colombo", "Gil Eanes", "Bartolomeu Dias", "Fernão de Magalhães"], "answer": 1 },
-    { "question": "As caravelas eram embarcações conhecidas por:", "options": ["Velocidade e segurança", "Capacidade de guerra", "Tamanho pequeno", "Transporte de escravos"], "answer": 0 },
-    { "question": "Feitorias eram:", "options": ["Navios pesqueiros", "Centros de navegação", "Postos comerciais fortificados", "Fortes militares fixos"], "answer": 2 },
-    { "question": "O Tratado de Tordesilhas foi mediado por:", "options": ["Rei de Portugal", "Papa Alexandre VI", "Imperador Romano", "Rei da França"], "answer": 1 },
-
-    { "question": "A missão religiosa também fazia parte da expansão. Qual era o objetivo?", "options": ["Destruir religiões orientais", "Converter povos ao cristianismo", "Fundar igrejas na Europa", "Promover a liberdade religiosa"], "answer": 1 },
-    { "question": "Portugal conquistou Ceuta em:", "options": ["1492", "1500", "1415", "1520"], "answer": 2 },
-    { "question": "Qual foi o resultado da viagem de Vasco da Gama?", "options": ["Chegou ao Japão", "Descobriu a América", "Fundou feitorias", "Chegou às Índias"], "answer": 3 },
-    { "question": "Pedro Álvares Cabral chegou ao Brasil em:", "options": ["1492", "1498", "1500", "1502"], "answer": 2 },
-    { "question": "Qual fator geográfico ajudou Portugal no pioneirismo?", "options": ["Território montanhoso", "Clima seco", "Litoral voltado para o Atlântico", "Fronteiras com a França"], "answer": 2 },
-    { "question": "A principal mercadoria valorizada pelos europeus era:", "options": ["Soja", "Especiarias", "Café", "Algodão"], "answer": 1 },
-    { "question": "Qual o nome do navegador que chegou ao Congo em 1482?", "options": ["Diogo Cão", "Bartolomeu Dias", "Cabral", "Colombo"], "answer": 0 },
-    { "question": "A viagem de Colombo foi financiada por:", "options": ["Papa", "Portugal", "Inglaterra", "Espanha"], "answer": 3 },
-    { "question": "A divisão das terras pelo Tratado de Tordesilhas previa o domínio a leste para:", "options": ["Espanha", "Inglaterra", "Portugal", "França"], "answer": 2 },
-    { "question": "A chegada acidental de Colombo às Américas ocorreu quando ele buscava:", "options": ["O Brasil", "A África", "As Índias", "A Oceania"], "answer": 2 },
-
-    { "question": "O pioneirismo português também é associado à:", "options": ["Indústria naval italiana", "Experiência prévia com pesca oceânica", "Ajuda dos vikings", "Cultura grega"], "answer": 1 },
-    { "question": "Que tipo de conhecimento os portugueses herdaram dos árabes?", "options": ["Arquitetura medieval", "Cartografia e navegação", "Agricultura tropical", "Metalurgia"], "answer": 1 },
-    { "question": "A rivalidade entre Espanha e Portugal gerou:", "options": ["A Revolução Francesa", "O Renascimento", "O Tratado de Tordesilhas", "A Inquisição"], "answer": 2 },
-    { "question": "O objetivo do Tratado de Tordesilhas era:", "options": ["Definir línguas oficiais", "Dividir a África", "Evitar conflitos por territórios recém-descobertos", "Estabelecer um mercado comum"], "answer": 2 },
-    { "question": "Qual navegador foi o primeiro a atingir o sul da África?", "options": ["Gil Eanes", "Bartolomeu Dias", "Cabral", "Colombo"], "answer": 1 },
-    { "question": "A principal motivação religiosa nas navegações era:", "options": ["Fundar novas religiões", "Evitar guerras", "Espalhar o cristianismo", "Combater o judaísmo"], "answer": 2 },
-    { "question": "Quais eram os principais instrumentos de navegação do período?", "options": ["Binóculos e mapas", "Bússola e astrolábio", "Telescópio e sextante", "Ampulheta e vela"], "answer": 1 },
-    { "question": "O conhecimento cartográfico dos portugueses foi influenciado por:", "options": ["Incas", "Chineses", "Muçulmanos", "Francos"], "answer": 2 },
-    { "question": "O termo 'descobrimento' é criticado por:", "options": ["Enaltecer apenas os navegadores", "Desconsiderar os povos já existentes nas terras encontradas", "Ser um termo difícil", "Causar conflitos"], "answer": 1 },
-    { "question": "O cristianismo foi usado como:", "options": ["Fator neutro", "Justificativa da colonização", "Motivo para isolamento", "Rito sagrado apenas"], "answer": 1 },
-  { "question": "Além das especiarias, qual outro produto era muito valorizado pelos europeus?", "options": ["Ouro", "Arroz", "Milho", "Cacau"], "answer": 0 },
-  { "question": "Qual era uma consequência da Expansão Marítima para os povos colonizados?", "options": ["Autonomia cultural", "Enriquecimento imediato", "Conflito, escravização e perda de territórios", "Liberdade religiosa"], "answer": 2 },
-  { "question": "A ideia de superioridade europeia sobre outros povos é associada ao:", "options": ["Humanismo", "Mercantilismo", "Etnocentrismo", "Socialismo"], "answer": 2 },
-  { "question": "O que as feitorias permitiam aos europeus nas colônias?", "options": ["Criar escolas", "Estabelecer relações comerciais e domínio militar", "Difundir literatura", "Conquistar o Vaticano"], "answer": 1 },
-  { "question": "A Expansão Marítima está ligada diretamente ao contexto do:", "options": ["Feudalismo", "Renascimento e formação das monarquias nacionais", "Cisma do Oriente", "Revolução Industrial"], "answer": 1 },
-  { "question": "O termo 'navegações ultramarinas' refere-se a:", "options": ["Pesca de baleias", "Expedições por rios europeus", "Viagens pelos oceanos rumo a outras terras", "Corridas de navios no Mediterrâneo"], "answer": 2 },
-  { "question": "Qual o papel das monarquias nacionais no processo de expansão?", "options": ["Promover a guerra entre nobres", "Investir e organizar expedições", "Impedir a navegação", "Eliminar o comércio"], "answer": 1 },
-  { "question": "Quais grupos perderam poder com o fortalecimento das monarquias e expansão marítima?", "options": ["Burguesia e artesãos", "Feudos e senhores locais", "Monges e padres", "Comerciantes italianos"], "answer": 1 },
-  { "question": "A expansão marítima impulsionou qual sistema econômico?", "options": ["Feudalismo", "Socialismo", "Mercantilismo", "Capitalismo industrial"], "answer": 2 },
-  { "question": "O mercantilismo defendia o acúmulo de riquezas por meio de:", "options": ["Doações religiosas", "Exportações e metais preciosos", "Reformas agrárias", "Serviços públicos"], "answer": 1 },
-
-  { "question": "Um dos principais elementos do mercantilismo era:", "options": ["Industrialização", "Metalismo (acúmulo de ouro e prata)", "Educação para todos", "Ecologia"], "answer": 1 },
-  { "question": "A valorização do comércio marítimo foi incentivada por:", "options": ["Impostos baixos", "Falta de terras férteis", "Interesses econômicos e busca por especiarias", "Aliança com povos indígenas"], "answer": 2 },
-  { "question": "A expansão marítima gerou contato entre europeus e quais povos?", "options": ["Vikings e troianos", "Muçulmanos e ortodoxos", "Africanas, asiáticas e americanas", "Nórdicos e romanos"], "answer": 2 },
-  { "question": "Que tipo de dominação foi imposta em muitos locais pelos europeus?", "options": ["Intelectual", "Cultural e territorial", "Burocrática", "Religiosa pacífica"], "answer": 1 },
-  { "question": "A conquista de Ceuta marcou:", "options": ["O fim das navegações", "A primeira investida portuguesa no norte da África", "O início da colonização da América", "A formação da ONU"], "answer": 1 },
-  { "question": "A conquista e exploração de territórios justificava-se, entre outras razões, por meio da:", "options": ["Democracia", "Fé cristã e 'missão civilizatória'", "Ciência e filosofia", "Música e arte"], "answer": 1 },
-  { "question": "A exploração da África pelos europeus iniciou um processo de:", "options": ["Trocas justas", "Alianças culturais", "Tráfico de escravizados e dominação territorial", "Globalização pacífica"], "answer": 2 },
-  { "question": "O domínio europeu sobre o oceano foi possibilitado por:", "options": ["Naves a vapor", "Conhecimento náutico e investimentos", "Ajuda indígena", "Barcos romanos"], "answer": 1 },
-  { "question": "O astrolábio permitia aos navegadores:", "options": ["Desenhar mapas", "Ler os ventos", "Localizar-se pelas estrelas", "Pesar a carga"], "answer": 2 },
-  { "question": "O avanço da cartografia foi essencial para:", "options": ["Aumentar os impostos", "Criar escolas na Europa", "Planejar as rotas marítimas com precisão", "Colonizar os vikings"], "answer": 2 },
-
-  { "question": "Qual desses continentes foi alcançado pelos portugueses antes da América?", "options": ["Ásia", "América", "Oceania", "Antártida"], "answer": 0 },
-  { "question": "O cristianismo era difundido como parte do projeto de:", "options": ["Unificação árabe", "Humanismo", "Colonização e dominação cultural", "Reforma protestante"], "answer": 2 },
-  { "question": "O tráfico de escravizados africanos foi impulsionado pela:", "options": ["Busca por metais preciosos", "Necessidade de mão de obra nas colônias", "Falência da Igreja", "Criação da ONU"], "answer": 1 },
-  { "question": "As navegações espanholas priorizavam qual direção?", "options": ["Leste", "Norte", "Oeste", "Sul"], "answer": 2 },
-  { "question": "A chegada de Colombo à América gerou:", "options": ["Alianças com povos indígenas", "Guerras e colonização", "Domínio otomano", "Fuga dos europeus"], "answer": 1 },
-  { "question": "O processo de colonização foi marcado por:", "options": ["Respeito mútuo", "Escambo justo", "Violência, dominação e exploração", "Doações de terras"], "answer": 2 },
-  { "question": "A imposição da cultura europeia sobre os povos nativos é um exemplo de:", "options": ["Resistência", "Sincretismo", "Etnocentrismo", "Pluralismo"], "answer": 2 },
-  { "question": "As 'rotas das especiarias' eram disputadas por quê?", "options": ["Baixo custo", "Acesso a produtos raros e valiosos", "Conexão com Roma", "Facilidade de navegação"], "answer": 1 },
-  { "question": "Qual foi uma consequência demográfica da colonização nas Américas?", "options": ["Aumento da população indígena", "Estabilidade", "Desaparecimento de populações nativas por guerras e doenças", "Migração africana voluntária"], "answer": 2 },
-  { "question": "O domínio português sobre o Oriente começou com a chegada a:", "options": ["China", "Índia", "Filipinas", "Malásia"], "answer": 1 },
-
-  { "question": "O avanço das navegações incentivou também:", "options": ["A bolha imobiliária", "A invenção da imprensa", "O intercâmbio cultural e biológico entre continentes", "A crise do feudalismo"], "answer": 2 },
-  { "question": "O termo 'encontro entre mundos' refere-se a:", "options": ["Diálogo entre reis", "Trocas entre europeus e povos de outros continentes", "Conflitos internos na Europa", "Missões religiosas"], "answer": 1 },
-  { "question": "As doenças trazidas pelos europeus afetaram:", "options": ["Somente os africanos", "Apenas espanhóis", "Milhões de indígenas americanos", "População árabe"], "answer": 2 },
-  { "question": "O comércio triangular envolvia principalmente quais regiões?", "options": ["Europa, África e América", "Europa, Ásia e Oceania", "Oriente Médio, América do Norte e Japão", "Índia, Austrália e Inglaterra"], "answer": 0 },
-  { "question": "O papel das mulheres na colonização europeia foi principalmente:", "options": ["Combatente", "Liderança política", "Doméstico e reprodutivo", "Religioso"], "answer": 2 },
-  { "question": "Qual desses elementos não era objetivo direto das navegações?", "options": ["Espalhar o cristianismo", "Explorar o mundo", "Buscar novas rotas comerciais", "Promover igualdade social"], "answer": 3 },
-  { "question": "A chegada à América por Colombo foi resultado de:", "options": ["Erro de cálculo", "Conhecimento geográfico avançado", "Mapas árabes", "Invenção da caravela"], "answer": 0 },
-  { "question": "A principal religião promovida nas colônias era:", "options": ["Islamismo", "Cristianismo católico", "Judaísmo", "Protestantismo"], "answer": 1 },
-  { "question": "A busca por metais preciosos levou os espanhóis a explorar intensamente regiões como:", "options": ["Antártida", "México e Peru", "Alemanha", "Índia"], "answer": 1 },
-  { "question": "A cultura indígena foi frequentemente:", "options": ["Preservada", "Exaltada pelos colonizadores", "Proibida ou apagada", "Exportada para a Europa"], "answer": 2 }
+  "7ph06matematica": 
+[
+  {
+    "question": "O que representa uma semínima na notação musical?",
+    "options": [
+      "Metade de uma nota inteira",
+      "Um quarto de uma nota inteira",
+      "Um oitavo de uma nota inteira",
+      "Um décimo sexto de uma nota inteira"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para somar números decimais, devemos:",
+    "options": [
+      "Multiplicar os algarismos",
+      "Alinhar vírgulas e somar cada ordem",
+      "Transformar em fração",
+      "Somar sem alinhar as casas decimais"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qual operação foi utilizada para descobrir quanto faltava para atingir a meta de arrecadação de R$300,00?",
+    "options": [
+      "Adição",
+      "Multiplicação",
+      "Divisão",
+      "Subtração"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Como se deve proceder para somar frações com denominadores diferentes?",
+    "options": [
+      "Somar os numeradores diretamente",
+      "Encontrar o MMC e transformar em frações equivalentes",
+      "Multiplicar os denominadores",
+      "Subtrair os denominadores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quando adicionamos frações com denominadores iguais, devemos:",
+    "options": [
+      "Somar numeradores e denominadores",
+      "Multiplicar os numeradores",
+      "Somar apenas os numeradores",
+      "Multiplicar os denominadores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Em um compasso musical, quantas colcheias equivalem a uma nota inteira?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qual operação representa a diferença entre um compasso completo e o tempo ocupado pelas notas Dó e Ré?",
+    "options": [
+      "Adição",
+      "Subtração",
+      "Multiplicação",
+      "Divisão"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qual fração representa uma semicolcheia?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Ao somar ou subtrair porcentagens, podemos:",
+    "options": [
+      "Usar apenas a forma decimal",
+      "Somar diretamente os valores percentuais",
+      "Transformar em fração e somar os denominadores",
+      "Multiplicar os percentuais"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em expressões com parênteses, colchetes e chaves, qual deve ser resolvido primeiro?",
+    "options": [
+      "Colchetes",
+      "Parênteses",
+      "Chaves",
+      "Todos simultaneamente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na adição de dois números racionais com mesmo sinal, o que devemos fazer?",
+    "options": [
+      "Subtrair os módulos",
+      "Somar os módulos e manter o sinal",
+      "Somar os módulos e inverter o sinal",
+      "Ignorar os sinais"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quando subtraímos dois números racionais, devemos:",
+    "options": [
+      "Adicionar o simétrico do segundo número ao primeiro",
+      "Somar diretamente",
+      "Multiplicar os dois",
+      "Dividir os módulos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O que representa a caixa de processo em um fluxograma?",
+    "options": [
+      "Decisão",
+      "Conector",
+      "Início ou fim",
+      "Uma etapa ou ação a ser realizada"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Para representar a entrada ou saída de dados no fluxograma usamos qual símbolo?",
+    "options": [
+      "Retângulo",
+      "Losango",
+      "Paralelogramo",
+      "Círculo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O que é necessário fazer antes de somar frações com denominadores diferentes?",
+    "options": [
+      "Somar diretamente",
+      "Encontrar o mínimo múltiplo comum (MMC)",
+      "Multiplicar os numeradores",
+      "Inverter as frações"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em qual situação é adequado usar a representação decimal ao invés da fracionária?",
+    "options": [
+      "Quando os denominadores são diferentes",
+      "Quando lidamos com porcentagens ou valores monetários",
+      "Sempre",
+      "Quando as frações são unitárias"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na expressão 0,23 - (-2,98), qual é o resultado?",
+    "options": [
+      "-3,21",
+      "2,75",
+      "3,21",
+      "0,75"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O que indica um conector em um fluxograma?",
+    "options": [
+      "Entrada de dados",
+      "Decisão",
+      "Conexão entre diferentes partes do diagrama",
+      "Início do processo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O valor total das doações de Ana (R$27,35), Bruno (R$54,60) e Carla (R$42,80) é:",
+    "options": [
+      "R$124,75",
+      "R$125,00",
+      "R$122,75",
+      "R$126,50"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ao subtrair frações com mesmo denominador, devemos:",
+    "options": [
+      "Subtrair numeradores e manter o denominador",
+      "Subtrair denominadores",
+      "Multiplicar os numeradores",
+      "Dividir numeradores e denominadores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Na música, frações são usadas principalmente para:",
+    "options": [
+      "Calcular altura da nota",
+      "Determinar frequência sonora",
+      "Representar duração das notas",
+      "Definir tonalidade"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Para expressar 25% como fração, escrevemos:",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/3",
+      "1/5"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O que indica uma mínima na notação musical?",
+    "options": [
+      "Metade de uma nota inteira",
+      "Um quarto de uma nota inteira",
+      "Oitavo de uma nota inteira",
+      "Um inteiro"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "No exemplo das doações, a diferença entre o total arrecadado (R$124,75) e a meta (R$300,00) é:",
+    "options": [
+      "R$125,25",
+      "R$175,25",
+      "R$175,50",
+      "R$174,75"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na adição de duas frações com denominadores iguais, a operação correta é:",
+    "options": [
+      "Somar numeradores e denominadores",
+      "Manter denominadores e somar numeradores",
+      "Multiplicar numeradores e denominadores",
+      "Dividir numeradores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em qual representação podemos resolver adições de porcentagens?",
+    "options": [
+      "Apenas forma fracionária",
+      "Apenas forma decimal",
+      "Apenas forma gráfica",
+      "Forma percentual, fracionária ou decimal"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "O fluxograma serve principalmente para:",
+    "options": [
+      "Criar expressões numéricas",
+      "Representar graficamente a sequência de resolução de um problema",
+      "Resolver apenas problemas matemáticos complexos",
+      "Indicar frações equivalentes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ao realizar a adição de dois números racionais com sinais diferentes, devemos:",
+    "options": [
+      "Somar os módulos",
+      "Subtrair os módulos e manter o sinal do maior",
+      "Multiplicar os valores",
+      "Manter o sinal do menor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O símbolo que representa decisão em um fluxograma é:",
+    "options": [
+      "Retângulo",
+      "Círculo",
+      "Paralelogramo",
+      "Losango"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Em expressões numéricas com parênteses, colchetes e chaves, a ordem correta de resolução é:",
+    "options": [
+      "Chaves > Colchetes > Parênteses",
+      "Parênteses > Colchetes > Chaves",
+      "Colchetes > Chaves > Parênteses",
+      "Parênteses > Chaves > Colchetes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na resolução de expressões numéricas com racionais, devemos aplicar sempre:",
+    "options": [
+      "A regra dos sinais",
+      "A propriedade distributiva",
+      "A multiplicação cruzada",
+      "A regra de três"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para adicionar 0,02 + 0,05 + 0,77, o resultado em porcentagem é:",
+    "options": [
+      "74%",
+      "84%",
+      "68%",
+      "92%"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "No exemplo do tanque com ¾ cheio, após remover ¼, quanto restará?",
+    "options": [
+      "1/4",
+      "2/4",
+      "1/2",
+      "3/4"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A função do fluxograma na matemática é:",
+    "options": [
+      "Resolver expressões automaticamente",
+      "Ilustrar de forma gráfica a sequência de passos para resolver um problema",
+      "Indicar o resultado final",
+      "Calcular MMC"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O que deve ser feito para subtrair números racionais na forma decimal?",
+    "options": [
+      "Alinhar vírgulas e subtrair cada ordem",
+      "Multiplicar os valores",
+      "Transformar em fração",
+      "Subtrair e depois converter para porcentagem"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Na notação musical, uma colcheia corresponde a:",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Para subtrair 0,56 - 1,52, o resultado será:",
+    "options": [
+      "0,96",
+      "-0,96",
+      "2,08",
+      "-2,08"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em um fluxograma, o símbolo oval indica:",
+    "options": [
+      "Decisão",
+      "Início ou fim do processo",
+      "Processo",
+      "Conector"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O denominador comum entre as frações 1/2, 1/4 e 1/8 é:",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Para adicionar porcentagens como 12% + 39%, o procedimento correto é:",
+    "options": [
+      "Somar diretamente os percentuais",
+      "Multiplicar os percentuais",
+      "Converter para fração e subtrair",
+      "Transformar em decimal antes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Em uma apresentação musical, a soma das notas de 1/2 (mínima), 1/4 (semínima) e 1/8 (colcheia) resulta em:",
+    "options": [
+      "7/8",
+      "3/4",
+      "5/8",
+      "1"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Se um tanque estava com 3/4 de água e foi retirado 1/3 do total, quanto resta?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/2 + 1/12",
+      "3/4"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Ao resolver 0,25 + (-0,75), o resultado será:",
+    "options": [
+      "1",
+      "0,5",
+      "-0,5",
+      "-1"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Em fluxogramas, quando encontramos uma decisão representada por um losango, isso significa que:",
+    "options": [
+      "Devemos encerrar o processo",
+      "Há necessidade de escolher entre duas alternativas",
+      "O cálculo está incorreto",
+      "O processo é automático"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Se ao calcular uma expressão numérica surgirem parênteses, colchetes e chaves, devemos iniciar pela:",
+    "options": [
+      "Chaves",
+      "Colchetes",
+      "Parênteses",
+      "Expressão mais longa"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "No exemplo das doações, para atingir a meta de R$300,00 faltavam:",
+    "options": [
+      "R$175,25",
+      "R$175,50",
+      "R$200,00",
+      "R$125,00"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ao somar frações equivalentes a 1/2 + 2/4 + 4/8, obtemos:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A adição de porcentagens como 12% + 39% pode ser feita:",
+    "options": [
+      "Somando diretamente: 51%",
+      "Convertendo para frações",
+      "Somando 12 + 39 e dividindo por 2",
+      "Multiplicando 12 x 39"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ao resolver uma expressão com múltiplas operações, devemos:",
+    "options": [
+      "Executar na ordem que aparece",
+      "Aplicar a regra dos sinais e respeitar a hierarquia de operações",
+      "Fazer primeiro as multiplicações",
+      "Ignorar parênteses"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em um fluxograma, o símbolo de paralelogramo indica:",
+    "options": [
+      "Decisão",
+      "Entrada ou saída de dados",
+      "Processo",
+      "Conexão"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quando adicionamos dois números racionais com sinais contrários, o resultado será:",
+    "options": [
+      "Sempre positivo",
+      "Sempre negativo",
+      "De acordo com o maior módulo",
+      "Sempre zero"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A subtração de 1,23 - (-0,77) resulta em:",
+    "options": [
+      "0,46",
+      "2",
+      "-2",
+      "-0,46"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em um compasso, a combinação de uma mínima e duas semínimas equivale a:",
+    "options": [
+      "1",
+      "1 e 1/2",
+      "2",
+      "2 e 1/2"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O resultado da expressão (-3) + (+7) é:",
+    "options": [
+      "-10",
+      "+4",
+      "-4",
+      "+10"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ao subtrair duas frações com denominadores diferentes, como 1/3 - 1/4, devemos:",
+    "options": [
+      "Subtrair diretamente",
+      "Encontrar o MMC (12) e fazer frações equivalentes",
+      "Multiplicar os numeradores",
+      "Somar os denominadores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na música, a sequência 1/4 + 1/8 + 1/16 representa a adição de notas que somam aproximadamente:",
+    "options": [
+      "0,5",
+      "0,75",
+      "0,9375",
+      "1"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O fluxo de resolução de um problema pode ser representado por:",
+    "options": [
+      "Expressões numéricas",
+      "Frações",
+      "Fluxogramas",
+      "Diagramas de Venn"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "No fluxograma, a caixa de processo é usada para:",
+    "options": [
+      "Indicar uma decisão",
+      "Mostrar uma ação a ser realizada",
+      "Encerrar o processo",
+      "Exibir o resultado"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em expressões com parênteses, como (-2) - [(-3) + 5], devemos primeiro:",
+    "options": [
+      "Resolver os parênteses (-3)",
+      "Resolver os colchetes",
+      "Subtrair diretamente",
+      "Multiplicar os termos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ao somar números decimais como 2,35 + 3,6 + 0,05, devemos:",
+    "options": [
+      "Alinhar as casas decimais e somar",
+      "Transformar em fração antes",
+      "Multiplicar os valores",
+      "Somar diretamente sem alinhar"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Em expressões como 7 - (-5), devemos:",
+    "options": [
+      "Manter o sinal negativo",
+      "Transformar a subtração em adição: 7 + 5",
+      "Subtrair os valores",
+      "Multiplicar os números"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em uma arrecadação, foram doados R$27,35, R$54,60 e R$42,80. A soma foi:",
+    "options": [
+      "R$120,75",
+      "R$124,75",
+      "R$130,75",
+      "R$140,75"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na representação fracionária da música, a colcheia corresponde a:",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Em uma expressão complexa com várias operações, devemos sempre:",
+    "options": [
+      "Resolver da esquerda para a direita",
+      "Começar pelas operações dentro dos parênteses",
+      "Multiplicar primeiro",
+      "Dividir primeiro"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "O símbolo que representa 'Início ou Fim' em um fluxograma é:",
+    "options": [
+      "Retângulo",
+      "Oval",
+      "Losango",
+      "Paralelogramo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quando realizamos a subtração de frações como 5/6 - 1/2, o MMC será:",
+    "options": [
+      "3",
+      "6",
+      "12",
+      "2"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em um fluxograma, para indicar uma verificação ou escolha usamos:",
+    "options": [
+      "Círculo",
+      "Losango",
+      "Retângulo",
+      "Paralelogramo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Na operação 5 + (-3), o resultado é:",
+    "options": [
+      "2",
+      "-2",
+      "8",
+      "-8"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para subtrair -2,5 - (+1,5), o resultado será:",
+    "options": [
+      "-1",
+      "+4",
+      "-4",
+      "+1"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A expressão 3/4 + 1/8 resulta em:",
+    "options": [
+      "5/8",
+      "7/8",
+      "1",
+      "7/4"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quando resolvemos uma expressão com números racionais, devemos aplicar a:",
+    "options": [
+      "Regra da multiplicação cruzada",
+      "Regra dos sinais",
+      "Regra do MMC para adições",
+      "Regra da distributiva sempre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Se o total doado foi de R$124,75 e a meta era R$300, quanto falta?",
+    "options": [
+      "R$175,25",
+      "R$175,50",
+      "R$176,00",
+      "R$174,50"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Na resolução de expressões envolvendo múltiplos parênteses, o correto é:",
+    "options": [
+      "Começar pelas chaves",
+      "Resolver do interno para o externo: parênteses, colchetes, chaves",
+      "Resolver primeiro a maior expressão",
+      "Ignorar parênteses"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A expressão -3 - (-7) resulta em:",
+    "options": [
+      "-10",
+      "4",
+      "10",
+      "-4"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Se transformarmos 0,75 para fração, teremos:",
+    "options": [
+      "1/4",
+      "2/3",
+      "3/4",
+      "1/3"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "O símbolo que representa uma entrada ou saída no fluxograma é:",
+    "options": [
+      "Losango",
+      "Retângulo",
+      "Paralelogramo",
+      "Oval"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Ao resolver a expressão: [(2 + 3) - {4 - (1 + 1)}], o resultado será:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Em expressões como 5 - (-3), devemos transformar em:",
+    "options": [
+      "5 + 3",
+      "5 - 3",
+      "-5 + 3",
+      "-5 - 3"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O resultado de 2/5 + 3/10 é:",
+    "options": [
+      "1/2",
+      "7/10",
+      "9/10",
+      "1"
+    ],
+    "answer": 1
+  }
 ]
 }
 }
