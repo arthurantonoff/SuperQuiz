@@ -192,10 +192,7 @@ function shuffleArray(arr) {
 function copiarPix() {
   const pix = document.getElementById("pixKey").innerText;
   navigator.clipboard.writeText(pix).then(() => {
-    const msg = document.getElementById("copiadoMsg");
-    msg.style.display = "block";
-    setTimeout(() => {
-      msg.style.display = "none";
-    }, 2000); // some depois de 2 segundos
+    document.getElementById("btnCopiarPix").style.display = "none";
+    document.getElementById("copiadoMsg").style.display = "block";
   });
 }
