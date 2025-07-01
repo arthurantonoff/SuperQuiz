@@ -3,6 +3,8 @@ name: Upload Quizzes para Supabase
 on:
   push:
     branches: [ main ]
+    paths:
+    - 'questions.json'
 
 jobs:
   upload:
