@@ -1,0 +1,44 @@
+name: Geração de Questões a partir de PDF
+
+on:
+  push:
+    paths:
+      - 'pdfs/*.pdf'
+    branches:
+      - main
+
+jobs:
+  processar_pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Instalar dependências
+        run: |
+          pip install openai pdfplumber
+
+      - name: 🧠 Processar PDF e gerar questões
+        run: |
+          python scripts/process_pdf.py pdfs/seuarquivo.pdf questions.json
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: ✅ Verificar resultado
+        run: cat questions.json
+
+      # (Opcional) Commit automático do questions.json no repositório
+      - name: 📤 Commit de questions.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add questions.json
+          git commit -m "Atualiza questions.json gerado a partir de PDF"
+          git push
+        continue-on-error: true
