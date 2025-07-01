@@ -1,56 +1,53 @@
 import os
 import pdfplumber
 import json
+import random
 from typing import List
-from openai import OpenAI
+from transformers import pipeline
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Inicializa o modelo Hugging Face (Flan-T5 Base)
+generator = pipeline("text2text-generation", model="google/flan-t5-base")
 
 def extract_blocks_from_pdf(pdf_path: str, block_size: int = 500) -> List[str]:
+    """Extrai texto do PDF em blocos de aproximadamente 500 palavras"""
     with pdfplumber.open(pdf_path) as pdf:
-        textos = []
-        for page in pdf.pages:
-            try:
-                texto = page.extract_text()
-                if texto:
-                    textos.append(texto)
-            except Exception as e:
-                print(f"Erro ao extrair texto de uma página: {e}")
-        full_text = " ".join(textos)
-
+        full_text = " ".join([page.extract_text() for page in pdf if page.extract_text()])
     words = full_text.split()
     blocks = [" ".join(words[i:i + block_size]) for i in range(0, len(words), block_size)]
     return blocks
 
-def generate_questions_from_block(block_text: str, n_questions: int = 5) -> List[dict]:
-    prompt = (
-        f"Leia o texto abaixo e elabore {n_questions} questões de múltipla escolha com 4 alternativas cada, "
-        f"indicando a resposta correta com base no índice da opção correta (0 a 3). "
-        f"Formate como uma lista JSON com o seguinte modelo:\n"
-        f'[{{ "question": "...", "options": ["...", "...", "...", "..."], "answer": 2 }}]\n\n'
-        f"Texto:\n{block_text}\n\n"
-    )
+def rotate_options(options: list) -> (list, int):
+    """Desloca as opções aleatoriamente e retorna nova posição da correta"""
+    n = random.randint(0, 3)
+    rotated = options[n:] + options[:n]
+    correct_index = (0 - n) % 4
+    return rotated, correct_index
 
-    response = client.chat.completions.create(
-        model="gpt-4.1-nano",
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.7
-    )
+def generate_question_and_options(block_text: str) -> dict:
+    """Gera pergunta, resposta correta, três erradas e embaralha tudo"""
+    prompt_q = f"Crie uma pergunta objetiva com base no seguinte texto:\n{block_text[:800]}"
+    question = generator(prompt_q, max_new_tokens=80)[0]['generated_text'].strip()
 
-    content = response.choices.[0].message.content
+    prompt_a = f"Com base no texto abaixo, forneça a resposta correta para uma pergunta objetiva:\n{block_text[:800]}"
+    correct = generator(prompt_a, max_new_tokens=60)[0]['generated_text'].strip()
 
-    try:
-        start = content.find('[')
-        end = content.rfind(']') + 1
-        questions = json.loads(content[start:end])
-        return questions
-    except Exception as e:
-        print("Erro ao interpretar resposta do modelo:", e)
-        return []
+    prompt_d = f"Com base no texto abaixo, forneça três respostas erradas plausíveis para uma pergunta objetiva, separadas por '||':\n{block_text[:800]}"
+    raw_distractors = generator(prompt_d, max_new_tokens=80)[0]['generated_text']
+    distractors = [d.strip() for d in raw_distractors.split("||") if d.strip()][:3]
+
+    while len(distractors) < 3:
+        distractors.append("Alternativa incorreta")
+
+    all_options, answer_index = rotate_options([correct] + distractors)
+
+    return {
+        "question": question,
+        "options": all_options,
+        "answer": answer_index
+    }
 
 def process_all_pdfs(root_folder: str, output_file: str):
+    """Percorre todas as pastas TEMA/SUBTEMA, processa PDFs e salva em JSON"""
     result = {}
 
     for dirpath, _, filenames in os.walk(root_folder):
@@ -74,8 +71,8 @@ def process_all_pdfs(root_folder: str, output_file: str):
             print(f" → PDF: {pdf_file}")
             blocks = extract_blocks_from_pdf(pdf_path)
             for block in blocks:
-                questions = generate_questions_from_block(block)
-                all_questions.extend(questions)
+                question_obj = generate_question_and_options(block)
+                all_questions.append(question_obj)
 
         if tema not in result:
             result[tema] = {}
@@ -86,7 +83,7 @@ def process_all_pdfs(root_folder: str, output_file: str):
 
     print(f"Arquivo {output_file} gerado com sucesso.")
 
-# Execução direta pelo terminal
+# Execução via terminal
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 3:
