@@ -11,7 +11,7 @@ generator = pipeline("text2text-generation", model="google/flan-t5-base")
 def extract_blocks_from_pdf(pdf_path: str, block_size: int = 500) -> List[str]:
     """Extrai texto do PDF em blocos de aproximadamente 500 palavras"""
     with pdfplumber.open(pdf_path) as pdf:
-        full_text = " ".join([page.extract_text() for page in pdf if page.extract_text()])
+        full_text = " ".join([page.extract_text() for page in pdf.pages if page.extract_text()])
     words = full_text.split()
     blocks = [" ".join(words[i:i + block_size]) for i in range(0, len(words), block_size)]
     return blocks
