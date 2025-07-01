@@ -3,7 +3,7 @@ name: Geração de Questões a partir de PDF
 on:
   push:
     paths:
-      - 'pdfs/*.pdf'
+      - 'pdfreader/pdfs/*.pdf'
     branches:
       - main
 
