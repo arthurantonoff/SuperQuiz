@@ -9,7 +9,16 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_blocks_from_pdf(pdf_path: str, block_size: int = 500) -> List[str]:
     with pdfplumber.open(pdf_path) as pdf:
-        full_text = " ".join([page.extract_text() for page in pdf if page.extract_text()])
+        textos = []
+        for page in pdf.pages:
+            try:
+                texto = page.extract_text()
+                if texto:
+                    textos.append(texto)
+            except Exception as e:
+                print(f"Erro ao extrair texto de uma página: {e}")
+        full_text = " ".join(textos)
+
     words = full_text.split()
     blocks = [" ".join(words[i:i + block_size]) for i in range(0, len(words), block_size)]
     return blocks
