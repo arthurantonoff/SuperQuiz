@@ -22,7 +22,7 @@ jobs:
 
       - name: 📦 Instalar dependências
         run: |
-          pip install openai pdfplumber
+          pip install openai==0.28 pdfplumber
 
       - name: 🧠 Processar PDF e gerar questões
         run: |
