@@ -27,7 +27,7 @@ jobs:
 
       - name: 🤖 Executar geração de questões com FLAN-T5
         run: |
-          python scripts/process_folder.py pdfreader/pdfs questions.json
+          python pdfreader/process_folder.py pdfreader/pdfs questions.json
 
       - name: ✅ Verificar arquivo questions.json
         run: cat questions.json
