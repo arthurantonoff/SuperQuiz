@@ -33,7 +33,7 @@ def generate_questions_from_block(block_text: str, n_questions: int = 5) -> List
     )
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4.1-nano",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7
     )
