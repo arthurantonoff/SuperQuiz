@@ -38,7 +38,7 @@ def generate_questions_from_block(block_text: str, n_questions: int = 5) -> List
         temperature=0.7
     )
 
-    content = response['choices'][0]['message']['content']
+    content = response.choices.[0].message.content
 
     try:
         start = content.find('[')
