@@ -31,13 +31,13 @@ def generate_questions_from_block(block_text: str, n_questions: int = 5) -> List
         f"Texto:\n{block_text}\n\n"
     )
 
-response = client.chat.completions.create(
-    model="gpt-4.1-nano",
-    messages=[
-        {"role": "user", "content": prompt}
-    ],
-    temperature=0.7
-)
+    response = client.chat.completions.create(
+        model="gpt-4.1-nano",
+        messages=[
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.7
+    )
 
     content = response.choices.[0].message.content
 
