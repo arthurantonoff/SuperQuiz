@@ -26,7 +26,7 @@ jobs:
 
       - name: 🧠 Processar PDF e gerar questões
         run: |
-          python scripts/process_pdf.py pdfreader/pdfs questions.json
+          python pdfreader/process_folder.py pdfreader/pdfs questions.json
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
