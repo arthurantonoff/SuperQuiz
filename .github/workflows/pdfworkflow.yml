@@ -1,4 +1,4 @@
-name: Geração de Questões a partir de PDF
+name: Geração de Questões a partir de PDFs (via Hugging Face)
 
 on:
   push:
@@ -8,37 +8,34 @@ on:
       - main
 
 jobs:
-  processar_pdf:
+  gerar_questoes:
     runs-on: ubuntu-latest
 
     steps:
       - name: 📥 Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: 🐍 Configurar Python
+      - name: 🐍 Configurar ambiente Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: 📦 Instalar dependências
+      - name: 📦 Instalar dependências (transformers + pdfplumber + torch)
         run: |
-          pip install openai==0.28 pdfplumber
+          pip install transformers torch pdfplumber
 
-      - name: 🧠 Processar PDF e gerar questões
+      - name: 🤖 Executar geração de questões com FLAN-T5
         run: |
-          python pdfreader/process_folder.py pdfreader/pdfs questions.json
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          python scripts/process_folder.py pdfreader/pdfs questions.json
 
-      - name: ✅ Verificar resultado
+      - name: ✅ Verificar arquivo questions.json
         run: cat questions.json
 
-      # (Opcional) Commit automático do questions.json no repositório
-      - name: 📤 Commit de questions.json
+      - name: 📤 Commit do arquivo questions.json
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add questions.json
-          git commit -m "Atualiza questions.json gerado a partir de PDF"
+          git commit -m "Atualiza questions.json com conteúdo gerado via Hugging Face"
           git push
         continue-on-error: true
