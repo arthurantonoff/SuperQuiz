@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'pdfreader/pdfs/**/*.pdf'
+      - 'pdfreader/pdfs/**/*.md'
     branches:
       - main
 
