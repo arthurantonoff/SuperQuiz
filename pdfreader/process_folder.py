@@ -5,15 +5,15 @@ import random
 from typing import List
 from transformers import pipeline
 
-# Inicializa o modelo Hugging Face (Flan-T5 Base)
-generator = pipeline("text2text-generation", model="google/flan-t5-base")
+# Inicializa o modelo FLAN-T5 Large via Hugging Face
+generator = pipeline("text2text-generation", model="google/flan-t5-large")
 
-def extract_blocks_from_pdf(pdf_path: str, block_size: int = 500) -> List[str]:
-    """Extrai texto do PDF em blocos de aproximadamente 500 palavras"""
+def extract_blocks_from_pdf(pdf_path: str, block_size: int = 750, step: int = 600) -> List[str]:
+    """Extrai texto do PDF e divide em blocos de tamanho ajustado com janela deslizante"""
     with pdfplumber.open(pdf_path) as pdf:
         full_text = " ".join([page.extract_text() for page in pdf.pages if page.extract_text()])
     words = full_text.split()
-    blocks = [" ".join(words[i:i + block_size]) for i in range(0, len(words), block_size)]
+    blocks = [" ".join(words[i:i + block_size]) for i in range(0, len(words), step)]
     return blocks
 
 def rotate_options(options: list) -> (list, int):
@@ -25,13 +25,28 @@ def rotate_options(options: list) -> (list, int):
 
 def generate_question_and_options(block_text: str) -> dict:
     """Gera pergunta, resposta correta, três erradas e embaralha tudo"""
-    prompt_q = f"Crie uma pergunta objetiva com base no seguinte texto:\n{block_text[:800]}"
+    prompt_q = (
+        "Leia o texto a seguir e gere uma pergunta objetiva relacionada a ele.\n"
+        "Texto:\n"
+        f"{block_text}\n\n"
+        "Pergunta:"
+    )
     question = generator(prompt_q, max_new_tokens=80)[0]['generated_text'].strip()
 
-    prompt_a = f"Com base no texto abaixo, forneça a resposta correta para uma pergunta objetiva:\n{block_text[:800]}"
+    prompt_a = (
+        "Com base no texto abaixo, forneça a resposta correta para uma pergunta objetiva.\n"
+        "Texto:\n"
+        f"{block_text}\n\n"
+        "Resposta correta:"
+    )
     correct = generator(prompt_a, max_new_tokens=60)[0]['generated_text'].strip()
 
-    prompt_d = f"Com base no texto abaixo, forneça três respostas erradas plausíveis para uma pergunta objetiva, separadas por '||':\n{block_text[:800]}"
+    prompt_d = (
+        "Com base no texto abaixo, forneça três respostas erradas plausíveis para uma pergunta objetiva, separadas por '||'.\n"
+        "Texto:\n"
+        f"{block_text}\n\n"
+        "Respostas erradas:"
+    )
     raw_distractors = generator(prompt_d, max_new_tokens=80)[0]['generated_text']
     distractors = [d.strip() for d in raw_distractors.split("||") if d.strip()][:3]
 
