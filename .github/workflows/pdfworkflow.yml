@@ -1,10 +1,9 @@
-name: Geração de Questões a partir de PDFs (via Hugging Face)
+name: Geração de Questões com FLAN-T5 Large
 
 on:
   push:
     paths:
       - 'pdfreader/pdfs/**/*.pdf'
-      - 'pdfreader/pdfs/**/*.md'
     branches:
       - main
 
@@ -21,15 +20,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 📦 Instalar dependências (transformers + pdfplumber + torch)
+      - name: 📦 Instalar dependências (transformers, torch, pdfplumber)
         run: |
           pip install transformers torch pdfplumber
 
-      - name: 🤖 Executar geração de questões com FLAN-T5
+      - name: 🤖 Executar script com FLAN-T5 Large
         run: |
-          python pdfreader/process_folder.py pdfreader/pdfs questions.json
+          python scripts/process_folder.py pdfreader/pdfs questions.json
 
-      - name: ✅ Verificar arquivo questions.json
+      - name: ✅ Mostrar resultado
         run: cat questions.json
 
       - name: 📤 Commit do arquivo questions.json
@@ -37,6 +36,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add questions.json
-          git commit -m "Atualiza questions.json com conteúdo gerado via Hugging Face"
+          git commit -m "Atualiza questions.json com novas questões"
           git push
         continue-on-error: true
