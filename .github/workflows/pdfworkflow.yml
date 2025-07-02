@@ -26,7 +26,7 @@ jobs:
 
       - name: 🤖 Executar script com FLAN-T5 Large
         run: |
-          python scripts/process_folder.py pdfreader/pdfs questions.json
+          python pdfreader/process_folder.py pdfreader/pdfs questions.json
 
       - name: ✅ Mostrar resultado
         run: cat questions.json
