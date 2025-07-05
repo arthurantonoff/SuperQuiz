@@ -28,13 +28,4 @@ def pipeline(pdf_path: str, output_path: str):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(estrutura, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Pipeline finalizado com sucesso! {len(valid_questions)} questões salvas.")
-
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Uso: python pipeline_main.py <arquivo.pdf> <saida.json>")
-        sys.exit(1)
-
-    pdf = sys.argv[1]
-    saida = sys.argv[2]
-    pipeline(pdf, saida)
+    print(f"✅ Pipeline finalizado com sucesso! {len(valid_questions)} questões salva
