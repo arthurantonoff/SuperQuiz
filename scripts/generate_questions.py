@@ -29,6 +29,7 @@ def rotate_options(options: list) -> (list, int):
     return rotated, correct_index
 
 def generate_question_block(context: str, paragraph: str) -> Dict:
+    paragraph = " ".join(paragraph.split()[:500])
     prompt_q = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
