@@ -34,7 +34,7 @@ def generate_question_block(context: str, paragraph: str) -> Dict:
     prompt_q = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
-        f"[PERGUNTA]: Gere uma pergunta objetiva com base no texto."
+        f"[PERGUNTA]: Gere uma pergunta objetiva com base no texto que termine com ponto de interrogação."
     )
     question = ask_openai(prompt_q) if USE_OPENAI else generator(prompt_q, max_new_tokens=80,truncation=True)[0]['generated_text'].strip()
 
@@ -48,7 +48,7 @@ def generate_question_block(context: str, paragraph: str) -> Dict:
     prompt_d = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
-        f"[ERRADAS]: Diga três alternativas erradas plausíveis, separadas por '||'."
+        f"[ERRADAS]: Diga três alternativas erradas plausíveis, que mesmo errada possam fazer um mínimo sentido, separadas por '||'."
     )
     raw_distractors = ask_openai(prompt_d) if USE_OPENAI else generator(prompt_d, max_new_tokens=80)[0]['generated_text']
     distractors = [d.strip() for d in raw_distractors.split("||") if d.strip()][:3]
