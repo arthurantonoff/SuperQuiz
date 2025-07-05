@@ -8,42 +8,38 @@ on:
     branches:
       - main
 
-jobs: 
-  gerar_questoes: 
-    runs-on: ubuntu-latest 
-    env: 
-      USE_OPENAI: false 
+jobs:
+  gerar_questoes:
+    runs-on: ubuntu-latest
+    env:
+      USE_OPENAI: false
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-steps:
-  - name: 📥 Checkout do repositório
-    uses: actions/checkout@v3
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v3
 
-  - name: 🥍 Configurar ambiente Python
-    uses: actions/setup-python@v4
-    with:
-      python-version: '3.11'
+      - name: 🥍 Configurar ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-  - name: 📦 Instalar dependências
-    run: |
-      pip install transformers torch pdfplumber openai
+      - name: 📦 Instalar dependências
+        run: |
+          pip install transformers torch pdfplumber openai
 
-  - name: 🤖 Executar pipeline de questões
-    run: |
-      for pdf in $(find pdfreader/pdfs -name '*.pdf'); do
-        echo "Processando $pdf"
-        python scripts/pipeline_main.py "$pdf" questions.json
-      done
+      - name: 🤖 Executar pipeline de todos os PDFs
+        run: |
+          python scripts/run_all_pdfs.py
 
-  - name: ✅ Mostrar resultado
-    run: cat questions.json
+      - name: ✅ Mostrar resultado
+        run: cat questions.json
 
-  - name: 📄 Commit do questions.json
-    run: |
-      git config user.name "github-actions"
-      git config user.email "actions@github.com"
-      git add questions.json
-      git commit -m "Atualiza questions.json com conteúdo gerado"
-      git push
-    continue-on-error: true
-
+      - name: 📄 Commit do questions.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add questions.json
+          git commit -m "Atualiza questions.json com todos os temas consolidados"
+          git push
+        continue-on-error: true
