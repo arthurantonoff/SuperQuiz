@@ -7,6 +7,7 @@ USE_OPENAI = os.getenv("USE_OPENAI", "false").lower() == "true"
 #USE_OPENAI = False
 
 if USE_OPENAI:
+    print("Usando OpenAI")
     import openai
     openai.api_key = os.getenv("OPENAI_API_KEY")
 else:
