@@ -1,4 +1,4 @@
-name: Geração de Questões com FLAN-T5 Pipeline
+name: Gerando questoes com IA
 
 on:
   push:
