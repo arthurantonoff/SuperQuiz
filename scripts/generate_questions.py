@@ -4,7 +4,7 @@ from typing import List, Tuple, Dict
 
 # Verifica se deve usar OpenAI
 USE_OPENAI = os.getenv("USE_OPENAI", "false").lower() == "true"
-USE_OPENAI = False
+#USE_OPENAI = False
 
 if USE_OPENAI:
     import openai
