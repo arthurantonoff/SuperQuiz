@@ -11,7 +11,7 @@ if USE_OPENAI:
     openai.api_key = os.getenv("OPENAI_API_KEY")
 else:
     from transformers import pipeline
-    generator = pipeline("text2text-generation", model="google/flan-t5-xl")
+    generator = pipeline("text2text-generation", model="google/flan-t5-large")
 
 def ask_openai(prompt: str, max_tokens: int = 256) -> str:
     response = openai.ChatCompletion.create(
