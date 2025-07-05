@@ -23,6 +23,7 @@ def remove_duplicates(questions: List[Dict]) -> List[Dict]:
     filtradas = []
     for q in questions:
         if not is_valid_question(q):
+        
             continue
         if any(is_similar(q["question"], f["question"]) for f in filtradas):
             continue
