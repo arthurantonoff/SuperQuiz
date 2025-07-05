@@ -38,4 +38,4 @@ if __name__ == "__main__":
     with open(saida, "w", encoding="utf-8") as f:
         json.dump(estrutura, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Pipeline finalizado com sucesso! {sum(len(v) for tema in estrutura.values() for v in tema.values())} questões salvas.")
+    print(f"\n✅ Pipeline finalizado com sucesso! {sum(len(v) for tema in estrutura.values() for v in tema.values())} questões salvas.")
