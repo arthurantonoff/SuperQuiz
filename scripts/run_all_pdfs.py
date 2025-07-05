@@ -54,7 +54,7 @@ def main():
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, indent=2, ensure_ascii=False)
-
+    print(f"\n {resultado_final}")
     print(f"\n✅ Todos os PDFs foram processados. Total de temas: {len(resultado_final)}")
     print(f"Arquivo salvo em: {output_file}")
 
