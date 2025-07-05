@@ -8,7 +8,12 @@ on:
     branches:
       - main
 
-jobs: gerar_questoes: runs-on: ubuntu-latest env: USE_OPENAI: false OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+jobs: 
+  gerar_questoes: 
+    runs-on: ubuntu-latest 
+    env: 
+      USE_OPENAI: false 
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
 steps:
   - name: 📥 Checkout do repositório
