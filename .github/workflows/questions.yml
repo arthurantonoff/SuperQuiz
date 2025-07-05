@@ -31,7 +31,7 @@ jobs:
       - name: 🤖 Executar pipeline de todos os PDFs
         run: |
           cd scripts
-          python run_all_pdfs.py
+          python run_all_pdfs.pyy
 
       - name: ✅ Mostrar resultado
         run: cat questions.json
