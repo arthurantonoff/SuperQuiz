@@ -12,7 +12,7 @@ jobs:
   gerar_questoes:
     runs-on: ubuntu-latest
     env:
-      USE_OPENAI: false
+      USE_OPENAI: true
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
