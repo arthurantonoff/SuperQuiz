@@ -11,9 +11,13 @@ if USE_OPENAI:
     openai.api_key = os.getenv("OPENAI_API_KEY")
 else:
     from transformers import pipeline
-    generator = pipeline("text2text-generation", model="google/flan-t5-large")
+    generator = pipeline("text2text-generation",
+                      model="google/flan-t5-large",
+                      tokenizer="google/flan-t5-large",
+                      truncation=True
+                      )
 
-def ask_openai(prompt: str, max_tokens: int = 256) -> str:
+def ask_openai(prompt: str, max_tokens: int = 512) -> str:
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  # pode ser trocado para gpt-4
         messages=[{"role": "user", "content": prompt}],
@@ -29,7 +33,7 @@ def rotate_options(options: list) -> (list, int):
     return rotated, correct_index
 
 def generate_question_block(context: str, paragraph: str) -> Dict:
-    paragraph = " ".join(paragraph.split()[:300])
+    paragraph = " ".join(paragraph.split()[:200])
     context = " ".join(paragraph.split()[:20])
     prompt_q = (
         f"[TÓPICO]: {context}\n"
