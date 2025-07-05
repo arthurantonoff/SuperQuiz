@@ -17,9 +17,9 @@ else:
                       truncation=True
                       )
 
-def ask_openai(prompt: str, max_tokens: int = 512) -> str:
+def ask_openai(prompt: str, max_tokens: int = 256) -> str:
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # pode ser trocado para gpt-4
+        model="gpt-4.1-nano",  # pode ser trocado para gpt-4
         messages=[{"role": "user", "content": prompt}],
         max_tokens=max_tokens,
         temperature=0.7
