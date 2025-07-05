@@ -29,13 +29,14 @@ def rotate_options(options: list) -> (list, int):
     return rotated, correct_index
 
 def generate_question_block(context: str, paragraph: str) -> Dict:
-    paragraph = " ".join(paragraph.split()[:250])
+    paragraph = " ".join(paragraph.split()[:300])
+    context = " ".join(paragraph.split()[:20])
     prompt_q = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
         f"[PERGUNTA]: Gere uma pergunta objetiva com base no texto."
     )
-    question = ask_openai(prompt_q) if USE_OPENAI else generator(prompt_q, max_new_tokens=80)[0]['generated_text'].strip()
+    question = ask_openai(prompt_q) if USE_OPENAI else generator(prompt_q, max_new_tokens=80,truncation=True)[0]['generated_text'].strip()
 
     prompt_a = (
         f"[TÓPICO]: {context}\n"
