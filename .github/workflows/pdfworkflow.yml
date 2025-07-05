@@ -6,7 +6,7 @@ on:
       - 'pdfreader/pdfs/**/*.pdf'
       - 'pdfreader/pdfs/**/*.md'
     branches:
-      - main-shutdown
+      - shutdown-main
 
 jobs:
   gerar_questoes:
