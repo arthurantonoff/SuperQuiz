@@ -1,6 +1,12 @@
 name: Geração de Questões com FLAN-T5 Pipeline
 
-on: push: paths: - 'pdfreader/pdfs/**/*.pdf' branches: - main
+on:
+  push:
+    paths:
+      - 'pdfreader/pdfs/**/*.pdf'
+      - 'pdfreader/pdfs/**/*.md'
+    branches:
+      - main
 
 jobs: gerar_questoes: runs-on: ubuntu-latest env: USE_OPENAI: false OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
