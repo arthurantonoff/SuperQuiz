@@ -18,11 +18,6 @@ else:
                       truncation=True
                       )
 
-
-import openai
-
-client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 def ask_openai(prompt: str, max_tokens: int = 256) -> str:
     response = client.chat.completions.create(
         model="gpt-4.1-nano",
