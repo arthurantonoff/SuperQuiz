@@ -18,14 +18,22 @@ else:
                       truncation=True
                       )
 
+
+import openai
+
+client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 def ask_openai(prompt: str, max_tokens: int = 256) -> str:
-    response = openai.ChatCompletion.create(
-        model="gpt-4.1-nano",  # pode ser trocado para gpt-4
-        messages=[{"role": "user", "content": prompt}],
+    response = client.chat.completions.create(
+        model="gpt-4.1-nano",
+        messages=[
+            {"role": "system", "content": "Você é um gerador de questões objetivas para concursos."},
+            {"role": "user", "content": prompt}
+        ],
         max_tokens=max_tokens,
         temperature=0.7
     )
-    return response.choices[0].message["content"].strip()
+    return response.choices[0].message.content.strip()
 
 def rotate_options(options: list) -> (list, int):
     n = random.randint(0, 3)
