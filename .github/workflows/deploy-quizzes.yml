@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-    - 'questions.json'
+    - '00questions.json'
 
 jobs:
   upload:
