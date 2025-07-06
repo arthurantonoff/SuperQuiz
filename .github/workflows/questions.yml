@@ -31,6 +31,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           USE_OPENAI: "true"
+          PYTHONPATH: .
         run: |
           python scripts/run_all_pdfs.py
 
