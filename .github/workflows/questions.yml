@@ -32,7 +32,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           USE_OPENAI: "true"
         run: |
-          python scripts/run_all_pdfs.py
+          cd scripts
+          python run_all_pdfs.py
 
       - name: 📤 Commit do questions.json na branch main
         run: |
