@@ -1,7 +1,7 @@
 import os
 import json
 import traceback
-from scripts.pipeline_main import pipeline
+from pipeline_main import pipeline
 
 def merge_nested(base: dict, novo: dict):
     for tema in novo:
