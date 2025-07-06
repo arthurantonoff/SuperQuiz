@@ -1,41 +1,47 @@
 import os
-import sys
 import json
-from extract_text import extract_text_blocks
-from segment_blocks import segment_by_structure
-from generate_questions import generate_all
-from validate_questions import remove_duplicates
-from format_questions_json import infer_tema_subtema, format_to_nested_structure
+import traceback
+from scripts.extract_text import extract_text_blocks
+from scripts.segment_by_context import extract_context_blocks
+from scripts.generate_questions import generate_all
+from scripts.validate_questions import remove_duplicates
+
 
 def pipeline(pdf_path: str) -> dict:
-    print("\n🟡 Etapa 1: Extraindo texto limpo...")
-    blocks = extract_text_blocks(pdf_path)
+    print(f"📄 Iniciando pipeline para: {pdf_path}")
 
-    print("\n🟡 Etapa 2: Segmentando blocos por título e parágrafo...")
-    segments = segment_by_structure(blocks)
+    # Etapa 1: Extração de texto
+    print("🔹 Etapa 1: Extraindo texto do PDF...")
+    try:
+        raw_lines = extract_text_blocks(pdf_path)
+    except Exception as e:
+        raise RuntimeError(f"Erro na extração do PDF: {e}")
 
-    print("\n🟡 Etapa 3: Gerando questões com IA...")
+    # Etapa 2: Segmentação semântica (estilo Chefe)
+    print("🔹 Etapa 2: Segmentando em blocos por contexto...")
+    segments = extract_context_blocks(raw_lines)
+
+    if not segments:
+        raise ValueError("Nenhum bloco segmentado encontrado. Verifique o PDF.")
+
+    # Etapa 3: Geração de perguntas via OpenAI
+    print("🔹 Etapa 3: Gerando questões com IA...")
     raw_questions = generate_all(segments)
 
-    print("\n🟡 Etapa 4: Validando questões...")
+    # Etapa 4: Validação das questões
+    print("🔹 Etapa 4: Validando questões...")
     valid_questions = remove_duplicates(raw_questions)
 
-    print("\n🟡 Etapa 5: Formatando para estrutura final...")
-    tema, subtema = infer_tema_subtema(pdf_path)
-    estrutura = format_to_nested_structure(valid_questions, tema, subtema)
+    # Etapa 5: Estrutura final (tema/subtema)
+    print("🔹 Etapa 5: Formatando para estrutura final...")
+    tema = os.path.normpath(pdf_path).split(os.sep)[-3]  # ex: PF2025
+    subtema = os.path.normpath(pdf_path).split(os.sep)[-2]  # ex: Direito Penal
 
+    estrutura = {
+        tema: {
+            subtema: valid_questions
+        }
+    }
+
+    print(f"✅ Pipeline concluído para: {pdf_path}\n")
     return estrutura
-
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Uso: python pipeline_main.py <arquivo.pdf> <saida.json>")
-        sys.exit(1)
-
-    pdf = sys.argv[1]
-    saida = sys.argv[2]
-    estrutura = pipeline(pdf)
-
-    with open(saida, "w", encoding="utf-8") as f:
-        json.dump(estrutura, f, indent=2, ensure_ascii=False)
-
-    print(f"\n✅ Pipeline finalizado com sucesso! {sum(len(v) for tema in estrutura.values() for v in tema.values())} questões salvas.")
