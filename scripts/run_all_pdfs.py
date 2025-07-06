@@ -1,7 +1,7 @@
 import os
 import json
 import traceback
-from pipeline_main import pipeline
+from scripts.pipeline_main import pipeline
 
 def merge_nested(base: dict, novo: dict):
     for tema in novo:
@@ -27,20 +27,17 @@ def main():
     base_pdfs = os.path.abspath(os.path.join(root_dir, "..", "pdfreader", "pdfs"))
     output_file = os.path.abspath(os.path.join(root_dir, "..", "questions.json"))
 
-    print("Diretório atual:", os.getcwd())
-    print("Verificando PDFs em:", base_pdfs)
-
-    if not os.path.exists(base_pdfs):
-        print("❌ Pasta de PDFs não encontrada.")
-        return
-
+    print("📁 Procurando PDFs em:", base_pdfs)
     arquivos = encontrar_pdfs(base_pdfs)
-    print(f"Encontrados {len(arquivos)} PDFs para processar.\n")
+
+    if not arquivos:
+        print("⚠️ Nenhum PDF encontrado.")
+        return
 
     resultado_final = {}
 
     for pdf in arquivos:
-        print(f"▶️ Processando: {pdf}")
+        print(f"\n▶️ Processando: {pdf}")
         try:
             estrutura = pipeline(pdf)
             merge_nested(resultado_final, estrutura)
@@ -49,14 +46,14 @@ def main():
             traceback.print_exc()
 
     if not resultado_final:
-        print("⚠️ Nenhum dado gerado. Verifique os PDFs.")
+        print("⚠️ Nenhuma questão gerada.")
         return
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, indent=2, ensure_ascii=False)
-    print(f"\n {resultado_final}")
-    print(f"\n✅ Todos os PDFs foram processados. Total de temas: {len(resultado_final)}")
-    print(f"Arquivo salvo em: {output_file}")
+
+    print(f"\n✅ Processamento finalizado. Total de temas: {len(resultado_final)}")
+    print(f"📄 Arquivo salvo em: {output_file}")
 
 if __name__ == "__main__":
     main()
