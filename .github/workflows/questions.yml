@@ -5,42 +5,39 @@ on:
     paths:
       - 'pdfreader/pdfs/**/*.pdf'
       - 'pdfreader/pdfs/**/*.md'
-    branches:
-      - main
+    workflow_dispatch:
 
 jobs:
-  gerar_questoes:
+  gerar-questions:
     runs-on: ubuntu-latest
-    env:
-      USE_OPENAI: true
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
-      - name: 📥 Checkout do repositório
+      - name: 📥 Checkout do repositório (branch main)
         uses: actions/checkout@v3
+        with:
+          ref: main
 
-      - name: 🥍 Configurar ambiente Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: 📦 Instalar dependências
         run: |
-          pip install transformers torch pdfplumber openai
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: 🤖 Executar pipeline de todos os PDFs
+      - name: ⚙️ Executar pipeline de todos os PDFs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          USE_OPENAI: "true"
         run: |
-          cd scripts
-          python run_all_pdfs.py
+          python scripts/run_all_pdfs.py
 
-      - name: ✅ Mostrar resultado
-        run: cat questions.json
-
-      - name: 📄 Commit do questions.json
+      - name: 📤 Commit do questions.json na branch main
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add questions.json
-          git commit -m "Atualiza questions.json com todos os temas consolidados"
-          git push
-        continue-on-error: true
+          git diff --cached --quiet || git commit -m "🤖 Atualização automática do questions.json"
+          git push origin main
