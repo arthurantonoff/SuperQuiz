@@ -19,11 +19,11 @@ else:
                       truncation=True
                       )
 
-def ask_openai(prompt: str, max_tokens: int = 256) -> str:
+def ask_openai(prompt: str, max_tokens: int = 512) -> str:
     response = client.chat.completions.create(
         model="gpt-4.1-nano",
         messages=[
-            {"role": "system", "content": "Você é um gerador de questões objetivas para concursos."},
+            {"role": "system", "content": "Você é um gerador de questões objetivas de múltipla escolha com 4 alternativas, com função completa de análise, formulação e revisão. Seu comportamento inclui: interpretar o conteúdo com profundidade, extrair ideias essenciais, formular perguntas com clareza e desafio adequado, e revisar linguisticamente para eliminar ambiguidade, inconsistência e erro conceitual. Toda questão deve ser construída com base em domínio do conteúdo, precisão técnica e foco didático."},
             {"role": "user", "content": prompt}
         ],
         max_tokens=max_tokens,
@@ -38,26 +38,28 @@ def rotate_options(options: list) -> (list, int):
     return rotated, correct_index
 
 def generate_question_block(context: str, paragraph: str) -> Dict:
-    paragraph = " ".join(paragraph.split()[:200])
-    context = " ".join(paragraph.split()[:20])
+    paragraph = " ".join(paragraph.split()[:500])
+    context = " ".join(paragraph.split()[:50])
     prompt_q = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
-        f"[PERGUNTA]: Gere uma pergunta objetiva com base no texto que termine com ponto de interrogação."
+        f"[PERGUNTA]: Leia atentamente o texto abaixo. Com base nele, elabore uma pergunta objetiva de múltipla escolha que: (1) reflita um conceito central ou inferência válida; (2) seja clara, direta e bem formulada; (3) esteja escrita com linguagem compatível com material didático; e (4) termine com ponto de interrogação. Não copie frases literais do texto. Não gere perguntas vagas, óbvias ou genéricas. Explore o conteúdo de forma aplicada, interpretativa ou conceitual, garantindo um nível mínimo de desafio."
     )
     question = ask_openai(prompt_q) if USE_OPENAI else generator(prompt_q, max_new_tokens=80,truncation=True)[0]['generated_text'].strip()
 
     prompt_a = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
-        f"[RESPOSTA]: Qual seria a resposta correta para a pergunta baseada nesse texto?"
+        
+        f"[RESPOSTA]: Indique a alternativa correta que responde com exatidão à pergunta. Esta resposta deve ser inequivocamente verdadeira com base no texto. Certifique-se de que não haja espaço para ambiguidade ou múltiplas interpretações. Ela deve refletir o conteúdo de forma precisa, sem erro factual ou exagero interpretativo. Evite usar palavras vagas ou absolutas sem base no texto. A resposta correta será a opção correta no conjunto final de alternativas."
     )
     correct = ask_openai(prompt_a) if USE_OPENAI else generator(prompt_a, max_new_tokens=60)[0]['generated_text'].strip()
 
     prompt_d = (
         f"[TÓPICO]: {context}\n"
         f"[TEXTO]: {paragraph}\n\n"
-        f"[ERRADAS]: Diga três alternativas erradas plausíveis, que mesmo errada possam fazer um mínimo sentido, separadas por '||'."
+
+        f"[ERRADAS]: Escreva três alternativas incorretas plausíveis. Elas devem (1) parecer corretas à primeira vista; (2) manter o mesmo nível linguístico e temático da alternativa certa; (3) estar tecnicamente erradas ou conceitualmente incorretas; e (4) não repetir entre si nem contradizer a alternativa correta de forma óbvia. Use separador '||' entre elas. As alternativas erradas devem confundir quem leu o texto com superficialidade, mas não enganar o leitor bem preparado."
     )
     raw_distractors = ask_openai(prompt_d) if USE_OPENAI else generator(prompt_d, max_new_tokens=80)[0]['generated_text']
     distractors = [d.strip() for d in raw_distractors.split("||") if d.strip()][:3]
