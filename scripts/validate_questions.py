@@ -1,51 +1,49 @@
-import json
-import re
 from typing import List, Dict
-from difflib import SequenceMatcher
+import hashlib
 
 def is_valid_question(q: Dict) -> bool:
-    """Verifica estrutura básica da pergunta."""
-    texto = q.get("question", "")
-    if len(texto.split()) < 4:
+    """
+    Valida se a questão possui estrutura básica correta:
+    - Contém os campos esperados
+    - 4 alternativas válidas e distintas
+    - Índice da resposta correto
+    """
+    if not q or "question" not in q or "options" not in q or "answer" not in q:
         return False
-    if not texto.endswith("?"):
+
+    if not isinstance(q["question"], str) or not q["question"].strip():
         return False
-    if any(x in texto.lower() for x in ["crie", "gere", "baseado", "elabore"]):
+
+    if not isinstance(q["options"], list) or len(q["options"]) != 4:
         return False
+
+    if not all(isinstance(opt, str) and opt.strip() for opt in q["options"]):
+        return False
+
+    if len(set(q["options"])) < 4:
+        return False
+
+    if not isinstance(q["answer"], int) or not (0 <= q["answer"] < 4):
+        return False
+
     return True
 
-def is_similar(q1: str, q2: str, threshold: float = 0.85) -> bool:
-    """Verifica similaridade entre perguntas."""
-    return SequenceMatcher(None, q1, q2).ratio() > threshold
-
 def remove_duplicates(questions: List[Dict]) -> List[Dict]:
-    """Remove perguntas muito semelhantes."""
-    filtradas = []
+    """
+    Remove questões duplicadas com base no hash da pergunta e alternativas.
+    """
+    seen = set()
+    result = []
+
     for q in questions:
         if not is_valid_question(q):
-        
             continue
-        if any(is_similar(q["question"], f["question"]) for f in filtradas):
-            continue
-        filtradas.append(q)
-    return filtradas
 
-if __name__ == "__main__":
-    import sys
+        hash_base = q["question"].strip() + "||" + "||".join([opt.strip() for opt in q["options"]])
+        hash_q = hashlib.md5(hash_base.encode("utf-8")).hexdigest()
 
-    if len(sys.argv) != 3:
-        print("Uso: python validate_questions.py <entrada.json> <saida.json>")
-        exit(1)
+        if hash_q not in seen:
+            seen.add(hash_q)
+            result.append(q)
 
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-
-    with open(input_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    filtradas = remove_duplicates(data)
-
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(filtradas, f, indent=2, ensure_ascii=False)
-
-    print(f"Validação completa: {len(filtradas)} questões mantidas em {output_file}.")
+    return result
