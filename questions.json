@@ -1,415 +1,400 @@
 {
+  "7ATB-P5": {
+    "7ph14historia": [
+      "questions"
+    ]
+  },
   "PF2025": {
     "Direito Penal": [
       {
-        "question": "De acordo com o princípio da legalidade no Direito Penal, qual é a condição essencial para a criação de um crime ou pena?",
+        "question": "Segundo o princípio da legalidade penal, qual das alternativas representa uma restrição válida na criação de tipos penais?",
         "options": [
-          "Que seja baseado em costumes ou tradições sociais",
-          "Que seja previsto em lei anterior, escrita e determinada",
-          "Que seja aprovado por decreto do chefe do Executivo",
-          "Que seja autorizado por decisão do Poder Judiciário"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma consequência direta do princípio da legalidade estrita?",
-        "options": [
-          "Criação de crimes por analogia favorável ao réu",
-          "Retroatividade da lei penal mais benéfica",
-          "Proibição de criar crimes por meio de Medidas Provisórias",
-          "Criação de tipos penais vagos e imprecisos"
+          "A lei deve ser aprovada por maioria simples no Congresso.",
+          "A criação de crimes pode ser feita por decretos e resoluções administrativas.",
+          "A lei penal deve ser expressa, escrita, clara e em sentido estrito.",
+          "A legislação pode ser interpretada por analogia para ampliar a criminalização."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo o princípio da subsidiariedade, quando o Direito Penal deve ser utilizado?",
+        "question": "De acordo com o princípio da subsidiariedade no Direito Penal, qual é a condição para a aplicação da sanção criminal?",
         "options": [
-          "Antes de qualquer outra medida de controle social",
-          "Quando outras esferas do direito não forem eficazes",
-          "Sempre que houver violação de bens jurídicos relevantes",
-          "De forma prioritária, mesmo que existam alternativas mais leves"
+          "Quando outras fontes de controle social se mostrarem mais eficazes.",
+          "Quando outras formas de controle social não forem suficientes para prevenir ou punir o fato.",
+          "Quando o bem jurídico protegido for de menor relevância social.",
+          "Quando o réu for reincidente, independentemente de outras medidas de controle."
         ],
         "answer": 1
       },
       {
-        "question": "O princípio da fragmentariedade limita a intervenção do Direito Penal a proteção de bens jurídicos que sejam:",
+        "question": "O princípio da legalidade exige que a conduta criminalizada seja prevista em lei que seja:",
         "options": [
-          "De interesse exclusivo do Estado",
-          "Relativamente irrelevantes para a sociedade",
-          "De maior relevância para a sociedade",
-          "De interesse privado e familiar"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das seguintes afirmações reflete corretamente o princípio da pessoalidade das penas?",
-        "options": [
-          "As penas podem ser transferidas aos herdeiros do condenado",
-          "A responsabilidade penal é individual e não se estende a terceiros",
-          "A pena de multa pode ser aplicada a terceiros que tenham relação com o réu",
-          "A responsabilidade por reparação de dano pode ser transferida aos familiares do infrator"
+          "De autoria do Executivo e publicada em diário oficial.",
+          "Anterior ao fato, escrita e em sentido estrito.",
+          "Publicada pelo Poder Judiciário e de fácil entendimento.",
+          "De autoria popular e aprovada por maioria no Legislativo."
         ],
         "answer": 1
       },
       {
-        "question": "Conforme o princípio da ofensividade, qual conduta não pode ser considerada ilícita?",
+        "question": "Qual é a principal finalidade do princípio da anterioridade no Direito Penal?",
         "options": [
-          "Causar dano a bem jurídico protegido",
-          "Ter pensamentos criminosos",
-          "Realizar atos que representam perigo de dano",
-          "Responder por autolesão ou conduta interna"
+          "Permitir a retroatividade de leis penais mais favoráveis ao réu.",
+          "Proibir a aplicação de leis penais que tenham sido editadas após a prática do fato criminoso.",
+          "Permitir que o juiz crie tipos penais em situações de urgência.",
+          "Reforçar o caráter interpretativo das leis penais pelo Executivo."
         ],
         "answer": 1
       },
       {
-        "question": "O princípio da adequação social determina que condutas socialmente aceitas:",
+        "question": "De acordo com o princípio da taxatividade, tipos penais devem ser:",
         "options": [
-          "Devem ser criminalizadas para garantir segurança",
-          "Não podem ser criminalizadas, independentemente de sua natureza",
-          "São compatíveis com o direito penal e, portanto, não podem ser punidas",
-          "Devem ser sempre punidas, para manter a ordem social"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual o objetivo do princípio da humanidade no Direito Penal?",
-        "options": [
-          "Permitir penas cruéis em casos de alta gravidade",
-          "Garantir que as penas respeitem a dignidade da pessoa humana",
-          "Eliminar penas privativas de liberdade",
-          "Permitir penas perpétuas sem restrições"
+          "Vagos e abertos à interpretação para ampliar sua aplicação.",
+          "Claros, precisos e não deixar margem de dúvida sobre sua configuração.",
+          "Podem incluir condutas internas e estados de espírito do agente.",
+          "Abertos a analogias para ampliar o alcance da norma penal."
         ],
         "answer": 1
       },
       {
-        "question": "De acordo com o princípio da proporcionalidade, qual relação deve ser observada na aplicação da pena?",
+        "question": "Qual das opções abaixo representa uma conduta que viola o princípio da ofensividade?",
         "options": [
-          "Gravidade do fato e gravidade da pena",
-          "Gravidade do fato e custo econômico do processo",
-          "Dano causado e tempo de prisão máximo",
-          "Idade do infrator e pena mínima prevista em lei"
+          "Punir alguém por causar dano a si próprio.",
+          "Criminalizar uma atitude que não causa ou ameaça causar dano a bem jurídico.",
+          "Punir uma pessoa por estado de angústia emocional.",
+          "Aplicar pena por conduta que coloca em risco um bem jurídico."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da fragmentariedade determina que o Direito Penal deve proteger:",
+        "options": [
+          "Todos os bens jurídicos do indivíduo.",
+          "Apenas os bens mais relevantes para a sociedade.",
+          "Somente bens materiais de grande valor econômico.",
+          "Bens jurídicos de interesse exclusivo do Estado."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da proporcionalidade, no Direito Penal, implica que a pena deve ser:",
+        "options": [
+          "Apenas proporcional à gravidade do fato, sem considerar outros fatores.",
+          "Proporcional à gravidade do fato e às circunstâncias do agente.",
+          "Sempre máxima para garantir a efetividade da punição.",
+          "Independente da gravidade do fato, desde que haja reincidência."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o princípio da individualização da pena, a sanção deve ser:",
+        "options": [
+          "Padronizada para todos os infratores da mesma conduta.",
+          "Ajustada às circunstâncias específicas de cada condenado.",
+          "Imposta de forma automática pelo sistema eletrônico de julgamento.",
+          "Sempre proporcional à pena máxima prevista na lei."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas melhor explica o princípio da responsabilidade subjetiva?",
+        "options": [
+          "A responsabilidade penal depende da existência de dolo ou culpa do agente.",
+          "A responsabilidade é objetiva, independentemente da intenção do agente.",
+          "A responsabilidade penal pode ser atribuída mesmo sem relação com a conduta do agente.",
+          "A responsabilidade é exclusiva do Estado e não do indivíduo."
         ],
         "answer": 0
       },
       {
-        "question": "O princípio da insignificância busca excluir a tipicidade de condutas que sejam:",
+        "question": "De acordo com o princípio da culpabilidade, a responsabilidade penal exige que a conduta seja:",
         "options": [
-          "Reprováveis e perigosas",
-          "De menor ofensividade e impacto social",
-          "De alta gravidade e repercussão social",
-          "Envolvendo bens jurídicos essenciais"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o entendimento do STF, quais são os requisitos para a aplicação do princípio da insignificância?",
-        "options": [
-          "Ofensividade elevada e grave lesão jurídica",
-          "Mínima ofensividade, ausência de periculosidade social, reduzido grau de reprovabilidade e inexpressividade da lesão",
-          "Reincidência e alta periculosidade",
-          "Dano de grande monta e reincidência do infrator"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Sobre o princípio da culpabilidade, qual afirmação é correta?",
-        "options": [
-          "A responsabilidade penal pode ser objetiva, sem necessidade de dolo ou culpa",
-          "A responsabilidade penal depende de juízo de censura, ou seja, de reprovação do agente",
-          "O agente pode ser responsabilizado por atos internos, independentemente de ação ou omissão",
-          "A culpabilidade permite punição por pensamentos criminosos"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas melhor descreve a responsabilidade objetiva no Direito Penal?",
-        "options": [
-          "Depende da demonstração de dolo ou culpa do agente",
-          "Não exige prova de culpa, sendo suficiente a prática do fato ilícito",
-          "Requer prova de intenção consciente do infrator",
-          "Baseia-se na responsabilidade por estado interno de pensamento"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da responsabilidade subjetiva exige que a responsabilidade penal seja condicionada à prova de:",
-        "options": [
-          "Dolo ou culpa do agente",
-          "Previsibilidade do dano",
-          "Reincidência do infrator",
-          "Periculosidade da conduta"
+          "Reprovável ou censurável ao agente nas circunstâncias em que agiu.",
+          "Impunível, desde que o agente seja primário.",
+          "De responsabilidade objetiva, sem análise de dolo ou culpa.",
+          "Realizada por qualquer pessoa, mesmo sem intenção ou negligência."
         ],
         "answer": 0
       },
       {
-        "question": "Segundo o princípio da exclusividade na proteção dos bens jurídicos, a norma penal deve tutelar:",
+        "question": "O princípio da legalidade também é conhecido como:",
         "options": [
-          "Todos os bens de valor social",
-          "Apenas bens jurídicos de relevância suficiente para justificar a tutela penal",
-          "Qualquer bem que o infrator desejar proteger",
-          "Bens de interesse econômico do Estado"
+          "Princípio da reserva de lei.",
+          "Princípio da reserva legal ou da legalidade estrita.",
+          "Princípio da lei geral.",
+          "Princípio do direito administrativo."
         ],
         "answer": 1
       },
       {
-        "question": "O princípio da intervenção mínima no Direito Penal significa que:",
+        "question": "Segundo o princípio da individualização da pena, qual das ações a seguir é recomendada na dosimetria da pena?",
         "options": [
-          "O Direito Penal deve ser aplicado de forma ampla e indiscriminada",
-          "A intervenção do Estado deve ocorrer apenas em casos estritamente necessários",
-          "Toda conduta ilícita deve ser criminalizada automaticamente",
-          "O Direito Penal deve substituir outras formas de controle social"
+          "Aplicar a mesma pena para todos os réus de uma mesma infração.",
+          "Considerar as circunstâncias pessoais e o grau de culpabilidade do condenado.",
+          "Impor a pena máxima prevista na lei, independentemente do caso.",
+          "Elaborar uma pena padrão para facilitar a aplicação da justiça."
         ],
         "answer": 1
       },
       {
-        "question": "Na teoria do Direito Penal do Fato, a criminalização é baseada em:",
+        "question": "O princípio da insignificância atua na exclusão do crime quando a conduta:",
         "options": [
-          "O caráter do agente e sua intenção",
-          "A autoria de condutas humanas voluntárias e exteriorizadas",
-          "A personalidade do infrator",
-          "A intenção de causar dano ao bem jurídico"
+          "Causa dano considerável ao bem jurídico.",
+          "Tem baixa ofensividade e inexpressivo impacto jurídico.",
+          "Revela intenção dolosa do agente.",
+          "Compromete a segurança pública de forma grave."
         ],
         "answer": 1
       },
       {
-        "question": "De acordo com o princípio da exteriorização do fato, o Estado só pode criminalizar condutas que sejam:",
+        "question": "Qual das alternativas representa uma consequência do princípio da pessoalidade da pena?",
         "options": [
-          "Internas e internas, como pensamentos",
-          "Externas e voluntárias",
-          "Relativas a condições externas ou estados existenciais",
-          "De caráter apenas interno e psicológico"
+          "A pena imposta pode ser transferida aos herdeiros do condenado.",
+          "A responsabilidade penal é individual, não podendo atingir terceiros.",
+          "A pena pode ser aplicada a terceiros relacionados com o infrator.",
+          "A responsabilidade recai sobre os familiares do condenado, automaticamente."
         ],
         "answer": 1
       },
       {
-        "question": "O princípio da individualização da pena assegura que, na aplicação da sanção, deve-se considerar:",
+        "question": "De acordo com o princípio da humanidade, as penas que desrespeitam a dignidade humana são:",
         "options": [
-          "O tipo penal definido na lei de forma uniforme",
-          "A gravidade do fato e as circunstâncias pessoais do infrator",
-          "A reputação social do réu",
-          "A opinião pública sobre o delito cometido"
+          "Permissíveis se estiverem previstas em lei.",
+          "Proibidas, devendo-se evitar penas cruéis ou degradantes.",
+          "Indiferentes, desde que cumpridas integralmente.",
+          "Aceitas em casos de guerra ou emergência nacional."
         ],
         "answer": 1
       },
       {
-        "question": "Qual das alternativas apresenta uma fase correta na aplicação do princípio da individualização da pena?",
+        "question": "O princípio da intervenção mínima recomenda que o Direito Penal seja utilizado:",
         "options": [
-          "Na elaboração da norma pelo legislador",
-          "Na imposição da sanção pelo juiz",
-          "Na execução penal, sem necessidade de avaliação individual",
-          "Na sentença do júri, sem critérios objetivos"
+          "Como primeira resposta ao crime.",
+          "Somente quando outras medidas de controle social forem insuficientes.",
+          "Para punir qualquer conduta contrária à moral social.",
+          "De forma ampla, para garantir a ordem pública."
         ],
         "answer": 1
       },
       {
-        "question": "De acordo com o princípio da intervenção mínima, qual seria a regra para a criminalização de condutas de baixo impacto social?",
+        "question": "Segundo o princípio da exteriorização do fato, o Estado só pode criminalizar condutas que sejam:",
         "options": [
-          "Deveria ser criminalizada imediatamente",
-          "Deveria ser considerada de alta prioridade",
-          "Deve ser evitada, para não ampliar excessivamente o alcance do Direito Penal",
-          "Deve ser tratada como crime de responsabilidade"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo o princípio da proporcionalidade, qual juízo deve ser feito na aplicação da pena?",
-        "options": [
-          "A relação entre a gravidade do fato e a pena mais severa possível",
-          "A relação entre a gravidade do fato e a pena aplicada, de modo a evitar punições desproporcionais",
-          "A gravidade do dano, independentemente da pena prevista",
-          "A opinião da sociedade sobre o infrator"
+          "Internas, subjetivas ou estados de espírito.",
+          "Atos humanos voluntários e exteriorizados.",
+          "Condutas que envolvam estados de consciência ou emoções.",
+          "Condutas que não possam ser verificadas por testemunhas."
         ],
         "answer": 1
       },
       {
-        "question": "De acordo com o princípio da culpabilidade, qual elemento é indispensável para a responsabilização penal?",
+        "question": "O princípio da individualização da pena está previsto na Constituição Federal e deve ser observado:",
         "options": [
-          "A presença de dolo ou culpa",
-          "A reincidência do infrator",
-          "A existência de uma lei penal anterior",
-          "A gravidade do dano causado"
+          "No momento de elaboração da norma, na sentença e na execução penal.",
+          "Apenas na sentença, para garantir a justiça formal.",
+          "Somente na fase de execução, para evitar injustiças.",
+          "Na elaboração de leis penais, dispensando sua aplicação na sentença."
         ],
         "answer": 0
       },
       {
-        "question": "A teoria do crime, segundo o texto, é composta por quais elementos essenciais?",
+        "question": "Qual é a relação entre o princípio da proporcionalidade e a gravidade do fato e da pena?",
         "options": [
-          "Conduta, resultado e culpabilidade",
-          "Fato típico, antijurídico e culpável",
-          "Tipo penal, pena e sanção",
-          "Ação, intenção e resultado"
+          "Proporcionalidade exige que a pena seja sempre máxima, independentemente do fato.",
+          "A pena deve refletir a gravidade do fato e a reprovabilidade do comportamento.",
+          "A gravidade da pena deve ser sempre superior à gravidade do fato.",
+          "Não há relação entre eles, pois a pena é definida pelo juiz livremente."
         ],
         "answer": 1
       },
       {
-        "question": "Qual das alternativas apresenta uma restrição do princípio da legalidade na criação de tipos penais?",
+        "question": "O princípio da responsabilidade objetiva considera que a responsabilidade penal:",
         "options": [
-          "Podem ser utilizados costumes como fonte primária",
-          "Podem ser criados por analogia favorável ao réu",
-          "Devem ser previstos em lei escrita, clara e precisa",
-          "Podem ser estabelecidos por decretos administrativos"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O princípio da insignificância visa excluir a tipicidade de condutas que apresentem:",
-        "options": [
-          "Alta periculosidade social",
-          "Relevância econômica significativa",
-          "Baixa ofensividade e impacto social mínimo",
-          "Reincidência do infrator"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo o texto, atos preparatórios e pensamentos internos, como a cogitação de cometer um crime, são:",
-        "options": [
-          "Puníveis imediatamente",
-          "Incriminados de forma automática",
-          "Normalmente não puníveis, em regra",
-          "Sempre considerados crime consumado"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O princípio da responsabilidade objetiva no Direito Penal implica que:",
-        "options": [
-          "Dolo ou culpa não são necessários para responsabilizar o agente",
-          "A responsabilidade pode ser atribuída independentemente de intenção ou negligência",
-          "A prática do fato ilícito, por si só, é suficiente para responsabilização",
-          "A responsabilidade depende de prova de intenção deliberada"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O princípio da proporcionalidade exige que se faça uma avaliação entre:",
-        "options": [
-          "A gravidade do fato e a possibilidade de reincidência",
-          "A gravidade do fato e a gravidade da pena",
-          "O grau de periculosidade e o tempo de prisão",
-          "A intenção do agente e o dano causado"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual princípio garante que a pena não seja excessivamente cruel ou desumana?",
-        "options": [
-          "Princípio da legalidade",
-          "Princípio da humanidade",
-          "Princípio da proporcionalidade",
-          "Princípio da insignificância"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o princípio da individualização da pena, qual aspecto deve ser avaliado para cada condenado?",
-        "options": [
-          "A gravidade do delito e a sentença padrão",
-          "As circunstâncias do fato e a personalidade do infrator",
-          "A opinião do Ministério Público",
-          "A quantidade de bens apreendidos"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da intervenção mínima, qual é o papel do legislador ao criar novos crimes?",
-        "options": [
-          "Criar o máximo possível de tipos penais",
-          "Estabelecer penas severas para todos",
-          "Respeitar o caráter de último recurso do Direito Penal e limitar sua extensão",
-          "Permitir a criminalização de todas as condutas sociais"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O que caracteriza a exteriorização do fato no Direito Penal?",
-        "options": [
-          "Punir condutas humanas não voluntárias",
-          "Punir estados internos e pensamentos",
-          "Criminalizar condutas humanas voluntárias e externas",
-          "Proibir a responsabilização por condições externas ou estados existenciais"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O princípio da individualização da pena está previsto na Constituição Federal e exige que a sanção seja:",
-        "options": [
-          "Aplicada de forma uniforme para todos os infratores",
-          "Personalizada, considerando as circunstâncias de cada caso",
-          "Sempre de forma mais severa possível",
-          "Decidida por decisão do Conselho de Justiça"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas melhor exemplifica a aplicação do princípio da proporcionalidade?",
-        "options": [
-          "A punição de um roubo de R$ 10 com cadeia perpétua",
-          "A aplicação de pena proporcional à gravidade do delito cometido",
-          "Imposição de multa em qualquer infração, independentemente do dano",
-          "Reclusão de todos os infratores, sem análise individual"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da culpabilidade impede que a responsabilidade penal seja atribuída sem:",
-        "options": [
-          "Prova de intenção deliberada",
-          "Prova de dolo ou culpa do agente",
-          "Reincidência do infrator",
-          "Relevância social do ato"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, a teoria do crime é composta por quais elementos?",
-        "options": [
-          "Conduta, resultado, culpabilidade",
-          "Fato típico, ilícito e culpável",
-          "Tipo penal, pena e sanção",
-          "Ação, intenção, dano"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Conforme o princípio da legalidade, a criação de crime por analogia é:",
-        "options": [
-          "Permitida se for favorável ao réu",
-          "Vedada, especialmente se prejudicar o réu",
-          "Autorizada por decisão judicial",
-          "Aceita em qualquer hipótese"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual princípio impede que condutas de baixo impacto social sejam criminalizadas, visando evitar a sobrecarga do sistema penal?",
-        "options": [
-          "Princípio da legalidade",
-          "Princípio da proporcionalidade",
-          "Princípio da insignificância",
-          "Princípio da adequação social"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O que o princípio da exteriorização do fato defende no âmbito do Direito Penal?",
-        "options": [
-          "Punir condutas internas e pensamentos",
-          "Punir apenas condutas humanas voluntárias e externas",
-          "Permitir punições por estados internos e condições externas",
-          "Proibir a criminalização de condutas humanas voluntárias"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da individualização da pena, qual é um aspecto que deve ser considerado na sentença?",
-        "options": [
-          "A gravidade do fato e a personalidade do infrator",
-          "A opinião do Ministério Público",
-          "A quantidade de bens apreendidos",
-          "O desejo do juiz de aplicar penas severas"
+          "Depende da demonstração de dolo ou culpa do agente.",
+          "Pode ser atribuída independentemente do estado psicológico do agente.",
+          "É sempre vinculada à intenção consciente do infrator.",
+          "Depende do grau de periculosidade da conduta, mesmo sem dolo ou culpa."
         ],
         "answer": 0
+      },
+      {
+        "question": "De acordo com o princípio da exclusividade na proteção dos bens jurídicos, a norma penal deve:",
+        "options": [
+          "Protejer qualquer bem que o legislador desejar.",
+          "Ser criada apenas para tutelar bens jurídicos de relevância social.",
+          "Servir como instrumento de controle social genérico.",
+          "Incluir todas as condutas humanas, sem restrição."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da intervenção mínima no Direito Penal sugere que a punição deve ser aplicada:",
+        "options": [
+          "De forma ampla e abrangente, para garantir a ordem pública.",
+          "Apenas em casos estritamente necessários, quando outras esferas do direito falharem.",
+          "Sempre que houver violação de qualquer bem jurídico.",
+          "Como primeira resposta da sociedade ao delito."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o princípio da exteriorização do fato, condutas internas ou pensamentos não devem ser punidos porque:",
+        "options": [
+          "Não podem ser observados ou constatados por terceiros.",
+          "São consideradas relevantes apenas na fase de investigação.",
+          "Sempre representam uma ameaça à ordem social.",
+          "Podem evoluir para condutas externas ilícitas."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A teoria do crime que adota que um fato é considerado crime quando reúne os elementos de tipicidade, antijuridicidade e culpabilidade é:",
+        "options": [
+          "Teoria do delito.",
+          "Teoria do fato típico.",
+          "Teoria do crime em sentido amplo.",
+          "Teoria do fato ilícito."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das alternativas abaixo não constitui uma consequência do princípio da legalidade?",
+        "options": [
+          "Criação de tipos penais por analogia.",
+          "Vedação à retroatividade de leis penais mais severas.",
+          "Necessidade de lei escrita e em sentido estrito.",
+          "Proibição de criação de crimes por Medidas Provisórias."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o princípio da culpabilidade, o juízo de censura refere-se à avaliação de:",
+        "options": [
+          "Apenas ao resultado da conduta.",
+          "A conduta do agente, considerando sua culpabilidade e condições pessoais.",
+          "A intenção do agente, independentemente das circunstâncias.",
+          "À capacidade de o agente compreender a ilicitude do fato."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da proporcionalidade exige que a pena seja:",
+        "options": [
+          "Proporcional à gravidade do fato, levando em conta sua reprovabilidade.",
+          "Sempre máxima, para garantir a efetividade da punição.",
+          "De livre escolha do juiz, sem limites estabelecidos em lei.",
+          "Proporcional apenas ao dano causado, sem consideração às circunstâncias."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo o princípio da insignificância, quais requisitos são necessários para a aplicação do princípio?",
+        "options": [
+          "Alta ofensividade, periculosidade social e grande reprovabilidade.",
+          "Baixa ofensividade, ausência de periculosidade, baixo grau de reprovabilidade e inexpressividade da lesão.",
+          "Qualquer conduta que cause algum dano, independentemente do impacto social.",
+          "Condutas que envolvam violência ou grave ameaça."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da responsabilidade subjetiva no Direito Penal exige que a conduta seja:",
+        "options": [
+          "Realizada com dolo ou culpa, dependendo da avaliação do agente.",
+          "De responsabilidade objetiva, independentemente da intenção.",
+          "Cometida por qualquer pessoa, mesmo sem intenção ou negligência.",
+          "Sempre envolvendo estado de dolo, mesmo na negligência."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O princípio da individualização da pena é fundamental para garantir que:",
+        "options": [
+          "Todos os condenados recebam a mesma sanção para facilitar a aplicação da lei.",
+          "A sanção seja adequada às circunstâncias específicas de cada réu.",
+          "A pena seja sempre máxima, independentemente do caso.",
+          "A sanção seja aplicada automaticamente pelo sistema digital."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas melhor representa o conceito de exteriorização do fato em Direito Penal?",
+        "options": [
+          "Punir estados internos e condições existenciais do indivíduo.",
+          "Criminalizar apenas condutas humanas voluntárias e concretamente exteriorizadas.",
+          "Considerar pensamentos e intenções como tipos penais.",
+          "Punir o indivíduo por suas condições de vida e personalidade."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o princípio da humanidade, uma pena que viola a dignidade da pessoa humana é:",
+        "options": [
+          "Permissível se estiver prevista em lei.",
+          "Proibida, devendo ser evitada ou revista.",
+          "Aceitável em tempos de guerra.",
+          "Recomendável em situações de emergência social."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da intervenção mínima recomenda que o Direito Penal seja utilizado como:",
+        "options": [
+          "Primeira resposta a qualquer conduta contrária à lei.",
+          "Último recurso, quando outras formas de controle social se mostrarem ineficazes.",
+          "Instrumento de controle social amplo e geral.",
+          "Ferramenta de repressão de todas as condutas humanas."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o princípio da exteriorização do fato, a criminalização de condutas deve acontecer somente quando:",
+        "options": [
+          "A conduta for voluntária e exteriorizada.",
+          "Houver uma condição externa ou estado de ser do indivíduo.",
+          "A conduta envolver estados mentais internos.",
+          "O comportamento for interno e subjetivo."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A teoria do crime que considera que um fato é crime quando apresenta tipicidade, antijuridicidade e culpabilidade é:",
+        "options": [
+          "Teoria do fato típico.",
+          "Teoria do delito.",
+          "Teoria do fato ilícito.",
+          "Teoria do crime em sentido amplo."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das opções abaixo não é uma consequência do princípio da legalidade?",
+        "options": [
+          "Proibição de retroatividade de leis penais mais severas.",
+          "Necessidade de lei escrita e clara.",
+          "Permissão para criar crimes por analogia in malam partem.",
+          "Vedação à criação de tipos penais por Medidas Provisórias."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo o princípio da culpabilidade, a responsabilidade penal depende de:",
+        "options": [
+          "Prova de dolo ou culpa na conduta do agente.",
+          "Simples ocorrência do fato ilícito.",
+          "Reincidência do infrator.",
+          "Agravamento da pena por circunstâncias especiais."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O princípio da proporcionalidade implica que a relação entre o fato e a pena deve ser:",
+        "options": [
+          "Proporcional à gravidade do dano causado.",
+          "Diretamente proporcional à gravidade do fato e às circunstâncias do infrator.",
+          "Sempre a pena máxima prevista na lei.",
+          "Independente de avaliação, pois a pena é padrão para todos."
+        ],
+        "answer": 1
       }
     ]
   }
