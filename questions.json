@@ -2,347 +2,227 @@
   "7ATB-P5": {
     "7ph14historia": [
       {
-        "question": "Qual das seguintes afirmações melhor explica o conceito de simetria em uma figura geométrica?",
+        "question": "Qual das seguintes afirmações caracteriza uma transformação no plano cartesiano que preserva distâncias e ângulos, mantendo o formato e tamanho das figuras?",
         "options": [
-          "Uma figura que mantém seu tamanho e forma após uma reflexão, rotação ou translação.",
-          "Uma figura que possui lados de comprimentos iguais e ângulos de mesma medida.",
-          "Uma figura que pode ser dividida em partes iguais por um eixo de simetria, refletindo uma metade na outra.",
-          "Uma figura que apresenta ângulos internos iguais, independentemente de sua orientação."
+          "Translação",
+          "Reflexão",
+          "Isometria",
+          "Ampliação"
         ],
         "answer": 2
       },
       {
-        "question": "No plano cartesiano, um ponto com coordenadas (x, y) é refletido em relação ao eixo y. Qual será suas coordenadas após a reflexão?",
+        "question": "Ao adicionar um número inteiro às coordenadas de um polígono, qual efeito ocorre na figura resultante?",
         "options": [
-          "(x, -y)",
-          "(-x, y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número inteiro maior que 1, qual transformação geométrica ocorre?",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Ampliação ou redução proporcional, mantendo a forma semelhante.",
-          "Translação ao longo de um vetor.",
-          "Rotação em torno da origem com um ângulo específico."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Uma figura é deslocada no plano sem alterar sua orientação ou tamanho. Essa transformação é conhecida como:",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Ampliação."
+          "Ampliação",
+          "Reflexão",
+          "Translação",
+          "Rotação"
         ],
         "answer": 2
       },
       {
-        "question": "Qual método descreve corretamente a construção de uma figura por meio de uma reflexão em relação a uma linha?",
+        "question": "Se multiplicarmos as coordenadas de um polígono por um número inteiro, como por exemplo 3, qual propriedade a figura obtida terá em relação à original?",
         "options": [
-          "Desenhar uma cópia idêntica da figura ao lado da linha de reflexão, de modo que a linha seja o eixo de simetria.",
-          "Desenhar uma figura maior ao lado da linha de reflexão, com todos os vértices refletidos.",
-          "Rotacionar a figura ao redor de um ponto até que ela fique alinhada com a linha de reflexão.",
-          "Multiplicar as coordenadas de todos os vértices por -1 para obter a figura refletida."
+          "Será congruente",
+          "Será semelhante, com tamanho maior",
+          "Terá a mesma área",
+          "Será uma reflexão"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
-        "question": "Se uma figura sofre uma rotação de 180° em torno do ponto de origem, suas coordenadas finais de um vértice inicialmente em (x, y) serão:",
+        "question": "Qual transformação leva uma figura a girá-la em torno de um ponto fixo, alterando sua orientação, mas mantendo suas dimensões?",
         "options": [
-          "(-x, -y)",
-          "(y, -x)",
-          "(-y, x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que preserva as distâncias e os ângulos entre os pontos?",
-        "options": [
-          "Translação.",
-          "Escala.",
-          "Reflexão.",
-          "Ampliação."
+          "Reflexão",
+          "Translação",
+          "Rotação",
+          "Ampliação"
         ],
         "answer": 2
       },
       {
-        "question": "Ao adicionar um mesmo número inteiro às coordenadas de um polígono, a transformação resultante é uma:",
+        "question": "Quando uma figura é refletida em relação ao eixo y do plano cartesiano, as coordenadas de seus vértices terão qual mudança?",
         "options": [
-          "Reflexão em relação a um eixo.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação não proporcional."
+          "O sinal da coordenada x é invertido",
+          "O sinal da coordenada y é invertido",
+          "As coordenadas permanecem iguais",
+          "As coordenadas trocam de lugar"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Um eixo de simetria de uma figura é uma linha que:",
+        "options": [
+          "Divide a figura em duas partes iguais que são reflexo uma da outra",
+          "Permite rotacionar a figura sem alterar sua posição",
+          "Permite transladar a figura mantendo sua orientação",
+          "Reflete a figura em relação ao eixo x"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao refletir uma figura em relação à origem do plano cartesiano, as coordenadas de seus vértices passam a ser:",
+        "options": [
+          "Inversas em ambos os sinais",
+          "Mantendo os sinais originais",
+          "Somente o valor de x é invertido",
+          "Somente o valor de y é invertido"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se uma figura sofre uma rotação de 180° em torno do ponto de origem, quais mudanças acontecem nas coordenadas dos seus vértices?",
+        "options": [
+          "Os sinais de ambas as coordenadas são invertidos",
+          "Apenas o valor de x é invertido",
+          "Apenas o valor de y é invertido",
+          "As coordenadas permanecem iguais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes opções descreve uma transformação que mantém a figura no mesmo lugar, mas inverte sua orientação em relação a uma reta?",
+        "options": [
+          "Translação",
+          "Reflexão",
+          "Rotação",
+          "Ampliação"
         ],
         "answer": 1
       },
       {
-        "question": "Para que um eixo de simetria seja válido para uma figura, ele deve dividir a figura em partes que são:",
+        "question": "Ao multiplicar as coordenadas de um polígono por um número maior que 1, o resultado é:",
         "options": [
-          "Congruentes por reflexão.",
-          "De tamanho diferente, mas com ângulos iguais.",
-          "Simétricas por rotação.",
-          "De mesma área, independentemente da reflexão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Quando uma figura é refletida em relação ao eixo x no plano cartesiano, suas coordenadas de um vértice (x, y) se transformam em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
+          "Uma figura menor",
+          "Uma figura maior",
+          "Uma reflexão",
+          "Uma translação"
         ],
         "answer": 1
       },
       {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido horário em torno do centro de coordenadas, qual será a coordenada de um vértice inicialmente em (x, y)?",
+        "question": "Na simetria de uma figura em relação a um eixo, a figura refletida apresenta qual característica em relação à original?",
         "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
+          "É congruente e espelhada",
+          "É semelhante, mas de tamanhos diferentes",
+          "Tem tamanhos diferentes",
+          "É rotacionada"
         ],
         "answer": 0
       },
       {
-        "question": "Se uma figura no plano é ampliada com fator 4, qual será o efeito dessa transformação na medida do lado de um quadrado originalmente com 3 unidades de comprimento?",
+        "question": "O que caracteriza uma transformação de translação no plano cartesiano?",
         "options": [
-          "O lado do quadrado ampliado terá 12 unidades.",
-          "O lado do quadrado ampliado terá 6 unidades.",
-          "O lado do quadrado ampliado terá 3 unidades.",
-          "O lado do quadrado ampliado terá 16 unidades."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo y, os pontos que estavam à direita do eixo passarão a estar em qual lado após a reflexão?",
-        "options": [
-          "À esquerda do eixo y.",
-          "No mesmo lado, sem alteração.",
-          "Acima do eixo x.",
-          "Na mesma posição, mas invertidos."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação mantém inalterada a forma e o tamanho de uma figura, mas pode alterar sua posição e orientação?",
-        "options": [
-          "Escala.",
-          "Isometria.",
-          "Ampliação.",
-          "Proporção."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma reta no plano cartesiano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Inverte a figura de modo que cada ponto seja equidistante da reta de reflexão.",
-          "Amplia a figura proporcionalmente."
+          "Girando a figura em torno de um ponto",
+          "Refletindo a figura em uma linha",
+          "Deslocando a figura de um lugar para outro sem alterar seu formato",
+          "Ampliando ou encolhendo a figura"
         ],
         "answer": 2
       },
       {
-        "question": "Na prática, qual das seguintes aplicações é um exemplo de translação?",
+        "question": "Ao refletir uma figura em relação ao eixo x, qual coordenada de um ponto (x, y) da figura original será alterada?",
         "options": [
-          "Refletir uma figura em um espelho.",
-          "Girar uma moeda em torno de seu centro.",
-          "Deslocar uma sombra de uma árvore ao longo do dia.",
-          "Aumentar o tamanho de uma figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, suas coordenadas de um ponto (x, y) serão:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que altera a orientação de uma figura, mas mantém suas dimensões?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
+          "x",
+          "y",
+          "x e y",
+          "nenhuma mudança"
         ],
         "answer": 0
       },
       {
-        "question": "Se uma figura no plano é rotacionada 360° em torno de um ponto, ela:",
-        "options": [
-          "Permanece na mesma posição.",
-          "Faz uma reflexão em relação ao ponto.",
-          "Gira de modo que sua orientação seja invertida.",
-          "Faz uma rotação de 180°."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Em uma reflexão em relação ao eixo y, um ponto com coordenadas (x, y) se transforma em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das afirmações a seguir é verdadeira sobre as isometrias?",
-        "options": [
-          "Preservam tamanhos e ângulos, mantendo a figura congruente ao original.",
-          "Sempre envolvem escalas de aumento ou redução.",
-          "Alteram o tamanho e a orientação das figuras, mas mantêm suas posições.",
-          "São transformações que envolvem mudança de tamanho proporcional."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao realizar uma translação de um polígono, o que acontece com suas medidas internas?",
-        "options": [
-          "Elas permanecem iguais, pois a translação não altera o tamanho.",
-          "Elas aumentam proporcionalmente ao vetor de translação.",
-          "Elas diminuem devido à mudança de posição.",
-          "Elas se modificam de forma a criar uma figura semelhante, mas diferente."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido anti-horário, qual será a coordenada de um vértice inicialmente em (x, y)?",
+        "question": "Se uma figura é rotacionada em 90° no sentido anti-horário em torno do ponto de origem, a coordenada (x, y) do ponto correspondente na figura rotacionada será:",
         "options": [
           "(-y, x)",
+          "(x, y)",
           "(y, -x)",
+          "(-x, -y)"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual transformação mantém as distâncias e os ângulos, mas desloca a figura para uma nova posição?",
+        "options": [
+          "Ampliação",
+          "Reflexão",
+          "Translação",
+          "Escala"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "No contexto de simetrias no plano, uma figura com dois eixos de simetria é caracterizada por:",
+        "options": [
+          "Ter uma linha de reflexão",
+          "Ter duas linhas de reflexão",
+          "Ser rotacionada",
+          "Não possuir linhas de reflexão"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao realizar uma reflexão em relação ao eixo y, as coordenadas do vértice (x, y) se tornam:",
+        "options": [
+          "(-x, y)",
+          "(x, -y)",
           "(-x, -y)",
           "(x, y)"
         ],
         "answer": 0
       },
       {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número negativo, a transformação resultante é uma:",
+        "question": "Para obter um símbolo de simetria em relação ao eixo x, a coordenada y de cada ponto deve:",
         "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
+          "Ser invertida",
+          "Permancer igual",
+          "Ser multiplicada por -1",
+          "Ser somada a um número"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando uma figura sofre uma ampliação por um fator de 4, as coordenadas dos seus vértices passam a ser:",
+        "options": [
+          "Multiplicadas por 4",
+          "Divididas por 4",
+          "Inversas",
+          "Mantidas iguais"
         ],
         "answer": 0
       },
       {
-        "question": "Qual das seguintes transformações mantém o tamanho e a forma de uma figura, mas pode alterar sua orientação e posição?",
+        "question": "O que ocorre na figura após uma reflexão em relação ao eixo y?",
         "options": [
-          "Reflexão.",
-          "Escala.",
-          "Isometria.",
-          "Ampliação."
+          "A figura é rotacionada",
+          "A figura é deslocada",
+          "A figura é espelhada e invertida em relação ao eixo y",
+          "A figura é ampliada"
         ],
         "answer": 2
       },
       {
-        "question": "Se um ponto (x, y) é refletido em relação ao ponto de origem, suas coordenadas finais serão:",
+        "question": "Em uma rotação de 180° em torno da origem, as coordenadas de um ponto (x, y) tornam-se:",
         "options": [
           "(-x, -y)",
           "(x, y)",
-          "(y, -x)",
-          "(-y, x)"
+          "(-x, y)",
+          "(x, -y)"
         ],
         "answer": 0
       },
       {
-        "question": "Qual transformação é caracterizada por girar uma figura em torno de um ponto fixo em um ângulo específico?",
+        "question": "Para construir a imagem refletida de uma figura no segundo quadrante, considerando uma reflexão em relação ao eixo y, ela passará a estar:",
         "options": [
-          "Reflexão.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, quais pontos de um vértice inicialmente em (x, y) se transformarão?",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
+          "No primeiro quadrante",
+          "No terceiro quadrante",
+          "No quarto quadrante",
+          "No segundo quadrante"
         ],
         "answer": 1
       },
       {
-        "question": "Qual das alternativas define uma transformação que mantém a distância entre quaisquer dois pontos de uma figura?",
-        "options": [
-          "Escala.",
-          "Reflexão.",
-          "Ampliação.",
-          "Translação."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se uma figura no plano é refletida em relação à linha y = x, as coordenadas de um ponto (x, y) serão alteradas para:",
-        "options": [
-          "(y, x)",
-          "(-x, -y)",
-          "(-y, -x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma linha no plano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Reflete a figura de modo que cada ponto seja equidistante da linha de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No contexto das transformações geométricas, qual operação é representada por multiplicar as coordenadas de um vértice por um número negativo?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Rotação.",
-          "Translação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em torno do eixo horizontal X, o que acontece com as coordenadas Y de seus vértices?",
-        "options": [
-          "Elas se tornam positivas.",
-          "Elas permanecem iguais.",
-          "Elas se invertem de sinal.",
-          "Elas se tornam iguais às coordenadas X."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das alternativas melhor descreve uma transformação que mantém as medidas internas de uma figura, mas altera sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Isometria."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Ao aplicar uma rotação de 90° no sentido horário a um ponto (x, y), sua nova coordenada será:",
+        "question": "Ao aplicar uma rotação de 90° no sentido horário a um ponto (x, y), a nova coordenada será:",
         "options": [
           "(y, -x)",
           "(-y, x)",
@@ -352,1094 +232,84 @@
         "answer": 0
       },
       {
-        "question": "Qual das seguintes transformações é capaz de alterar o tamanho de uma figura proporcionalmente ao seu centro?",
+        "question": "Qual transformação mantém o mesmo tamanho e forma, mas inverte a figura em relação a uma reta?",
         "options": [
-          "Reflexão.",
-          "Translação.",
-          "Ampliação.",
-          "Rotação."
+          "Reflexão",
+          "Translação",
+          "Rotação",
+          "Ampliação"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
-        "question": "Qual das seguintes afirmações melhor explica o conceito de simetria em uma figura geométrica?",
+        "question": "Se uma figura é transladada 5 unidades para a esquerda, suas coordenadas de x serão:",
         "options": [
-          "Uma figura que mantém seu tamanho e forma após uma reflexão, rotação ou translação.",
-          "Uma figura que possui lados de comprimentos iguais e ângulos de mesma medida.",
-          "Uma figura que pode ser dividida em partes iguais por um eixo de simetria, refletindo uma metade na outra.",
-          "Uma figura que apresenta ângulos internos iguais, independentemente de sua orientação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No plano cartesiano, um ponto com coordenadas (x, y) é refletido em relação ao eixo y. Qual será suas coordenadas após a reflexão?",
-        "options": [
-          "(x, -y)",
-          "(-x, y)",
-          "(-x, -y)",
-          "(y, x)"
+          "Aumentadas em 5",
+          "Diminuídas em 5",
+          "Multiplicadas por 5",
+          "Inalteradas"
         ],
         "answer": 1
       },
       {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número inteiro maior que 1, qual transformação geométrica ocorre?",
+        "question": "Qual transformação geométrica pode ser utilizada para criar uma simetria de uma figura em relação a uma de suas diagonais?",
         "options": [
-          "Reflexão em relação a um eixo.",
-          "Ampliação ou redução proporcional, mantendo a forma semelhante.",
-          "Translação ao longo de um vetor.",
-          "Rotação em torno da origem com um ângulo específico."
+          "Reflexão",
+          "Rotação",
+          "Translação",
+          "Ampliação"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na prática, qual das seguintes aplicações é um exemplo de reflexão no plano?",
+        "options": [
+          "Deslizar uma figura ao longo de uma linha",
+          "Girando uma figura em torno de um ponto",
+          "Espelhar uma figura em um eixo",
+          "Ampliar uma figura"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao multiplicar as coordenadas de um polígono por um número negativo, a figura resultante será:",
+        "options": [
+          "Uma reflexão",
+          "Uma translação",
+          "Uma ampliação",
+          "Uma rotação"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual transformação pode ser representada pelo deslocamento de uma figura de tal modo que ela mantém sua orientação, tamanho e forma?",
+        "options": [
+          "Reflexão",
+          "Translação",
+          "Rotação",
+          "Ampliação"
         ],
         "answer": 1
       },
       {
-        "question": "Uma figura é deslocada no plano sem alterar sua orientação ou tamanho. Essa transformação é conhecida como:",
+        "question": "Um exemplo de transformação que altera o tamanho de uma figura, sem preservar suas medidas originais, é:",
         "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual método descreve corretamente a construção de uma figura por meio de uma reflexão em relação a uma linha?",
-        "options": [
-          "Desenhar uma cópia idêntica da figura ao lado da linha de reflexão, de modo que a linha seja o eixo de simetria.",
-          "Desenhar uma figura maior ao lado da linha de reflexão, com todos os vértices refletidos.",
-          "Rotacionar a figura ao redor de um ponto até que ela fique alinhada com a linha de reflexão.",
-          "Multiplicar as coordenadas de todos os vértices por -1 para obter a figura refletida."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura sofre uma rotação de 180° em torno do ponto de origem, suas coordenadas finais de um vértice inicialmente em (x, y) serão:",
-        "options": [
-          "(-x, -y)",
-          "(y, -x)",
-          "(-y, x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que preserva as distâncias e os ângulos entre os pontos?",
-        "options": [
-          "Translação.",
-          "Escala.",
-          "Reflexão.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao adicionar um mesmo número inteiro às coordenadas de um polígono, a transformação resultante é uma:",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação não proporcional."
+          "Reflexão",
+          "Ampliação",
+          "Translação",
+          "Rotação"
         ],
         "answer": 1
       },
       {
-        "question": "Para que um eixo de simetria seja válido para uma figura, ele deve dividir a figura em partes que são:",
+        "question": "Para verificar se uma figura possui simetria em relação a uma linha, é necessário observar se:",
         "options": [
-          "Congruentes por reflexão.",
-          "De tamanho diferente, mas com ângulos iguais.",
-          "Simétricas por rotação.",
-          "De mesma área, independentemente da reflexão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Quando uma figura é refletida em relação ao eixo x no plano cartesiano, suas coordenadas de um vértice (x, y) se transformam em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
+          "Ela pode ser rotacionada em 180°",
+          "Ela pode ser refletida em uma linha e permanecer igual",
+          "Ela pode ser transladada",
+          "Ela pode ser ampliada"
         ],
         "answer": 1
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido horário em torno do centro de coordenadas, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é ampliada com fator 4, qual será o efeito dessa transformação na medida do lado de um quadrado originalmente com 3 unidades de comprimento?",
-        "options": [
-          "O lado do quadrado ampliado terá 12 unidades.",
-          "O lado do quadrado ampliado terá 6 unidades.",
-          "O lado do quadrado ampliado terá 3 unidades.",
-          "O lado do quadrado ampliado terá 16 unidades."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo y, os pontos que estavam à direita do eixo passarão a estar em qual lado após a reflexão?",
-        "options": [
-          "À esquerda do eixo y.",
-          "No mesmo lado, sem alteração.",
-          "Acima do eixo x.",
-          "Na mesma posição, mas invertidos."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação mantém inalterada a forma e o tamanho de uma figura, mas pode alterar sua posição e orientação?",
-        "options": [
-          "Escala.",
-          "Isometria.",
-          "Ampliação.",
-          "Proporção."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma reta no plano cartesiano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Inverte a figura de modo que cada ponto seja equidistante da reta de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Na prática, qual das seguintes aplicações é um exemplo de translação?",
-        "options": [
-          "Refletir uma figura em um espelho.",
-          "Girar uma moeda em torno de seu centro.",
-          "Deslocar uma sombra de uma árvore ao longo do dia.",
-          "Aumentar o tamanho de uma figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, suas coordenadas de um ponto (x, y) serão:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que altera a orientação de uma figura, mas mantém suas dimensões?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é rotacionada 360° em torno de um ponto, ela:",
-        "options": [
-          "Permanece na mesma posição.",
-          "Faz uma reflexão em relação ao ponto.",
-          "Gira de modo que sua orientação seja invertida.",
-          "Faz uma rotação de 180°."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Em uma reflexão em relação ao eixo y, um ponto com coordenadas (x, y) se transforma em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das afirmações a seguir é verdadeira sobre as isometrias?",
-        "options": [
-          "Preservam tamanhos e ângulos, mantendo a figura congruente ao original.",
-          "Sempre envolvem escalas de aumento ou redução.",
-          "Alteram o tamanho e a orientação das figuras, mas mantêm suas posições.",
-          "São transformações que envolvem mudança de tamanho proporcional."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao realizar uma translação de um polígono, o que acontece com suas medidas internas?",
-        "options": [
-          "Elas permanecem iguais, pois a translação não altera o tamanho.",
-          "Elas aumentam proporcionalmente ao vetor de translação.",
-          "Elas diminuem devido à mudança de posição.",
-          "Elas se modificam de forma a criar uma figura semelhante, mas diferente."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido anti-horário, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(-y, x)",
-          "(y, -x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número negativo, a transformação resultante é uma:",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações mantém o tamanho e a forma de uma figura, mas pode alterar sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Escala.",
-          "Isometria.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Se um ponto (x, y) é refletido em relação ao ponto de origem, suas coordenadas finais serão:",
-        "options": [
-          "(-x, -y)",
-          "(x, y)",
-          "(y, -x)",
-          "(-y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação é caracterizada por girar uma figura em torno de um ponto fixo em um ângulo específico?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, quais pontos de um vértice inicialmente em (x, y) se transformarão?",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas define uma transformação que mantém a distância entre quaisquer dois pontos de uma figura?",
-        "options": [
-          "Escala.",
-          "Reflexão.",
-          "Ampliação.",
-          "Translação."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se uma figura no plano é refletida em relação à linha y = x, as coordenadas de um ponto (x, y) serão alteradas para:",
-        "options": [
-          "(y, x)",
-          "(-x, -y)",
-          "(-y, -x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma linha no plano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Reflete a figura de modo que cada ponto seja equidistante da linha de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No contexto das transformações geométricas, qual operação é representada por multiplicar as coordenadas de um vértice por um número negativo?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Rotação.",
-          "Translação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em torno do eixo horizontal X, o que acontece com as coordenadas Y de seus vértices?",
-        "options": [
-          "Elas se tornam positivas.",
-          "Elas permanecem iguais.",
-          "Elas se invertem de sinal.",
-          "Elas se tornam iguais às coordenadas X."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das alternativas melhor descreve uma transformação que mantém as medidas internas de uma figura, mas altera sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Isometria."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Ao aplicar uma rotação de 90° no sentido horário a um ponto (x, y), sua nova coordenada será:",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações é capaz de alterar o tamanho de uma figura proporcionalmente ao seu centro?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Ampliação.",
-          "Rotação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das seguintes afirmações melhor explica o conceito de simetria em uma figura geométrica?",
-        "options": [
-          "Uma figura que mantém seu tamanho e forma após uma reflexão, rotação ou translação.",
-          "Uma figura que possui lados de comprimentos iguais e ângulos de mesma medida.",
-          "Uma figura que pode ser dividida em partes iguais por um eixo de simetria, refletindo uma metade na outra.",
-          "Uma figura que apresenta ângulos internos iguais, independentemente de sua orientação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No plano cartesiano, um ponto com coordenadas (x, y) é refletido em relação ao eixo y. Qual será suas coordenadas após a reflexão?",
-        "options": [
-          "(x, -y)",
-          "(-x, y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número inteiro maior que 1, qual transformação geométrica ocorre?",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Ampliação ou redução proporcional, mantendo a forma semelhante.",
-          "Translação ao longo de um vetor.",
-          "Rotação em torno da origem com um ângulo específico."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Uma figura é deslocada no plano sem alterar sua orientação ou tamanho. Essa transformação é conhecida como:",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual método descreve corretamente a construção de uma figura por meio de uma reflexão em relação a uma linha?",
-        "options": [
-          "Desenhar uma cópia idêntica da figura ao lado da linha de reflexão, de modo que a linha seja o eixo de simetria.",
-          "Desenhar uma figura maior ao lado da linha de reflexão, com todos os vértices refletidos.",
-          "Rotacionar a figura ao redor de um ponto até que ela fique alinhada com a linha de reflexão.",
-          "Multiplicar as coordenadas de todos os vértices por -1 para obter a figura refletida."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura sofre uma rotação de 180° em torno do ponto de origem, suas coordenadas finais de um vértice inicialmente em (x, y) serão:",
-        "options": [
-          "(-x, -y)",
-          "(y, -x)",
-          "(-y, x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que preserva as distâncias e os ângulos entre os pontos?",
-        "options": [
-          "Translação.",
-          "Escala.",
-          "Reflexão.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao adicionar um mesmo número inteiro às coordenadas de um polígono, a transformação resultante é uma:",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação não proporcional."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Para que um eixo de simetria seja válido para uma figura, ele deve dividir a figura em partes que são:",
-        "options": [
-          "Congruentes por reflexão.",
-          "De tamanho diferente, mas com ângulos iguais.",
-          "Simétricas por rotação.",
-          "De mesma área, independentemente da reflexão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Quando uma figura é refletida em relação ao eixo x no plano cartesiano, suas coordenadas de um vértice (x, y) se transformam em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido horário em torno do centro de coordenadas, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é ampliada com fator 4, qual será o efeito dessa transformação na medida do lado de um quadrado originalmente com 3 unidades de comprimento?",
-        "options": [
-          "O lado do quadrado ampliado terá 12 unidades.",
-          "O lado do quadrado ampliado terá 6 unidades.",
-          "O lado do quadrado ampliado terá 3 unidades.",
-          "O lado do quadrado ampliado terá 16 unidades."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo y, os pontos que estavam à direita do eixo passarão a estar em qual lado após a reflexão?",
-        "options": [
-          "À esquerda do eixo y.",
-          "No mesmo lado, sem alteração.",
-          "Acima do eixo x.",
-          "Na mesma posição, mas invertidos."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação mantém inalterada a forma e o tamanho de uma figura, mas pode alterar sua posição e orientação?",
-        "options": [
-          "Escala.",
-          "Isometria.",
-          "Ampliação.",
-          "Proporção."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma reta no plano cartesiano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Inverte a figura de modo que cada ponto seja equidistante da reta de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Na prática, qual das seguintes aplicações é um exemplo de translação?",
-        "options": [
-          "Refletir uma figura em um espelho.",
-          "Girar uma moeda em torno de seu centro.",
-          "Deslocar uma sombra de uma árvore ao longo do dia.",
-          "Aumentar o tamanho de uma figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, suas coordenadas de um ponto (x, y) serão:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que altera a orientação de uma figura, mas mantém suas dimensões?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é rotacionada 360° em torno de um ponto, ela:",
-        "options": [
-          "Permanece na mesma posição.",
-          "Faz uma reflexão em relação ao ponto.",
-          "Gira de modo que sua orientação seja invertida.",
-          "Faz uma rotação de 180°."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Em uma reflexão em relação ao eixo y, um ponto com coordenadas (x, y) se transforma em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das afirmações a seguir é verdadeira sobre as isometrias?",
-        "options": [
-          "Preservam tamanhos e ângulos, mantendo a figura congruente ao original.",
-          "Sempre envolvem escalas de aumento ou redução.",
-          "Alteram o tamanho e a orientação das figuras, mas mantêm suas posições.",
-          "São transformações que envolvem mudança de tamanho proporcional."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao realizar uma translação de um polígono, o que acontece com suas medidas internas?",
-        "options": [
-          "Elas permanecem iguais, pois a translação não altera o tamanho.",
-          "Elas aumentam proporcionalmente ao vetor de translação.",
-          "Elas diminuem devido à mudança de posição.",
-          "Elas se modificam de forma a criar uma figura semelhante, mas diferente."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido anti-horário, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(-y, x)",
-          "(y, -x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número negativo, a transformação resultante é uma:",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações mantém o tamanho e a forma de uma figura, mas pode alterar sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Escala.",
-          "Isometria.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Se um ponto (x, y) é refletido em relação ao ponto de origem, suas coordenadas finais serão:",
-        "options": [
-          "(-x, -y)",
-          "(x, y)",
-          "(y, -x)",
-          "(-y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação é caracterizada por girar uma figura em torno de um ponto fixo em um ângulo específico?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, quais pontos de um vértice inicialmente em (x, y) se transformarão?",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas define uma transformação que mantém a distância entre quaisquer dois pontos de uma figura?",
-        "options": [
-          "Escala.",
-          "Reflexão.",
-          "Ampliação.",
-          "Translação."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se uma figura no plano é refletida em relação à linha y = x, as coordenadas de um ponto (x, y) serão alteradas para:",
-        "options": [
-          "(y, x)",
-          "(-x, -y)",
-          "(-y, -x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma linha no plano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Reflete a figura de modo que cada ponto seja equidistante da linha de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No contexto das transformações geométricas, qual operação é representada por multiplicar as coordenadas de um vértice por um número negativo?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Rotação.",
-          "Translação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em torno do eixo horizontal X, o que acontece com as coordenadas Y de seus vértices?",
-        "options": [
-          "Elas se tornam positivas.",
-          "Elas permanecem iguais.",
-          "Elas se invertem de sinal.",
-          "Elas se tornam iguais às coordenadas X."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das alternativas melhor descreve uma transformação que mantém as medidas internas de uma figura, mas altera sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Isometria."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Ao aplicar uma rotação de 90° no sentido horário a um ponto (x, y), sua nova coordenada será:",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações é capaz de alterar o tamanho de uma figura proporcionalmente ao seu centro?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Ampliação.",
-          "Rotação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das seguintes afirmações melhor explica o conceito de simetria em uma figura geométrica?",
-        "options": [
-          "Uma figura que mantém seu tamanho e forma após uma reflexão, rotação ou translação.",
-          "Uma figura que possui lados de comprimentos iguais e ângulos de mesma medida.",
-          "Uma figura que pode ser dividida em partes iguais por um eixo de simetria, refletindo uma metade na outra.",
-          "Uma figura que apresenta ângulos internos iguais, independentemente de sua orientação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No plano cartesiano, um ponto com coordenadas (x, y) é refletido em relação ao eixo y. Qual será suas coordenadas após a reflexão?",
-        "options": [
-          "(x, -y)",
-          "(-x, y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número inteiro maior que 1, qual transformação geométrica ocorre?",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Ampliação ou redução proporcional, mantendo a forma semelhante.",
-          "Translação ao longo de um vetor.",
-          "Rotação em torno da origem com um ângulo específico."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Uma figura é deslocada no plano sem alterar sua orientação ou tamanho. Essa transformação é conhecida como:",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual método descreve corretamente a construção de uma figura por meio de uma reflexão em relação a uma linha?",
-        "options": [
-          "Desenhar uma cópia idêntica da figura ao lado da linha de reflexão, de modo que a linha seja o eixo de simetria.",
-          "Desenhar uma figura maior ao lado da linha de reflexão, com todos os vértices refletidos.",
-          "Rotacionar a figura ao redor de um ponto até que ela fique alinhada com a linha de reflexão.",
-          "Multiplicar as coordenadas de todos os vértices por -1 para obter a figura refletida."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura sofre uma rotação de 180° em torno do ponto de origem, suas coordenadas finais de um vértice inicialmente em (x, y) serão:",
-        "options": [
-          "(-x, -y)",
-          "(y, -x)",
-          "(-y, x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que preserva as distâncias e os ângulos entre os pontos?",
-        "options": [
-          "Translação.",
-          "Escala.",
-          "Reflexão.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao adicionar um mesmo número inteiro às coordenadas de um polígono, a transformação resultante é uma:",
-        "options": [
-          "Reflexão em relação a um eixo.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação não proporcional."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Para que um eixo de simetria seja válido para uma figura, ele deve dividir a figura em partes que são:",
-        "options": [
-          "Congruentes por reflexão.",
-          "De tamanho diferente, mas com ângulos iguais.",
-          "Simétricas por rotação.",
-          "De mesma área, independentemente da reflexão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Quando uma figura é refletida em relação ao eixo x no plano cartesiano, suas coordenadas de um vértice (x, y) se transformam em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido horário em torno do centro de coordenadas, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é ampliada com fator 4, qual será o efeito dessa transformação na medida do lado de um quadrado originalmente com 3 unidades de comprimento?",
-        "options": [
-          "O lado do quadrado ampliado terá 12 unidades.",
-          "O lado do quadrado ampliado terá 6 unidades.",
-          "O lado do quadrado ampliado terá 3 unidades.",
-          "O lado do quadrado ampliado terá 16 unidades."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo y, os pontos que estavam à direita do eixo passarão a estar em qual lado após a reflexão?",
-        "options": [
-          "À esquerda do eixo y.",
-          "No mesmo lado, sem alteração.",
-          "Acima do eixo x.",
-          "Na mesma posição, mas invertidos."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação mantém inalterada a forma e o tamanho de uma figura, mas pode alterar sua posição e orientação?",
-        "options": [
-          "Escala.",
-          "Isometria.",
-          "Ampliação.",
-          "Proporção."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma reta no plano cartesiano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Inverte a figura de modo que cada ponto seja equidistante da reta de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Na prática, qual das seguintes aplicações é um exemplo de translação?",
-        "options": [
-          "Refletir uma figura em um espelho.",
-          "Girar uma moeda em torno de seu centro.",
-          "Deslocar uma sombra de uma árvore ao longo do dia.",
-          "Aumentar o tamanho de uma figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, suas coordenadas de um ponto (x, y) serão:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma transformação que altera a orientação de uma figura, mas mantém suas dimensões?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Se uma figura no plano é rotacionada 360° em torno de um ponto, ela:",
-        "options": [
-          "Permanece na mesma posição.",
-          "Faz uma reflexão em relação ao ponto.",
-          "Gira de modo que sua orientação seja invertida.",
-          "Faz uma rotação de 180°."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Em uma reflexão em relação ao eixo y, um ponto com coordenadas (x, y) se transforma em:",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das afirmações a seguir é verdadeira sobre as isometrias?",
-        "options": [
-          "Preservam tamanhos e ângulos, mantendo a figura congruente ao original.",
-          "Sempre envolvem escalas de aumento ou redução.",
-          "Alteram o tamanho e a orientação das figuras, mas mantêm suas posições.",
-          "São transformações que envolvem mudança de tamanho proporcional."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao realizar uma translação de um polígono, o que acontece com suas medidas internas?",
-        "options": [
-          "Elas permanecem iguais, pois a translação não altera o tamanho.",
-          "Elas aumentam proporcionalmente ao vetor de translação.",
-          "Elas diminuem devido à mudança de posição.",
-          "Elas se modificam de forma a criar uma figura semelhante, mas diferente."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Na construção de uma figura por meio de uma rotação de 90° no sentido anti-horário, qual será a coordenada de um vértice inicialmente em (x, y)?",
-        "options": [
-          "(-y, x)",
-          "(y, -x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao multiplicar as coordenadas de um polígono por um número negativo, a transformação resultante é uma:",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Translação.",
-          "Rotação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações mantém o tamanho e a forma de uma figura, mas pode alterar sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Escala.",
-          "Isometria.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Se um ponto (x, y) é refletido em relação ao ponto de origem, suas coordenadas finais serão:",
-        "options": [
-          "(-x, -y)",
-          "(x, y)",
-          "(y, -x)",
-          "(-y, x)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual transformação é caracterizada por girar uma figura em torno de um ponto fixo em um ângulo específico?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Rotação.",
-          "Ampliação."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao refletir uma figura em relação ao eixo x, quais pontos de um vértice inicialmente em (x, y) se transformarão?",
-        "options": [
-          "(-x, y)",
-          "(x, -y)",
-          "(-x, -y)",
-          "(y, x)"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas define uma transformação que mantém a distância entre quaisquer dois pontos de uma figura?",
-        "options": [
-          "Escala.",
-          "Reflexão.",
-          "Ampliação.",
-          "Translação."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se uma figura no plano é refletida em relação à linha y = x, as coordenadas de um ponto (x, y) serão alteradas para:",
-        "options": [
-          "(y, x)",
-          "(-x, -y)",
-          "(-y, -x)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza uma reflexão em relação a uma linha no plano?",
-        "options": [
-          "Inverte a figura em torno de um ponto fixo.",
-          "Mantém a figura na mesma posição, apenas mudando sua orientação.",
-          "Reflete a figura de modo que cada ponto seja equidistante da linha de reflexão.",
-          "Amplia a figura proporcionalmente."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "No contexto das transformações geométricas, qual operação é representada por multiplicar as coordenadas de um vértice por um número negativo?",
-        "options": [
-          "Reflexão.",
-          "Ampliação.",
-          "Rotação.",
-          "Translação."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao refletir uma figura em torno do eixo horizontal X, o que acontece com as coordenadas Y de seus vértices?",
-        "options": [
-          "Elas se tornam positivas.",
-          "Elas permanecem iguais.",
-          "Elas se invertem de sinal.",
-          "Elas se tornam iguais às coordenadas X."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual das alternativas melhor descreve uma transformação que mantém as medidas internas de uma figura, mas altera sua orientação e posição?",
-        "options": [
-          "Reflexão.",
-          "Rotação.",
-          "Translação.",
-          "Isometria."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Ao aplicar uma rotação de 90° no sentido horário a um ponto (x, y), sua nova coordenada será:",
-        "options": [
-          "(y, -x)",
-          "(-y, x)",
-          "(-x, -y)",
-          "(x, y)"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes transformações é capaz de alterar o tamanho de uma figura proporcionalmente ao seu centro?",
-        "options": [
-          "Reflexão.",
-          "Translação.",
-          "Ampliação.",
-          "Rotação."
-        ],
-        "answer": 2
       }
     ]
   }
