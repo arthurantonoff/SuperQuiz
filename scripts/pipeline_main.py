@@ -1,6 +1,7 @@
 import os
 import json
 from scripts import run_all_pdfs
+from scripts.validate_questions import validar_estrutura
 
 def salvar_questions_json(estrutura: dict, output_path: str):
     if not estrutura:
@@ -13,18 +14,21 @@ def salvar_questions_json(estrutura: dict, output_path: str):
 
 def main():
     print("🚀 Iniciando pipeline principal...\n")
-    
+
     estrutura = run_all_pdfs.main()
 
     if not estrutura:
         print("❌ Nenhuma estrutura gerada.")
         return
 
-    # Aqui podemos incluir validações futuras, se necessário
-    output_file = os.path.join(os.path.dirname(__file__), "..", "questions.json")
-    salvar_questions_json(estrutura, output_file)
+    # ✅ Validação e shuffle com função externa
+    estrutura_validada = validar_estrutura(estrutura)
 
-    print(estrutura)
+    print("\n📦 Estrutura validada:")
+    print(json.dumps(estrutura_validada, indent=2, ensure_ascii=False))
+
+    output_file = os.path.join(os.path.dirname(__file__), "..", "questions.json")
+    salvar_questions_json(estrutura_validada, output_file)
 
 if __name__ == "__main__":
     main()
