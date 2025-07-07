@@ -1,18 +1,7 @@
 import os
+import sys
 import json
-import traceback
-from scripts.pipeline_main import pipeline
-
-def merge_nested(base: dict, novo: dict):
-    for tema in novo:
-        if tema not in base:
-            base[tema] = novo[tema]
-        else:
-            for subtema in novo[tema]:
-                if subtema not in base[tema]:
-                    base[tema][subtema] = novo[tema][subtema]
-                else:
-                    base[tema][subtema].extend(novo[tema][subtema])
+import subprocess
 
 def encontrar_pdfs(pasta_base: str):
     pdfs = []
@@ -22,38 +11,50 @@ def encontrar_pdfs(pasta_base: str):
                 pdfs.append(os.path.join(dirpath, file))
     return pdfs
 
+def processar_pdf_com_openai(pdf_path: str, temp_json: str):
+    try:
+        subprocess.run(
+            ["python", "scripts/generate_from_pdf.py", pdf_path, temp_json],
+            check=True
+        )
+        with open(temp_json, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"❌ Erro ao processar {pdf_path}: {e}")
+        return []
+
 def main():
-    root_dir = os.path.dirname(os.path.abspath(__file__))
-    base_pdfs = os.path.abspath(os.path.join(root_dir, "..", "pdfreader", "pdfs"))
-    output_file = os.path.abspath(os.path.join(root_dir, "..", "questions.json"))
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    pasta_pdfs = os.path.join(base_dir, "pdfreader", "pdfs")
+    temp_file = os.path.join(base_dir, "saida_temp.json")
+    estrutura_completa = {}
 
-    print("📁 Procurando PDFs em:", base_pdfs)
-    arquivos = encontrar_pdfs(base_pdfs)
-
+    arquivos = encontrar_pdfs(pasta_pdfs)
     if not arquivos:
         print("⚠️ Nenhum PDF encontrado.")
         return
 
-    resultado_final = {}
+    for caminho in arquivos:
+        print(f"\n📄 Processando: {caminho}")
+        tema = os.path.normpath(caminho).split(os.sep)[-3]
+        subtema = os.path.normpath(caminho).split(os.sep)[-2]
 
-    for pdf in arquivos:
-        print(f"\n▶️ Processando: {pdf}")
-        try:
-            estrutura = pipeline(pdf)
-            merge_nested(resultado_final, estrutura)
-        except Exception as e:
-            print(f"❌ Erro ao processar {pdf}: {e}")
-            traceback.print_exc()
+        questoes = processar_pdf_com_openai(caminho, temp_file)
 
-    if not resultado_final:
-        print("⚠️ Nenhuma questão gerada.")
-        return
+        if not questoes:
+            print("⚠️ Nenhuma questão gerada.")
+            continue
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(resultado_final, f, indent=2, ensure_ascii=False)
+        if tema not in estrutura_completa:
+            estrutura_completa[tema] = {}
+        if subtema not in estrutura_completa[tema]:
+            estrutura_completa[tema][subtema] = []
 
-    print(f"\n✅ Processamento finalizado. Total de temas: {len(resultado_final)}")
-    print(f"📄 Arquivo salvo em: {output_file}")
+        estrutura_completa[tema][subtema].extend(questoes)
+
+    return estrutura_completa
 
 if __name__ == "__main__":
-    main()
+    resultado = main()
+    if resultado:
+        print("\n✅ Processamento final concluído. Use pipeline_main.py para salvar o questions.json.")
