@@ -16,7 +16,7 @@ def extract_clean_text(pdf_path: str) -> str:
                 full_text.append(text.strip())
     return "\n".join(full_text)
 
-def gerar_questoes(texto: str, qtd: 30, max_tokens: int = 2048) -> str:
+def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
     """Envia o texto para a API da OpenAI e solicita questões formatadas em JSON."""
     prompt = (
         f"[TEXTO]: {texto}\n\n"
