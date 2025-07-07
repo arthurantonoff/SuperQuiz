@@ -2,44 +2,54 @@
   "PF2025": {
     "Direito Penal": [
       {
-        "question": "Qual das seguintes afirmações melhor caracteriza a trajetória de Douglas Vargas em concursos públicos?  \n\nA) Sua experiência se limita ao âmbito da Polícia Civil do Distrito Federal, onde obteve a 6ª colocação em 2013.  \nB) Ele conquistou posições de destaque em diversos concursos públicos, incluindo órgãos federais, estaduais e do setor financeiro, demonstrando ampla preparação.  \nC) Sua aprovação mais relevante foi na Polícia Federal, na qual obteve a primeira colocação, evidenciando preferência por concursos de nível nacional.  \nD) Sua carreira inclui somente concursos realizados em 2012 e 2017, concentrando-se em cargos de nível médio na Polícia Militar.  \n\nQual alternativa melhor reflete a abrangência e o perfil de conquistas de Douglas Vargas com base no seu histórico de concursos?",
+        "question": "De acordo com o texto, qual é o objetivo principal do princípio da legalidade penal?",
         "options": [
-          "B) Douglas Vargas obteve aprovação em concursos para cargos de Analista Judiciário no Tribunal Regional Federal da 1ª Região",
-          "C) Douglas Vargas foi aprovado em concursos para o cargo de Perito Criminal na Polícia Federal em 2014",
-          "Qual das seguintes afirmações é verdadeira com base no texto apresentado?\n\nA) Douglas Vargas foi aprovado em primeiro lugar no concurso de 2013 para a Polícia Civil do Distrito Federal.\n\nB) Douglas Vargas foi aprovado em diversos concursos, incluindo Polícia Federal, Polícia Civil do Distrito Federal, Polícia Rodoviária Federal, Ministério da Justiça, Ministério da Integração, Banco de Brasília e Polícia Militar do Distrito Federal.\n\nC) Douglas Vargas foi aprovado apenas no concurso para a Polícia Civil do Distrito Federal de 2013.\n\nD) Douglas Vargas foi aprovado em concursos apenas para cargos de nível médio.\n\n**Resposta correta: B) Douglas Vargas foi aprovado em diversos concursos, incluindo Polícia Federal, Polícia Civil do Distrito Federal, Polícia Rodoviária Federal, Ministério da Justiça, Ministério da Integração, Banco de Brasília e Polícia Militar do Distrito Federal.**",
-          "A seguir, apresento as três alternativas incorretas plausíveis, atendendo aos critérios estabelecidos:\n\nA) Douglas Vargas também foi aprovado no concurso para Delegado da Polícia Civil do Distrito Federal em 2015"
+          "Permitir que o Estado crie crimes por atos normativos diversos, como Medidas Provisórias.",
+          "Assegurar que não haja crime nem pena sem lei previamente estabelecida e formalmente aprovada.",
+          "Facultar ao juiz criar tipos penais conforme sua conveniência.",
+          "Estabelecer que costumes podem substituir a lei na definição de crimes."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual é uma consequência do princípio da legalidade no Direito Penal?",
+        "options": [
+          "A possibilidade de retroatividade da lei penal em benefício do réu.",
+          "A vedação de criação de crimes por analogia que prejudique o réu.",
+          "A criação de tipos penais vagos ou obscuros para ampliar a punição.",
+          "A possibilidade de punição por condutas internas ou pensamentos."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O princípio da subsidiariedade, conforme descrito no texto, estabelece que o Direito Penal deve ser utilizado:",
+        "options": [
+          "Antes de qualquer outro controle social, como multas ou penas alternativas.",
+          "Sempre que outros ramos do direito não conseguirem controlar a conduta.",
+          "Somente na ausência de outras formas de controle social mais eficazes.",
+          "Para tutelar todos os bens jurídicos, independentemente de sua importância."
         ],
         "answer": 2
       },
       {
-        "question": "Qual das seguintes afirmativas melhor explica a aplicação do princípio da legalidade no Direito Penal conforme apresentado no texto?\n\nA) Permite que costumes e analogias sejam utilizados para criar ou ampliar crimes, desde que não prejudiquem o réu.\n\nB) Reforça que a criação de crimes e a fixação de penas só podem ocorrer por meio de leis anteriores e escritas, vedando a utilização de analogias que prejudiquem o réu.\n\nC) Autoriza a aplicação de analogias in malam partem para interpretar tipos penais vagos, visando ampliar a proteção ao réu.\n\nD) Estabelece que a criminalização de condutas pode ser fundamentada em costumes, desde que aprovados pelo Congresso Nacional.\n\nQual é a alternativa correta?",
+        "question": "Qual é a ideia central do princípio da fragmentariedade, de acordo com o texto?",
         "options": [
-          "Questão:\n\nDe acordo com o princípio da legalidade no Direito Penal, conforme apresentado no texto, qual das seguintes afirmações é correta?\n\na) A criação de crimes pode ser realizada por costumes, desde que não haja lei escrita que os proíba, desde que estes costumes sejam considerados fontes válidas do Direito Penal.\n\nb) O princípio da legalidade permite a criação de tipos penais vagos ou obscuros, desde que seja aplicada a analogia in malam partem para beneficiar o réu.\n\nc) Para a criminalização de condutas, é obrigatória a existência de uma lei anterior, escrita e certa, não sendo permitida a criação ou agravamento de crimes por analogia ou por costumes.\n\nd) Os decretos e resoluções podem criar crimes e cominar penas, de acordo com o princípio da legalidade, sem necessidade de previsão em lei ordinária.\n\nResposta correta: c) Para a criminalização de condutas, é obrigatória a existência de uma lei anterior, escrita e certa, não sendo permitida a criação ou agravamento de crimes por analogia ou por costumes.",
-          "a) A criação de crimes pode ser realizada por qualquer manifestação de vontade estatal, inclusive por costumes sociais não codificados",
-          "b) A imposição de penas pode ser efetuada por qualquer ato normativo, incluindo resoluções internas de órgãos administrativos",
-          "c) Leis delegadas podem criar crimes e cominar penas, desde que estejam expressamente autorizadas na lei que as delega"
+          "O Direito Penal deve proteger qualquer bem jurídico, independentemente de sua relevância social.",
+          "O Direito Penal deve atuar apenas para tutelar bens jurídicos mais relevantes para a sociedade.",
+          "O Estado deve criminalizar todas as condutas que violem normas sociais.",
+          "O princípio incentiva a criação de tipos penais que abarquem diversas condutas."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
-        "question": "Qual das afirmações a seguir melhor explica o alcance do princípio da Fragmentariedade no Direito Penal?  \n\nA) O Estado pode aplicar sanções penais a qualquer conduta que viole normas jurídicas, independentemente da relevância do bem jurídico afetado.  \nB) A intervenção do Direito Penal deve se limitar às condutas que envolvem bens jurídicos de maior relevância social, evitando a punição de infrações de menor gravidade.  \nC) Todas as violações de bens jurídicos, mesmo as de menor importância, devem ser alcançadas pelo Direito Penal para garantir a segurança social.  \nD) O princípio da Fragmentariedade permite que o Direito Penal seja utilizado para tutelar qualquer bem jurídico, desde que seja considerado necessário pelo legislador.  \n\nQual alternativa melhor demonstra a aplicação do princípio da Fragmentariedade?",
+        "question": "Segundo o texto, o princípio da individualização da pena busca garantir que:",
         "options": [
-          "A fragmentariedade permite ao Estado ampliar a proteção penal a qualquer bem jurídico considerado relevante pela legislação.",
-          "A aplicação do Direito Penal deve ser proporcional à potencialidade de dano da conduta, independentemente do bem jurídico protegido.",
-          "Qual das seguintes afirmações melhor representa o princípio da Fragmentariedade conforme exposto no texto?\n\nA) O Estado pode utilizar o Direito Penal para proteger qualquer bem jurídico, independentemente de sua relevância social.\n\nB) O princípio da Fragmentariedade determina que o Direito Penal deve tutelar todos os bens jurídicos, mesmo que sua proteção seja desnecessária.\n\nC) Apenas os bens jurídicos mais relevantes para a sociedade devem ser protegidos pelo Direito Penal, e somente condutas inaceitáveis relacionadas a esses bens devem ser punidas.\n\nD) O Direito Penal deve atuar de forma generalizada, abrangendo todos os bens jurídicos para garantir maior segurança jurídica.\n\n**Resposta correta: C**",
-          "A utilização do Direito Penal deve abranger todos os bens jurídicos para garantir a ordem social."
+          "Todos os condenados recebam a mesma pena, independentemente do crime cometido.",
+          "A pena seja aplicada de forma uniforme, sem considerar as circunstâncias do caso.",
+          "Cada cidadão seja avaliado de forma individualizada, considerando suas condições e o fato praticado.",
+          "A pena seja sempre de caráter perpétuo, para garantir a segurança social."
         ],
         "answer": 2
-      },
-      {
-        "question": "Qual das alternativas melhor explica a distinção entre responsabilidade objetiva e responsabilidade subjetiva no Direito Penal, conforme o entendimento apresentado no texto?  \n\nA) A responsabilidade objetiva independe da intenção ou culpa do agente, sendo aplicada automaticamente sempre que há uma violação à lei, enquanto a responsabilidade subjetiva exige comprovação de dolo ou culpa por parte do réu.  \n\nB) A responsabilidade objetiva depende da demonstração de dolo ou culpa, enquanto a responsabilidade subjetiva é aplicada independentemente da intenção do agente, baseando-se apenas na prática de um ilícito.  \n\nC) Ambas as responsabilidades dependem da prova de dolo ou culpa, mas a objetiva é aplicada em casos de crimes mais graves, enquanto a subjetiva é reservada para infrações de menor potencial ofensivo.  \n\nD) A responsabilidade objetiva é uma teoria que substitui o princípio da culpabilidade, sendo aplicada sempre que há violação de bens jurídicos, enquanto a subjetiva é uma exceção nesses casos.  \n\nQual das alternativas melhor reflete o conceito central de distinção entre responsabilidade objetiva e subjetiva conforme o texto?",
-        "options": [
-          "Questão:  \n\nDe acordo com o texto, qual das seguintes afirmações é verdadeira acerca da responsabilidade penal e dos princípios que a regem?  \n\na) A responsabilidade objetiva no Direito Penal depende da comprovação de dolo ou culpa, sendo aplicada independentemente do grau de negligência ou imprudência.  \nb) O princípio da culpabilidade determina que a responsabilidade penal só pode ser atribuída na presença de dolo ou culpa, sendo a responsabilidade subjetiva vinculada a esse conceito.  \nc) O princípio da exclusiva proteção aos bens jurídicos permite a criminalização de condutas que visam apenas a obediência às normas, mesmo que não haja relevância para bens jurídicos específicos.  \nd) A intervenção mínima no Direito Penal recomenda sua aplicação em qualquer situação, independentemente da necessidade, para garantir o controle social.  \n\nResposta correta:  \n\n**b) O princípio da culpabilidade determina que a responsabilidade penal só pode ser atribuída na presença de dolo ou culpa, sendo a responsabilidade subjetiva vinculada a esse conceito.**",
-          "a) A responsabilidade objetiva no Direito Penal exige a demonstração de culpa, independentemente do dolo, para sua aplicação.",
-          "b) A responsabilidade subjetiva depende do dolo ou da culpa, sendo ela a única aceita pelo Direito Penal, conforme o princípio da culpabilidade.",
-          "c) A intervenção mínima no Direito Penal sugere que a punição deve ocorrer mesmo quando outras medidas de controle social tenham sido eficazes, priorizando a prevenção."
-        ],
-        "answer": 0
       }
     ]
   }
