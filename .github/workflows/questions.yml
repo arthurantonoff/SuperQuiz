@@ -27,13 +27,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: ⚙️ Executar pipeline de todos os PDFs
+      - name: ⚙️ Executar pipeline de geração de questões
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           USE_OPENAI: "true"
           PYTHONPATH: .
         run: |
-          python scripts/run_all_pdfs.py
+          python scripts/pipeline_main.py
 
       - name: 📤 Commit do questions.json na branch main
         run: |
