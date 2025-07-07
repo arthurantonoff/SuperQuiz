@@ -2,304 +2,244 @@
   "7ATB-P5": {
     "7ph14historia": [
       {
-        "question": "De acordo com o texto, qual é o principal objetivo de uma análise crítica de um conteúdo textual?",
+        "question": "Qual é o conceito principal de simetria em uma figura geométrica?",
         "options": [
-          "Resumir as informações apresentadas de forma breve.",
-          "Identificar falhas na estrutura gramatical do texto.",
-          "Compreender, interpretar e avaliar de forma aprofundada as ideias apresentadas.",
-          "Memorizar dados específicos sem refletir sobre seu significado."
+          "A propriedade de uma figura que mantém sua forma após uma rotação de 180 graus.",
+          "A propriedade de uma figura que permanece inalterada após uma reflexão, rotação ou translação específicas.",
+          "A capacidade de uma figura de ser ampliada proporcionalmente sem alteração de suas proporções.",
+          "A propriedade de uma figura que se transforma em uma figura diferente ao ser refletida em uma reta qualquer."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "No plano cartesiano, qual é a característica de uma reflexão em relação ao eixo y?",
+        "options": [
+          "Os pontos trocam de quadrante, invertendo suas coordenadas x e y.",
+          "As coordenadas y permanecem inalteradas, enquanto as coordenadas x mudam de sinal.",
+          "As coordenadas x permanecem inalteradas, enquanto as y se invertem de sinal.",
+          "Todos os pontos se deslocam para o quadrante oposto, mantendo suas coordenadas."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo os critérios estabelecidos, qual característica é essencial para as alternativas de uma questão de múltipla escolha?",
+        "question": "Ao multiplicar as coordenadas de um polígono por um número inteiro maior que 1, qual transformação é aplicada a ele?",
         "options": [
-          "Ser todas altamente plausíveis, dificultando a identificação da correta.",
-          "Ser claramente distintas, com uma única alternativa correta e as demais próximas da plausibilidade.",
-          "Ser todas semelhantes, para testar a atenção do candidato.",
-          "Ser curtas e simples, independentemente do conteúdo abordado."
+          "Reflexão em relação à origem.",
+          "Ampliação proporcional, mantendo a forma original.",
+          "Translação horizontal com deslocamento igual ao valor do número.",
+          "Rotação de acordo com o valor do número multiplicador."
         ],
         "answer": 1
       },
       {
-        "question": "Ao elaborar uma questão baseada em um texto, o autor deve evitar que as alternativas sejam:",
+        "question": "Se um polígono é obtido ao adicionar um número inteiro às coordenadas de seus vértices, essa transformação é classificada como:",
         "options": [
-          "Ambíguas ou ambivalentes, para prevenir interpretações duplas.",
-          "Muitas vezes corretas, para aumentar o grau de dificuldade.",
-          "Exatamente iguais à resposta correta, para confundir o candidato.",
-          "Formuladas com linguagem técnica, mesmo quando o conteúdo não exige."
+          "Reflexão.",
+          "Translação.",
+          "Rotação.",
+          "Ampliação."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando uma figura sofre uma rotação de 90 graus no sentido horário ao redor do ponto de origem, qual é a consequência para suas coordenadas?",
+        "options": [
+          "As coordenadas x e y permanecem as mesmas, apenas a orientação muda.",
+          "As coordenadas de cada ponto trocam de lugar e o sinal de uma delas é invertido.",
+          "As coordenadas de cada ponto se multiplicam por um fator de 90.",
+          "A figura é refletida em relação ao eixo y."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Uma reflexão em relação ao eixo x altera as coordenadas de um ponto de qual maneira?",
+        "options": [
+          "Mantém a coordenada x, invertendo a coordenada y.",
+          "Inverte a coordenada x, mantendo a y.",
+          "Inverte ambas as coordenadas.",
+          "Mantém ambas as coordenadas inalteradas."
         ],
         "answer": 0
       },
       {
-        "question": "Por que é importante reformular frases literais do texto na elaboração de questões objetivas?",
+        "question": "O que caracteriza uma isometria no plano cartesiano?",
         "options": [
-          "Para conferir maior originalidade às perguntas e evitar plágio.",
-          "Para garantir que o candidato compreenda o conceito de forma indireta e aplicada.",
-          "Para aumentar a complexidade da questão e dificultar a resposta.",
-          "Para diminuir o tempo de leitura necessário para responder."
+          "Transformação que altera as distâncias e os ângulos entre os pontos.",
+          "Transformação que preserva tamanhos, formas, distâncias e ângulos.",
+          "Transformação que apenas muda a posição da figura, sem alterar sua forma.",
+          "Transformação que aumenta ou diminui proporcionalmente o tamanho da figura."
         ],
         "answer": 1
       },
       {
-        "question": "Qual o nível de dificuldade recomendado para as questões elaboradas segundo os critérios do texto?",
+        "question": "Ao refletir uma figura em uma reta que passa pelo centro do plano, qual é a propriedade que ela mantém?",
         "options": [
-          "Muito fácil, para garantir acessibilidade a todos os candidatos.",
-          "Moderado, semelhante ao nível de provas de concursos de nível médio.",
-          "Desafiador, similar ao nível de provas de concursos de alto nível, como PF e FCC.",
-          "Extremamente difícil, exigindo conhecimentos especializados avançados."
+          "As distâncias de cada ponto até a reta de reflexão, iguais às distâncias dos pontos refletidos.",
+          "A orientação da figura, mas com alteração do tamanho.",
+          "A sua forma e tamanho, porém com mudança de orientação e posição.",
+          "Apenas a posição da figura, sem alteração na forma ou tamanho."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das opções descreve corretamente uma translação no plano cartesiano?",
+        "options": [
+          "Girar a figura ao redor de um ponto fixo por um ângulo definido.",
+          "Refletir a figura em relação a uma reta qualquer.",
+          "Deslocar a figura de uma posição a outra, mantendo seu tamanho e orientação.",
+          "Ampliar ou reduzir proporcionalmente a figura ao seu centro."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo as orientações, qual é a proporção adequada entre alternativas corretas e incorretas em uma questão de múltipla escolha?",
+        "question": "Na simetria de uma figura em relação a um eixo de simetria, o que ocorre com as duas partes da figura?",
         "options": [
-          "Apenas uma alternativa correta, com as demais claramente incorretas.",
-          "Duas alternativas corretas, para aumentar a complexidade.",
-          "Nenhuma alternativa correta, para testar a atenção do candidato.",
-          "Duas ou mais alternativas corretas, desde que bem justificadas."
+          "Elas são idênticas e uma é uma reflexão da outra em relação ao eixo.",
+          "Elas são idênticas, uma é transladada e a outra rotacionada.",
+          "Elas têm tamanhos diferentes, mas a mesma forma.",
+          "Elas são diferentes, mas mantêm a mesma orientação."
         ],
         "answer": 0
       },
       {
-        "question": "Ao revisar uma questão, o autor deve assegurar que as alternativas incorretas sejam:",
+        "question": "O que caracteriza uma rotação no plano cartesiano?",
         "options": [
-          "Completamente incorretas, para eliminar dúvidas.",
-          "Minimamente plausíveis, para confundir o candidato.",
-          "Críveis, de modo que possam parecer corretas à primeira leitura.",
-          "Muito diferentes da correta, para facilitar a identificação."
+          "Mover a figura ao longo de uma linha reta sem alterar sua orientação.",
+          "Girar a figura ao redor de um ponto fixo por um ângulo específico, mantendo seu tamanho.",
+          "Refletir a figura em relação a uma reta qualquer.",
+          "Multiplicar as coordenadas por um número inteiro, aumentando seu tamanho proporcionalmente."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao refletir uma figura em relação ao ponto de origem, qual é a consequência sobre suas coordenadas?",
+        "options": [
+          "As coordenadas permanecem as mesmas, mas a orientação muda.",
+          "As coordenadas de cada ponto trocam de lugar, invertendo seus sinais.",
+          "As coordenadas de cada ponto se multiplicam pelo valor do ponto de reflexão.",
+          "A figura é ampliada proporcionalmente ao ponto de origem."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual a relação entre os eixos de simetria de um losango?",
+        "options": [
+          "Ele possui dois eixos de simetria, cada um contendo uma das diagonais.",
+          "Ele possui apenas um eixo de simetria, que passa por seu centro.",
+          "Ele não possui eixo de simetria devido à sua forma irregular.",
+          "Ele possui três eixos de simetria, cada um paralelo às suas lados."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se uma figura em um plano é ampliada por um fator de 4, qual será o comprimento do lado de uma figura similar, inicialmente medindo 3 unidades?",
+        "options": [
+          "12 unidades",
+          "6 unidades",
+          "9 unidades",
+          "4 unidades"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para construir a imagem refletida de uma palavra no espelho plano, qual propriedade de simetria ela deve possuir para parecer igual ao original?",
+        "options": [
+          "Ser uma figura simétrica em relação ao eixo vertical.",
+          "Ter uma simetria de reflexão em relação ao próprio centro.",
+          "Ser uma figura que possui eixos de simetria em ambos os lados.",
+          "Ser uma figura que, ao refletir, mantém sua orientação original."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao realizar uma translação de uma figura para a direita 5 unidades, qual mudança ocorrerá nas coordenadas de seus vértices?",
+        "options": [
+          "O valor de x aumenta em 5, enquanto y permanece igual.",
+          "O valor de y aumenta em 5, enquanto x permanece igual.",
+          "Tanto x quanto y aumentam em 5 unidades.",
+          "O valor de x diminui em 5 unidades, enquanto y permanece igual."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes afirmações é verdadeira sobre a relação entre reflexão e simetria?",
+        "options": [
+          "Refletir uma figura em uma reta que passa pelo centro de uma figura é uma ação de rotação.",
+          "Reflexão em uma reta de simetria produz uma figura que é uma imagem espelhada da original, mantendo suas proporções.",
+          "Reflexão em relação a um ponto central é uma translação de toda a figura.",
+          "Refletir uma figura em uma reta qualquer altera seu tamanho proporcionalmente."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se um quadrado é refletido em relação ao eixo y, quais serão as coordenadas do vértice A(2, 3) após a reflexão?",
+        "options": [
+          "(2, -3)",
+          "(-2, 3)",
+          "(2, 3)",
+          "(-2, -3)"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Durante uma rotação de 180 graus ao redor do centro do plano, o que acontece com as coordenadas de um ponto (x, y)?",
+        "options": [
+          "As coordenadas permanecem inalteradas.",
+          "As coordenadas trocam de lugar, invertendo os sinais.",
+          "As coordenadas são multiplicadas por -1.",
+          "As coordenadas se trocam, mas os sinais permanecem iguais."
         ],
         "answer": 2
       },
       {
-        "question": "Qual das seguintes ações é recomendada ao criar alternativas para uma questão de múltipla escolha?",
+        "question": "Qual é a característica de uma reflexão em relação a uma reta que passa pelo centro de um quadrado?",
         "options": [
-          "Utilizar termos técnicos apenas na alternativa correta.",
-          "Incluir alternativas com níveis variados de plausibilidade.",
-          "Fazer todas as alternativas iguais em comprimento e estrutura.",
-          "Evitar o uso de termos técnicos para não dificultar a leitura."
+          "A figura é rotacionada ao redor do centro.",
+          "A figura é espelhada, mantendo sua forma e tamanho, mas invertendo sua orientação.",
+          "A figura é transladada para o lado oposto da reta.",
+          "A figura é ampliada proporcionalmente ao centro."
         ],
         "answer": 1
       },
       {
-        "question": "De acordo com os critérios pedagógicos, uma questão bem formulada deve permitir ao candidato:",
+        "question": "Se uma figura sofre uma transformação que preserva suas distâncias e ângulos, ela é classificada como:",
         "options": [
-          "Memorizar informações específicas do texto.",
-          "Interpretar e aplicar conceitos de forma contextualizada.",
-          "Reconhecer a palavra-chave principal do texto.",
-          "Responder de forma intuitiva, sem análise aprofundada."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Quando uma questão apresenta alternativas plausíveis, o que isso implica para a avaliação?",
-        "options": [
-          "Aumenta a dificuldade, exigindo maior atenção e conhecimento do candidato.",
-          "Reduz a confiabilidade da prova, pois confunde os candidatos.",
-          "Facilita a escolha, pois as alternativas parecem semelhantes.",
-          "Não influencia, pois o importante é a resposta correta."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que é importante que as alternativas incorretas em uma questão sejam plausíveis?",
-        "options": [
-          "Para evitar que candidatos adivinhem facilmente a resposta correta.",
-          "Para tornar o teste mais longo e rigoroso.",
-          "Para que todas as alternativas possam ser consideradas corretas.",
-          "Para confundir o candidato e dificultar a resolução da questão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo as recomendações, qual o aspecto linguístico que deve ser evitado na formulação de alternativas?",
-        "options": [
-          "Uso de linguagem técnica adequada ao nível do candidato.",
-          "Ambiguidade ou palavras que possam gerar múltiplas interpretações.",
-          "Frases curtas e objetivas, que facilitam a leitura.",
-          "Termos precisos que expressem claramente a ideia."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Ao criar questões de múltipla escolha, o autor deve evitar que as alternativas sejam:",
-        "options": [
-          "Exclusivamente diferentes entre si.",
-          "Todas plausíveis, para aumentar o desafio.",
-          "Demasiadamente semelhantes, dificultando a distinção.",
-          "Claramente distintas, para facilitar a análise."
+          "Translação.",
+          "Reflexão.",
+          "Isometria.",
+          "Ampliação."
         ],
         "answer": 2
       },
       {
-        "question": "Qual é a justificativa para que uma questão tenha uma única alternativa correta claramente identificada?",
+        "question": "Na operação de multiplicação das coordenadas do vértice de um polígono por um número inteiro, qual é o efeito na figura?",
         "options": [
-          "Para que o candidato possa responder por eliminação.",
-          "Para evitar dúvidas e garantir uma avaliação justa.",
-          "Para aumentar a complexidade da prova.",
-          "Para possibilitar múltiplas interpretações do enunciado."
+          "A figura é transladada proporcionalmente ao valor do número.",
+          "A figura é ampliada ou reduzida, mantendo a proporção original.",
+          "A figura sofre uma reflexão em relação ao eixo x.",
+          "A figura mantém seu tamanho, mas muda de posição."
         ],
         "answer": 1
       },
       {
-        "question": "Segundo os critérios, qual a melhor estratégia para garantir a coerência entre enunciado e alternativas?",
+        "question": "Ao refletir uma figura em relação ao eixo y, qual será a coordenada do ponto (x, y) na imagem refletida?",
         "options": [
-          "Utilizar linguagem formal e técnica, independentemente do conteúdo.",
-          "Assegurar que cada alternativa seja uma aplicação ou interpretação do conceito apresentado no enunciado.",
-          "Fazer com que as alternativas sejam semelhantes em comprimento e estrutura, sem relação direta com o enunciado.",
-          "Incluir alternativas que abordem tópicos diferentes do tema central do texto."
+          "(x, -y)",
+          "(-x, y)",
+          "(x, y)",
+          "(-x, -y)"
         ],
         "answer": 1
       },
       {
-        "question": "No contexto da elaboração de questões, por que se recomenda evitar alternativas que sejam variações da mesma ideia com palavras diferentes?",
+        "question": "Qual operação geométrica mantém a figura original inalterada, apenas alterando sua posição?",
         "options": [
-          "Para promover maior variedade na prova.",
-          "Para diminuir a possibilidade de o candidato identificar a resposta correta por similaridade.",
-          "Para tornar as alternativas mais difíceis de distinguir.",
-          "Para confundir o candidato com múltiplas versões do mesmo conceito."
+          "Reflexão.",
+          "Translação.",
+          "Rotação.",
+          "Ampliação."
         ],
         "answer": 1
-      },
-      {
-        "question": "De acordo com as orientações, uma questão ideal deve apresentar alternativas que:",
-        "options": [
-          "Sejam todas corretas, para avaliar múltiplas competências.",
-          "Sejam todas incorretas, para testar o conhecimento do candidato.",
-          "Incluam uma resposta correta e alternativas plausíveis, de modo que o candidato precise raciocinar.",
-          "Sejam formuladas com linguagem complexa, para dificultar a leitura."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao revisar uma questão, o autor deve verificar se:",
-        "options": [
-          "A alternativa correta está claramente destacada visualmente.",
-          "As alternativas incorretas não podem ser plausíveis ou parecer corretas à primeira vista.",
-          "As alternativas são todas iguais, para evitar distração.",
-          "A questão apresenta múltiplas respostas corretas, para maior desafio."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das estratégias a seguir é recomendada para aumentar o nível de desafio de uma questão?",
-        "options": [
-          "Utilizar alternativas plausíveis e similares, dificultando a escolha.",
-          "Incluir alternativas absurdas para confundir o candidato.",
-          "Fazer todas as alternativas parecidas, sem relação com o conteúdo.",
-          "Reduzir o número de alternativas para facilitar a escolha."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que é importante que o enunciado da questão seja claro e preciso?",
-        "options": [
-          "Para evitar interpretações ambíguas e garantir que o candidato compreenda exatamente o que se pede.",
-          "Para tornar o enunciado mais longo e detalhado.",
-          "Para que o candidato memorize o conteúdo apresentado.",
-          "Para aumentar a dificuldade de leitura da questão."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo os critérios, uma questão bem estruturada deve evitar que as alternativas tenham:",
-        "options": [
-          "Níveis variados de complexidade.",
-          "Comprimentos e estruturas diferentes.",
-          "Semelhança em nível técnico e linguístico.",
-          "Alternativas que possam gerar dúvidas na interpretação."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual é o efeito de uma questão que apresenta alternativas com níveis de plausibilidade similares?",
-        "options": [
-          "Aumenta a chance de adivinhação por parte do candidato.",
-          "Facilita a distinção entre a alternativa correta e as incorretas.",
-          "Reduz o grau de dificuldade, tornando a questão mais acessível.",
-          "Exige maior raciocínio e conhecimento para identificar a resposta correta."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "De acordo com as recomendações, uma questão que exige interpretação deve ser formulada de modo que:",
-        "options": [
-          "O enunciado seja direto e o mais objetivo possível.",
-          "As alternativas sejam todas diferentes, para testar a compreensão.",
-          "O candidato precise aplicar conceitos ao contexto apresentado.",
-          "A resposta seja óbvia, para facilitar a correção."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Ao elaborar alternativas, o autor deve garantir que as opções incorretas:",
-        "options": [
-          "Sejam claramente incorretas, para evitar dúvidas.",
-          "Sejam plausíveis, para dificultar a identificação da correta.",
-          "Possam parecer corretas, para aumentar o desafio.",
-          "Sejam todas similares em estrutura e conteúdo."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo os critérios, uma questão de múltipla escolha deve ser construída de modo que:",
-        "options": [
-          "A resposta correta seja óbvia após leitura rápida.",
-          "O candidato precise aplicar raciocínio e conhecimento para chegar à resposta.",
-          "Todas as alternativas sejam corretas, para aumentar a dificuldade.",
-          "As alternativas incorretas sejam totalmente absurdas."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das práticas a seguir é considerada inadequada na elaboração de alternativas?",
-        "options": [
-          "Utilizar terminologia técnica adequada ao nível do candidato.",
-          "Fazer com que as alternativas incorretas sejam altamente plausíveis.",
-          "Criar alternativas que sejam semelhantes em comprimento e estrutura.",
-          "Incluir alternativas que sejam claramente diferentes uma das outras."
-        ],
-        "answer": 3
-      },
-      {
-        "question": "No processo de revisão de uma questão, o autor deve verificar se:",
-        "options": [
-          "As alternativas estão formuladas de modo a não gerar confusão.",
-          "Todas as alternativas são igualmente plausíveis.",
-          "A alternativa correta é a mais longa.",
-          "As alternativas apresentam níveis de dificuldade variados."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Para que uma questão seja considerada eficaz, o enunciado deve conter:",
-        "options": [
-          "Informações excessivas para confundir o candidato.",
-          "Diretivas claras que orientem a resolução da questão.",
-          "Palavras ambíguas que possam gerar diferentes interpretações.",
-          "Instruções complexas para dificultar a compreensão."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo as recomendações, uma alternativa incorreta deve ser formulada de modo que:",
-        "options": [
-          "Possa parecer correta à primeira leitura, dificultando a escolha.",
-          "Seja claramente incorreta, para evitar equívocos.",
-          "Seja totalmente absurda, para eliminar dúvidas.",
-          "Seja uma variação da resposta correta, de modo a confundir."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual é uma estratégia adequada para aumentar a validade de uma questão de múltipla escolha?",
-        "options": [
-          "Utilizar alternativas similares em nível de plausibilidade e linguístico.",
-          "Fazer alternativas totalmente distintas, sem relação com o conteúdo.",
-          "Incluir alternativas que sejam parcialmente corretas.",
-          "Deixar a resposta correta implícita no enunciado."
-        ],
-        "answer": 0
       }
     ]
   }
