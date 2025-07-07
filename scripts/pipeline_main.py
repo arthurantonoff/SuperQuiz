@@ -24,5 +24,7 @@ def main():
     output_file = os.path.join(os.path.dirname(__file__), "..", "questions.json")
     salvar_questions_json(estrutura, output_file)
 
+    print(estrutura)
+
 if __name__ == "__main__":
     main()
