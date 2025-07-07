@@ -81,7 +81,7 @@ if __name__ == "__main__":
     texto_completo = extract_clean_text(pdf_path)
 
     print("🤖 Enviando para o OpenAI...")
-    resposta = gerar_questoes(texto_completo, qtd=5)
+    resposta = gerar_questoes(texto_completo, qtd=50)
 
     print("💾 Salvando questões...")
     salvar_questoes_em_json(resposta, output_json)
