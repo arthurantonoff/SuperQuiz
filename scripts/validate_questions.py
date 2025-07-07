@@ -1,49 +1,51 @@
-from typing import List, Dict
-import hashlib
+import random
 
-def is_valid_question(q: Dict) -> bool:
+def rotate_options(options: list) -> (list, int):
+    """Gira a lista de opções aleatoriamente e retorna o novo índice da resposta correta."""
+    n = random.randint(0, 3)
+    rotated = options[n:] + options[:n]
+    correct_index = (0 - n) % 4
+    return rotated, correct_index
+
+def validar_estrutura(estrutura: dict) -> dict:
     """
-    Valida se a questão possui estrutura básica correta:
-    - Contém os campos esperados
-    - 4 alternativas válidas e distintas
-    - Índice da resposta correto
+    Valida e ajusta a estrutura geral de questões no formato:
+    { "tema": { "subtema": [ {question, options, answer}, ... ] } }
+
+    - Remove entradas inválidas
+    - Garante campos obrigatórios
+    - Reorganiza opções e atualiza índice da resposta correta
     """
-    if not q or "question" not in q or "options" not in q or "answer" not in q:
-        return False
+    estrutura_corrigida = {}
 
-    if not isinstance(q["question"], str) or not q["question"].strip():
-        return False
+    for tema, subtemas in estrutura.items():
+        estrutura_corrigida[tema] = {}
 
-    if not isinstance(q["options"], list) or len(q["options"]) != 4:
-        return False
+        for subtema, questoes in subtemas.items():
+            lista_valida = []
 
-    if not all(isinstance(opt, str) and opt.strip() for opt in q["options"]):
-        return False
+            for q in questoes:
+                if not isinstance(q, dict):
+                    continue
+                if not all(k in q for k in ("question", "options", "answer")):
+                    continue
+                if not isinstance(q["options"], list) or len(q["options"]) != 4:
+                    continue
+                if not isinstance(q["answer"], int) or not (0 <= q["answer"] < 4):
+                    continue
 
-    if len(set(q["options"])) < 4:
-        return False
+                # Embaralhar opções
+                correta = q["options"][q["answer"]]
+                restantes = [opt for i, opt in enumerate(q["options"]) if i != q["answer"]]
+                novas_opcoes, nova_resposta = rotate_options([correta] + restantes)
 
-    if not isinstance(q["answer"], int) or not (0 <= q["answer"] < 4):
-        return False
+                item = {
+                    "question": q["question"].strip(),
+                    "options": novas_opcoes,
+                    "answer": nova_resposta
+                }
+                lista_valida.append(item)
 
-    return True
+            estrutura_corrigida[tema][subtema] = lista_valida
 
-def remove_duplicates(questions: List[Dict]) -> List[Dict]:
-    """
-    Remove questões duplicadas com base no hash da pergunta e alternativas.
-    """
-    seen = set()
-    result = []
-
-    for q in questions:
-        if not is_valid_question(q):
-            continue
-
-        hash_base = q["question"].strip() + "||" + "||".join([opt.strip() for opt in q["options"]])
-        hash_q = hashlib.md5(hash_base.encode("utf-8")).hexdigest()
-
-        if hash_q not in seen:
-            seen.add(hash_q)
-            result.append(q)
-
-    return result
+    return estrutura_corrigida
