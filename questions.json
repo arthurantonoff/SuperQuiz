@@ -1,400 +1,305 @@
 {
   "7ATB-P5": {
     "7ph14historia": [
-      "questions"
-    ]
-  },
-  "PF2025": {
-    "Direito Penal": [
       {
-        "question": "Segundo o princípio da legalidade penal, qual das alternativas representa uma restrição válida na criação de tipos penais?",
+        "question": "De acordo com o texto, qual é o principal objetivo de uma análise crítica de um conteúdo textual?",
         "options": [
-          "A lei deve ser aprovada por maioria simples no Congresso.",
-          "A criação de crimes pode ser feita por decretos e resoluções administrativas.",
-          "A lei penal deve ser expressa, escrita, clara e em sentido estrito.",
-          "A legislação pode ser interpretada por analogia para ampliar a criminalização."
+          "Resumir as informações apresentadas de forma breve.",
+          "Identificar falhas na estrutura gramatical do texto.",
+          "Compreender, interpretar e avaliar de forma aprofundada as ideias apresentadas.",
+          "Memorizar dados específicos sem refletir sobre seu significado."
         ],
         "answer": 2
       },
       {
-        "question": "De acordo com o princípio da subsidiariedade no Direito Penal, qual é a condição para a aplicação da sanção criminal?",
+        "question": "Segundo os critérios estabelecidos, qual característica é essencial para as alternativas de uma questão de múltipla escolha?",
         "options": [
-          "Quando outras fontes de controle social se mostrarem mais eficazes.",
-          "Quando outras formas de controle social não forem suficientes para prevenir ou punir o fato.",
-          "Quando o bem jurídico protegido for de menor relevância social.",
-          "Quando o réu for reincidente, independentemente de outras medidas de controle."
+          "Ser todas altamente plausíveis, dificultando a identificação da correta.",
+          "Ser claramente distintas, com uma única alternativa correta e as demais próximas da plausibilidade.",
+          "Ser todas semelhantes, para testar a atenção do candidato.",
+          "Ser curtas e simples, independentemente do conteúdo abordado."
         ],
         "answer": 1
       },
       {
-        "question": "O princípio da legalidade exige que a conduta criminalizada seja prevista em lei que seja:",
+        "question": "Ao elaborar uma questão baseada em um texto, o autor deve evitar que as alternativas sejam:",
         "options": [
-          "De autoria do Executivo e publicada em diário oficial.",
-          "Anterior ao fato, escrita e em sentido estrito.",
-          "Publicada pelo Poder Judiciário e de fácil entendimento.",
-          "De autoria popular e aprovada por maioria no Legislativo."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual é a principal finalidade do princípio da anterioridade no Direito Penal?",
-        "options": [
-          "Permitir a retroatividade de leis penais mais favoráveis ao réu.",
-          "Proibir a aplicação de leis penais que tenham sido editadas após a prática do fato criminoso.",
-          "Permitir que o juiz crie tipos penais em situações de urgência.",
-          "Reforçar o caráter interpretativo das leis penais pelo Executivo."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o princípio da taxatividade, tipos penais devem ser:",
-        "options": [
-          "Vagos e abertos à interpretação para ampliar sua aplicação.",
-          "Claros, precisos e não deixar margem de dúvida sobre sua configuração.",
-          "Podem incluir condutas internas e estados de espírito do agente.",
-          "Abertos a analogias para ampliar o alcance da norma penal."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das opções abaixo representa uma conduta que viola o princípio da ofensividade?",
-        "options": [
-          "Punir alguém por causar dano a si próprio.",
-          "Criminalizar uma atitude que não causa ou ameaça causar dano a bem jurídico.",
-          "Punir uma pessoa por estado de angústia emocional.",
-          "Aplicar pena por conduta que coloca em risco um bem jurídico."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da fragmentariedade determina que o Direito Penal deve proteger:",
-        "options": [
-          "Todos os bens jurídicos do indivíduo.",
-          "Apenas os bens mais relevantes para a sociedade.",
-          "Somente bens materiais de grande valor econômico.",
-          "Bens jurídicos de interesse exclusivo do Estado."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da proporcionalidade, no Direito Penal, implica que a pena deve ser:",
-        "options": [
-          "Apenas proporcional à gravidade do fato, sem considerar outros fatores.",
-          "Proporcional à gravidade do fato e às circunstâncias do agente.",
-          "Sempre máxima para garantir a efetividade da punição.",
-          "Independente da gravidade do fato, desde que haja reincidência."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da individualização da pena, a sanção deve ser:",
-        "options": [
-          "Padronizada para todos os infratores da mesma conduta.",
-          "Ajustada às circunstâncias específicas de cada condenado.",
-          "Imposta de forma automática pelo sistema eletrônico de julgamento.",
-          "Sempre proporcional à pena máxima prevista na lei."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas melhor explica o princípio da responsabilidade subjetiva?",
-        "options": [
-          "A responsabilidade penal depende da existência de dolo ou culpa do agente.",
-          "A responsabilidade é objetiva, independentemente da intenção do agente.",
-          "A responsabilidade penal pode ser atribuída mesmo sem relação com a conduta do agente.",
-          "A responsabilidade é exclusiva do Estado e não do indivíduo."
+          "Ambíguas ou ambivalentes, para prevenir interpretações duplas.",
+          "Muitas vezes corretas, para aumentar o grau de dificuldade.",
+          "Exatamente iguais à resposta correta, para confundir o candidato.",
+          "Formuladas com linguagem técnica, mesmo quando o conteúdo não exige."
         ],
         "answer": 0
       },
       {
-        "question": "De acordo com o princípio da culpabilidade, a responsabilidade penal exige que a conduta seja:",
+        "question": "Por que é importante reformular frases literais do texto na elaboração de questões objetivas?",
         "options": [
-          "Reprovável ou censurável ao agente nas circunstâncias em que agiu.",
-          "Impunível, desde que o agente seja primário.",
-          "De responsabilidade objetiva, sem análise de dolo ou culpa.",
-          "Realizada por qualquer pessoa, mesmo sem intenção ou negligência."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O princípio da legalidade também é conhecido como:",
-        "options": [
-          "Princípio da reserva de lei.",
-          "Princípio da reserva legal ou da legalidade estrita.",
-          "Princípio da lei geral.",
-          "Princípio do direito administrativo."
+          "Para conferir maior originalidade às perguntas e evitar plágio.",
+          "Para garantir que o candidato compreenda o conceito de forma indireta e aplicada.",
+          "Para aumentar a complexidade da questão e dificultar a resposta.",
+          "Para diminuir o tempo de leitura necessário para responder."
         ],
         "answer": 1
       },
       {
-        "question": "Segundo o princípio da individualização da pena, qual das ações a seguir é recomendada na dosimetria da pena?",
+        "question": "Qual o nível de dificuldade recomendado para as questões elaboradas segundo os critérios do texto?",
         "options": [
-          "Aplicar a mesma pena para todos os réus de uma mesma infração.",
-          "Considerar as circunstâncias pessoais e o grau de culpabilidade do condenado.",
-          "Impor a pena máxima prevista na lei, independentemente do caso.",
-          "Elaborar uma pena padrão para facilitar a aplicação da justiça."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da insignificância atua na exclusão do crime quando a conduta:",
-        "options": [
-          "Causa dano considerável ao bem jurídico.",
-          "Tem baixa ofensividade e inexpressivo impacto jurídico.",
-          "Revela intenção dolosa do agente.",
-          "Compromete a segurança pública de forma grave."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas representa uma consequência do princípio da pessoalidade da pena?",
-        "options": [
-          "A pena imposta pode ser transferida aos herdeiros do condenado.",
-          "A responsabilidade penal é individual, não podendo atingir terceiros.",
-          "A pena pode ser aplicada a terceiros relacionados com o infrator.",
-          "A responsabilidade recai sobre os familiares do condenado, automaticamente."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o princípio da humanidade, as penas que desrespeitam a dignidade humana são:",
-        "options": [
-          "Permissíveis se estiverem previstas em lei.",
-          "Proibidas, devendo-se evitar penas cruéis ou degradantes.",
-          "Indiferentes, desde que cumpridas integralmente.",
-          "Aceitas em casos de guerra ou emergência nacional."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da intervenção mínima recomenda que o Direito Penal seja utilizado:",
-        "options": [
-          "Como primeira resposta ao crime.",
-          "Somente quando outras medidas de controle social forem insuficientes.",
-          "Para punir qualquer conduta contrária à moral social.",
-          "De forma ampla, para garantir a ordem pública."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da exteriorização do fato, o Estado só pode criminalizar condutas que sejam:",
-        "options": [
-          "Internas, subjetivas ou estados de espírito.",
-          "Atos humanos voluntários e exteriorizados.",
-          "Condutas que envolvam estados de consciência ou emoções.",
-          "Condutas que não possam ser verificadas por testemunhas."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da individualização da pena está previsto na Constituição Federal e deve ser observado:",
-        "options": [
-          "No momento de elaboração da norma, na sentença e na execução penal.",
-          "Apenas na sentença, para garantir a justiça formal.",
-          "Somente na fase de execução, para evitar injustiças.",
-          "Na elaboração de leis penais, dispensando sua aplicação na sentença."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual é a relação entre o princípio da proporcionalidade e a gravidade do fato e da pena?",
-        "options": [
-          "Proporcionalidade exige que a pena seja sempre máxima, independentemente do fato.",
-          "A pena deve refletir a gravidade do fato e a reprovabilidade do comportamento.",
-          "A gravidade da pena deve ser sempre superior à gravidade do fato.",
-          "Não há relação entre eles, pois a pena é definida pelo juiz livremente."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da responsabilidade objetiva considera que a responsabilidade penal:",
-        "options": [
-          "Depende da demonstração de dolo ou culpa do agente.",
-          "Pode ser atribuída independentemente do estado psicológico do agente.",
-          "É sempre vinculada à intenção consciente do infrator.",
-          "Depende do grau de periculosidade da conduta, mesmo sem dolo ou culpa."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "De acordo com o princípio da exclusividade na proteção dos bens jurídicos, a norma penal deve:",
-        "options": [
-          "Protejer qualquer bem que o legislador desejar.",
-          "Ser criada apenas para tutelar bens jurídicos de relevância social.",
-          "Servir como instrumento de controle social genérico.",
-          "Incluir todas as condutas humanas, sem restrição."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da intervenção mínima no Direito Penal sugere que a punição deve ser aplicada:",
-        "options": [
-          "De forma ampla e abrangente, para garantir a ordem pública.",
-          "Apenas em casos estritamente necessários, quando outras esferas do direito falharem.",
-          "Sempre que houver violação de qualquer bem jurídico.",
-          "Como primeira resposta da sociedade ao delito."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da exteriorização do fato, condutas internas ou pensamentos não devem ser punidos porque:",
-        "options": [
-          "Não podem ser observados ou constatados por terceiros.",
-          "São consideradas relevantes apenas na fase de investigação.",
-          "Sempre representam uma ameaça à ordem social.",
-          "Podem evoluir para condutas externas ilícitas."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "A teoria do crime que adota que um fato é considerado crime quando reúne os elementos de tipicidade, antijuridicidade e culpabilidade é:",
-        "options": [
-          "Teoria do delito.",
-          "Teoria do fato típico.",
-          "Teoria do crime em sentido amplo.",
-          "Teoria do fato ilícito."
+          "Muito fácil, para garantir acessibilidade a todos os candidatos.",
+          "Moderado, semelhante ao nível de provas de concursos de nível médio.",
+          "Desafiador, similar ao nível de provas de concursos de alto nível, como PF e FCC.",
+          "Extremamente difícil, exigindo conhecimentos especializados avançados."
         ],
         "answer": 2
       },
       {
-        "question": "Qual das alternativas abaixo não constitui uma consequência do princípio da legalidade?",
+        "question": "Segundo as orientações, qual é a proporção adequada entre alternativas corretas e incorretas em uma questão de múltipla escolha?",
         "options": [
-          "Criação de tipos penais por analogia.",
-          "Vedação à retroatividade de leis penais mais severas.",
-          "Necessidade de lei escrita e em sentido estrito.",
-          "Proibição de criação de crimes por Medidas Provisórias."
+          "Apenas uma alternativa correta, com as demais claramente incorretas.",
+          "Duas alternativas corretas, para aumentar a complexidade.",
+          "Nenhuma alternativa correta, para testar a atenção do candidato.",
+          "Duas ou mais alternativas corretas, desde que bem justificadas."
         ],
         "answer": 0
       },
       {
-        "question": "De acordo com o princípio da culpabilidade, o juízo de censura refere-se à avaliação de:",
+        "question": "Ao revisar uma questão, o autor deve assegurar que as alternativas incorretas sejam:",
         "options": [
-          "Apenas ao resultado da conduta.",
-          "A conduta do agente, considerando sua culpabilidade e condições pessoais.",
-          "A intenção do agente, independentemente das circunstâncias.",
-          "À capacidade de o agente compreender a ilicitude do fato."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da proporcionalidade exige que a pena seja:",
-        "options": [
-          "Proporcional à gravidade do fato, levando em conta sua reprovabilidade.",
-          "Sempre máxima, para garantir a efetividade da punição.",
-          "De livre escolha do juiz, sem limites estabelecidos em lei.",
-          "Proporcional apenas ao dano causado, sem consideração às circunstâncias."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo o princípio da insignificância, quais requisitos são necessários para a aplicação do princípio?",
-        "options": [
-          "Alta ofensividade, periculosidade social e grande reprovabilidade.",
-          "Baixa ofensividade, ausência de periculosidade, baixo grau de reprovabilidade e inexpressividade da lesão.",
-          "Qualquer conduta que cause algum dano, independentemente do impacto social.",
-          "Condutas que envolvam violência ou grave ameaça."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da responsabilidade subjetiva no Direito Penal exige que a conduta seja:",
-        "options": [
-          "Realizada com dolo ou culpa, dependendo da avaliação do agente.",
-          "De responsabilidade objetiva, independentemente da intenção.",
-          "Cometida por qualquer pessoa, mesmo sem intenção ou negligência.",
-          "Sempre envolvendo estado de dolo, mesmo na negligência."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O princípio da individualização da pena é fundamental para garantir que:",
-        "options": [
-          "Todos os condenados recebam a mesma sanção para facilitar a aplicação da lei.",
-          "A sanção seja adequada às circunstâncias específicas de cada réu.",
-          "A pena seja sempre máxima, independentemente do caso.",
-          "A sanção seja aplicada automaticamente pelo sistema digital."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das alternativas melhor representa o conceito de exteriorização do fato em Direito Penal?",
-        "options": [
-          "Punir estados internos e condições existenciais do indivíduo.",
-          "Criminalizar apenas condutas humanas voluntárias e concretamente exteriorizadas.",
-          "Considerar pensamentos e intenções como tipos penais.",
-          "Punir o indivíduo por suas condições de vida e personalidade."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o princípio da humanidade, uma pena que viola a dignidade da pessoa humana é:",
-        "options": [
-          "Permissível se estiver prevista em lei.",
-          "Proibida, devendo ser evitada ou revista.",
-          "Aceitável em tempos de guerra.",
-          "Recomendável em situações de emergência social."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O princípio da intervenção mínima recomenda que o Direito Penal seja utilizado como:",
-        "options": [
-          "Primeira resposta a qualquer conduta contrária à lei.",
-          "Último recurso, quando outras formas de controle social se mostrarem ineficazes.",
-          "Instrumento de controle social amplo e geral.",
-          "Ferramenta de repressão de todas as condutas humanas."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o princípio da exteriorização do fato, a criminalização de condutas deve acontecer somente quando:",
-        "options": [
-          "A conduta for voluntária e exteriorizada.",
-          "Houver uma condição externa ou estado de ser do indivíduo.",
-          "A conduta envolver estados mentais internos.",
-          "O comportamento for interno e subjetivo."
-        ],
-        "answer": 0
-      },
-      {
-        "question": "A teoria do crime que considera que um fato é crime quando apresenta tipicidade, antijuridicidade e culpabilidade é:",
-        "options": [
-          "Teoria do fato típico.",
-          "Teoria do delito.",
-          "Teoria do fato ilícito.",
-          "Teoria do crime em sentido amplo."
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual das opções abaixo não é uma consequência do princípio da legalidade?",
-        "options": [
-          "Proibição de retroatividade de leis penais mais severas.",
-          "Necessidade de lei escrita e clara.",
-          "Permissão para criar crimes por analogia in malam partem.",
-          "Vedação à criação de tipos penais por Medidas Provisórias."
+          "Completamente incorretas, para eliminar dúvidas.",
+          "Minimamente plausíveis, para confundir o candidato.",
+          "Críveis, de modo que possam parecer corretas à primeira leitura.",
+          "Muito diferentes da correta, para facilitar a identificação."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo o princípio da culpabilidade, a responsabilidade penal depende de:",
+        "question": "Qual das seguintes ações é recomendada ao criar alternativas para uma questão de múltipla escolha?",
         "options": [
-          "Prova de dolo ou culpa na conduta do agente.",
-          "Simples ocorrência do fato ilícito.",
-          "Reincidência do infrator.",
-          "Agravamento da pena por circunstâncias especiais."
+          "Utilizar termos técnicos apenas na alternativa correta.",
+          "Incluir alternativas com níveis variados de plausibilidade.",
+          "Fazer todas as alternativas iguais em comprimento e estrutura.",
+          "Evitar o uso de termos técnicos para não dificultar a leitura."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com os critérios pedagógicos, uma questão bem formulada deve permitir ao candidato:",
+        "options": [
+          "Memorizar informações específicas do texto.",
+          "Interpretar e aplicar conceitos de forma contextualizada.",
+          "Reconhecer a palavra-chave principal do texto.",
+          "Responder de forma intuitiva, sem análise aprofundada."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando uma questão apresenta alternativas plausíveis, o que isso implica para a avaliação?",
+        "options": [
+          "Aumenta a dificuldade, exigindo maior atenção e conhecimento do candidato.",
+          "Reduz a confiabilidade da prova, pois confunde os candidatos.",
+          "Facilita a escolha, pois as alternativas parecem semelhantes.",
+          "Não influencia, pois o importante é a resposta correta."
         ],
         "answer": 0
       },
       {
-        "question": "O princípio da proporcionalidade implica que a relação entre o fato e a pena deve ser:",
+        "question": "Por que é importante que as alternativas incorretas em uma questão sejam plausíveis?",
         "options": [
-          "Proporcional à gravidade do dano causado.",
-          "Diretamente proporcional à gravidade do fato e às circunstâncias do infrator.",
-          "Sempre a pena máxima prevista na lei.",
-          "Independente de avaliação, pois a pena é padrão para todos."
+          "Para evitar que candidatos adivinhem facilmente a resposta correta.",
+          "Para tornar o teste mais longo e rigoroso.",
+          "Para que todas as alternativas possam ser consideradas corretas.",
+          "Para confundir o candidato e dificultar a resolução da questão."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo as recomendações, qual o aspecto linguístico que deve ser evitado na formulação de alternativas?",
+        "options": [
+          "Uso de linguagem técnica adequada ao nível do candidato.",
+          "Ambiguidade ou palavras que possam gerar múltiplas interpretações.",
+          "Frases curtas e objetivas, que facilitam a leitura.",
+          "Termos precisos que expressem claramente a ideia."
         ],
         "answer": 1
+      },
+      {
+        "question": "Ao criar questões de múltipla escolha, o autor deve evitar que as alternativas sejam:",
+        "options": [
+          "Exclusivamente diferentes entre si.",
+          "Todas plausíveis, para aumentar o desafio.",
+          "Demasiadamente semelhantes, dificultando a distinção.",
+          "Claramente distintas, para facilitar a análise."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é a justificativa para que uma questão tenha uma única alternativa correta claramente identificada?",
+        "options": [
+          "Para que o candidato possa responder por eliminação.",
+          "Para evitar dúvidas e garantir uma avaliação justa.",
+          "Para aumentar a complexidade da prova.",
+          "Para possibilitar múltiplas interpretações do enunciado."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo os critérios, qual a melhor estratégia para garantir a coerência entre enunciado e alternativas?",
+        "options": [
+          "Utilizar linguagem formal e técnica, independentemente do conteúdo.",
+          "Assegurar que cada alternativa seja uma aplicação ou interpretação do conceito apresentado no enunciado.",
+          "Fazer com que as alternativas sejam semelhantes em comprimento e estrutura, sem relação direta com o enunciado.",
+          "Incluir alternativas que abordem tópicos diferentes do tema central do texto."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "No contexto da elaboração de questões, por que se recomenda evitar alternativas que sejam variações da mesma ideia com palavras diferentes?",
+        "options": [
+          "Para promover maior variedade na prova.",
+          "Para diminuir a possibilidade de o candidato identificar a resposta correta por similaridade.",
+          "Para tornar as alternativas mais difíceis de distinguir.",
+          "Para confundir o candidato com múltiplas versões do mesmo conceito."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com as orientações, uma questão ideal deve apresentar alternativas que:",
+        "options": [
+          "Sejam todas corretas, para avaliar múltiplas competências.",
+          "Sejam todas incorretas, para testar o conhecimento do candidato.",
+          "Incluam uma resposta correta e alternativas plausíveis, de modo que o candidato precise raciocinar.",
+          "Sejam formuladas com linguagem complexa, para dificultar a leitura."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao revisar uma questão, o autor deve verificar se:",
+        "options": [
+          "A alternativa correta está claramente destacada visualmente.",
+          "As alternativas incorretas não podem ser plausíveis ou parecer corretas à primeira vista.",
+          "As alternativas são todas iguais, para evitar distração.",
+          "A questão apresenta múltiplas respostas corretas, para maior desafio."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das estratégias a seguir é recomendada para aumentar o nível de desafio de uma questão?",
+        "options": [
+          "Utilizar alternativas plausíveis e similares, dificultando a escolha.",
+          "Incluir alternativas absurdas para confundir o candidato.",
+          "Fazer todas as alternativas parecidas, sem relação com o conteúdo.",
+          "Reduzir o número de alternativas para facilitar a escolha."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Por que é importante que o enunciado da questão seja claro e preciso?",
+        "options": [
+          "Para evitar interpretações ambíguas e garantir que o candidato compreenda exatamente o que se pede.",
+          "Para tornar o enunciado mais longo e detalhado.",
+          "Para que o candidato memorize o conteúdo apresentado.",
+          "Para aumentar a dificuldade de leitura da questão."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo os critérios, uma questão bem estruturada deve evitar que as alternativas tenham:",
+        "options": [
+          "Níveis variados de complexidade.",
+          "Comprimentos e estruturas diferentes.",
+          "Semelhança em nível técnico e linguístico.",
+          "Alternativas que possam gerar dúvidas na interpretação."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é o efeito de uma questão que apresenta alternativas com níveis de plausibilidade similares?",
+        "options": [
+          "Aumenta a chance de adivinhação por parte do candidato.",
+          "Facilita a distinção entre a alternativa correta e as incorretas.",
+          "Reduz o grau de dificuldade, tornando a questão mais acessível.",
+          "Exige maior raciocínio e conhecimento para identificar a resposta correta."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com as recomendações, uma questão que exige interpretação deve ser formulada de modo que:",
+        "options": [
+          "O enunciado seja direto e o mais objetivo possível.",
+          "As alternativas sejam todas diferentes, para testar a compreensão.",
+          "O candidato precise aplicar conceitos ao contexto apresentado.",
+          "A resposta seja óbvia, para facilitar a correção."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao elaborar alternativas, o autor deve garantir que as opções incorretas:",
+        "options": [
+          "Sejam claramente incorretas, para evitar dúvidas.",
+          "Sejam plausíveis, para dificultar a identificação da correta.",
+          "Possam parecer corretas, para aumentar o desafio.",
+          "Sejam todas similares em estrutura e conteúdo."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo os critérios, uma questão de múltipla escolha deve ser construída de modo que:",
+        "options": [
+          "A resposta correta seja óbvia após leitura rápida.",
+          "O candidato precise aplicar raciocínio e conhecimento para chegar à resposta.",
+          "Todas as alternativas sejam corretas, para aumentar a dificuldade.",
+          "As alternativas incorretas sejam totalmente absurdas."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das práticas a seguir é considerada inadequada na elaboração de alternativas?",
+        "options": [
+          "Utilizar terminologia técnica adequada ao nível do candidato.",
+          "Fazer com que as alternativas incorretas sejam altamente plausíveis.",
+          "Criar alternativas que sejam semelhantes em comprimento e estrutura.",
+          "Incluir alternativas que sejam claramente diferentes uma das outras."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No processo de revisão de uma questão, o autor deve verificar se:",
+        "options": [
+          "As alternativas estão formuladas de modo a não gerar confusão.",
+          "Todas as alternativas são igualmente plausíveis.",
+          "A alternativa correta é a mais longa.",
+          "As alternativas apresentam níveis de dificuldade variados."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para que uma questão seja considerada eficaz, o enunciado deve conter:",
+        "options": [
+          "Informações excessivas para confundir o candidato.",
+          "Diretivas claras que orientem a resolução da questão.",
+          "Palavras ambíguas que possam gerar diferentes interpretações.",
+          "Instruções complexas para dificultar a compreensão."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo as recomendações, uma alternativa incorreta deve ser formulada de modo que:",
+        "options": [
+          "Possa parecer correta à primeira leitura, dificultando a escolha.",
+          "Seja claramente incorreta, para evitar equívocos.",
+          "Seja totalmente absurda, para eliminar dúvidas.",
+          "Seja uma variação da resposta correta, de modo a confundir."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é uma estratégia adequada para aumentar a validade de uma questão de múltipla escolha?",
+        "options": [
+          "Utilizar alternativas similares em nível de plausibilidade e linguístico.",
+          "Fazer alternativas totalmente distintas, sem relação com o conteúdo.",
+          "Incluir alternativas que sejam parcialmente corretas.",
+          "Deixar a resposta correta implícita no enunciado."
+        ],
+        "answer": 0
       }
     ]
   }
