@@ -25,6 +25,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
+      - name: 🧹 Zerar arquivo de saída
+        run: |
+          > questions.json
 
       - name: ⚙️ Executar pipeline de geração de questões
         env:
