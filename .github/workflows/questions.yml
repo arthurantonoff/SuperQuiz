@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'pdfreader/pdfs/**/*.pdf'
-      - 'pdfreader/pdfs/**/*.md'
     workflow_dispatch:
 
 jobs:
@@ -43,7 +42,14 @@ jobs:
           git diff --cached --quiet || git commit -m "🤖 Atualização automática do questions.json"
           git push origin main
   
-  call-deploy-quiz:
+  trigger-deploy:
     needs: gerar-questions
-    uses: ./.github/workflows/deploy-quizzes.yml
-
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Disparar deploy-quizzes.yml
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: deploy-quizzes.yml
+          ref: main

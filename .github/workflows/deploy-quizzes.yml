@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
     - 'questions.json'
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   upload:
