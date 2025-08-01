@@ -1,395 +1,4839 @@
 {
   "7ATB-P5": {
-    "7PH10MATEMATICA": [
+    "7PH15CIENCIAS": [
       {
-        "question": "Qual propriedade do triângulo garante sua estabilidade estrutural e resistência em construções, como suportes de telhado?",
+        "question": "Qual princípio físico explica a facilidade de mover objetos pesados usando uma alavanca com um braço maior do que o outro?",
         "options": [
-          "A sua forma é flexível, permitindo deformações sem alterar suas medidas.",
-          "Os ângulos internos de um triângulo podem variar de acordo com a sua forma.",
-          "A forma triangular é rígida, impedindo deformações sem alterar suas medidas.",
-          "A soma dos seus lados é sempre maior que a soma dos lados de qualquer outro polígono."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "De acordo com a classificação dos triângulos por lados, qual é o nome do triângulo que possui todos os lados com medidas iguais?",
-        "options": [
-          "Triângulo retângulo",
-          "Triângulo equilátero",
-          "Triângulo isósceles",
-          "Triângulo escaleno"
+          "Lei de Hooke",
+          "Princípio do momento de força (torque)",
+          "Lei da conservação de energia",
+          "Lei da ação e reação"
         ],
         "answer": 1
       },
       {
-        "question": "Em um triângulo, qual é a relação entre o maior lado e o maior ângulo oposto a ele?",
+        "question": "Na representação de uma força normal atuando sobre um corpo em repouso sobre uma superfície inclinada, qual é a direção da força?",
         "options": [
-          "O maior lado está sempre na base do triângulo.",
-          "O maior lado está oposto ao maior ângulo.",
-          "O maior lado está oposto ao menor ângulo.",
-          "O maior lado não possui relação com os ângulos internos."
+          "Perpendicular à superfície do apoio",
+          "Parallel à superfície do apoio",
+          "Na direção da gravidade",
+          "Ao longo do plano inclinado"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Um corpo com menor massa é lançado ao ar. Considerando a resistência do ar, por que ele cai mais lentamente do que um corpo mais pesado?",
+        "options": [
+          "Por causa da força de tração",
+          "Por causa da força de atrito do ar",
+          "Devido à menor força peso",
+          "Devido à menor força normal"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes afirmações caracteriza corretamente a força de atrito?",
+        "options": [
+          "Ela atua na direção da força peso",
+          "Ela atua paralelamente à superfície de contato e na direção oposta ao movimento",
+          "Ela atua sempre na mesma direção do movimento",
+          "Ela atua perpendicular à superfície de contato e na mesma direção do movimento"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A força de resistência do ar influencia na queda dos corpos. Como ela atua durante a queda de um paraquedista?",
+        "options": [
+          "Não tendo efeito na velocidade de queda",
+          "Diminuindo a velocidade de queda ao abrir o paraquedas",
+          "Aumentando a velocidade de queda",
+          "Impulsionando o paraquedista para cima"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na análise de uma alavanca do tipo interfixa, qual é a posição do ponto de apoio em relação às forças aplicadas?",
+        "options": [
+          "Antes da força resistente",
+          "Depois da força potente",
+          "Na extremidade da barra sem relação com as forças",
+          "Entre a força resistente e a força potente"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das máquinas simples abaixo é composta por uma barra que gira em torno de um ponto de apoio?",
+        "options": [
+          "Polia",
+          "Plano inclinado",
+          "Roda dentada",
+          "Alavanca"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A força de tração aplicada a uma corda puxa um objeto. Em qual direção ela atua?",
+        "options": [
+          "Na direção da força peso",
+          "Na mesma direção da corda, ao longo do fio",
+          "Na direção oposta ao ponto de aplicação",
+          "Perpendicular ao fio"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a vantagem do uso de uma roldana móvel em relação à fixa na realização de tarefas de elevação de objetos?",
+        "options": [
+          "Permite maior controle da velocidade",
+          "Aumenta a força aplicada",
+          "Reduz a força necessária à metade",
+          "Aumenta o sentido do esforço"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando uma mola é deformada por estiramento ou compressão, ela exerce uma força que tende a retornar ao seu estado original. Essa força é conhecida como:",
+        "options": [
+          "Força normal",
+          "Força de resistência do ar",
+          "Força elástica",
+          "Força de atrito"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao utilizar uma rampa menos inclinada, a força necessária para mover uma carga é:",
+        "options": [
+          "Variável, dependendo do peso da carga",
+          "Menor, devido à menor inclinação",
+          "Maior, devido ao maior esforço necessário",
+          "Igual, pois a energia necessária permanece constante"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo os conceitos de física, a tendência de um corpo realizar uma rotação ao receber uma força é representada por:",
+        "options": [
+          "A força de peso",
+          "A força de atrito",
+          "A força normal",
+          "O momento de força (torque)"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Para que uma força aplicada em uma porta seja eficiente na abertura, ela deve ser aplicada em uma posição que maximize:",
+        "options": [
+          "O momento de força ou torque",
+          "O peso do corpo",
+          "A força normal",
+          "A resistência do ar"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das opções a seguir exemplifica uma máquina simples do tipo plano inclinado?",
+        "options": [
+          "Uma escada",
+          "Uma tesoura",
+          "Um parafuso",
+          "Uma roda dentada"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A força de atrito entre um pneu de carro e o solo é importante porque:",
+        "options": [
+          "Diminui o contato com o solo",
+          "Impede o movimento do carro",
+          "Reduz o risco de derrapagem",
+          "Aumenta a velocidade do veículo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando um corpo está em equilíbrio, a soma vetorial de todas as forças que atuam sobre ele é:",
+        "options": [
+          "Negativa",
+          "Infinita",
+          "Igual a zero",
+          "Maior que zero"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A partir do conceito de força, qual a relação entre massa e força peso na Terra?",
+        "options": [
+          "Força peso é constante para qualquer massa",
+          "Força peso é proporcional à massa do corpo",
+          "Força peso independe da massa",
+          "Força peso diminui com o aumento da massa"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a função principal de uma polia fixa?",
+        "options": [
+          "Diminuir a distância de movimento",
+          "Inverter o sentido do esforço",
+          "Aumentar a força aplicada",
+          "Reduzir a força de atrito"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A vantagem de uma alavanca de primeira classe está relacionada ao seu ponto de apoio, que fica localizado:",
+        "options": [
+          "Entre a força aplicada e a carga",
+          "Na extremidade da barra",
+          "Na carga que deve ser levantada",
+          "Sempre na mesma posição"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na utilização de um sistema de três roldanas móveis, qual é a força mínima necessária para sustentar um peso de 4000 N?",
+        "options": [
+          "2000 N",
+          "1000 N",
+          "400 N",
+          "1333 N"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A função de uma máquina simples como uma faca ou uma cunha é baseada no princípio de:",
+        "options": [
+          "Aumentar o peso do objeto",
+          "Aumentar a resistência ao corte",
+          "Diminuir o esforço necessário para levantar objetos",
+          "Reduzir a força necessária para penetrar ou cortar"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual elemento define a posição de aplicação da força na alavanca, sendo fundamental para seu funcionamento?",
+        "options": [
+          "O ponto de aplicação da força",
+          "O ponto de apoio",
+          "O braço resistente",
+          "O peso do objeto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao empurrar uma porta pelas maçanetas posicionadas perto das dobradiças, é necessário aplicar uma força maior do que se ela estivesse por fora, porque:",
+        "options": [
+          "A força peso aumenta",
+          "O ponto de aplicação está mais próximo do eixo de rotação",
+          "O momento de força é menor",
+          "A força de atrito aumenta"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A principal vantagem do uso de máquinas simples na história da humanidade foi:",
+        "options": [
+          "Permitir construções mais rápidas",
+          "Aumentar a resistência dos materiais",
+          "Eliminar a necessidade de força humana",
+          "Facilitar tarefas complexas com menor esforço"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A força de resistência do ar atua de modo a:",
+        "options": [
+          "Diminuir a velocidade de um objeto em queda",
+          "Aumentar a velocidade de um objeto em queda",
+          "Impulsionar objetos para cima",
+          "Neutralizar a força peso"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas apresenta um exemplo de máquina simples composta por uma roda que gira em torno de um eixo e é usada para facilitar o movimento de elevação?",
+        "options": [
+          "Alavanca",
+          "Parafuso",
+          "Polia",
+          "Plano inclinado"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O que caracteriza uma alavanca do tipo interpotente?",
+        "options": [
+          "O ponto de apoio está na extremidade oposta à força",
+          "A força aplicada fica entre o ponto de apoio e a carga",
+          "O ponto de apoio fica entre a força e a carga",
+          "A força e a carga estão na mesma extremidade"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é uma consequência direta do aumento do braço de força (braço potente) em uma alavanca?",
+        "options": [
+          "Aumenta a resistência do sistema",
+          "Permite mover cargas maiores com menor esforço",
+          "Aumenta a força necessária para mover a carga",
+          "Reduz o movimento da carga"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A finalidade do uso de uma mola em instrumentos de medição de força como o dinamômetro é:",
+        "options": [
+          "Deformar-se proporcionalmente à força aplicada",
+          "Medir a força de atrito",
+          "Transformar energia térmica em mecânica",
+          "Controlar a resistência do ar"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na implementação de rampas de acessibilidade, a Lei nº 13146/2015 garante que:",
+        "options": [
+          "Somente novas construções devem ter rampas",
+          "Rampas são opcionais em locais públicos",
+          "As rampas devem ter uma inclinação máxima de 45 graus",
+          "As construções existentes devem ser adaptadas, se possível"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a relação entre o braço resistente e o braço potente em uma alavanca interfixa para obter vantagem mecânica?",
+        "options": [
+          "Braço resistente menor que o braço potente",
+          "Braço resistente não influencia na vantagem mecânica",
+          "Braço resistente maior que o braço potente",
+          "Braço resistente igual ao braço potente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao utilizar uma força aplicada em uma maçaneta distante do eixo de rotação de uma porta, a abertura requer:",
+        "options": [
+          "Maior força devido ao menor momento de força",
+          "A mesma força independentemente da distância",
+          "Nenhuma força, pois a porta abre sozinha",
+          "Menor força devido ao maior momento de força"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A resistência de um corpo ao movimento, ou força de atrito, aumenta principalmente quando:",
+        "options": [
+          "A superfície de contato fica mais áspera",
+          "A superfície de contato se torna mais lisa",
+          "A força normal diminui",
+          "A força peso é maior"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para diminuir a força necessária para mover uma carga usando um plano inclinado, deve-se:",
+        "options": [
+          "Aumentar a inclinação da rampa",
+          "Usar uma rampa mais curta",
+          "Aumentar a força aplicada diretamente na vertical",
+          "Reduzir a inclinação da rampa"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na formação de uma força de tração, por exemplo, em uma corda, a força atua de modo a:",
+        "options": [
+          "Na direção do peso do objeto",
+          "Na direção do fio, ao longo de sua extensão",
+          "Perpendicular ao fio",
+          "Na direção oposta ao fio"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas apresenta uma aplicação prática de uma alavanca inter-resistente?",
+        "options": [
+          "Uma roda de carro",
+          "Um elevador de carga",
+          "Uma tesoura",
+          "Uma balança de pratos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao aplicar uma força em uma porta por meio de uma maçaneta posicionada na extremidade, o efeito de rotação é maior porque:",
+        "options": [
+          "O momento de força é maior devido à maior distância ao eixo de rotação",
+          "A força é maior",
+          "A força de atrito diminui",
+          "A força peso aumenta"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O funcionamento de uma polia móvel reduz a força necessária para levantar um peso porque:",
+        "options": [
+          "Aumenta a distância que a corda deve percorrer",
+          "Aumenta a força aplicada",
+          "Divide a carga em partes iguais",
+          "Diminui o peso do objeto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A força de atrito é maior quando:",
+        "options": [
+          "As superfícies de contato são mais ásperas",
+          "As superfícies de contato são mais lisas",
+          "A força normal é menor",
+          "A força peso é menor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo a física, a força peso de um corpo de massa 10 kg na Terra é aproximadamente:",
+        "options": [
+          "98 N",
+          "9,8 N",
+          "100 N",
+          "1 N"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das opções abaixo é um exemplo de máquina simples composta por uma roda que ajuda na elevação de cargas?",
+        "options": [
+          "Uma roda de carro",
+          "Uma roda de bicicleta",
+          "Uma engrenagem",
+          "Uma polia"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O princípio que permite a uma alavanca realizar maior esforço com menor força é baseado em:",
+        "options": [
+          "Lei de Hooke",
+          "Lei da ação e reação",
+          "Princípio do momento de força",
+          "Lei da conservação de energia"
+        ],
+        "answer": 2
+      }
+    ],
+    "7PH11MATEMATICA": [
+      {
+        "question": "Qual das seguintes figuras é um quadrilátero regular?",
+        "options": [
+          "Retângulo",
+          "Trapézio escaleno",
+          "Quadrado",
+          "Triângulo equilátero"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A soma dos ângulos internos de qualquer quadrilátero é sempre:",
+        "options": [
+          "720°",
+          "360°",
+          "180°",
+          "270°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual propriedade caracteriza um quadrado em relação aos seus ângulos?",
+        "options": [
+          "Todos os ângulos internos são diferentes",
+          "Os ângulos variam de acordo com o tamanho do lado",
+          "Os ângulos internos somam 180°",
+          "Todos os ângulos internos são retos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quantas diagonais um quadrilátero possui?",
+        "options": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No contexto do mosaico geométrico, qual a soma dos ângulos de junção de cada vértice de um mosaico formado por hexágonos regulares?",
+        "options": [
+          "240°",
+          "300°",
+          "360°",
+          "180°"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se o ângulo interno de um quadrilátero é representado por 2x, outro por 3x, um por 5x e outro por 130°, qual é o valor de x?",
+        "options": [
+          "40°",
+          "30°",
+          "10°",
+          "20°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao construir um quadrado de 4 cm de lado usando régua e compasso, qual é a medida do perímetro?",
+        "options": [
+          "8 cm",
+          "12 cm",
+          "20 cm",
+          "16 cm"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das seguintes figuras NÃO é um quadrilátero?",
+        "options": [
+          "Retângulo",
+          "Trapézio",
+          "Losango",
+          "Triângulo"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao dividir um quadrilátero qualquer em dois triângulos, a soma dos ângulos internos desses triângulos é:",
+        "options": [
+          "720°",
+          "360°",
+          "180°",
+          "540°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes opções representa um quadrilátero com lados e ângulos iguais?",
+        "options": [
+          "Quadrado",
+          "Retângulo",
+          "Trapézio",
+          "Losango"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na construção de uma reta perpendicular a um segmento usando régua e compasso, qual ponto é utilizado como centro para marcar uma semicircunferência?",
+        "options": [
+          "Qualquer ponto na reta",
+          "O ponto de interseção da bissetriz",
+          "Um dos extremos do segmento",
+          "O ponto médio do segmento"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes figuras é uma composição de polígonos regulares que preenchem o plano sem espaços vazios?",
+        "options": [
+          "Quadrados e triângulos",
+          "Hexágonos regulares",
+          "Triângulos equiláteros",
+          "Pentágonos regulares"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao construir um quadrado com lado de 5 cm, qual o valor do seu perímetro?",
+        "options": [
+          "10 cm",
+          "15 cm",
+          "25 cm",
+          "20 cm"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das seguintes figuras pode ser formada apenas com triângulos, quadrados, hexágonos e octógonos, formando um mosaico perfeito?",
+        "options": [
+          "Pentágono",
+          "Triângulo",
+          "Trapézio",
+          "Hexágono"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se um quadrilátero possui dois lados paralelos, ele é chamado de:",
+        "options": [
+          "Quadrado",
+          "Trapézio",
+          "Losango",
+          "Retângulo"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Para formar uma figura semelhante a um quadrado usando as peças do tangram, qual conjunto de peças deve ser utilizado?",
+        "options": [
+          "Um quadrado e um paralelogramo",
+          "Somente triângulos",
+          "Sete peças que incluem triângulos, quadrado e paralelogramo",
+          "Dois triângulos e um quadrado"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na construção de um quadrado com régua e compasso, qual é a importância de marcar dois pontos a 4 cm de distância na reta?",
+        "options": [
+          "Definir os vértices",
+          "Localizar o centro do quadrado",
+          "Criar uma diagonal",
+          "Determinar o lado do quadrado"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é o número de lados de um hexágono regular?",
+        "options": [
+          "10",
+          "6",
+          "4",
+          "8"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se um quadrilátero tem os ângulos internos medindo 90°, 90°, 100° e 80°, ele é:",
+        "options": [
+          "Um paralelogramo",
+          "Não é um quadrilátero válido",
+          "Um retângulo",
+          "Um quadrado"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes afirmações é verdadeira sobre um paralelogramo?",
+        "options": [
+          "Os lados opostos são paralelos e iguais",
+          "Todos os seus lados são iguais",
+          "Suas diagonais se cruzam em ângulos retos",
+          "Seus ângulos internos são todos iguais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando um mosaico é formado por polígonos cujo encaixe perfeito exige que a soma dos ângulos de junção seja 360°, esse padrão é chamado de:",
+        "options": [
+          "Poligonal",
+          "Escultura",
+          "Tesselagem",
+          "Mosaico"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Para construir um quadrado de 3 cm de lado, qual deve ser a medida da sua diagonal?",
+        "options": [
+          "3√2 cm",
+          "6 cm",
+          "3 cm",
+          "√3 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual característica é comum a todos os quadriláteros?",
+        "options": [
+          "Possuem quatro lados",
+          "Possuem quatro diagonais",
+          "Todos possuem ângulos retos",
+          "Têm todos os lados iguais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na construção de um quadrado, qual a medida de cada ângulo interno?",
+        "options": [
+          "60°",
+          "120°",
+          "90°",
+          "45°"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual dos seguintes polígonos apresenta ângulos internos de 108°?",
+        "options": [
+          "Hexágono regular",
+          "Octógono regular",
+          "Triângulo equilátero",
+          "Pentágono regular"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No estudo de mosaicos, qual é o aspecto principal para garantir que as peças se encaixem sem espaços vazios?",
+        "options": [
+          "A soma dos ângulos de junção em cada vértice",
+          "A quantidade de lados de cada polígono",
+          "A cor das peças",
+          "O tamanho das peças"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao determinar a medida de x em um quadrilátero com ângulos 2x, 3x, 5x e 130°, qual é o procedimento correto?",
+        "options": [
+          "Dividir 360° pelo número de ângulos",
+          "Subtrair 130° de 360°",
+          "Somar todos os ângulos e igualar a 360°",
+          "Multiplicar todos os ângulos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das opções abaixo representa um quadrilátero que possui lados opostos paralelos e de tamanhos iguais?",
+        "options": [
+          "Losango",
+          "Trapézio",
+          "Retângulo",
+          "Triângulo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na construção de um quadrado com régua e compasso, a partir de um segmento de 4 cm, qual é a medida da diagonal?",
+        "options": [
+          "2√2 cm",
+          "4√2 cm",
+          "8 cm",
+          "4 cm"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A figura que apresenta quatro lados e quatro ângulos internos, cuja soma é sempre 360°, é chamada de:",
+        "options": [
+          "Triângulo",
+          "Hexágono",
+          "Quadrilátero",
+          "Polígono"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes opções é um quadrilátero que possui todos os lados iguais e ângulos retos?",
+        "options": [
+          "Quadrado",
+          "Retângulo",
+          "Losango",
+          "Trapézio"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao construir uma reta perpendicular a um segmento usando régua e compasso, qual é o ponto de partida para marcar a perpendicular?",
+        "options": [
+          "O ponto médio do segmento",
+          "O centro do segmento",
+          "Qualquer ponto na linha da reta",
+          "Um dos extremos do segmento"
+        ],
+        "answer": 3
+      }
+    ],
+    "7PH12HISTORIA": [
+      {
+        "question": "Qual das seguintes figuras é um quadrilátero regular?",
+        "options": [
+          "Trapézio escaleno",
+          "Quadrado",
+          "Triângulo equilátero",
+          "Retângulo"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A soma dos ângulos internos de qualquer quadrilátero é sempre:",
+        "options": [
+          "180°",
+          "270°",
+          "720°",
+          "360°"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual propriedade caracteriza um quadrado em relação aos seus ângulos?",
+        "options": [
+          "Todos os ângulos internos são retos",
+          "Todos os ângulos internos são diferentes",
+          "Os ângulos variam de acordo com o tamanho do lado",
+          "Os ângulos internos somam 180°"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quantas diagonais um quadrilátero possui?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "No contexto do mosaico geométrico, qual a soma dos ângulos de junção de cada vértice de um mosaico formado por hexágonos regulares?",
+        "options": [
+          "180°",
+          "240°",
+          "300°",
+          "360°"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se o ângulo interno de um quadrilátero é representado por 2x, outro por 3x, um por 5x e outro por 130°, qual é o valor de x?",
+        "options": [
+          "30°",
+          "10°",
+          "20°",
+          "40°"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao construir um quadrado de 4 cm de lado usando régua e compasso, qual é a medida do perímetro?",
+        "options": [
+          "16 cm",
+          "8 cm",
+          "12 cm",
+          "20 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes figuras NÃO é um quadrilátero?",
+        "options": [
+          "Retângulo",
+          "Trapézio",
+          "Losango",
+          "Triângulo"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao dividir um quadrilátero qualquer em dois triângulos, a soma dos ângulos internos desses triângulos é:",
+        "options": [
+          "540°",
+          "720°",
+          "360°",
+          "180°"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes opções representa um quadrilátero com lados e ângulos iguais?",
+        "options": [
+          "Retângulo",
+          "Trapézio",
+          "Losango",
+          "Quadrado"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na construção de uma reta perpendicular a um segmento usando régua e compasso, qual ponto é utilizado como centro para marcar uma semicircunferência?",
+        "options": [
+          "Qualquer ponto na reta",
+          "O ponto de interseção da bissetriz",
+          "Um dos extremos do segmento",
+          "O ponto médio do segmento"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes figuras é uma composição de polígonos regulares que preenchem o plano sem espaços vazios?",
+        "options": [
+          "Quadrados e triângulos",
+          "Hexágonos regulares",
+          "Triângulos equiláteros",
+          "Pentágonos regulares"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao construir um quadrado com lado de 5 cm, qual o valor do seu perímetro?",
+        "options": [
+          "20 cm",
+          "10 cm",
+          "15 cm",
+          "25 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes figuras pode ser formada apenas com triângulos, quadrados, hexágonos e octógonos, formando um mosaico perfeito?",
+        "options": [
+          "Pentágono",
+          "Triângulo",
+          "Trapézio",
+          "Hexágono"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se um quadrilátero possui dois lados paralelos, ele é chamado de:",
+        "options": [
+          "Trapézio",
+          "Losango",
+          "Retângulo",
+          "Quadrado"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para formar uma figura semelhante a um quadrado usando as peças do tangram, qual conjunto de peças deve ser utilizado?",
+        "options": [
+          "Um quadrado e um paralelogramo",
+          "Somente triângulos",
+          "Sete peças que incluem triângulos, quadrado e paralelogramo",
+          "Dois triângulos e um quadrado"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na construção de um quadrado com régua e compasso, qual é a importância de marcar dois pontos a 4 cm de distância na reta?",
+        "options": [
+          "Determinar o lado do quadrado",
+          "Definir os vértices",
+          "Localizar o centro do quadrado",
+          "Criar uma diagonal"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o número de lados de um hexágono regular?",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se um quadrilátero tem os ângulos internos medindo 90°, 90°, 100° e 80°, ele é:",
+        "options": [
+          "Um paralelogramo",
+          "Não é um quadrilátero válido",
+          "Um retângulo",
+          "Um quadrado"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes afirmações é verdadeira sobre um paralelogramo?",
+        "options": [
+          "Todos os seus lados são iguais",
+          "Suas diagonais se cruzam em ângulos retos",
+          "Seus ângulos internos são todos iguais",
+          "Os lados opostos são paralelos e iguais"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quando um mosaico é formado por polígonos cujo encaixe perfeito exige que a soma dos ângulos de junção seja 360°, esse padrão é chamado de:",
+        "options": [
+          "Escultura",
+          "Tesselagem",
+          "Mosaico",
+          "Poligonal"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Para construir um quadrado de 3 cm de lado, qual deve ser a medida da sua diagonal?",
+        "options": [
+          "3 cm",
+          "√3 cm",
+          "3√2 cm",
+          "6 cm"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual característica é comum a todos os quadriláteros?",
+        "options": [
+          "Possuem quatro diagonais",
+          "Todos possuem ângulos retos",
+          "Têm todos os lados iguais",
+          "Possuem quatro lados"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na construção de um quadrado, qual a medida de cada ângulo interno?",
+        "options": [
+          "45°",
+          "60°",
+          "120°",
+          "90°"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual dos seguintes polígonos apresenta ângulos internos de 108°?",
+        "options": [
+          "Hexágono regular",
+          "Octógono regular",
+          "Triângulo equilátero",
+          "Pentágono regular"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No estudo de mosaicos, qual é o aspecto principal para garantir que as peças se encaixem sem espaços vazios?",
+        "options": [
+          "A cor das peças",
+          "O tamanho das peças",
+          "A soma dos ângulos de junção em cada vértice",
+          "A quantidade de lados de cada polígono"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao determinar a medida de x em um quadrilátero com ângulos 2x, 3x, 5x e 130°, qual é o procedimento correto?",
+        "options": [
+          "Multiplicar todos os ângulos",
+          "Dividir 360° pelo número de ângulos",
+          "Subtrair 130° de 360°",
+          "Somar todos os ângulos e igualar a 360°"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das opções abaixo representa um quadrilátero que possui lados opostos paralelos e de tamanhos iguais?",
+        "options": [
+          "Losango",
+          "Trapézio",
+          "Retângulo",
+          "Triângulo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na construção de um quadrado com régua e compasso, a partir de um segmento de 4 cm, qual é a medida da diagonal?",
+        "options": [
+          "4√2 cm",
+          "8 cm",
+          "4 cm",
+          "2√2 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A figura que apresenta quatro lados e quatro ângulos internos, cuja soma é sempre 360°, é chamada de:",
+        "options": [
+          "Triângulo",
+          "Hexágono",
+          "Quadrilátero",
+          "Polígono"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes opções é um quadrilátero que possui todos os lados iguais e ângulos retos?",
+        "options": [
+          "Retângulo",
+          "Losango",
+          "Trapézio",
+          "Quadrado"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao construir uma reta perpendicular a um segmento usando régua e compasso, qual é o ponto de partida para marcar a perpendicular?",
+        "options": [
+          "O ponto médio do segmento",
+          "O centro do segmento",
+          "Qualquer ponto na linha da reta",
+          "Um dos extremos do segmento"
+        ],
+        "answer": 3
+      }
+    ],
+    "7PH10MATEMATICA": [
+      {
+        "question": "Qual propriedade do triângulo explica sua alta estabilidade estrutural em construções e telhados?",
+        "options": [
+          "A possibilidade de deformação do triângulo garante sua flexibilidade estrutural.",
+          "A forma triangular impede deformações, promovendo resistência ao projeto.",
+          "A soma dos ângulos internos é igual a 180°, garantindo rigidez.",
+          "A rigidez dos triângulos decorre do fato de seus lados serem congruentes."
         ],
         "answer": 1
       },
       {
         "question": "Qual condição deve ser satisfeita para que três medidas possam formar um triângulo?",
         "options": [
-          "A medida de um lado deve ser maior que a soma dos outros dois.",
-          "Todos os lados devem ter tamanhos diferentes.",
-          "A medida de um lado deve ser menor que a soma dos outros dois.",
-          "A soma de quaisquer dois lados deve ser igual ao terceiro."
+          "A soma de quaisquer dois lados deve ser maior que o terceiro lado.",
+          "A diferença entre quaisquer dois lados deve ser menor que o terceiro lado.",
+          "Cada lado deve ser menor que a soma dos outros dois lados, sem exceções.",
+          "A soma de todos os lados deve ser menor que a medida do maior lado."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao construir um triângulo com régua e compasso, qual das seguintes combinações de lados não permite sua formação?",
+        "options": [
+          "1 cm, 2 cm e 4 cm",
+          "3 cm, 4 cm e 5 cm",
+          "5 cm, 6 cm e 7 cm",
+          "2 cm, 2 cm e 3 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A soma das medidas internas de qualquer triângulo é sempre igual a:",
+        "options": [
+          "360°",
+          "270°",
+          "180°",
+          "90°"
         ],
         "answer": 2
+      },
+      {
+        "question": "No triângulo com lados de 6 cm, 4 cm e 5 cm, qual é o comprimento do lado oposto ao maior ângulo?",
+        "options": [
+          "6 cm",
+          "4 cm",
+          "5 cm",
+          "4,5 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual classificação de um triângulo que possui três lados de medidas diferentes?",
+        "options": [
+          "Retângulo",
+          "Escaleno",
+          "Equilátero",
+          "Isósceles"
+        ],
+        "answer": 1
       },
       {
         "question": "Se um triângulo possui um ângulo reto, ele é classificado como:",
         "options": [
-          "Escaleno",
-          "Retângulo",
-          "Acutângulo",
-          "Obtusângulo"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual é a soma das medidas internas de qualquer triângulo?",
-        "options": [
-          "360 graus",
-          "270 graus",
-          "180 graus",
-          "90 graus"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Na construção de um triângulo com lados de 6 cm, 4 cm e 5 cm, qual procedimento deve ser seguido?",
-        "options": [
-          "Traçar uma reta, usar compasso de 6 cm para marcar um ponto, e depois de 4 cm e 5 cm para determinar os outros vértices.",
-          "Traçar uma linha de 15 cm e dividir em partes proporcionais às medidas dos lados.",
-          "Traçar segmentos de 6 cm, 4 cm e 5 cm, e verificar se eles satisfazem a condição de existência do triângulo.",
-          "Traçar uma reta de 6 cm, usar compasso de 4 cm e 5 cm para marcar os vértices."
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo a propriedade dos ângulos internos, qual é a medida do ângulo externo oposto a um ângulo interno de 70° em um triângulo?",
-        "options": [
-          "110°",
-          "70°",
-          "180°",
-          "70° ou 110°, dependendo do triângulo"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza um triângulo escaleno?",
-        "options": [
-          "Todos os lados iguais",
-          "Dois lados iguais",
-          "Um ângulo de 90°",
-          "Lados diferentes"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual é a medida de cada ângulo interno de um triângulo equilátero?",
-        "options": [
-          "120°",
-          "60°",
-          "45°",
-          "90°"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Na classificação de triângulos quanto aos ângulos, qual tipo possui exatamente um ângulo reto?",
-        "options": [
           "Retângulo",
           "Acutângulo",
           "Obtusângulo",
-          "Escaleno"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual propriedade do triângulo garante que seu formato não pode ser alterado sem modificar seus lados?",
-        "options": [
-          "A rigidez geométrica, por causa da forma triangular",
-          "A soma dos ângulos internos",
-          "A soma das medidas dos lados",
-          "A possibilidade de deformação sem alterações nos lados"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Na construção de um triângulo com medidas 5 cm, 3 cm e 8 cm, qual é o resultado?",
-        "options": [
-          "Não é possível construir, pois a soma de dois lados é menor que o terceiro",
-          "Consegue-se construir, pois satisfaz a condição de existência",
-          "Só é possível se usar uma escala maior",
-          "O triângulo será retângulo"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Em um triângulo, qual é a relação entre um ângulo externo e os ângulos internos não adjacentes a ele?",
-        "options": [
-          "O ângulo externo é igual à soma dos ângulos internos adjacentes",
-          "O ângulo externo é sempre maior que qualquer ângulo interno",
-          "O ângulo externo é sempre menor que os ângulos internos",
-          "O ângulo externo é igual à soma dos dois ângulos internos não adjacentes"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se os lados de um triângulo mede 7 cm, 5 cm e 4 cm, ele é classificado como:",
-        "options": [
-          "Equilátero",
-          "Isósceles",
-          "Retângulo",
-          "Escaleno"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual é a propriedade do maior ângulo de um triângulo em relação ao seu lado oposto?",
-        "options": [
-          "O maior ângulo está oposto ao maior lado",
-          "O maior ângulo está oposto ao menor lado",
-          "O maior ângulo não possui relação com os lados",
-          "O maior ângulo sempre mede 90°"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Ao tentar construir um triângulo com lados de 3 cm, 1,5 cm e 4 cm, qual será o resultado?",
-        "options": [
-          "Não é possível construir, pois a soma dos dois menores lados é menor que o maior",
-          "Consegue-se construir facilmente",
-          "Só é possível se usar materiais especiais",
-          "O triângulo será retângulo"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual é o valor do ângulo interno de um triângulo retângulo que mede 30°?",
-        "options": [
-          "60°",
-          "90°",
-          "45°",
-          "60° ou 45°, dependendo do triângulo"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Para construir um triângulo com lados de 4 cm, 4 cm e 7 cm, o procedimento correto é:",
-        "options": [
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, verificando a condição de existência",
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, sem verificar a condição de existência",
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, e verificar se a soma dos dois maiores é menor que o menor",
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, e garantir que a soma dos dois menores seja maior que o maior"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Na classificação de triângulos por lados, qual é o nome do triângulo que possui três lados de medidas diferentes?",
-        "options": [
-          "Escaleno",
-          "Equilátero",
-          "Isósceles",
-          "Retângulo"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual das seguintes afirmações é verdadeira para qualquer triângulo?",
-        "options": [
-          "A soma dos ângulos internos é sempre maior que 180°",
-          "A soma dos ângulos internos depende do tipo de triângulo",
-          "A soma dos ângulos internos é sempre igual a 180°",
-          "A soma de dois ângulos internos é sempre menor que 180°"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual o nome do triângulo que possui dois ângulos internos congruentes e lados iguais na base?",
-        "options": [
-          "Escaleno",
-          "Retângulo",
-          "Isósceles",
           "Equilátero"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
-        "question": "Ao montar um triângulo com lados de 8 cm, 4 cm e 12 cm, qual é o resultado?",
+        "question": "Na relação entre lados e ângulos de um triângulo, qual é a regra que associa o maior lado ao maior ângulo?",
         "options": [
-          "Só é possível se usar instrumentos especiais",
-          "O triângulo será obtusângulo",
-          "Não é possível construir, pois a soma de dois lados é menor que o terceiro",
-          "Consegue-se construir, pois satisfaz a condição de existência"
+          "O maior lado é o que forma o ângulo reto.",
+          "O maior lado está oposto ao maior ângulo.",
+          "O maior lado está oposto ao menor ângulo.",
+          "O lado maior é sempre o que mede mais que a soma dos outros dois."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das afirmações a seguir é verdadeira sobre a soma dos ângulos internos de um triângulo?",
+        "options": [
+          "É sempre maior que 180°.",
+          "É sempre igual a 180°.",
+          "Depende da medida de seus lados.",
+          "Varia de acordo com a classificação do triângulo."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual propriedade do triângulo garante que sua forma não pode ser alterada sem modificar seus lados?",
+        "options": [
+          "A relação entre os ângulos externos e internos.",
+          "A possibilidade de deformação sem alterar lados.",
+          "A rigidez geométrica, pois seus lados fixam sua forma.",
+          "A soma dos ângulos internos."
         ],
         "answer": 2
       },
       {
-        "question": "O que caracteriza um triângulo obtusângulo?",
+        "question": "Em um triângulo, o maior ângulo sempre está localizado:",
         "options": [
-          "Possui um ângulo exatamente igual a 90°",
-          "Todos os ângulos são menores que 90°",
-          "Possui um ângulo maior que 90°",
-          "Possui um ângulo menor que 90°"
+          "Opposto ao menor lado.",
+          "Na vértice de menor lado.",
+          "Opposto ao maior lado.",
+          "Na base do triângulo."
         ],
         "answer": 2
       },
       {
-        "question": "Qual é a relação entre os lados de um triângulo isósceles?",
+        "question": "Qual relação é verdadeira entre um ângulo externo de um triângulo e seus ângulos internos não adjacentes?",
         "options": [
-          "Todos os lados são diferentes",
-          "Nenhuma relação específica",
-          "Dois lados são iguais e o terceiro diferente",
-          "Todos os lados são iguais"
+          "O ângulo externo é igual à soma de todos os ângulos internos.",
+          "O ângulo externo é igual à soma dos dois ângulos internos adjacentes.",
+          "O ângulo externo é igual à soma dos dois internos não adjacentes.",
+          "O ângulo externo é sempre maior que qualquer ângulo interno."
         ],
         "answer": 2
       },
       {
-        "question": "Se em um triângulo, um dos ângulos mede 70°, qual é a soma dos outros dois ângulos?",
+        "question": "Na classificação de um triângulo quanto aos ângulos, qual é a característica de um triângulo obtusângulo?",
         "options": [
-          "110°",
-          "70°",
-          "180°",
-          "110° ou 70°, dependendo do triângulo"
+          "Todos os ângulos são iguais a 60°.",
+          "Tem um ângulo reto de exatamente 90°.",
+          "Possui um ângulo maior que 90° e menor que 180°.",
+          "Tem todos os ângulos menores que 90°."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Para que um triângulo seja considerado equilátero, é necessário que:",
+        "options": [
+          "Todos os lados tenham medidas iguais e cada ângulo interno seja 60°.",
+          "Todos os lados tenham medidas diferentes.",
+          "Pelo menos dois lados sejam congruentes.",
+          "Um dos ângulos internos seja reto."
         ],
         "answer": 0
       },
       {
-        "question": "Qual é a medida de um ângulo externo de um triângulo, sabendo que os ângulos internos adjacentes somam 110°?",
+        "question": "Qual das alternativas representa uma classificação de triângulo quanto às medidas de seus lados?",
+        "options": [
+          "Congruente, semelhante e similar.",
+          "Equilátero, isósceles e escaleno.",
+          "Acutângulo, retângulo e obtusângulo.",
+          "Retângulo, agudo e obtuso."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes opções apresenta lados que podem formar um triângulo?",
+        "options": [
+          "5 cm, 6 cm e 8 cm",
+          "2 cm, 2 cm e 4 cm",
+          "3 cm, 4 cm e 7 cm",
+          "1 cm, 1 cm e 3 cm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se um triângulo possui lados de 8 cm, 8 cm e 10 cm, como ele é classificado quanto aos lados?",
+        "options": [
+          "Equilátero",
+          "Escaleno",
+          "Retângulo",
+          "Isósceles"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a medida do ângulo externo oposto ao lado de 4 cm em um triângulo com lados de 3 cm, 4 cm e 5 cm?",
+        "options": [
+          "45°",
+          "120°",
+          "90°",
+          "60°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "No triângulo com lados de 7 cm, 5 cm e 4 cm, qual é a medida do maior ângulo?",
+        "options": [
+          "Entre 60° e 90°",
+          "Menor que 60°",
+          "Exatamente 90°",
+          "Maior que 90°"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para construir um triângulo com lados de medidas 5 cm, 3 cm e 8 cm, qual condição deve ser verificada?",
+        "options": [
+          "A soma dos menores lados deve ser maior que o maior lado.",
+          "A diferença entre qualquer dois lados deve ser menor que o terceiro.",
+          "A soma de todos os lados deve ser igual ao maior lado.",
+          "A soma de quaisquer dois lados deve ser maior que o terceiro."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual propriedade dos ângulos internos de um triângulo é fundamental para a classificação quanto aos ângulos?",
+        "options": [
+          "A soma é sempre igual a 180°.",
+          "A soma é sempre menor que 180°.",
+          "A soma depende da classificação do triângulo.",
+          "A soma é variável, dependendo dos lados."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Em um triângulo retângulo, qual relação é válida entre os lados?",
+        "options": [
+          "Todos os lados são iguais.",
+          "O lado oposto ao ângulo reto é a hipotenusa, que é o maior lado.",
+          "Os dois lados menores são iguais.",
+          "O lado oposto ao ângulo de 30° é o maior lado."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se os ângulos internos de um triângulo são 55°, 60° e x°, qual é o valor de x?",
+        "options": [
+          "105°",
+          "75°",
+          "65°",
+          "85°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual desses triângulos é classificado como acutângulo?",
+        "options": [
+          "Um com um ângulo de 90° e dois de 45°",
+          "Um com ângulos de 60°, 60° e 60°",
+          "Um com ângulos de 90°, 45° e 45°",
+          "Um com um ângulo de 120° e dois de 30°"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Para construir um triângulo isósceles, é necessário que:",
+        "options": [
+          "Um lado seja maior que a soma dos outros dois.",
+          "Dois lados sejam de medidas iguais.",
+          "Todos os lados sejam iguais.",
+          "Todos os ângulos internos sejam diferentes."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das opções apresenta medidas que NÃO podem formar um triângulo?",
+        "options": [
+          "5 cm, 7 cm e 8 cm",
+          "2 cm, 2 cm e 4 cm",
+          "4 cm, 4 cm e 5 cm",
+          "3 cm, 4 cm e 6 cm"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se em um triângulo, um ângulo externo mede 120°, qual é a soma das medidas dos dois ângulos internos não adjacentes a ele?",
+        "options": [
+          "120°",
+          "60°",
+          "90°",
+          "60° ou 90°, dependendo do triângulo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes afirmações é verdadeira sobre a rigidez de um triângulo?",
+        "options": [
+          "Sua forma é totalmente determinada pelos seus lados.",
+          "Ele pode ser deformado sem alterar seus lados.",
+          "Ele é sempre deformável se os lados forem congruentes.",
+          "Sua forma varia conforme os ângulos internos."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando se constrói um triângulo com lados de medidas 3 cm, 4 cm e 8 cm, qual é o resultado?",
+        "options": [
+          "Forma um triângulo isósceles.",
+          "Não é possível construir, pois não satisfaz a condição de existência.",
+          "Forma um triângulo retângulo.",
+          "Forma um triângulo escaleno."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual propriedade do triângulo é fundamental para determinar seus ângulos internos apenas pelos lados?",
+        "options": [
+          "A soma dos ângulos externos.",
+          "A congruência dos lados.",
+          "A soma dos lados.",
+          "A relação entre os lados e os ângulos opostos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Em um triângulo, se um ângulo mede 40° e outro 70°, qual é a medida do terceiro?",
+        "options": [
+          "80°",
+          "70°",
+          "90°",
+          "100°"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é a classificação de um triângulo com lados de 6 cm, 6 cm e 6 cm?",
+        "options": [
+          "Escaleno",
+          "Isósceles",
+          "Equilátero",
+          "Retângulo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se a medida do maior ângulo de um triângulo é 100°, qual é a soma das medidas dos outros dois ângulos?",
+        "options": [
+          "100°",
+          "180°",
+          "80°",
+          "90°"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é a propriedade que associa o maior lado ao maior ângulo em um triângulo?",
+        "options": [
+          "A medida do lado é proporcional à medida do ângulo.",
+          "O maior lado está sempre oposto ao menor ângulo.",
+          "Os lados são congruentes aos ângulos.",
+          "O maior lado está sempre oposto ao maior ângulo."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Um triângulo possui lados de 3 cm, 4 cm e 8 cm. Qual das afirmações é correta?",
+        "options": [
+          "Ele é um triângulo escaleno.",
+          "Ele é um triângulo isósceles.",
+          "Ele não satisfaz a condição de existência de triângulos.",
+          "Ele é um triângulo retângulo."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual expressão representa a soma dos ângulos internos de qualquer triângulo?",
         "options": [
           "180°",
           "90°",
-          "70°",
-          "110°"
+          "360°",
+          "270°"
         ],
-        "answer": 2
-      },
+        "answer": 0
+      }
+    ],
+    "7PH16MATEMATICA": [
       {
-        "question": "Ao construir um triângulo com medidas 9 cm, 6 cm e 3 cm, qual é a conclusão?",
+        "question": "Na expressão 50n, qual é o significado da variável 'n' no contexto do exemplo dos grãos de feijão?",
         "options": [
-          "Só é possível se usar escala maior",
-          "O triângulo será retângulo",
-          "Não é possível construir, pois a soma de dois lados é igual ao terceiro",
-          "Consegue-se construir, pois satisfaz a condição de existência"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Em um triângulo retângulo, os ângulos agudos têm relação de tangente de 1:√3. Quais são suas medidas?",
-        "options": [
-          "60° e 30°",
-          "45° e 45° ou 30° e 60°",
-          "45° e 45°",
-          "30° e 60°"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual é a classificação de um triângulo cujos lados medem 5 cm, 5 cm e 8 cm?",
-        "options": [
-          "Retângulo",
-          "Isósceles",
-          "Equilátero",
-          "Escaleno"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "A soma das medidas dos ângulos internos de um triângulo é 180°. Se um deles mede 50° e outro 60°, qual é o valor do terceiro?",
-        "options": [
-          "50°",
-          "80°",
-          "70°",
-          "90°"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Para determinar se três medidas podem formar um triângulo, o procedimento correto é:",
-        "options": [
-          "Verificar se os lados são todos iguais",
-          "Verificar se a soma dos lados é igual a 180°",
-          "Verificar se a soma dos dois menores lados é maior que o maior lado",
-          "Verificar se a soma de todos os lados é menor que 180°"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "O que caracteriza um triângulo retângulo?",
-        "options": [
-          "Possui todos os ângulos menores que 90°",
-          "Todos os lados iguais",
-          "Lados de medidas diferentes",
-          "Possui um ângulo de 90°"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual das alternativas apresenta medidas que podem formar um triângulo?",
-        "options": [
-          "6 cm, 6 cm, 12 cm",
-          "4 cm, 5 cm, 8 cm",
-          "5 cm, 5 cm, 7 cm",
-          "3 cm, 1 cm, 4 cm"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual é a propriedade do maior lado em um triângulo?",
-        "options": [
-          "Ele é sempre oposto ao maior ângulo",
-          "Ele é sempre maior que a soma dos outros dois lados",
-          "Ele é sempre menor que os outros lados",
-          "Ele é sempre na base do triângulo"
+          "Número da etapa da contagem",
+          "Número de grãos em cada monte",
+          "Quantidade total de grãos",
+          "Número de montes formados"
         ],
         "answer": 0
       },
       {
-        "question": "Qual afirmação sobre os ângulos de um triângulo é verdadeira?",
+        "question": "Qual das alternativas representa uma expressão algébrica equivalente a 50n?",
         "options": [
-          "A soma dos ângulos é sempre 90°",
-          "A soma dos ângulos pode variar",
-          "Cada ângulo é sempre menor que 60°",
-          "A soma dos ângulos é sempre 180°"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Se um triângulo possui lados de 8 cm, 6 cm e 10 cm, ele é classificado como:",
-        "options": [
-          "Equilátero",
-          "Isósceles",
-          "Retângulo",
-          "Escaleno"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual é a relação entre o menor lado e o menor ângulo de um triângulo?",
-        "options": [
-          "O menor lado está oposto ao menor ângulo",
-          "O menor lado está oposto ao maior ângulo",
-          "O menor lado não possui relação com os ângulos",
-          "O menor lado fica na base"
+          "50n",
+          "n/50",
+          "50 + n",
+          "50 - n"
         ],
         "answer": 0
       },
       {
-        "question": "Para construir um triângulo com lados de 4 cm, 4 cm e 7 cm, qual passo é fundamental?",
+        "question": "Quando os termos de uma expressão algébrica têm a mesma parte literal, eles são chamados de:",
         "options": [
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, garantindo igualdade de lados",
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, e verificar se a soma dos dois maiores é menor que o menor",
-          "Verificar se a soma dos dois menores lados é maior que o maior lado",
-          "Traçar segmentos de 4 cm, 4 cm e 7 cm, sem restrições"
+          "Termos constantes",
+          "Termos distintos",
+          "Termos semelhantes",
+          "Termos independentes"
         ],
         "answer": 2
+      },
+      {
+        "question": "Na expressão 4x + 3y, quais termos podem ser considerados semelhantes?",
+        "options": [
+          "4x e 3y",
+          "3y e 3y",
+          "4x e 3x",
+          "4x e 4x"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é o procedimento correto para somar termos semelhantes na expressão 7a + 3a?",
+        "options": [
+          "Subtrair os coeficientes",
+          "Somar os coeficientes e manter a parte literal",
+          "Somar as partes literais e manter os coeficientes",
+          "Multiplicar os coeficientes"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Dado o produto de termos algébricos 4x · 3y, o resultado é:",
+        "options": [
+          "12xy",
+          "7xy",
+          "12x + 3y",
+          "7x + 3y"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na propriedade distributiva, o produto de 3 com a soma (2x + 5y) é igual a:",
+        "options": [
+          "2x + 5y",
+          "6x + 7y",
+          "6x + 15y",
+          "5x + 10y"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A expressão 8a + 5 representa o valor numérico de uma expressão para a variável 'a'. Qual valor de 'a' faz essa expressão resultar em 29?",
+        "options": [
+          "a = 5",
+          "a = 6",
+          "a = 3",
+          "a = 4"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma expressão algébrica é 12a + 7b, qual será o valor total para a = 3 e b = 4?",
+        "options": [
+          "60",
+          "72",
+          "48",
+          "64"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das opções apresenta uma expressão que representa uma sequência de números pares positivos?",
+        "options": [
+          "2n",
+          "2n - 1",
+          "n²",
+          "n/2"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A expressão 2n - 1 é usada para representar qual conjunto de números?",
+        "options": [
+          "Números pares",
+          "Números primos",
+          "Números quadrados",
+          "Números ímpares"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na expressão 2n, qual é o significado de 'n' no contexto de números ímpares positivos?",
+        "options": [
+          "Representa a posição na sequência",
+          "É o valor do número",
+          "É o índice do número",
+          "É a quantidade de unidades"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual expressão representa os números quadrados perfeitos?",
+        "options": [
+          "n + 1",
+          "n²",
+          "n",
+          "2n"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se uma expressão algébrica é composta por termos, cada um deles é formado por:",
+        "options": [
+          "Coeficiente e parte literal",
+          "Somente por coeficiente",
+          "Somente por parte literal",
+          "Coeficiente e valor absoluto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas é um exemplo de termo independente?",
+        "options": [
+          "2ab",
+          "5",
+          "3x",
+          "-7y"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Como podemos identificar termos semelhantes na expressão 6x + y + 9x?",
+        "options": [
+          "6x e y",
+          "y e 9x",
+          "6x e y + 9x",
+          "6x e 9x"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A expressão 3ab e 9ba são exemplos de termos:",
+        "options": [
+          "Diferentes",
+          "Termos independentes",
+          "Termos constantes",
+          "Semelhantes"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na multiplicação de termos algébricos, o produto de 5x · 3y é igual a:",
+        "options": [
+          "8x + 3y",
+          "15xy",
+          "8xy",
+          "15x + 3y"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se considerarmos a expressão (2x + 3) · (x - 4), qual será o resultado após aplicar a distributiva?",
+        "options": [
+          "2x² - 5x + 12",
+          "2x² - 5x - 12",
+          "2x² - 8x + 3x - 12",
+          "2x² + 12x - 12"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na expressão 4(3z + 6), qual é a forma simplificada usando a propriedade distributiva?",
+        "options": [
+          "4z + 24",
+          "12z + 24",
+          "12z + 6",
+          "12z + 36"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se uma expressão é 4x + 3, qual valor de 'x' faz a expressão ser igual a 11?",
+        "options": [
+          "x = 2",
+          "x = 3",
+          "x = 4",
+          "x = 5"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual expressão representa a soma de uma sequência de números pares positivos?",
+        "options": [
+          "2n - 1",
+          "n²",
+          "n/2",
+          "2n"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na expressão 2n - 1, qual o valor de 'n' para obter o número ímpar 7?",
+        "options": [
+          "n = 6",
+          "n = 4",
+          "n = 3",
+          "n = 5"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual expressão representa os números primos?",
+        "options": [
+          "n²",
+          "2n + 1",
+          "n + 2",
+          "n"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao calcular o valor numérico de 6x - 2y para x = 3 e y = 4, qual será o resultado?",
+        "options": [
+          "8",
+          "10",
+          "14",
+          "18"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na expressão 10w + 3w, qual é o valor final para w = -1?",
+        "options": [
+          "13",
+          "-13",
+          "7",
+          "-7"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Para a expressão 4x + 3, qual valor de 'x' torna a expressão igual a 11?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se uma expressão algébrica é 12a + 7b, qual será seu valor para a=2 e b=3?",
+        "options": [
+          "38",
+          "44",
+          "34",
+          "42"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas é uma expressão que representa uma sequência de números ímpares positivos?",
+        "options": [
+          "n²",
+          "n/2",
+          "2n - 1",
+          "2n"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na expressão 2n, qual o valor de 'n' que gera o número 9?",
+        "options": [
+          "n = 4.5",
+          "n = 9",
+          "n = 18",
+          "n = 2"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual expressão é utilizada para representar os números quadrados perfeitos?",
+        "options": [
+          "n",
+          "2n",
+          "n + 1",
+          "n²"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na expressão 4n, qual é o valor final para n=5?",
+        "options": [
+          "25",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se a expressão é 8a + 5 e o valor final deve ser 29, qual é o valor de 'a'?",
+        "options": [
+          "5",
+          "6",
+          "3",
+          "4"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na expressão 3a + 2b, qual é o procedimento para somar com 4a + 5b?",
+        "options": [
+          "Somar os coeficientes de variáveis diferentes",
+          "Multiplicar as expressões",
+          "Somar os coeficientes de cada variável",
+          "Somar as partes literais"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das alternativas representa uma expressão que descreve uma sequência de números que aumentam de 4 em 4?",
+        "options": [
+          "4n",
+          "n + 4",
+          "2n",
+          "n/4"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para a expressão 5(2x + 7y), qual é o resultado após aplicar a distributiva?",
+        "options": [
+          "10x + 35y",
+          "10x + 7y",
+          "10x + 14y",
+          "7x + 35y"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na expressão 3(w - 3z), qual será o resultado após aplicar a distributiva?",
+        "options": [
+          "3w - 9z",
+          "3w + 9z",
+          "w - 3z",
+          "3w - 3z"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se a expressão é (p - q + 2r), qual é a forma expandida usando distributiva?",
+        "options": [
+          "p - q + 2r",
+          "p - q + 2r",
+          "p - q + 2r",
+          "p - q + 2r"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual expressão representa a média final de Flávio, que obteve 5, 7 e 10 nas provas?",
+        "options": [
+          "(5 + 7 + 10) · 3",
+          "(5 + 7 + 10) / 3",
+          "(5 + 7 + 10) / 2",
+          "(5 + 7) / 10"
+        ],
+        "answer": 1
+      }
+    ],
+    "7PH14GEOGRAFIA": [
+      {
+        "question": "Qual movimento populacional é responsável pelo aumento da urbanização brasileira nas décadas de 1960 e 1970?",
+        "options": [
+          "Migração de áreas urbanas para rurais",
+          "Migração de regiões metropolitanas para cidades médias",
+          "Migração rural-urbana conhecida como êxodo rural",
+          "Migração internacional por motivos econômicos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual fenômeno caracteriza a formação de áreas urbanas integradas, geralmente envolvendo cidades próximas?",
+        "options": [
+          "Hierarquia urbana",
+          "Megalópole",
+          "Região metropolitana",
+          "Conurbação"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o IBGE, qual é o principal critério para classificar uma cidade como média?",
+        "options": [
+          "População até 100 mil habitantes",
+          "População acima de 500 mil habitantes",
+          "População entre 50 mil e 100 mil habitantes",
+          "População entre 100 mil e 500 mil habitantes"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A influência de uma cidade na rede urbana é determinada por fatores como:",
+        "options": [
+          "Somente sua localização geográfica",
+          "A quantidade de indústrias presentes na cidade",
+          "Infraestrutura, desenvolvimento econômico, funções culturais e políticas",
+          "Apenas o número de habitantes e a área física"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das alternativas apresenta corretamente a classificação de uma cidade com mais de 500 mil habitantes?",
+        "options": [
+          "Cidade pequena",
+          "Cidade metropolitana",
+          "Cidade grande",
+          "Cidade média"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O fenômeno que ocorre quando áreas urbanas de diferentes cidades se unem formando uma única aglomeração é chamado de:",
+        "options": [
+          "Região metropolitana",
+          "Megalópole",
+          "Conurbação",
+          "Hierarquia urbana"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo o documento REGIC, qual nível de influência uma cidade considerada uma metrópole nacional exerce?",
+        "options": [
+          "Influência sobre todo o país e relações internacionais",
+          "Influência restrita à sua região",
+          "Influência apenas na sua área municipal",
+          "Influência limitada às cidades vizinhas"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A principal causa do crescimento desordenado das cidades brasileiras, conforme o texto, é:",
+        "options": [
+          "Aumento da taxa de natalidade urbana",
+          "Redução do fluxo de transporte entre as cidades",
+          "Migração em massa do campo para as cidades",
+          "Planejamento urbano eficiente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é o papel do planejamento urbano na gestão do crescimento das cidades?",
+        "options": [
+          "Organizar o crescimento, promover melhorias na infraestrutura e ajustar serviços públicos",
+          "Aumentar a quantidade de construções sem critérios",
+          "Limitar o acesso de novas populações às áreas urbanas",
+          "Reduzir os investimentos em transporte e saneamento"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O que caracteriza uma região metropolitana?",
+        "options": [
+          "Conjunto de cidades com menos de 100 mil habitantes",
+          "Áreas urbanas isoladas, sem interligação",
+          "Região com apenas uma cidade principal e suas periferias",
+          "Conjunto de municípios contíguos ligados por fluxos de pessoas, bens e serviços"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual das cidades brasileiras possui maior influência na hierarquia urbana nacional?",
+        "options": [
+          "Recife",
+          "Belo Horizonte",
+          "Porto Alegre",
+          "São Paulo"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual conceito descreve a influência que uma cidade exerce sobre outras cidades na sua região ou país?",
+        "options": [
+          "Região de influência",
+          "Hierarquia urbana",
+          "Conurbação",
+          "Megalópole"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual fator NÃO é considerado na hierarquia de influência das cidades?",
+        "options": [
+          "Número de escolas e hospitais",
+          "Infraestrutura e desenvolvimento econômico",
+          "Potencial de fluxo de bens e pessoas",
+          "Influência política e administrativa"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A expansão urbana desordenada, sem planejamento, pode levar a problemas como:",
+        "options": [
+          "Habitações precárias e infraestrutura saturada",
+          "Aumento de áreas verdes e qualidade de vida",
+          "Redução do fluxo de pessoas entre cidades",
+          "Melhoria dos serviços públicos"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A influência de cidades como Manaus e Belém na região Norte se deve principalmente ao fato de:",
+        "options": [
+          "Estarem localizadas na fronteira internacional",
+          "Terem grande potencial econômico e infraestrutura dinâmica",
+          "Serem as únicas cidades com população urbana na região",
+          "Terem menor influência na economia regional"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas define corretamente a expressão 'região de influência' de uma cidade?",
+        "options": [
+          "Área onde a cidade exerce impacto socioeconômico e cultural",
+          "Zona delimitada por fronteiras administrativas",
+          "Área geográfica restrita ao município",
+          "Região com menos de 50 km de extensão"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O crescimento acelerado das cidades brasileiras, sem planejamento, resultou principalmente em:",
+        "options": [
+          "Controle da expansão populacional",
+          "Aumento das desigualdades sociais e problemas ambientais",
+          "Redução do número de favelas",
+          "Melhoria na infraestrutura urbana"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Dentre as funções urbanas, o setor terciário está relacionado principalmente a:",
+        "options": [
+          "Serviços, comércio e atividades financeiras",
+          "Indústria e agricultura",
+          "Construção civil e transporte",
+          "Recursos naturais e mineração"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas melhor explica a expressão 'hierarquia urbana'?",
+        "options": [
+          "Divisão de cidades entre urbanas e rurais",
+          "Organização das cidades de acordo com sua importância e influência",
+          "Classificação de cidades por sua área física",
+          "Ordenação das cidades apenas pelo número de habitantes"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "As regiões chamadas RIDES no Brasil são caracterizadas por:",
+        "options": [
+          "Regiões metropolitanas de grande influência nacional",
+          "Agrupamentos de municípios de diferentes estados com forte integração econômica e social",
+          "Conjunto de cidades com menos de 50 mil habitantes",
+          "Áreas rurais sem influência significativa na economia"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual é uma consequência do crescimento populacional nas regiões metropolitanas?",
+        "options": [
+          "Aumento da demanda por infraestrutura e serviços públicos",
+          "Redução do transporte urbano",
+          "Diminuição do fluxo de pessoas entre cidades",
+          "Estabilização da economia local"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O conceito de 'megalópole' refere-se a:",
+        "options": [
+          "Região de influência de uma capital estadual",
+          "Conurbação de duas ou mais regiões metropolitanas em uma grande área urbana",
+          "Uma única cidade com mais de 10 milhões de habitantes",
+          "Área rural próxima às cidades"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o texto, qual aspecto caracteriza uma cidade de grande porte na hierarquia urbana?",
+        "options": [
+          "Número de bairros e áreas de lazer",
+          "Quantidade de escolas públicas",
+          "Proximidade com o mar",
+          "Alta influência política, econômica e cultural"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O crescimento de cidades médias e pequenas no Brasil, segundo o IBGE, geralmente ocorre devido a:",
+        "options": [
+          "A redução de atividades econômicas nas capitais",
+          "A diminuição da urbanização",
+          "Aumento da influência internacional",
+          "A força do agronegócio e oportunidades econômicas locais"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O que caracteriza uma cidade com função de influência regional na hierarquia urbana?",
+        "options": [
+          "Restrição à sua própria população",
+          "Ausência de funções econômicas diversificadas",
+          "Impacto econômico, político e cultural na sua área de influência",
+          "Foco apenas na produção agrícola"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais são os principais setores responsáveis pelo crescimento das cidades brasileiras, conforme o texto?",
+        "options": [
+          "Recursos naturais e energia",
+          "Tecnologia e comunicação",
+          "Setor terciário, indústria e construção civil",
+          "Agricultura, mineração e pesca"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A influência de uma cidade na sua região ou país está relacionada com:",
+        "options": [
+          "O número de parques e áreas verdes",
+          "A quantidade de bairros residenciais",
+          "Sua proximidade com o litoral",
+          "Infraestrutura, serviços, funções econômicas e importância política"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O crescimento urbano desordenado tende a resultar em:",
+        "options": [
+          "Aumento da sustentabilidade ambiental",
+          "Problemas de infraestrutura, habitações precárias e congestionamento",
+          "Melhorias na qualidade de vida urbana",
+          "Redução do número de favelas"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas apresenta uma característica de uma cidade com alta influência na rede urbana?",
+        "options": [
+          "Pouca diversidade econômica e baixa densidade populacional",
+          "Foco apenas na agricultura e recursos naturais",
+          "Localização isolada sem conexões de transporte",
+          "Diversidade de funções econômicas, grande fluxo de pessoas e infraestrutura avançada"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, a conurbação das regiões metropolitanas de São Paulo, Campinas e Santos originou:",
+        "options": [
+          "A diminuição do fluxo de pessoas",
+          "A separação de áreas urbanas distintas",
+          "Uma megalópole em formação",
+          "A redução da influência dessas regiões"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual elemento NÃO é considerado na classificação ou análise de uma cidade na hierarquia urbana?",
+        "options": [
+          "Número de habitantes",
+          "Influência econômica e política",
+          "Quantidade de áreas verdes",
+          "Infraestrutura e serviços públicos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A influência de uma cidade pode se estender além do seu município por causa de:",
+        "options": [
+          "A quantidade de parques públicos",
+          "O número de universidades",
+          "A presença de áreas industriais",
+          "Fluxos de pessoas, produtos, informações e recursos financeiros"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na formação de uma região metropolitana, os municípios que fazem parte dela são caracterizados por:",
+        "options": [
+          "Estarem isolados por fronteiras físicas",
+          "Terem funções econômicas distintas e independentes",
+          "Estarem localizados em diferentes estados sem ligação",
+          "Estarem conectados por uma rede de transporte e apresentarem integração econômica e social"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, uma das principais funções das cidades de grande influência é:",
+        "options": [
+          "Fazer parte de regiões rurais integradas",
+          "Ter uma população reduzida e dispersa",
+          "Atuar como polos de atração econômica, cultural e administrativa",
+          "Focar na produção agrícola local"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das alternativas melhor define uma região de influência de uma cidade?",
+        "options": [
+          "Área de influência limitada a 10 km ao redor da cidade",
+          "Área onde a cidade exerce impacto socioeconômico e cultural",
+          "Fronteira administrativa delimitada por lei",
+          "Zona de influência apenas na área urbana"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, uma das principais causas do crescimento desordenado das cidades brasileiras foi:",
+        "options": [
+          "A implementação de políticas de urbanismo",
+          "Migração em massa do campo para as áreas urbanas sem planejamento adequado",
+          "A redução da taxa de natalidade",
+          "A diminuição da industrialização"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que caracteriza uma megacidade ou megópole?",
+        "options": [
+          "Uma cidade com mais de 10 milhões de habitantes",
+          "Uma cidade com influência apenas local",
+          "Uma cidade com baixa densidade populacional",
+          "Conurbação de várias regiões metropolitanas formando uma grande área urbana"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O crescimento de cidades médias no Brasil, entre 2010 e 2022, foi frequentemente impulsionado por:",
+        "options": [
+          "O fortalecimento do setor do agronegócio e oportunidades econômicas locais",
+          "A diminuição da população urbana",
+          "A redução das atividades industriais",
+          "A diminuição do fluxo migratório"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas descreve uma influência de uma cidade de nível regional na hierarquia urbana?",
+        "options": [
+          "Limitar sua influência a bairros específicos",
+          "Estar isolada de outras cidades",
+          "Impactar economicamente e culturalmente as cidades próximas",
+          "Focar unicamente na sua produção local"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, a influência de uma cidade na sua região depende principalmente de:",
+        "options": [
+          "Quantidade de áreas verdes",
+          "Proximidade ao litoral",
+          "Número de escolas e hospitais",
+          "Infraestrutura, serviços, funções econômicas e poder político"
+        ],
+        "answer": 3
+      }
+    ],
+    "7PH17MATEMATICA": [
+      {
+        "question": "Qual das opções representa uma equação do 1º grau com coeficientes inteiros que pode ser resolvida usando propriedades da igualdade?",
+        "options": [
+          "x/2 + 3 = 7",
+          "4x^3 = 64",
+          "36 - 3x = 15",
+          "2x^2 + 5 = 0"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao resolver a equação 2x + 12 = 48, qual é o procedimento correto?",
+        "options": [
+          "Somar 12 aos dois lados e multiplicar por 2",
+          "Dividir ambos os lados por 2 e somar 12",
+          "Subtrair 12 de ambos os lados e dividir por 2",
+          "Multiplicar ambos os lados por 2"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma equação apresenta uma incógnita e uma igualdade, ela é chamada de:",
+        "options": [
+          "Equação",
+          "Expressão algébrica",
+          "Expressão numérica",
+          "Fração algébrica"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na resolução de uma equação, qual procedimento garante verificar se a solução obtida está correta?",
+        "options": [
+          "Substituir a incógnita pelo valor encontrado e verificar se a igualdade é verdadeira",
+          "Multiplicar o resultado por 2",
+          "Dividir a equação por 2",
+          "Somar 10 ao valor obtido"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao resolver a equação (1/4) n + (1/6) n = 50, qual é o primeiro passo recomendado?",
+        "options": [
+          "Multiplicar ambos os lados por 24 para eliminar as frações",
+          "Somar as frações diretamente",
+          "Dividir ambos os lados por n",
+          "Subtrair (1/4) de ambos os lados"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na resolução de uma equação com frações, qual é uma técnica eficaz para facilitar os cálculos?",
+        "options": [
+          "Somar as frações sem alterar os denominadores",
+          "Encontrar o mínimo múltiplo comum dos denominadores e multiplicar toda a equação por ele",
+          "Dividir todos os termos por 2",
+          "Simplificar as frações antes de resolver"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas apresenta uma equação que pode ser resolvida por adição ou subtração de termos semelhantes?",
+        "options": [
+          "3x + 10 = 31",
+          "4x - 5 = 111",
+          "2x + 12 = 48",
+          "36 - 3x = 15"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao resolver a equação 7x = 6x + 90, qual é o valor de x?",
+        "options": [
+          "x = 15",
+          "x = 90",
+          "x = 0",
+          "x = 180"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Em uma situação onde um número desconhecido, ao ser triplicado e somado de 1, é igual ao dobro de outro número mais 2, a equação adequada é:",
+        "options": [
+          "3x - 2y = 1",
+          "2x + 3y = 2",
+          "2x - 3y = 1",
+          "3x + y = 2"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma loja vende carros por R$ 4.500,00 mais R$ 2,50 por quilômetro rodado, quantos quilômetros foram percorridos numa corrida que custou R$ 32,00?",
+        "options": [
+          "12 km",
+          "13 km",
+          "11 km",
+          "10 km"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A soma de duas frações com denominadores diferentes pode ser facilitada por:",
+        "options": [
+          "Dividir os numeradores pelos denominadores",
+          "Encontrar o mínimo múltiplo comum e ajustar os numeradores",
+          "Multiplicar os denominadores",
+          "Somar os numeradores diretamente"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas representa uma equação que pode ser resolvida por isolamento da incógnita?",
+        "options": [
+          "6(x + 2) - 4(x + 4) + 20 = 0",
+          "8(x + 3) - 20(x + 1) + 44 = 0",
+          "6(x + 4) = 4(x - 2)",
+          "12 - x = 2(x + 3)"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se a idade de uma mãe é 34 anos maior que a de sua filha e a soma das idades é 50, qual é a idade da filha?",
+        "options": [
+          "11 anos",
+          "10 anos",
+          "8 anos",
+          "9 anos"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na resolução de uma equação com incógnitas múltiplas, como 2x + 3y = 12, é possível:",
+        "options": [
+          "Encontrar uma única solução",
+          "Determinar as soluções apenas substituindo valores",
+          "Resolver apenas se x for igual a y",
+          "Obter uma solução geral em relação a uma variável"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao resolver o problema de herança, se um irmão deve receber metade das moedas, outro um terço, e um sétimo, como podemos montar uma equação para determinar o total de moedas?",
+        "options": [
+          "x/2 + x/3 + x/7 = x - 5",
+          "x/2 + x/3 + x/7 + 5 = x",
+          "x/2 + x/3 + x/7 + 5 = x",
+          "2x + 3x + 7x = 5"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual procedimento deve ser adotado para resolver a equação 4x - 5 = 111?",
+        "options": [
+          "Subtrair 5 de ambos os lados e dividir por 4",
+          "Somar 5 aos dois lados e dividir por 4",
+          "Multiplicar ambos os lados por 4",
+          "Dividir ambos os lados por 4"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao resolver a equação 5x + 20 = 5, qual é o valor de x?",
+        "options": [
+          "x = 3",
+          "x = -4",
+          "x = -3",
+          "x = -1"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na resolução de equações, qual estratégia é útil para facilitar o processo quando há frações com denominadores diferentes?",
+        "options": [
+          "Multiplicar toda a equação pelo mínimo múltiplo comum dos denominadores",
+          "Somar as frações independentemente dos denominadores",
+          "Dividir todos os termos por um número",
+          "Isolar a incógnita sem alterar a equação"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se a soma da metade de um número, sua terça parte e sua quarta parte é igual a 1, qual a equação que representa essa situação?",
+        "options": [
+          "(1/2)x + (1/3)x + (1/4)x = 1",
+          "x/2 + x/3 + x/4 = 1",
+          "Todas as alternativas são corretas",
+          "(1/2)x + (1/3)x + (1/4)x = 1"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na resolução de uma equação que envolve frações, qual é o significado de encontrar o mínimo múltiplo comum dos denominadores?",
+        "options": [
+          "Multiplicar as frações pelos denominadores",
+          "Facilitar a soma ou subtração das frações",
+          "Transformar as frações em inteiros",
+          "Dividir as frações pelo denominador comum"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas apresenta uma equação que pode ser resolvida por método do isolamento da variável?",
+        "options": [
+          "3x + 10 = 31",
+          "4x - 5 = 111",
+          "2x + 12 = 48",
+          "36 - 3x = 15"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao resolver a equação 3x + 4x = 6x + 90, qual é o valor de x?",
+        "options": [
+          "x = 180",
+          "x = 15",
+          "x = 90",
+          "x = 0"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Em um problema de aplicação, se o total de moedas é dividido de acordo com frações e o restante, qual procedimento é adequado para determinar o total de moedas?",
+        "options": [
+          "Montar uma equação que represente a soma das frações e o restante",
+          "Adivinhar o total com base nas frações",
+          "Somar todas as frações sem considerar o restante",
+          "Resolver apenas as frações"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para resolver a equação 2x + 12 = 48, qual operação deve ser feita primeiro?",
+        "options": [
+          "Multiplicar ambos os lados por 2",
+          "Somar 12 aos dois lados",
+          "Subtrair 12 de ambos os lados",
+          "Dividir ambos os lados por 2"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se ao resolver uma equação do 1º grau o resultado não satisfaz a equação original, qual é a conduta correta?",
+        "options": [
+          "Multiplicar o resultado por 2",
+          "Substituir por outro valor",
+          "Rever os passos de resolução",
+          "Aceitar o resultado sem verificar"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na resolução de equações com frações, qual operação é fundamental para eliminar denominadores?",
+        "options": [
+          "Multiplicar toda a equação pelo mínimo múltiplo comum dos denominadores",
+          "Somar os numeradores",
+          "Dividir pelos denominadores",
+          "Substituir frações por decimais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas representa uma equação que pode ser resolvida por adição de termos semelhantes?",
+        "options": [
+          "2x + 12 = 48",
+          "3x + 10 = 31",
+          "4x - 5 = 111",
+          "36 - 3x = 15"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao resolver a equação 7x = 6x + 90, considerando que x é uma incógnita, qual procedimento deve ser seguido?",
+        "options": [
+          "Subtrair 6x de ambos os lados e dividir por 1",
+          "Multiplicar ambos os lados por 7",
+          "Somar 90 aos dois lados",
+          "Dividir ambos os lados por 7"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na resolução de uma equação, qual passo é importante para verificar a solução obtida?",
+        "options": [
+          "Dividir por 2",
+          "Somar 10 ao resultado",
+          "Substituir o valor na equação original e conferir se a igualdade é verdadeira",
+          "Multiplicar o resultado por 2"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma equação do 1º grau apresenta frações, qual procedimento é indicado para facilitar sua resolução?",
+        "options": [
+          "Ignorar as frações",
+          "Transformar as frações em inteiros multiplicando pelos denominadores",
+          "Somar as frações sem alterar os denominadores",
+          "Dividir os numeradores pelos denominadores"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas representa uma situação que pode ser modelada por uma equação do 1º grau?",
+        "options": [
+          "O quadrado de um número é igual a 36",
+          "A soma de três números é 100",
+          "A diferença entre dois números é 20",
+          "A soma de duas idades é 50 anos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Em uma equação do 1º grau, os valores que representam o lado esquerdo ou direito, muitas vezes, são chamados de:",
+        "options": [
+          "Incógnitas",
+          "Coeficientes",
+          "Constantes",
+          "Expressões"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na resolução de problemas com múltiplas incógnitas, qual é o procedimento mais adequado?",
+        "options": [
+          "Adivinhar os valores",
+          "Ignorar uma das incógnitas",
+          "Montar um sistema de equações",
+          "Resolver uma equação de cada vez"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Para determinar o total de moedas recebidas por irmãos, como podemos montar uma equação se um deles recebe metade, outro um terço, e o restante, 5 moedas?",
+        "options": [
+          "x/2 + x/3 + 5 = 0",
+          "x/2 + x/3 + 5 = x",
+          "x/2 + x/3 + 5 = x",
+          "x/2 + x/3 + 5 = x + 0"
+        ],
+        "answer": 1
+      }
+    ],
+    "7PH15PORTUGUES": [
+      {
+        "question": "De acordo com o texto, qual a principal razão para o consumo moderado de alimentos ultraprocessados?",
+        "options": [
+          "Eles podem causar danos à saúde e devem ser consumidos com moderação.",
+          "Eles são essenciais para dietas equilibradas.",
+          "Eles representam a maior parte da alimentação diária.",
+          "Eles aumentam a quantidade de nutrientes essenciais."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das seguintes afirmações explica a relação entre alimentos ultraprocessados e riscos à saúde, conforme apresentado no texto?",
+        "options": [
+          "O consumo excessivo desses alimentos favorece o ganho de peso e aumenta o risco de doenças cardiovasculares.",
+          "Eles são considerados benéficos por conterem altos teores de fibras.",
+          "Eles não apresentam impacto na saúde, desde que consumidos em pequenas quantidades.",
+          "Eles ajudam na perda de peso devido ao seu baixo teor de açúcares."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Com base na pesquisa descrita, qual foi a estratégia utilizada para minimizar efeitos individuais na avaliação do impacto dos alimentos ultraprocessados?",
+        "options": [
+          "A exclusão de participantes com problemas de saúde.",
+          "A inversão do tratamento nas duas últimas semanas, trocando os grupos de dieta.",
+          "O uso de um grupo de controle que não consumia nenhum ultraprocessado.",
+          "A limitação da pesquisa a apenas um grupo de idade."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, por que os alimentos ultraprocessados recebem esse nome?",
+        "options": [
+          "Por passarem por transformações industriais que alteram sua textura, sabor e cor para atrair consumidores e aumentar sua durabilidade.",
+          "Por serem alimentos naturais que sofreram processos de fermentação.",
+          "Por serem alimentos que não passam por qualquer processamento industrial.",
+          "Por serem alimentos exclusivamente feitos de ingredientes orgânicos."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na análise do sujeito na oração 'Aumentam os riscos à saúde', qual é o núcleo do sujeito?",
+        "options": [
+          "saúde",
+          "risco à saúde",
+          "risco",
+          "Aumentam"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Por que o verbo 'foi alocada' na frase 'metade dos participantes foi alocada' está na terceira pessoa do singular?",
+        "options": [
+          "Porque 'metade' é uma expressão coletiva que exige concordância singular.",
+          "Porque 'participantes' é o núcleo do sujeito e está no plural.",
+          "Porque o verbo sempre deve concordar com a palavra mais próxima.",
+          "Porque 'metade' é um termo partitivo que pode concordar com 'participantes' ou com o núcleo 'metade', sendo esta última a mais adequada na estrutura apresentada."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com os exemplos, qual é a regra geral para a concordância com expressões aproximativas como 'cerca de' ou 'mais de'?",
+        "options": [
+          "O verbo deve estar no plural sempre que usada uma expressão aproximativa.",
+          "O verbo deve concordar com o núcleo do sujeito, não com a expressão.",
+          "O verbo deve concordar obrigatoriamente com a expressão.",
+          "O verbo deve estar no singular independentemente do sujeito."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Conforme o texto, qual a principal mudança na orientação sobre o consumo de ovos, segundo as recomendações atuais?",
+        "options": [
+          "O consumo de ovos foi parcialmente liberado, exceto para grupos específicos como diabéticos e quem já teve problemas cardíacos.",
+          "O ovo passou a ser totalmente proibido na alimentação.",
+          "O consumo de ovos deve ser evitado por todos os grupos populacionais.",
+          "O consumo de ovos deve ser limitado a uma unidade por mês."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A gema é fonte de ferro, por exemplo', qual é o sujeito e seu núcleo?",
+        "options": [
+          "Fonte, núcleo: fonte.",
+          "Ferro, núcleo: ferro.",
+          "A gema, núcleo: fonte.",
+          "A gema, núcleo: gema."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, o que acontece com a maior parte do colesterol sanguíneo em relação à dieta?",
+        "options": [
+          "Ela é totalmente proveniente da alimentação.",
+          "Ela depende exclusivamente do consumo de ovos.",
+          "Ela é influenciada apenas por alimentos ricos em gordura animal.",
+          "Ela é produzida pelo próprio organismo, não sendo diretamente influenciada pela dieta."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na frase 'Os alimentos ultraprocessados surgem devido ao desenvolvimento da indústria', qual é o sujeito e sua classificação?",
+        "options": [
+          "Desenvolvimento da indústria, sujeito composto.",
+          "Sujeito indeterminado.",
+          "Sujeito oculto, implícito.",
+          "Os alimentos ultraprocessados, sujeito simples."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual a consequência de usar o pronome 'se' na construção da voz passiva sintética, segundo o texto?",
+        "options": [
+          "O verbo não se flexiona e permanece na terceira pessoa do singular.",
+          "O verbo sempre fica na terceira pessoa do plural.",
+          "O verbo fica na primeira pessoa do singular.",
+          "O verbo deve concordar com o sujeito, podendo ser singular ou plural, dependendo do contexto."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual é a regra para a concordância quando o sujeito é um pronome indefinido no plural, como 'alguns'?",
+        "options": [
+          "O verbo deve sempre estar no singular.",
+          "O verbo pode concordar com o núcleo do sujeito ou com o pronomes pessoais.",
+          "O verbo deve estar na terceira pessoa do singular.",
+          "O verbo deve concordar com a expressão 'alguns', ficando no plural."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na frase 'Metade dos alunos faltou', qual é a regra de concordância verbal aplicada?",
+        "options": [
+          "O verbo concorda com 'alunos', no plural.",
+          "O verbo pode concordar com qualquer um, dependendo do contexto.",
+          "O verbo deve estar no plural obrigatoriamente.",
+          "O verbo concorda com 'metade', no singular."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No exemplo 'A pesquisa deixou-as ficar esperançosas', qual é a função do pronome oblíquo 'as' na frase?",
+        "options": [
+          "Sujeito da oração.",
+          "Sujeito indeterminado.",
+          "Partícula de negação.",
+          "Complemento verbal, com função de objeto direto."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, ao reescrever a frase 'Saiba quem é a responsável por mudar', qual a forma correta na voz passiva?",
+        "options": [
+          "Saiba quem são as responsáveis por mudar",
+          "Saiba quem é a responsável por mudar",
+          "Saiba quem é a responsável por serem mudadas",
+          "Saiba quem é a responsável por mudar a forma"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A lista de nutrientes está concentrada na gema', qual é o núcleo do sujeito?",
+        "options": [
+          "lista",
+          "nutrientes",
+          "gema",
+          "lista de nutrientes"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o texto, qual é a recomendação para o consumo de ovos por pessoas com diabetes ou que já tiveram problemas cardíacos?",
+        "options": [
+          "Podem consumir até três ovos por semana.",
+          "Devem evitar completamente o consumo de ovos.",
+          "Devem consumir ovos diariamente sem restrições.",
+          "Devem limitar o consumo a uma unidade por mês."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo o texto, como a expressão 'mais de' influencia a concordância verbal?",
+        "options": [
+          "O verbo deve estar no singular sempre que usada a expressão 'mais de'.",
+          "A expressão 'mais de' exige o uso do verbo na terceira pessoa do singular.",
+          "O verbo deve concordar com o termo que a acompanha, podendo variar entre singular e plural.",
+          "O verbo deve concordar com o núcleo do sujeito, independentemente da expressão."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'A maioria das questões não geraram dificuldades', qual a correção adequada?",
+        "options": [
+          "Substituir por 'geraram', concordando com 'questões'.",
+          "Usar 'gerou' porque 'maioria' é singular.",
+          "Manter 'geraram', pois 'questões' é plural.",
+          "Alterar para 'gerou', concordando com 'maioria'."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando o sujeito de uma oração for uma expressão coletiva, como 'um bando de galinhas', qual a regra de concordância com o verbo?",
+        "options": [
+          "O verbo deve estar no plural.",
+          "O verbo deve estar na terceira pessoa do singular.",
+          "Pode estar no singular ou no plural, dependendo do significado.",
+          "O verbo deve estar no singular."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual é o efeito do uso do infinitivo na voz passiva com o verbo 'ser'?",
+        "options": [
+          "Não permite flexão e fica na terceira pessoa do singular.",
+          "Permite flexionar o verbo em número e pessoa.",
+          "Conjugando-se na primeira pessoa do singular.",
+          "Sempre forma uma locução verbal."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A análise indicou que o consumo de ovos não aumenta o risco de doenças cardíacas', qual é o sujeito e sua classificação?",
+        "options": [
+          "O consumo, sujeito composto.",
+          "Que o consumo de ovos não aumenta o risco, sujeito indireto.",
+          "O risco, sujeito indeterminado.",
+          "A análise, sujeito simples."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, qual a orientação geral para o consumo de ovos na população em relação ao colesterol?",
+        "options": [
+          "A gema deve ser retirada antes do consumo.",
+          "Sua ingestão deve ser limitada a 300 mg diários.",
+          "Devem ser evitados completamente.",
+          "Devem ser consumidos sem restrição."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na frase 'O consumo regular de ovos pode estar ligado ao aumento do risco de doenças cardiovasculares', qual é o núcleo do sujeito?",
+        "options": [
+          "consumo",
+          "risco",
+          "doenças",
+          "risco de doenças cardiovasculares"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o texto, a mudança na orientação sobre o ovo aconteceu devido a qual fator principal?",
+        "options": [
+          "A mudança na legislação de alimentos.",
+          "A preferência do público por alimentos naturais.",
+          "Novos estudos científicos que mostraram que o ovo não é prejudicial na maioria dos casos.",
+          "A redução do preço do ovo no mercado."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Conforme o texto, qual é uma estratégia para evitar erros de concordância verbal na escrita?",
+        "options": [
+          "Sempre usar o verbo no plural.",
+          "Utilizar apenas a forma verbal no infinitivo.",
+          "Empregar construções passivas sempre.",
+          "Verificar o núcleo do sujeito antes de flexionar o verbo."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na frase 'A quantidade de pessoas que votaram foi alta', qual é o núcleo do sujeito?",
+        "options": [
+          "pessoas",
+          "quantidade de pessoas",
+          "votaram",
+          "A quantidade"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual a relação entre a voz passiva sintética e a flexão do verbo 'ser' + particípio?",
+        "options": [
+          "O uso do 'se' na voz passiva impede a flexão do verbo.",
+          "A voz passiva exige o uso do infinitivo.",
+          "A voz passiva sintética exige que o verbo 'ser' seja flexionado de acordo com o sujeito.",
+          "A voz passiva sintética não altera a flexão do verbo 'ser'."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo o texto, qual é a regra para a concordância com pronomes indefinidos no singular, como 'algum'?",
+        "options": [
+          "O verbo deve estar no singular, concordando com o pronome.",
+          "O verbo deve estar no plural.",
+          "O verbo pode estar no singular ou no plural, sem regra definida.",
+          "O verbo deve estar na terceira pessoa do plural."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A pesquisa mostrou que o consumo de ovos não aumenta o risco', qual o sujeito e sua classificação?",
+        "options": [
+          "A pesquisa, sujeito simples.",
+          "Que o consumo de ovos não aumenta o risco, sujeito composto.",
+          "O consumo de ovos, sujeito indireto.",
+          "O risco, sujeito indeterminado."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o texto, qual aspecto linguístico demonstra a intenção de tornar o texto acessível ao público geral?",
+        "options": [
+          "O uso exclusivo de termos científicos complexos.",
+          "A omissão de explicações para conceitos difíceis.",
+          "A utilização de linguagem mais simples e de fácil compreensão.",
+          "A utilização de linguagem técnica e especializada."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'O ovo foi reabilitado pelos pesquisadores', qual é a estrutura da voz empregada?",
+        "options": [
+          "Voz reflexiva.",
+          "Voz passiva analítica.",
+          "Voz ativa.",
+          "Voz passiva sintética."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual a orientação para o consumo de ovos por pessoas que já tiveram problemas cardíacos?",
+        "options": [
+          "Limitar a uma unidade por mês.",
+          "Limitar a uma unidade por semana.",
+          "Consumir livremente, sem restrições.",
+          "Evitar totalmente o consumo."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o texto, qual a vantagem do uso do infinitivo na construção de frases com sujeitos diferentes?",
+        "options": [
+          "Não permite flexão de número.",
+          "Facilita a concordância com diferentes sujeitos.",
+          "Permite flexão de número e pessoa.",
+          "Sempre deve estar na terceira pessoa do singular."
+        ],
+        "answer": 1
+      }
+    ],
+    "7PH11HISTORIA": [
+      {
+        "question": "De acordo com o texto, qual a principal razão para o consumo moderado de alimentos ultraprocessados?",
+        "options": [
+          "Eles são essenciais para dietas equilibradas.",
+          "Eles representam a maior parte da alimentação diária.",
+          "Eles aumentam a quantidade de nutrientes essenciais.",
+          "Eles podem causar danos à saúde e devem ser consumidos com moderação."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das seguintes afirmações explica a relação entre alimentos ultraprocessados e riscos à saúde, conforme apresentado no texto?",
+        "options": [
+          "Eles ajudam na perda de peso devido ao seu baixo teor de açúcares.",
+          "O consumo excessivo desses alimentos favorece o ganho de peso e aumenta o risco de doenças cardiovasculares.",
+          "Eles são considerados benéficos por conterem altos teores de fibras.",
+          "Eles não apresentam impacto na saúde, desde que consumidos em pequenas quantidades."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Com base na pesquisa descrita, qual foi a estratégia utilizada para minimizar efeitos individuais na avaliação do impacto dos alimentos ultraprocessados?",
+        "options": [
+          "A exclusão de participantes com problemas de saúde.",
+          "A inversão do tratamento nas duas últimas semanas, trocando os grupos de dieta.",
+          "O uso de um grupo de controle que não consumia nenhum ultraprocessado.",
+          "A limitação da pesquisa a apenas um grupo de idade."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, por que os alimentos ultraprocessados recebem esse nome?",
+        "options": [
+          "Por serem alimentos que não passam por qualquer processamento industrial.",
+          "Por serem alimentos exclusivamente feitos de ingredientes orgânicos.",
+          "Por passarem por transformações industriais que alteram sua textura, sabor e cor para atrair consumidores e aumentar sua durabilidade.",
+          "Por serem alimentos naturais que sofreram processos de fermentação."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na análise do sujeito na oração 'Aumentam os riscos à saúde', qual é o núcleo do sujeito?",
+        "options": [
+          "saúde",
+          "risco à saúde",
+          "risco",
+          "Aumentam"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Por que o verbo 'foi alocada' na frase 'metade dos participantes foi alocada' está na terceira pessoa do singular?",
+        "options": [
+          "Porque 'metade' é uma expressão coletiva que exige concordância singular.",
+          "Porque 'participantes' é o núcleo do sujeito e está no plural.",
+          "Porque o verbo sempre deve concordar com a palavra mais próxima.",
+          "Porque 'metade' é um termo partitivo que pode concordar com 'participantes' ou com o núcleo 'metade', sendo esta última a mais adequada na estrutura apresentada."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com os exemplos, qual é a regra geral para a concordância com expressões aproximativas como 'cerca de' ou 'mais de'?",
+        "options": [
+          "O verbo deve estar no singular independentemente do sujeito.",
+          "O verbo deve estar no plural sempre que usada uma expressão aproximativa.",
+          "O verbo deve concordar com o núcleo do sujeito, não com a expressão.",
+          "O verbo deve concordar obrigatoriamente com a expressão."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Conforme o texto, qual a principal mudança na orientação sobre o consumo de ovos, segundo as recomendações atuais?",
+        "options": [
+          "O ovo passou a ser totalmente proibido na alimentação.",
+          "O consumo de ovos deve ser evitado por todos os grupos populacionais.",
+          "O consumo de ovos deve ser limitado a uma unidade por mês.",
+          "O consumo de ovos foi parcialmente liberado, exceto para grupos específicos como diabéticos e quem já teve problemas cardíacos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na frase 'A gema é fonte de ferro, por exemplo', qual é o sujeito e seu núcleo?",
+        "options": [
+          "Fonte, núcleo: fonte.",
+          "Ferro, núcleo: ferro.",
+          "A gema, núcleo: fonte.",
+          "A gema, núcleo: gema."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, o que acontece com a maior parte do colesterol sanguíneo em relação à dieta?",
+        "options": [
+          "Ela depende exclusivamente do consumo de ovos.",
+          "Ela é influenciada apenas por alimentos ricos em gordura animal.",
+          "Ela é produzida pelo próprio organismo, não sendo diretamente influenciada pela dieta.",
+          "Ela é totalmente proveniente da alimentação."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'Os alimentos ultraprocessados surgem devido ao desenvolvimento da indústria', qual é o sujeito e sua classificação?",
+        "options": [
+          "Sujeito oculto, implícito.",
+          "Os alimentos ultraprocessados, sujeito simples.",
+          "Desenvolvimento da indústria, sujeito composto.",
+          "Sujeito indeterminado."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual a consequência de usar o pronome 'se' na construção da voz passiva sintética, segundo o texto?",
+        "options": [
+          "O verbo não se flexiona e permanece na terceira pessoa do singular.",
+          "O verbo sempre fica na terceira pessoa do plural.",
+          "O verbo fica na primeira pessoa do singular.",
+          "O verbo deve concordar com o sujeito, podendo ser singular ou plural, dependendo do contexto."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual é a regra para a concordância quando o sujeito é um pronome indefinido no plural, como 'alguns'?",
+        "options": [
+          "O verbo deve concordar com a expressão 'alguns', ficando no plural.",
+          "O verbo deve sempre estar no singular.",
+          "O verbo pode concordar com o núcleo do sujeito ou com o pronomes pessoais.",
+          "O verbo deve estar na terceira pessoa do singular."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'Metade dos alunos faltou', qual é a regra de concordância verbal aplicada?",
+        "options": [
+          "O verbo deve estar no plural obrigatoriamente.",
+          "O verbo concorda com 'metade', no singular.",
+          "O verbo concorda com 'alunos', no plural.",
+          "O verbo pode concordar com qualquer um, dependendo do contexto."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "No exemplo 'A pesquisa deixou-as ficar esperançosas', qual é a função do pronome oblíquo 'as' na frase?",
+        "options": [
+          "Sujeito da oração.",
+          "Sujeito indeterminado.",
+          "Partícula de negação.",
+          "Complemento verbal, com função de objeto direto."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, ao reescrever a frase 'Saiba quem é a responsável por mudar', qual a forma correta na voz passiva?",
+        "options": [
+          "Saiba quem são as responsáveis por mudar",
+          "Saiba quem é a responsável por mudar",
+          "Saiba quem é a responsável por serem mudadas",
+          "Saiba quem é a responsável por mudar a forma"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A lista de nutrientes está concentrada na gema', qual é o núcleo do sujeito?",
+        "options": [
+          "nutrientes",
+          "gema",
+          "lista de nutrientes",
+          "lista"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual é a recomendação para o consumo de ovos por pessoas com diabetes ou que já tiveram problemas cardíacos?",
+        "options": [
+          "Devem limitar o consumo a uma unidade por mês.",
+          "Podem consumir até três ovos por semana.",
+          "Devem evitar completamente o consumo de ovos.",
+          "Devem consumir ovos diariamente sem restrições."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, como a expressão 'mais de' influencia a concordância verbal?",
+        "options": [
+          "O verbo deve concordar com o termo que a acompanha, podendo variar entre singular e plural.",
+          "O verbo deve concordar com o núcleo do sujeito, independentemente da expressão.",
+          "O verbo deve estar no singular sempre que usada a expressão 'mais de'.",
+          "A expressão 'mais de' exige o uso do verbo na terceira pessoa do singular."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'A maioria das questões não geraram dificuldades', qual a correção adequada?",
+        "options": [
+          "Manter 'geraram', pois 'questões' é plural.",
+          "Alterar para 'gerou', concordando com 'maioria'.",
+          "Substituir por 'geraram', concordando com 'questões'.",
+          "Usar 'gerou' porque 'maioria' é singular."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quando o sujeito de uma oração for uma expressão coletiva, como 'um bando de galinhas', qual a regra de concordância com o verbo?",
+        "options": [
+          "O verbo deve estar no singular.",
+          "O verbo deve estar no plural.",
+          "O verbo deve estar na terceira pessoa do singular.",
+          "Pode estar no singular ou no plural, dependendo do significado."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual é o efeito do uso do infinitivo na voz passiva com o verbo 'ser'?",
+        "options": [
+          "Conjugando-se na primeira pessoa do singular.",
+          "Sempre forma uma locução verbal.",
+          "Não permite flexão e fica na terceira pessoa do singular.",
+          "Permite flexionar o verbo em número e pessoa."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'A análise indicou que o consumo de ovos não aumenta o risco de doenças cardíacas', qual é o sujeito e sua classificação?",
+        "options": [
+          "A análise, sujeito simples.",
+          "O consumo, sujeito composto.",
+          "Que o consumo de ovos não aumenta o risco, sujeito indireto.",
+          "O risco, sujeito indeterminado."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo o texto, qual a orientação geral para o consumo de ovos na população em relação ao colesterol?",
+        "options": [
+          "Devem ser evitados completamente.",
+          "Devem ser consumidos sem restrição.",
+          "A gema deve ser retirada antes do consumo.",
+          "Sua ingestão deve ser limitada a 300 mg diários."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na frase 'O consumo regular de ovos pode estar ligado ao aumento do risco de doenças cardiovasculares', qual é o núcleo do sujeito?",
+        "options": [
+          "consumo",
+          "risco",
+          "doenças",
+          "risco de doenças cardiovasculares"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o texto, a mudança na orientação sobre o ovo aconteceu devido a qual fator principal?",
+        "options": [
+          "A redução do preço do ovo no mercado.",
+          "A mudança na legislação de alimentos.",
+          "A preferência do público por alimentos naturais.",
+          "Novos estudos científicos que mostraram que o ovo não é prejudicial na maioria dos casos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Conforme o texto, qual é uma estratégia para evitar erros de concordância verbal na escrita?",
+        "options": [
+          "Empregar construções passivas sempre.",
+          "Verificar o núcleo do sujeito antes de flexionar o verbo.",
+          "Sempre usar o verbo no plural.",
+          "Utilizar apenas a forma verbal no infinitivo."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na frase 'A quantidade de pessoas que votaram foi alta', qual é o núcleo do sujeito?",
+        "options": [
+          "quantidade de pessoas",
+          "votaram",
+          "A quantidade",
+          "pessoas"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual a relação entre a voz passiva sintética e a flexão do verbo 'ser' + particípio?",
+        "options": [
+          "O uso do 'se' na voz passiva impede a flexão do verbo.",
+          "A voz passiva exige o uso do infinitivo.",
+          "A voz passiva sintética exige que o verbo 'ser' seja flexionado de acordo com o sujeito.",
+          "A voz passiva sintética não altera a flexão do verbo 'ser'."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo o texto, qual é a regra para a concordância com pronomes indefinidos no singular, como 'algum'?",
+        "options": [
+          "O verbo pode estar no singular ou no plural, sem regra definida.",
+          "O verbo deve estar na terceira pessoa do plural.",
+          "O verbo deve estar no singular, concordando com o pronome.",
+          "O verbo deve estar no plural."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'A pesquisa mostrou que o consumo de ovos não aumenta o risco', qual o sujeito e sua classificação?",
+        "options": [
+          "Que o consumo de ovos não aumenta o risco, sujeito composto.",
+          "O consumo de ovos, sujeito indireto.",
+          "O risco, sujeito indeterminado.",
+          "A pesquisa, sujeito simples."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, qual aspecto linguístico demonstra a intenção de tornar o texto acessível ao público geral?",
+        "options": [
+          "A utilização de linguagem mais simples e de fácil compreensão.",
+          "A utilização de linguagem técnica e especializada.",
+          "O uso exclusivo de termos científicos complexos.",
+          "A omissão de explicações para conceitos difíceis."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'O ovo foi reabilitado pelos pesquisadores', qual é a estrutura da voz empregada?",
+        "options": [
+          "Voz reflexiva.",
+          "Voz passiva analítica.",
+          "Voz ativa.",
+          "Voz passiva sintética."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual a orientação para o consumo de ovos por pessoas que já tiveram problemas cardíacos?",
+        "options": [
+          "Evitar totalmente o consumo.",
+          "Limitar a uma unidade por mês.",
+          "Limitar a uma unidade por semana.",
+          "Consumir livremente, sem restrições."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual a vantagem do uso do infinitivo na construção de frases com sujeitos diferentes?",
+        "options": [
+          "Facilita a concordância com diferentes sujeitos.",
+          "Permite flexão de número e pessoa.",
+          "Sempre deve estar na terceira pessoa do singular.",
+          "Não permite flexão de número."
+        ],
+        "answer": 0
+      }
+    ],
+    "7PH17PORTUGUES": [
+      {
+        "question": "Na análise sintática de uma oração, qual termo é considerado o núcleo do predicado?",
+        "options": [
+          "O verbo",
+          "O sujeito",
+          "O predicativo",
+          "O objeto direto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas apresenta uma definição correta de predicado verbal?",
+        "options": [
+          "Termo que atribui uma qualidade ao objeto",
+          "Termo que complementa o sujeito na oração",
+          "Termo que expressa uma ação ou estado do sujeito",
+          "Termo que indica uma característica do sujeito"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O predicado nominal é caracterizado por conter, obrigatoriamente, qual elemento?",
+        "options": [
+          "Adjunto adverbial",
+          "Verbo de ligação",
+          "Verbo de ação",
+          "Objeto indireto"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na frase 'O menino está feliz', qual é o tipo de predicado presente?",
+        "options": [
+          "Verbo-nominal",
+          "Intransitivo",
+          "Nominal",
+          "Verbal"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O predicativo do sujeito tem como função principal:",
+        "options": [
+          "Indicar a ação do verbo",
+          "Definir o núcleo do sujeito",
+          "Atribuir uma característica ao sujeito",
+          "Complementar o objeto direto"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual figura de linguagem é exemplificada na frase 'O silêncio é de ouro'?",
+        "options": [
+          "Hipérbole",
+          "Metonímia",
+          "Metáfora",
+          "Comparação"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A expressão 'bater um prato de macarrão' é um exemplo de qual figura de linguagem?",
+        "options": [
+          "Comparação",
+          "Metonímia",
+          "Metáfora",
+          "Hipérbole"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na frase 'O coração bate feliz', qual o núcleo do predicado?",
+        "options": [
+          "Bate",
+          "O coração",
+          "Feliz",
+          "O"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A figura de linguagem que consiste em atribuir características humanas a seres não humanos é chamada de:",
+        "options": [
+          "Personificação",
+          "Metáfora",
+          "Hipérbole",
+          "Zoomorfismo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na oração 'Ele parecia cansado', qual é o tipo de predicado?",
+        "options": [
+          "Intransitivo",
+          "Nominal",
+          "Verbal",
+          "Verbo-nominal"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas apresenta um exemplo de predicado verbo-nominal?",
+        "options": [
+          "Ele trabalha todos os dias",
+          "Ele está feliz",
+          "Ele é inteligente",
+          "Ele chegou cedo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'A menina parece satisfeita', o termo 'satisfeita' funciona como:",
+        "options": [
+          "Sujeito",
+          "Predicativo do sujeito",
+          "Objeto direto",
+          "Adjunto adverbial"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A figura de linguagem que substitui um termo por outro com o qual mantém relação de causa, origem ou parte é chamada de:",
+        "options": [
+          "Metonímia",
+          "Metáfora",
+          "Comparação",
+          "Hipérbole"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A expressão 'chorar nos mesmos ais' é um exemplo de qual figura de linguagem?",
+        "options": [
+          "Metáfora",
+          "Hipérbole",
+          "Comparação",
+          "Personificação"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "No poema, a figura de linguagem que expressa uma comparação explícita entre dois elementos usando termos como 'como' é denominada:",
+        "options": [
+          "Comparação",
+          "Metáfora",
+          "Hipérbole",
+          "Metonímia"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O uso do verbo 'ser' para ligar atributos ao sujeito caracteriza um predicado:",
+        "options": [
+          "Nominal",
+          "Verbal",
+          "Verbo-nominal",
+          "Intransitivo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Em uma oração sem sujeito, o predicado pode ser considerado:",
+        "options": [
+          "O único termo essencial",
+          "Inexistente",
+          "Objeto indireto",
+          "Complemento verbal"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na frase 'Choveu muito', o verbo 'choveu' é classificado como:",
+        "options": [
+          "Verbo de ação",
+          "Verbo de estado",
+          "Verbo intransitivo",
+          "Verbo de ligação"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A classificação do predicado como verbal, nominal ou verbo-nominal depende de:",
+        "options": [
+          "Número de termos na oração",
+          "Tipo de sujeito",
+          "Tipo de verbo presente na oração",
+          "Presença de objeto direto"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'O trabalho está difícil', o predicado é considerado:",
+        "options": [
+          "Nominal",
+          "Verbal",
+          "Verbo-nominal",
+          "Intransitivo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A figura de linguagem que consiste na substituição de um termo por outro com relação de causa ou efeito é a:",
+        "options": [
+          "Comparação",
+          "Hipérbole",
+          "Metonímia",
+          "Metáfora"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'O menino virou um fantasma amigável', a expressão 'fantasma amigável' exemplifica:",
+        "options": [
+          "Personificação",
+          "Metáfora",
+          "Metonímia",
+          "Hipérbole"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O recurso de linguagem que atribui características humanas a objetos ou seres inanimados é chamado de:",
+        "options": [
+          "Hipérbole",
+          "Personificação",
+          "Metáfora",
+          "Metonímia"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na frase 'O silêncio é de ouro', qual figura de linguagem está presente?",
+        "options": [
+          "Personificação",
+          "Metáfora",
+          "Comparação",
+          "Hipérbole"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O uso de uma expressão que suaviza uma ideia desagradável ou agressiva é conhecido como:",
+        "options": [
+          "Metáfora",
+          "Metonímia",
+          "Eufemismo",
+          "Hipérbole"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O exagero intencional na expressão 'Beba rios de água' é um exemplo de:",
+        "options": [
+          "Eufemismo",
+          "Comparação",
+          "Hipérbole",
+          "Metáfora"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'Ele bateu um prato de macarrão', a figura de linguagem predominante é:",
+        "options": [
+          "Hipérbole",
+          "Comparação",
+          "Metonímia",
+          "Metáfora"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A linguagem figurada é caracterizada por:",
+        "options": [
+          "Clareza absoluta",
+          "Uso de figuras de linguagem",
+          "Expressões literais",
+          "Falta de subjetividade"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A figura de linguagem que consiste na substituição de uma palavra por outra de relação objetiva e direta é a:",
+        "options": [
+          "Metonímia",
+          "Metáfora",
+          "Comparação",
+          "Hipérbole"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A expressão 'Pés de cabra' empregada em sentido figurado exemplifica uma figura de linguagem denominada:",
+        "options": [
+          "Metonímia",
+          "Comparação",
+          "Zoomorfismo",
+          "Metáfora"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'Quando as crianças brincam felizes', o predicado é do tipo:",
+        "options": [
+          "Nominal",
+          "Verbal",
+          "Verbo-nominal",
+          "Intransitivo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "No poema, a figura de linguagem predominante que reforça a ideia de união e conexão é:",
+        "options": [
+          "Comparação",
+          "Hipérbole",
+          "Metáfora",
+          "Personificação"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O conhecimento sobre predicados e pontuação é importante na escrita porque:",
+        "options": [
+          "Ajuda a evitar desvios de sentido e melhora a clareza",
+          "Permite a eliminação de vírgulas",
+          "Reduz a necessidade de uso de conectivos",
+          "Substitui a necessidade de revisar o texto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na análise de uma oração, qual elemento permite identificar se o predicado é de natureza verbal ou nominal?",
+        "options": [
+          "Tipo de verbo presente",
+          "Tipo de sujeito",
+          "Número de objetos",
+          "Forma do advérbio"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A oração 'A lua brilhava intensa naquela noite' apresenta um predicado:",
+        "options": [
+          "Verbo-nominal",
+          "Intransitivo",
+          "Verbal",
+          "Nominal"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A expressão 'São vozes de dois amantes' é um exemplo de qual figura de linguagem?",
+        "options": [
+          "Metonímia",
+          "Metáfora",
+          "Comparação",
+          "Hipérbole"
+        ],
+        "answer": 0
+      }
+    ],
+    "7PH16PORTUGUES": [
+      {
+        "question": "De acordo com o texto, qual é a definição mais adequada para o sujeito na oração?",
+        "options": [
+          "Termo que pratica a ação expressa pelo verbo.",
+          "Qualquer palavra que aparece antes do verbo na oração.",
+          "Termo que sempre aparece posicionado após o verbo.",
+          "Termo com o qual o verbo concorda, podendo estar explícito ou implícito."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo as classificações apresentadas, qual dos exemplos exemplifica um sujeito composto?",
+        "options": [
+          "Choveu bastante ontem à noite.",
+          "Faltam poucos minutos para o término.",
+          "O professor e os alunos participaram da reunião.",
+          "Algumas pessoas chegaram cedo."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando o sujeito não aparece explicitamente na frase, ele é classificado como:",
+        "options": [
+          "Sujeito oracional.",
+          "Sujeito indeterminado.",
+          "Sujeito determinado.",
+          "Sujeito inexistente."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Conforme o texto, qual a característica do sujeito desinencial ou implícito?",
+        "options": [
+          "É obrigatório na maioria das frases na língua portuguesa.",
+          "Sempre é formado por pronomes pessoais do caso oblíquo.",
+          "Pode ser identificado pelo contexto ou pela desinência do verbo.",
+          "Sempre aparece após o verbo na oração."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o conteúdo, qual das alternativas apresenta um exemplo de sujeito indeterminado?",
+        "options": [
+          "Morreram muitas pessoas na tragédia.",
+          "O estudante leu o livro.",
+          "A criança brinca no parque.",
+          "Dizem que a economia melhorou."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo a explicação, qual das frases apresenta erro de concordância verbal por negligência na norma padrão?",
+        "options": [
+          "Alguns alunos faltaram à aula.",
+          "Faltou alguém na reunião.",
+          "Faltam poucos minutos para o início.",
+          "Faltam alguns alunos hoje."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na oração 'Os relógios eram checados pelos alunos', o sujeito é:",
+        "options": [
+          "Inexistente.",
+          "Paciente da ação na voz passiva.",
+          "Simples e explícito.",
+          "Composto e implícito."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, qual das alternativas exemplifica um sujeito com núcleo composto?",
+        "options": [
+          "O vento forte assustou as crianças.",
+          "A cidade está movimentada.",
+          "A equipe de professores chegou cedo.",
+          "Algumas pessoas reclamaram."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual é a classificação do sujeito na frase 'Há muitos problemas na cidade'?",
+        "options": [
+          "Inexistente, com verbo impessoal.",
+          "Inexistente.",
+          "Determinado simples.",
+          "Indeterminado."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Conforme as orientações, a frase 'Investem-se mal os recursos' apresenta um erro de concordância. Como ela deve ser corrigida para seguir a norma padrão?",
+        "options": [
+          "Investem-se mal os recursos.",
+          "Se investem mal os recursos.",
+          "Os recursos investem-se mal.",
+          "Investem mal os recursos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das alternativas apresenta uma estrutura de sujeito indeterminado na forma verbal?",
+        "options": [
+          "O professor explicou a matéria.",
+          "Os alunos participaram da aula.",
+          "Ele chegou cedo ontem.",
+          "Falaram várias línguas na região."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, o que caracteriza um sujeito desinencial ou implícito?",
+        "options": [
+          "Sempre aparece explicitamente na frase.",
+          "Sempre é formado por pronomes pessoais em caso oblíquo.",
+          "Nunca pode ser utilizado em linguagem formal.",
+          "Pode ser identificado pelo contexto ou pela desinência do verbo."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das alternativas apresenta uma frase com sujeito oracional?",
+        "options": [
+          "Os estudantes estudaram bastante.",
+          "Ela saiu cedo.",
+          "Nós estamos felizes.",
+          "Crer é difícil."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, na frase 'Dizem que a situação melhorou', o sujeito é:",
+        "options": [
+          "Determinado e explícito.",
+          "Inexistente.",
+          "Oracional.",
+          "Indeterminado."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Conforme as regras do texto, na oração 'Houveram muitos problemas', o uso está incorreto. Como ela deve ser corrigida?",
+        "options": [
+          "Houve muitos problemas.",
+          "Haveram muitos problemas.",
+          "Haviam muitos problemas.",
+          "Houveram muitos problemas."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo o conteúdo, qual frase apresenta uma concordância verbal adequada na norma padrão?",
+        "options": [
+          "Algumas pessoas ficou na fila.",
+          "Os funcionários trabalharam até tarde.",
+          "A equipe de jogadores chegaram cedo.",
+          "O grupo de estudantes foram ao cinema."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo o texto, na frase 'Os políticos são corruptos como a sociedade', o núcleo do sujeito é:",
+        "options": [
+          "Sociedade.",
+          "Como a sociedade.",
+          "Os políticos.",
+          "Políticos."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com o texto, qual das alternativas apresenta um exemplo de sujeito preposicionado na fala coloquial?",
+        "options": [
+          "Apesar de eu estudar, não passo.",
+          "Apesar de estudar, não passei.",
+          "Apesar deu ter estudado, não consegui passar.",
+          "Apesar de eu ter estudado, não consegui passar."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na frase 'Alguns alunos não compareceram', o sujeito é:",
+        "options": [
+          "Inexistente.",
+          "Indeterminado.",
+          "Intransitivo.",
+          "Determinado e explícito."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o conteúdo, a frase 'Faltam poucos minutos' apresenta o sujeito:",
+        "options": [
+          "Determinado e explícito.",
+          "Intransitivo.",
+          "Indeterminado.",
+          "Inexistente."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, qual das alternativas demonstra uma frase com sujeito implícito ou desinencial?",
+        "options": [
+          "Reclamaram do problema.",
+          "Voltamos ontem.",
+          "João foi ao mercado.",
+          "Eles chegaram tarde."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Conforme o texto, a frase 'Fazer atividade física traz impactos positivos' possui o sujeito:",
+        "options": [
+          "Intransitivo.",
+          "Inexistente, com verbo impessoal.",
+          "Inexistente.",
+          "Determinado e explícito."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o texto, na frase 'Chove amor quando encontramos nossa família', o sujeito de 'Chove' é:",
+        "options": [
+          "Determinado.",
+          "Pessoal.",
+          "Indeterminado.",
+          "Inexistente."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, qual das alternativas apresenta uma frase com erro de concordância verbal devido à negligência na norma padrão?",
+        "options": [
+          "Faltou alguém na reunião.",
+          "Houveram muitos problemas.",
+          "Alguns alunos faltaram à aula.",
+          "Faltam alguns alunos hoje."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o conteúdo, na frase 'Reclamou do professor alguns alunos', o erro de concordância pode ser corrigido para:",
+        "options": [
+          "Reclamou do professor alguns alunos.",
+          "Alguns alunos reclamaram do professor.",
+          "Reclamou-se do professor alguns alunos.",
+          "Reclamaram do professor alguns alunos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, a frase 'Houve casos de dengue no interior do estado' apresenta o sujeito:",
+        "options": [
+          "Intransitivo.",
+          "Oracional.",
+          "Inexistente, com verbo impessoal.",
+          "Determinado e explícito."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo a orientação do texto, qual das alternativas apresenta uma frase com sujeito de oração?",
+        "options": [
+          "Crer é difícil.",
+          "Os estudantes estudaram bastante.",
+          "Ela saiu cedo.",
+          "Nós estamos felizes."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com o conteúdo, na frase 'A chance dos alunos se lembrarem disso é pequena', o sujeito é:",
+        "options": [
+          "Inexistente, com verbo impessoal.",
+          "Determinado.",
+          "Inexistente.",
+          "Intransitivo."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Segundo o texto, na oração 'Não se deve menosprezar os adversários', o sujeito é:",
+        "options": [
+          "Oracional.",
+          "Indeterminado.",
+          "Determinado.",
+          "Inexistente."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "De acordo com o conteúdo, qual das frases apresenta um sujeito que pode ser classificado como intransferível?",
+        "options": [
+          "Alguns professores chegaram cedo.",
+          "A equipe de funcionários foi ao evento.",
+          "O povo está preocupado.",
+          "Falta pouco tempo para o início."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, qual das alternativas demonstra uma frase com sujeito que está posposto ao verbo?",
+        "options": [
+          "Pessoas chegaram cedo.",
+          "As pessoas chegaram cedo.",
+          "Chegaram cedo algumas pessoas.",
+          "Algumas pessoas chegaram cedo."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com as orientações, na frase 'O professor observava os alunos que reclamavam', o sujeito é:",
+        "options": [
+          "Inexistente.",
+          "Oracional.",
+          "Simples e explícito.",
+          "Composto e implícito."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo o conteúdo, a frase 'O fato de ele me provocar me deixou irritado' exemplifica um sujeito:",
+        "options": [
+          "Inexistente.",
+          "Determinado.",
+          "Intransferível.",
+          "Oracional."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, a expressão 'se investe mal os recursos' deve ser corrigida para:",
+        "options": [
+          "Se investe mal os recursos.",
+          "Investem-se mal os recursos.",
+          "Se investe mal os recursos.",
+          "Investem-se mal os recursos."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o conteúdo, na frase 'A sociedade deve rever suas condutas', o sujeito é:",
+        "options": [
+          "Inexistente.",
+          "Intransferível.",
+          "Oracional.",
+          "Determinado e explícito."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com o texto, na frase 'Algumas frases apresentam erro de concordância', o sujeito é:",
+        "options": [
+          "Inexistente.",
+          "Determinado.",
+          "Intransferível.",
+          "Inexistente, com verbo impessoal."
+        ],
+        "answer": 0
+      }
+    ],
+    "7PH14CIENCIAS": [
+      {
+        "question": "De acordo com a definição física, o que caracteriza uma força?",
+        "options": [
+          "Uma grandeza escalar que depende apenas da magnitude",
+          "Uma medida da quantidade de matéria de um corpo",
+          "A resistência de um corpo ao movimento em uma superfície lisa",
+          "Uma grandeza vetorial capaz de alterar o estado de movimento de um corpo"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na física, o peso de um corpo é definido como:",
+        "options": [
+          "A medida da resistência ao movimento do corpo",
+          "A energia potencial armazenada no corpo devido à sua altura",
+          "A força exercida pela gravidade sobre a massa do corpo",
+          "A quantidade de matéria contida no corpo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando um carro está em repouso sobre uma superfície, qual força atua nele de modo a mantê-lo parado?",
+        "options": [
+          "A força resultante de todas as forças atuantes",
+          "A força de resistência do ar",
+          "A força de impulso exercida pelo solo",
+          "A força de atrito entre o carro e a superfície"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na situação de um corpo em movimento, a força resultante é responsável por:",
+        "options": [
+          "Eliminar qualquer resistência ao movimento",
+          "Aumentar automaticamente a massa do corpo",
+          "Alterar o estado de movimento ou de repouso do corpo",
+          "Manter o corpo em repouso"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A unidade de força no Sistema Internacional é o:",
+        "options": [
+          "Metro por segundo (m/s)",
+          "Newton (N)",
+          "Kilograma (kg)",
+          "Joule (J)"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Considere duas forças atuando em um mesmo corpo na mesma direção e sentido. A força resultante será:",
+        "options": [
+          "A diferença entre as magnitudes das forças",
+          "Sempre igual a zero",
+          "A média das magnitudes das forças",
+          "A soma das magnitudes das forças"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se duas forças de magnitudes diferentes atuam em sentidos opostos, a força resultante será:",
+        "options": [
+          "A soma das duas forças",
+          "A soma dos quadrados das forças",
+          "Sempre igual a zero",
+          "A diferença entre as forças, com sinal do maior valor"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "De acordo com a segunda lei de Newton, a aceleração de um corpo é proporcional a:",
+        "options": [
+          "A força aplicada e proporcional à sua massa",
+          "A força aplicada e proporcional à sua velocidade",
+          "A força aplicada e inversamente proporcional à sua massa",
+          "A sua massa e inversamente proporcional à força"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na prática, quando empurramos uma caixa de menor massa, ela tende a acelerar mais do que uma de maior massa, porque:",
+        "options": [
+          "A força de empurrar é maior na de menor massa",
+          "A menor massa possui maior resistência ao movimento",
+          "A força aplicada sempre é maior na caixa de menor massa",
+          "A aceleração depende da razão entre força e massa, conforme a segunda lei de Newton"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Um corpo em queda livre na Terra apresenta uma aceleração constante devido à gravidade. Essa aceleração é aproximadamente:",
+        "options": [
+          "15,2 m/s²",
+          "1,6 m/s²",
+          "9,8 m/s²",
+          "3,6 m/s²"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo a terceira lei de Newton, ao empurrar uma parede, a força exercida na parede é:",
+        "options": [
+          "De mesma intensidade, direção e sentido oposto à força que você exerce na parede",
+          "De intensidade maior do que a força que ela exerce em você",
+          "De sentido e intensidade diferentes da força que ela exerce em você",
+          "Inexistente, pois a força é unilateral"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando um carro freia, a força que atua para diminuir sua velocidade é:",
+        "options": [
+          "A força de atrito entre os pneus e o solo",
+          "A força de impulso exercida pelo motor",
+          "A força da gravidade",
+          "A força de resistência do ar"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Se um corpo estiver em movimento retilíneo uniforme, a força resultante que atua sobre ele é:",
+        "options": [
+          "Sempre maior que zero",
+          "Deve ser igual à força de atrito",
+          "Independente do estado de movimento",
+          "Sempre zero"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na situação de um objeto em repouso, a primeira lei de Newton afirma que:",
+        "options": [
+          "A sua velocidade aumentará espontaneamente",
+          "A força de resistência do ar fará com que ele inicie o movimento",
+          "Ele permanecerá em repouso até que uma força externa atue nele",
+          "Ele começará a se mover automaticamente após um tempo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A massa de um corpo é uma medida de:",
+        "options": [
+          "Sua força de atração gravitacional",
+          "Sua energia potencial",
+          "Sua velocidade em movimento",
+          "Sua resistência à mudança de estado de movimento"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao saltar, por que não continuamos subindo indefinidamente?",
+        "options": [
+          "Porque a força de gravidade atua contra o movimento, puxando-nos para baixo",
+          "Porque a força de impulso é insuficiente",
+          "Porque a força de atrito impede a subida",
+          "Porque a massa do corpo aumenta durante o salto"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A força peso de um corpo em diferentes planetas varia devido às diferenças em:",
+        "options": [
+          "Sua massa",
+          "Sua velocidade",
+          "Sua energia potencial",
+          "A aceleração da gravidade"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se uma pessoa pesa 70 kg na Terra, seu peso em Júpiter será maior, menor ou igual?",
+        "options": [
+          "Depende da massa da pessoa",
+          "Maior, pois a aceleração da gravidade em Júpiter é maior",
+          "Menor, devido à maior distância do centro do planeta",
+          "Igual, pois peso é uma grandeza escalar"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das seguintes situações exemplifica a ação da primeira lei de Newton?",
+        "options": [
+          "Um carro que freia e diminui sua velocidade",
+          "Um foguete que acelera ao queimar combustível",
+          "Um ciclista que aumenta sua velocidade ao pedalar",
+          "Um livro que permanece em repouso sobre a mesa sem que nenhuma força seja aplicada"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A quantidade de matéria de um corpo é representada por sua:",
+        "options": [
+          "Massa",
+          "Peso",
+          "Velocidade",
+          "Força"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando uma força de 50 N é aplicada a um corpo de 10 kg, sua aceleração será:",
+        "options": [
+          "500 m/s²",
+          "5 m/s²",
+          "50 m/s²",
+          "0,2 m/s²"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na situação de empurrar uma caixa com força de 30 N, ela começa a se mover. Essa ação está relacionada à lei de Newton que afirma que:",
+        "options": [
+          "A força aplicada produz uma aceleração proporcional à sua magnitude",
+          "A força de reação sempre cancela a força aplicada",
+          "A força de atrito impede o movimento",
+          "A força resultante é sempre zero"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Ao lançar uma pedra para cima, a força que atua nela durante a subida é:",
+        "options": [
+          "A força de resistência do ar",
+          "Zero, pois ela está em movimento",
+          "A força da gravidade, atuando para baixo",
+          "A força aplicada pelo lançador"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando um corpo está em movimento retilíneo e a força resultante é zero, podemos afirmar que:",
+        "options": [
+          "Ele está acelerando",
+          "Ele está em repouso",
+          "Ele está mudando de direção",
+          "Ele está em movimento retilíneo uniforme"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Durante a queda de um corpo na Terra, sua aceleração é constante e igual a aproximadamente:",
+        "options": [
+          "15,2 m/s²",
+          "1,6 m/s²",
+          "9,8 m/s²",
+          "3,6 m/s²"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A força de ação e reação atuam:",
+        "options": [
+          "No mesmo corpo, em sentidos opostos",
+          "Sempre na mesma direção",
+          "De forma a cancelar uma à outra",
+          "Em corpos diferentes, com mesma intensidade e direção, mas sentidos opostos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao empurrar um carrinho de supermercado vazio, em comparação com um cheio, a maior dificuldade se deve à:",
+        "options": [
+          "Menor força aplicada ao carrinho vazio",
+          "Maior massa do carrinho cheio, que aumenta sua inércia",
+          "Maior força de atrito no carrinho cheio",
+          "Maior resistência do piso ao carrinho cheio"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Uma pessoa empurra uma parede com força de 100 N. A força que a parede exerce sobre ela é:",
+        "options": [
+          "De intensidade menor que 100 N",
+          "De maior intensidade que a força aplicada",
+          "Inexistente, pois forças não atuam em corpos imóveis",
+          "De mesma intensidade, direção e sentido oposto"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das alternativas melhor explica por que a força de atrito impede que uma bola em movimento continue rolando por longas distâncias?",
+        "options": [
+          "Porque a força de atrito aumenta com a velocidade",
+          "Porque a força de atrito aumenta a massa da bola",
+          "Porque a força de atrito é uma força escalar",
+          "Porque a força de atrito atua na direção contrária ao movimento, dissipando energia"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Ao subir uma escada, o esforço é realizado principalmente para vencer:",
+        "options": [
+          "A resistência do ar",
+          "A inércia do corpo",
+          "A força da gravidade, que atua na direção contrária ao movimento",
+          "A força de atrito entre os pés e a escada"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O conceito de inércia afirma que um corpo em repouso tende a:",
+        "options": [
+          "Alterar seu estado de movimento sem força externa",
+          "Aumentar sua massa automaticamente",
+          "Permanecer em repouso, a menos que uma força externa atue nele",
+          "Começar a se mover automaticamente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na prática, o que explica a necessidade do uso do cinto de segurança em veículos em movimento?",
+        "options": [
+          "A força de resistência do ar",
+          "A força de impulso exercida pelo interior do veículo",
+          "A ação da força de inércia, que tende a manter o corpo em movimento na direção do veículo",
+          "A força de atrito que impede o corpo de se mover"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quando um corpo é lançado ao ar, sua aceleração durante a subida é:",
+        "options": [
+          "Zero, pois ele está em movimento",
+          "Depende da massa do corpo",
+          "Negativa, devido à força de gravidade atuando para baixo",
+          "Positiva, devido à força de impulso inicial"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma força de 60 N atua em uma caixa de 15 kg, a aceleração adquirida será:",
+        "options": [
+          "0,25 m/s²",
+          "60 m/s²",
+          "900 m/s²",
+          "4 m/s²"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A quantidade de matéria de um corpo é proporcional à sua:",
+        "options": [
+          "Velocidade",
+          "Força",
+          "Massa",
+          "Peso"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O movimento de um foguete lançado ao espaço é explicado principalmente por:",
+        "options": [
+          "O aumento da massa do foguete",
+          "A resistência do ar que o impulsiona para cima",
+          "A ação de forças de propulsão que lançam gases para trás, segundo a terceira lei de Newton",
+          "A ação da força gravitacional da Terra"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na situação de uma pessoa empurrando uma parede com força, o par de forças de ação e reação são:",
+        "options": [
+          "De mesma magnitude e sentidos opostos, atuando em corpos diferentes",
+          "De diferentes magnitudes, atuando no mesmo corpo",
+          "Inexistentes, pois o corpo não se move",
+          "De mesma intensidade e sentido, atuando no mesmo corpo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando um objeto em movimento sofre uma desaceleração, sua aceleração é:",
+        "options": [
+          "Positiva",
+          "Nula",
+          "Inexistente",
+          "Negativa"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A força que atua para diminuir a velocidade de um corpo em movimento é chamada de:",
+        "options": [
+          "Força de gravidade",
+          "Força de ação",
+          "Força de resistência ou atrito",
+          "Força de impulso"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A relação entre força, massa e aceleração é expressa pela fórmula:",
+        "options": [
+          "m = F / a",
+          "a = F / m",
+          "F = m / a",
+          "F = a / m"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo a lei da inércia, um corpo que está em movimento retilíneo uniforme continuará assim:",
+        "options": [
+          "A menos que sua massa mude",
+          "Somente se estiver em um ambiente sem atrito",
+          "Até que uma força externa atue nele",
+          "Infinitamente, sem necessidade de força"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A força de resistência do ar ao movimento de um corpo é um exemplo de:",
+        "options": [
+          "Força de ação",
+          "Força de reação",
+          "Força de peso",
+          "Força de atrito"
+        ],
+        "answer": 3
+      }
+    ],
+    "7PH13HISTORIA": [
+      {
+        "question": "De acordo com a definição física, o que caracteriza uma força?",
+        "options": [
+          "Uma grandeza vetorial capaz de alterar o estado de movimento de um corpo",
+          "Uma grandeza escalar que depende apenas da magnitude",
+          "Uma medida da quantidade de matéria de um corpo",
+          "A resistência de um corpo ao movimento em uma superfície lisa"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na física, o peso de um corpo é definido como:",
+        "options": [
+          "A quantidade de matéria contida no corpo",
+          "A medida da resistência ao movimento do corpo",
+          "A energia potencial armazenada no corpo devido à sua altura",
+          "A força exercida pela gravidade sobre a massa do corpo"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quando um carro está em repouso sobre uma superfície, qual força atua nele de modo a mantê-lo parado?",
+        "options": [
+          "A força resultante de todas as forças atuantes",
+          "A força de resistência do ar",
+          "A força de impulso exercida pelo solo",
+          "A força de atrito entre o carro e a superfície"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na situação de um corpo em movimento, a força resultante é responsável por:",
+        "options": [
+          "Alterar o estado de movimento ou de repouso do corpo",
+          "Manter o corpo em repouso",
+          "Eliminar qualquer resistência ao movimento",
+          "Aumentar automaticamente a massa do corpo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A unidade de força no Sistema Internacional é o:",
+        "options": [
+          "Metro por segundo (m/s)",
+          "Newton (N)",
+          "Kilograma (kg)",
+          "Joule (J)"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Considere duas forças atuando em um mesmo corpo na mesma direção e sentido. A força resultante será:",
+        "options": [
+          "A diferença entre as magnitudes das forças",
+          "Sempre igual a zero",
+          "A média das magnitudes das forças",
+          "A soma das magnitudes das forças"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se duas forças de magnitudes diferentes atuam em sentidos opostos, a força resultante será:",
+        "options": [
+          "A soma dos quadrados das forças",
+          "Sempre igual a zero",
+          "A diferença entre as forças, com sinal do maior valor",
+          "A soma das duas forças"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "De acordo com a segunda lei de Newton, a aceleração de um corpo é proporcional a:",
+        "options": [
+          "A força aplicada e inversamente proporcional à sua massa",
+          "A sua massa e inversamente proporcional à força",
+          "A força aplicada e proporcional à sua massa",
+          "A força aplicada e proporcional à sua velocidade"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na prática, quando empurramos uma caixa de menor massa, ela tende a acelerar mais do que uma de maior massa, porque:",
+        "options": [
+          "A força aplicada sempre é maior na caixa de menor massa",
+          "A aceleração depende da razão entre força e massa, conforme a segunda lei de Newton",
+          "A força de empurrar é maior na de menor massa",
+          "A menor massa possui maior resistência ao movimento"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Um corpo em queda livre na Terra apresenta uma aceleração constante devido à gravidade. Essa aceleração é aproximadamente:",
+        "options": [
+          "3,6 m/s²",
+          "15,2 m/s²",
+          "1,6 m/s²",
+          "9,8 m/s²"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo a terceira lei de Newton, ao empurrar uma parede, a força exercida na parede é:",
+        "options": [
+          "De mesma intensidade, direção e sentido oposto à força que você exerce na parede",
+          "De intensidade maior do que a força que ela exerce em você",
+          "De sentido e intensidade diferentes da força que ela exerce em você",
+          "Inexistente, pois a força é unilateral"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando um carro freia, a força que atua para diminuir sua velocidade é:",
+        "options": [
+          "A força de resistência do ar",
+          "A força de atrito entre os pneus e o solo",
+          "A força de impulso exercida pelo motor",
+          "A força da gravidade"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Se um corpo estiver em movimento retilíneo uniforme, a força resultante que atua sobre ele é:",
+        "options": [
+          "Deve ser igual à força de atrito",
+          "Independente do estado de movimento",
+          "Sempre zero",
+          "Sempre maior que zero"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Na situação de um objeto em repouso, a primeira lei de Newton afirma que:",
+        "options": [
+          "Ele começará a se mover automaticamente após um tempo",
+          "A sua velocidade aumentará espontaneamente",
+          "A força de resistência do ar fará com que ele inicie o movimento",
+          "Ele permanecerá em repouso até que uma força externa atue nele"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A massa de um corpo é uma medida de:",
+        "options": [
+          "Sua energia potencial",
+          "Sua velocidade em movimento",
+          "Sua resistência à mudança de estado de movimento",
+          "Sua força de atração gravitacional"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao saltar, por que não continuamos subindo indefinidamente?",
+        "options": [
+          "Porque a massa do corpo aumenta durante o salto",
+          "Porque a força de gravidade atua contra o movimento, puxando-nos para baixo",
+          "Porque a força de impulso é insuficiente",
+          "Porque a força de atrito impede a subida"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A força peso de um corpo em diferentes planetas varia devido às diferenças em:",
+        "options": [
+          "Sua massa",
+          "Sua velocidade",
+          "Sua energia potencial",
+          "A aceleração da gravidade"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Se uma pessoa pesa 70 kg na Terra, seu peso em Júpiter será maior, menor ou igual?",
+        "options": [
+          "Igual, pois peso é uma grandeza escalar",
+          "Depende da massa da pessoa",
+          "Maior, pois a aceleração da gravidade em Júpiter é maior",
+          "Menor, devido à maior distância do centro do planeta"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual das seguintes situações exemplifica a ação da primeira lei de Newton?",
+        "options": [
+          "Um carro que freia e diminui sua velocidade",
+          "Um foguete que acelera ao queimar combustível",
+          "Um ciclista que aumenta sua velocidade ao pedalar",
+          "Um livro que permanece em repouso sobre a mesa sem que nenhuma força seja aplicada"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A quantidade de matéria de um corpo é representada por sua:",
+        "options": [
+          "Massa",
+          "Peso",
+          "Velocidade",
+          "Força"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando uma força de 50 N é aplicada a um corpo de 10 kg, sua aceleração será:",
+        "options": [
+          "5 m/s²",
+          "50 m/s²",
+          "0,2 m/s²",
+          "500 m/s²"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na situação de empurrar uma caixa com força de 30 N, ela começa a se mover. Essa ação está relacionada à lei de Newton que afirma que:",
+        "options": [
+          "A força resultante é sempre zero",
+          "A força aplicada produz uma aceleração proporcional à sua magnitude",
+          "A força de reação sempre cancela a força aplicada",
+          "A força de atrito impede o movimento"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao lançar uma pedra para cima, a força que atua nela durante a subida é:",
+        "options": [
+          "Zero, pois ela está em movimento",
+          "A força da gravidade, atuando para baixo",
+          "A força aplicada pelo lançador",
+          "A força de resistência do ar"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando um corpo está em movimento retilíneo e a força resultante é zero, podemos afirmar que:",
+        "options": [
+          "Ele está em repouso",
+          "Ele está mudando de direção",
+          "Ele está em movimento retilíneo uniforme",
+          "Ele está acelerando"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Durante a queda de um corpo na Terra, sua aceleração é constante e igual a aproximadamente:",
+        "options": [
+          "9,8 m/s²",
+          "3,6 m/s²",
+          "15,2 m/s²",
+          "1,6 m/s²"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A força de ação e reação atuam:",
+        "options": [
+          "De forma a cancelar uma à outra",
+          "Em corpos diferentes, com mesma intensidade e direção, mas sentidos opostos",
+          "No mesmo corpo, em sentidos opostos",
+          "Sempre na mesma direção"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao empurrar um carrinho de supermercado vazio, em comparação com um cheio, a maior dificuldade se deve à:",
+        "options": [
+          "Maior massa do carrinho cheio, que aumenta sua inércia",
+          "Maior força de atrito no carrinho cheio",
+          "Maior resistência do piso ao carrinho cheio",
+          "Menor força aplicada ao carrinho vazio"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Uma pessoa empurra uma parede com força de 100 N. A força que a parede exerce sobre ela é:",
+        "options": [
+          "De intensidade menor que 100 N",
+          "De maior intensidade que a força aplicada",
+          "Inexistente, pois forças não atuam em corpos imóveis",
+          "De mesma intensidade, direção e sentido oposto"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das alternativas melhor explica por que a força de atrito impede que uma bola em movimento continue rolando por longas distâncias?",
+        "options": [
+          "Porque a força de atrito aumenta a massa da bola",
+          "Porque a força de atrito é uma força escalar",
+          "Porque a força de atrito atua na direção contrária ao movimento, dissipando energia",
+          "Porque a força de atrito aumenta com a velocidade"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Ao subir uma escada, o esforço é realizado principalmente para vencer:",
+        "options": [
+          "A resistência do ar",
+          "A inércia do corpo",
+          "A força da gravidade, que atua na direção contrária ao movimento",
+          "A força de atrito entre os pés e a escada"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O conceito de inércia afirma que um corpo em repouso tende a:",
+        "options": [
+          "Começar a se mover automaticamente",
+          "Alterar seu estado de movimento sem força externa",
+          "Aumentar sua massa automaticamente",
+          "Permanecer em repouso, a menos que uma força externa atue nele"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na prática, o que explica a necessidade do uso do cinto de segurança em veículos em movimento?",
+        "options": [
+          "A força de impulso exercida pelo interior do veículo",
+          "A ação da força de inércia, que tende a manter o corpo em movimento na direção do veículo",
+          "A força de atrito que impede o corpo de se mover",
+          "A força de resistência do ar"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quando um corpo é lançado ao ar, sua aceleração durante a subida é:",
+        "options": [
+          "Zero, pois ele está em movimento",
+          "Depende da massa do corpo",
+          "Negativa, devido à força de gravidade atuando para baixo",
+          "Positiva, devido à força de impulso inicial"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Se uma força de 60 N atua em uma caixa de 15 kg, a aceleração adquirida será:",
+        "options": [
+          "60 m/s²",
+          "900 m/s²",
+          "4 m/s²",
+          "0,25 m/s²"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A quantidade de matéria de um corpo é proporcional à sua:",
+        "options": [
+          "Força",
+          "Massa",
+          "Peso",
+          "Velocidade"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O movimento de um foguete lançado ao espaço é explicado principalmente por:",
+        "options": [
+          "A ação da força gravitacional da Terra",
+          "O aumento da massa do foguete",
+          "A resistência do ar que o impulsiona para cima",
+          "A ação de forças de propulsão que lançam gases para trás, segundo a terceira lei de Newton"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Na situação de uma pessoa empurrando uma parede com força, o par de forças de ação e reação são:",
+        "options": [
+          "De mesma magnitude e sentidos opostos, atuando em corpos diferentes",
+          "De diferentes magnitudes, atuando no mesmo corpo",
+          "Inexistentes, pois o corpo não se move",
+          "De mesma intensidade e sentido, atuando no mesmo corpo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quando um objeto em movimento sofre uma desaceleração, sua aceleração é:",
+        "options": [
+          "Positiva",
+          "Nula",
+          "Inexistente",
+          "Negativa"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A força que atua para diminuir a velocidade de um corpo em movimento é chamada de:",
+        "options": [
+          "Força de resistência ou atrito",
+          "Força de impulso",
+          "Força de gravidade",
+          "Força de ação"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A relação entre força, massa e aceleração é expressa pela fórmula:",
+        "options": [
+          "F = a / m",
+          "m = F / a",
+          "a = F / m",
+          "F = m / a"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo a lei da inércia, um corpo que está em movimento retilíneo uniforme continuará assim:",
+        "options": [
+          "Até que uma força externa atue nele",
+          "Infinitamente, sem necessidade de força",
+          "A menos que sua massa mude",
+          "Somente se estiver em um ambiente sem atrito"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "A força de resistência do ar ao movimento de um corpo é um exemplo de:",
+        "options": [
+          "Força de peso",
+          "Força de atrito",
+          "Força de ação",
+          "Força de reação"
+        ],
+        "answer": 1
       }
     ]
   }
