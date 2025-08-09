@@ -1,1295 +1,527 @@
 {
-  "pdfs": {
-    "7ATB-P5": [
+  "7ATB-P5": {
+    "7PH13HISTORIA": [
       {
-        "question": "Qual o principal objetivo de representar a caravela estilizada no Padrão dos Descobrimentos em Lisboa?",
+        "question": "De acordo com o texto, qual é a principal função do conceito central apresentado?",
         "options": [
-          "Reforçar a importância do comércio marítimo europeu",
-          "Ilustrar a origem do Reino de Portugal",
-          "Homenagear os navegadores portugueses do século XV",
-          "Celebrar as conquistas militares de Portugal"
+          "Servir como uma definição restrita de um termo técnico específico.",
+          "Reduzir a complexidade do conteúdo para facilitar memorização.",
+          "Elaborar uma teoria alternativa ao conceito tradicional.",
+          "Servir como base para interpretações e aplicações práticas do conteúdo."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual das alternativas melhor representa a importância de elaborar questões com alternativas plausíveis e bem formuladas?",
+        "options": [
+          "Facilitar a memorização de conceitos através de alternativas semelhantes.",
+          "Permitir que o aluno adivinhe a resposta sem compreender o conteúdo.",
+          "Reduzir o tempo necessário para responder às questões.",
+          "Assegurar que o desafio seja adequado à compreensão do conteúdo sem criar ambiguidades."
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo os critérios definidos, qual é a característica fundamental de uma alternativa incorreta numa questão de múltipla escolha?",
+        "options": [
+          "Deve conter um erro grosseiro para facilitar a eliminação.",
+          "Deve ser diferente da correta por uma pequena variação de palavras.",
+          "Deve parecer plausível, mas estar incorreta por um erro conceitual ou de interpretação.",
+          "Deve ser claramente incorreta para não confundir o candidato."
         ],
         "answer": 2
       },
       {
-        "question": "De acordo com o texto, como a expansão marítima foi percebida pelos povos não europeus?",
+        "question": "Por que é importante evitar alternativas que sejam excessivamente factuais ou de memorização na elaboração das questões?",
         "options": [
-          "Como uma invasão militar sem resistência",
-          "Como uma narrativa de glória e heroísmo europeus",
-          "Como uma oportunidade de intercâmbio cultural pacífico",
-          "Como uma iniciativa exclusivamente econômica de Portugal"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza o etnocentrismo mencionado no texto no contexto da expansão europeia?",
-        "options": [
-          "A compreensão e o respeito pelas diferenças culturais",
-          "A busca por assimilação cultural mútua",
-          "A visão de superioridade europeia e a desvalorização dos outros povos",
-          "A valorização da diversidade cultural entre diferentes povos"
+          "Porque esse tipo de questão costuma ser mais difícil de responder corretamente.",
+          "Para tornar a prova mais longa e desafiadora.",
+          "Porque o objetivo é testar compreensão e aplicação, não apenas memorização.",
+          "Pois questões factuais são consideradas triviais e desinteressantes."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo o texto, qual impacto a expansão marítima europeia teve sobre as representações culturais dos povos africanos, asiáticos e americanos?",
+        "question": "A tarefa de reformular frases literais do conteúdo para as questões tem como objetivo principal:",
         "options": [
-          "Fomentou uma visão etnocêntrica, muitas vezes negativa e inferiorizante",
-          "Eliminou totalmente as visões fantasiosas sobre esses povos",
-          "Promoveu o entendimento mútuo e o respeito cultural",
-          "Respeitou e reforçou as tradições locais desses povos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que o uso das palavras 'descobrimento' ou 'descobertas' para se referir à expansão marítima é considerado controverso?",
-        "options": [
-          "Porque não reconhece o papel dos povos indígenas e africanos na história",
-          "Porque os portugueses foram os únicos a explorar esses territórios",
-          "Porque esses termos são termos acadêmicos técnicos corretos",
-          "Porque representam uma narrativa de conquista pacífica e livre de conflitos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual a importância do contato entre portugueses e povos africanos na formação do comércio de escravizados?",
-        "options": [
-          "Contribuiu para o fortalecimento do comércio de escravos e expansão do tráfico",
-          "Foi um contato isolado sem impacto na escravidão",
-          "Eliminou a escravidão nas sociedades africanas",
-          "Estabeleceu uma relação de igualdade entre os povos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "De que modo as navegações portuguesas influenciaram a cultura e a sociedade na Ásia?",
-        "options": [
-          "Com a imposição total do cristianismo e da língua portuguesa",
-          "Por meio da conquista militar de territórios asiáticos",
-          "Restringindo o contato apenas ao comércio de especiarias",
-          "Através do estabelecimento de entrepostos comerciais e trocas culturais"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual a relação entre o imaginário europeu e as representações do Oriente, segundo o texto?",
-        "options": [
-          "O europeu tinha uma compreensão científica e objetiva das culturas orientais",
-          "As representações do Oriente eram sempre positivas e respeitosas",
-          "As imagens do Oriente eram idealizadas com elementos míticos e fantasiosos",
-          "O imaginário europeu era baseado na observação direta e real das sociedades orientais"
+          "Reduzir o tempo de preparação do conteúdo original.",
+          "Criar alternativas que pareçam mais técnicas.",
+          "Garantir acessibilidade e clareza, evitando cópias diretas que possam gerar ambiguidades.",
+          "Aumentar a dificuldade da questão pela alteração do vocabulário."
         ],
         "answer": 2
       },
       {
-        "question": "Como a expansão europeia impactou as línguas e culinária dos povos com quem entrou em contato?",
+        "question": "Qual é a vantagem de manter um nível técnico e linguístico uniforme entre as alternativas?",
         "options": [
-          "Eliminou as línguas nativas e substituiu a culinária local",
-          "Respeitou e manteve intactas as línguas e culinária tradicionais",
-          "Restringiu-se à troca de objetos comerciais sem influência cultural",
-          "Permitiu a incorporação de novas palavras e ingredientes, como a batata e o tomate"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Segundo o texto, o que foi o 'périplo africano'?",
-        "options": [
-          "Um avanço costeiro português pelo litoral africano com fins comerciais e de contato",
-          "Uma rota de navegação pelo Atlântico até a América",
-          "Uma expedição militar ao norte da África",
-          "A travessia do Cabo da Boa Esperança para alcançar a Ásia"
+          "Evitar que diferenças de linguagem possam indicar a resposta correta por acaso.",
+          "Facilitar a leitura, tornando as questões mais acessíveis.",
+          "Assegurar que todas as alternativas sejam igualmente plausíveis.",
+          "Permitir que o candidato escolha facilmente pela alternativa mais longa."
         ],
         "answer": 0
       },
       {
-        "question": "Por que a chegada dos portugueses à África intensificou os conflitos locais?",
+        "question": "Segundo as recomendações, qual o nível de desafio adequado para as questões elaboradas?",
         "options": [
-          "Porque o comércio de escravizados e recursos aumentou a competição e os conflitos",
-          "Porque estabeleceram alianças com todas as sociedades africanas",
-          "Porque promoveram a paz entre os reinos africanos",
-          "Porque se limitaram ao comércio de especiarias sem intervenção militar"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o papel do Reino do Congo na expansão portuguesa na África?",
-        "options": [
-          "Foi completamente destruído pelos portugueses",
-          "Não teve qualquer relação com os portugueses",
-          "Foi uma aliança estratégica que facilitou o comércio de escravizados e recursos",
-          "Serviu como uma resistência total ao domínio português"
+          "Extremamente difíceis, para diferenciar os melhores candidatos.",
+          "Baseado apenas na memorização de conceitos específicos.",
+          "Semelhante ao de provas de concursos de alto nível, como PF, PRF, CESPE ou FCC.",
+          "De fácil compreensão, para garantir acessibilidade a todos os candidatos."
         ],
         "answer": 2
       },
       {
-        "question": "De acordo com o texto, qual foi uma consequência da entrada de produtos europeus na África?",
+        "question": "Ao criar uma questão, qual estratégia é recomendada para evitar ambiguidades na alternativa correta?",
         "options": [
-          "A eliminação do comércio de escravos",
-          "A total homogeneização das culturas africanas",
-          "O fortalecimento de alguns grupos locais e o aumento de diferenças sociais",
-          "A redução da desigualdade social africana"
+          "Alternar a colocação da alternativa correta entre diferentes posições ao longo da prova.",
+          "Revisar cuidadosamente a formulação da questão e das alternativas para garantir clareza e precisão.",
+          "Utilizar palavras técnicas para dificultar a compreensão do candidato.",
+          "Incluir termos ambíguos na alternativa correta para testar a atenção do candidato."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Por que é importante que apenas uma alternativa seja correta na questão de múltipla escolha?",
+        "options": [
+          "Para garantir a objetividade na correção e evitar confusão na avaliação.",
+          "Para aumentar a dificuldade, forçando o candidato a pensar mais.",
+          "Porque questões com múltiplas respostas corretas são consideradas inválidas.",
+          "Para facilitar a elaboração de gabaritos automatizados."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Como deve ser a linguagem utilizada na elaboração das alternativas, de acordo com os critérios estabelecidos?",
+        "options": [
+          "Ambígua para testar a atenção do candidato.",
+          "Clara, técnica, acessível e sem ambiguidades.",
+          "Complexa, técnica e com vocabulário avançado.",
+          "Simplificada ao extremo, com linguagem coloquial."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual o objetivo principal de revisar linguisticamente cada questão após sua elaboração?",
+        "options": [
+          "Eliminar ambiguidades, erros conceituais e melhorar a clareza da questão.",
+          "Tornar as alternativas mais semelhantes entre si.",
+          "Aumentar a complexidade do enunciado.",
+          "Reduzir o número de alternativas possíveis."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com os critérios, qual é o papel das alternativas incorretas na questão de múltipla escolha?",
+        "options": [
+          "Servir como distrações plausíveis que desafiem o entendimento do candidato.",
+          "Ser claramente incorretas para facilitar a eliminação rápida.",
+          "Ser diferentes apenas por pequenas variações de palavras da alternativa correta.",
+          "Servir como respostas de reserva caso a correta seja considerada inválida."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Na elaboração de questões, por que é recomendável que as alternativas tenham uma estrutura semelhante?",
+        "options": [
+          "Para evitar que o candidato possa eliminar alternativas por diferenças de formato ou comprimento.",
+          "Para tornar a prova mais longa e desafiadora.",
+          "Para confundir o candidato com alternativas semelhantes.",
+          "Para garantir que todas as alternativas tenham o mesmo nível de dificuldade."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas melhor descreve a relação entre o nível técnico do conteúdo e a elaboração das questões?",
+        "options": [
+          "Devem ser altamente técnicas, mesmo que o conteúdo seja acessível ao público geral.",
+          "Devem explorar conhecimentos avançados, independentemente do conteúdo abordado.",
+          "As questões devem refletir o mesmo nível técnico do conteúdo, evitando simplificações excessivas ou complexidades desnecessárias.",
+          "Devem ser simplificadas ao máximo para facilitar a compreensão do candidato."
         ],
         "answer": 2
       },
       {
-        "question": "O que caracteriza o processo de colonização da América pelos portugueses?",
+        "question": "Ao criar uma questão que envolve inferência interpretativa, é importante que:",
         "options": [
-          "A difusão do cristianismo, o estabelecimento de relações comerciais e a imposição cultural",
-          "Apenas uma conquista militar sem influência religiosa",
-          "Uma colonização pacífica e isenta de conflitos",
-          "A preservação das culturas indígenas sem interferência europeia"
+          "O enunciado apresente informações que permitam deduzir a resposta correta a partir do conteúdo fornecido.",
+          "A questão seja baseada apenas na memorização de conceitos específicos.",
+          "Haja uma resposta óbvia para facilitar a resolução.",
+          "As alternativas sejam todas corretas, para aumentar a dificuldade."
         ],
         "answer": 0
       },
       {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
+        "question": "Segundo os critérios estabelecidos, qual é a principal vantagem de evitar alternativas que parecem corretas por um detalhe menor?",
         "options": [
-          "Fundou escolas, universidades e promoveu a conversão forçada ao cristianismo",
-          "Resistiu à presença europeia e manteve os povos nativos livres",
-          "Não teve influência na vida social ou cultural",
-          "Apenas apoiou o comércio sem envolvimento religioso"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Como os povos nativos das Américas resistiram à colonização europeia?",
-        "options": [
-          "Migrando para outras regiões sem lutar",
-          "Mantendo suas tradições, línguas e hábitos, apesar da presença europeia",
-          "Perdendo suas línguas e culturas sem reação",
-          "Aceitando a dominação sem resistência"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual foi a consequência do contato europeu com os povos indígenas, no aspecto cultural?",
-        "options": [
-          "A homogeneização completa das culturas",
-          "A preservação integral das tradições indígenas",
-          "A ausência de influência cultural mútua",
-          "A imposição de hábitos europeus e a depreciação das culturas nativas"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "O que o termo 'etnocídio' significa no contexto da expansão europeia?",
-        "options": [
-          "A valorização da diversidade cultural",
-          "A destruição ou tentativa de apagar culturas diferentes das europeias",
-          "A preservação das diferenças culturais",
-          "A troca cultural mútua e respeitosa"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é vista atualmente por alguns setores?",
-        "options": [
-          "Como uma narrativa completa e imparcial",
-          "Como uma narrativa que reconhece todas as violências e conflitos",
-          "Como uma história esquecida e pouco lembrada",
-          "Como uma história que perpetua a glorificação e a ausência de reflexão crítica"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Segundo o texto, qual o efeito da expansão marítima na culinária europeia?",
-        "options": [
-          "A introdução de ingredientes como batata e tomate, que passaram a fazer parte da alimentação",
-          "A proibição de alimentos provenientes de outras regiões",
-          "A substituição total da culinária tradicional europeia",
-          "A manutenção apenas de ingredientes nativos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que as ações europeias na África durante a expansão marítima geraram diferenças sociais entre os povos africanos?",
-        "options": [
-          "Porque promoveram a igualdade social e cultural",
-          "Porque aboliram a escravidão e criaram uma sociedade igualitária",
-          "Porque limitaram o comércio a produtos locais",
-          "Porque fortaleceram alguns grupos e aprofundaram desigualdades ao valorizar produtos importados"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual foi uma das principais estratégias portuguesas na África na época das navegações?",
-        "options": [
-          "Apenas ações militares sem comércio",
-          "Invasões militares sem relação com comércio",
-          "Resistência total aos povos locais",
-          "Estabelecimento de entrepostos comerciais e alianças locais"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "De acordo com o texto, qual foi a importância da viagem de circum-navegação de Magalhães?",
-        "options": [
-          "Acabar com a hegemonia portuguesa no oceano Atlântico",
-          "Contornar o globo terrestre e abrir novas rotas comerciais",
-          "Confirmar a existência do continente africano",
-          "Descobrir uma rota direta para a China"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Como a chegada de Colombo às Américas foi relacionada à expansão europeia?",
-        "options": [
-          "Como uma viagem isolada sem impacto na história mundial",
-          "Como uma tentativa de conquistar a Ásia por via marítima",
-          "Como uma missão religiosa sem interesse comercial",
-          "Como o início de uma nova fase de exploração e colonização do continente americano"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
-        "options": [
-          "Fundou escolas e universidades, além de promover a conversão ao cristianismo",
-          "Resistiu à colonização e não participou do processo",
-          "Não teve influência na cultura e na sociedade colonial",
-          "Apenas apoiou o comércio sem envolvimento religioso"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que caracteriza a resistência dos povos indígenas às ações europeias durante a colonização?",
-        "options": [
-          "A migração para regiões não colonizadas",
-          "A manutenção de suas tradições, línguas e costumes",
-          "A completa aceitação da cultura europeia",
-          "A total submissão sem reação"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o texto, por que o termo 'descobrimento' é considerado problemático?",
-        "options": [
-          "Porque é uma expressão de origem portuguesa",
-          "Porque ignora a presença e a resistência dos povos originários",
-          "Porque é uma expressão científica precisa",
-          "Porque todos concordam com seu uso"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Quais elementos culturais foram introduzidos na Europa por meio do contato com outros povos durante as navegações?",
-        "options": [
-          "A ausência de trocas culturais",
-          "A introdução de novas línguas, ingredientes alimentícios e conceitos religiosos",
-          "A eliminação de todas as tradições locais",
-          "A substituição completa da cultura europeia"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Como o imaginário europeu influenciou suas representações do Oriente na Idade Média?",
-        "options": [
-          "Sempre baseado em relatos científicos",
-          "Respeitando a diversidade cultural do Oriente",
-          "Fundamentado em imagens idealizadas, mitos e fantasias",
-          "Baseado na observação direta e realista"
+          "Tornar a questão mais longa e complexa.",
+          "Permitir que o examinador escolha a alternativa mais convincente.",
+          "Prevenir que o candidato seja induzido ao erro por semelhanças superficiais.",
+          "Facilitar a identificação da resposta correta pelo candidato."
         ],
         "answer": 2
       },
       {
-        "question": "Qual foi uma consequência da expansão marítima no que diz respeito às trocas culturais?",
+        "question": "Por que é recomendável que as alternativas incorretas também sejam formuladas com cuidado técnico e linguístico?",
         "options": [
-          "A total homogeneização cultural mundial",
-          "A eliminação das culturas indígenas",
-          "A imposição de uma cultura única sem trocas",
-          "A troca de palavras, costumes, alimentos e línguas que enriqueceu as sociedades"
+          "Porque alternativas incorretas podem ser utilizadas como gabaritos de reserva.",
+          "Para aumentar a dificuldade, tornando todas as alternativas igualmente plausíveis.",
+          "Para confundir o candidato, dificultando a eliminação de alternativas incorretas.",
+          "Para manter o padrão de qualidade e coerência da questão, evitando que qualquer alternativa seja claramente inválida por erros de linguagem ou conceito."
         ],
         "answer": 3
       },
       {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é encarada na contemporaneidade?",
+        "question": "Qual o impacto de uma questão mal formulada, com alternativas ambíguas ou mal escritas, na avaliação do candidato?",
         "options": [
-          "Como uma história que necessita de revisão crítica e reconhecimento das violências",
-          "Como uma narrativa imparcial e completa",
-          "Como uma narrativa totalmente esquecida",
-          "Como uma história sem impacto na identidade nacional"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual impacto a chegada dos europeus às Américas teve na sociedade indígena?",
-        "options": [
-          "A ausência de conflito ou resistência",
-          "Desqualificação, repressão e tentativa de apagamento de suas culturas",
-          "Respeito às tradições indígenas",
-          "A preservação de suas línguas e costumes"
+          "Não impacta, desde que a questão seja relacionada ao conteúdo.",
+          "Pode comprometer a objetividade da avaliação, prejudicando a justiça e a precisão do resultado.",
+          "Aumenta o desafio, beneficiando os candidatos mais preparados.",
+          "Facilita a identificação da alternativa correta por parte do candidato."
         ],
         "answer": 1
       },
       {
-        "question": "Segundo o texto, qual foi a consequência do contato europeu com as línguas e a culinária locais?",
+        "question": "A elaboração de 40 questões objetivas requer atenção especial na elaboração de alternativas porque:",
         "options": [
-          "A proibição do uso de ingredientes locais",
-          "A introdução de novas palavras e ingredientes, com impacto duradouro",
-          "A substituição total das línguas indígenas",
-          "A preservação integral das línguas nativas"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual o significado de 'imaginário' no contexto das representações europeias do Oriente?",
-        "options": [
-          "O entendimento profundo e respeitoso das culturas locais",
-          "A narrativa baseada em relatos históricos verificáveis",
-          "As imagens idealizadas, mitos e percepções que moldaram sua compreensão",
-          "A visão objetiva e científica das culturas orientais"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "De acordo com o texto, qual a relação entre o comércio europeu na África e o fortalecimento de grupos locais?",
-        "options": [
-          "O comércio promoveu a igualdade social",
-          "O comércio ajudou na destruição total dos reinos africanos",
-          "O comércio não teve impacto na sociedade africana",
-          "O comércio de produtos europeus aumentou o status de certos grupos e aprofundou desigualdades"
+          "Facilita o processo de correção automática, pois todas seguem o mesmo padrão.",
+          "Reduz o tempo de prova, evitando questões demasiado longas.",
+          "Assegura que todas as questões sejam de nível técnico elevado.",
+          "Permite garantir a diversidade de conceitos abordados e a uniformidade na qualidade das perguntas."
         ],
         "answer": 3
       },
       {
-        "question": "Qual estratégia foi utilizada pelos portugueses para estabelecer o seu domínio na África?",
+        "question": "Qual das alternativas abaixo melhor explica a importância de revisar cada questão após sua elaboração?",
         "options": [
-          "Imporam uma cultura europeia sem negociações",
-          "Criaram entrepostos comerciais e estabeleceram alianças com povos locais",
-          "Resistiram às trocas comerciais",
-          "Construíram posições militares sem alianças"
+          "Para identificar possíveis ambiguidades, erros conceituais ou linguísticos, garantindo a efetividade da questão.",
+          "Para tornar as alternativas mais semelhantes entre si.",
+          "Para aumentar a complexidade do enunciado.",
+          "Para alterar a posição da alternativa correta ao longo da prova."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "De acordo com as recomendações, uma questão bem formulada deve ser capaz de:",
+        "options": [
+          "Utilizar termos técnicos que dificultem a compreensão.",
+          "Avaliar o entendimento do candidato de forma clara e objetiva, sem ambiguidades.",
+          "Testar somente a memorização de conceitos específicos.",
+          "Confundir o candidato com alternativas semelhantes."
         ],
         "answer": 1
       },
       {
-        "question": "O que foi a viagem de Magalhães e qual sua importância no contexto da expansão marítima?",
+        "question": "O nível de desafio pretendido nas questões deve ser compatível com:",
         "options": [
-          "Uma expedição militar na África",
-          "Uma viagem sem impacto na história mundial",
-          "A primeira circum-navegação do globo, que abriu novas rotas comerciais e expansão do conhecimento",
-          "Uma rota de comércio terrestre na Ásia"
+          "O nível de complexidade do conteúdo e o padrão esperado de conhecimento do candidato em concursos de alto nível.",
+          "O nível de dificuldade do conteúdo, independentemente do público-alvo.",
+          "A quantidade de conteúdo a ser estudado pelo candidato.",
+          "A preferência do elaborador pela complexidade ou simplicidade."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Por que é importante que as alternativas incorretas sejam plausíveis e bem formuladas?",
+        "options": [
+          "Para facilitar a adivinhação, aumentando o desafio da prova.",
+          "Porque alternativas incorretas mal formuladas podem ser consideradas válidas por erro na elaboração.",
+          "Para evitar que o candidato elimine alternativas por motivos óbvios e, assim, aumente o nível de avaliação do entendimento.",
+          "Para ampliar a possibilidade de respostas corretas múltiplas."
         ],
         "answer": 2
       },
       {
-        "question": "Como a narrativa do progresso europeu na expansão marítima é vista atualmente por alguns setores?",
+        "question": "Segundo as recomendações, qual o efeito de alternativas com diferenças sutis na sua formulação?",
         "options": [
-          "Como uma história que só valoriza o comércio",
-          "Como uma narrativa esquecida",
-          "Como uma narrativa que também reconhece as violências e o impacto colonial",
-          "Como uma história de heroísmo sem críticas"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual foi a consequência da chegada de portugueses ao Brasil em 1500?",
-        "options": [
-          "Resistência total dos povos indígenas sem conflito",
-          "Estabelecimento de uma relação igualitária",
-          "Apenas exploração econômica sem influência religiosa",
-          "Início da colonização, com difusão do cristianismo, comércio e imposição cultural"
+          "Facilitam a identificação da resposta correta, pois parecem semelhantes.",
+          "Tornam a questão inválida, pois geram ambiguidade.",
+          "Reduzem a necessidade de revisão linguística da questão.",
+          "Podem dificultar a distinção entre as opções corretas e incorretas, tornando a questão mais desafiadora."
         ],
         "answer": 3
       },
       {
-        "question": "Segundo o texto, qual foi a principal ação das ordens religiosas na América colonial?",
+        "question": "Qual das alternativas a seguir melhor expressa a relação entre clareza e precisão na elaboração de questões objetivas?",
         "options": [
-          "Fundaram escolas, universidades e promoveram a conversão ao cristianismo",
-          "Resistiram à cultura europeia",
-          "Promoveram a autonomia cultural dos povos indígenas",
-          "Ficaram à margem da colonização"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual a forma de resistência dos povos nativos às ações europeias na colonização?",
-        "options": [
-          "Total submissão sem reação",
-          "Adaptação, manutenção de tradições e resistência cultural",
-          "Aceitação passiva",
-          "Migração para outras regiões sem luta"
+          "Ambas podem ser ignoradas se as alternativas forem plausíveis.",
+          "A clareza e a precisão garantem que o candidato compreenda exatamente o que está sendo perguntado, evitando mal-entendidos.",
+          "Clareza é mais importante que precisão, desde que a questão seja compreendida.",
+          "Precisão pode ser sacrificada para tornar a questão mais desafiadora."
         ],
         "answer": 1
       },
       {
-        "question": "Por que o termo 'descobrimento' é considerado problemático na narrativa histórica atual?",
+        "question": "Ao elaborar um conjunto de 40 questões, uma estratégia eficiente para manter a coerência é:",
         "options": [
-          "Porque é uma tradução de termos espanhóis",
-          "Porque ignora a presença e resistência dos povos indígenas e africanos",
-          "Porque é uma expressão técnica sem impacto político",
-          "Porque foi criado na época do descobrimento"
+          "Variar o nível de dificuldade de forma aleatória para testar diferentes níveis do candidato.",
+          "Utilizar questões de diferentes autores para diversificar o conteúdo.",
+          "Elaborar uma questão por dia, para evitar desgaste na revisão.",
+          "Seguir um padrão de elaboração, revisão e validação que assegure uniformidade na linguagem, nível de dificuldade e qualidade técnica."
+        ],
+        "answer": 3
+      }
+    ],
+    "7PH12HISTORIA": [
+      {
+        "question": "De acordo com o texto, qual é a principal função do conceito central apresentado?",
+        "options": [
+          "Elaborar uma teoria alternativa ao conceito tradicional.",
+          "Servir como base para interpretações e aplicações práticas do conteúdo.",
+          "Servir como uma definição restrita de um termo técnico específico.",
+          "Reduzir a complexidade do conteúdo para facilitar memorização."
         ],
         "answer": 1
       },
       {
-        "question": "Qual impacto a expansão marítima teve na cultura europeia, segundo o texto?",
+        "question": "Qual das alternativas melhor representa a importância de elaborar questões com alternativas plausíveis e bem formuladas?",
         "options": [
-          "Introduziu novos ingredientes, línguas e conceitos religiosos",
-          "Apenas aumentou a riqueza financeira",
-          "Eliminou as culturas tradicionais",
-          "Não teve impacto cultural"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o principal objetivo de representar a caravela estilizada no Padrão dos Descobrimentos em Lisboa?",
-        "options": [
-          "Ilustrar a origem do Reino de Portugal",
-          "Homenagear os navegadores portugueses do século XV",
-          "Celebrar as conquistas militares de Portugal",
-          "Reforçar a importância do comércio marítimo europeu"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, como a expansão marítima foi percebida pelos povos não europeus?",
-        "options": [
-          "Como uma oportunidade de intercâmbio cultural pacífico",
-          "Como uma iniciativa exclusivamente econômica de Portugal",
-          "Como uma invasão militar sem resistência",
-          "Como uma narrativa de glória e heroísmo europeus"
+          "Facilitar a memorização de conceitos através de alternativas semelhantes.",
+          "Permitir que o aluno adivinhe a resposta sem compreender o conteúdo.",
+          "Reduzir o tempo necessário para responder às questões.",
+          "Assegurar que o desafio seja adequado à compreensão do conteúdo sem criar ambiguidades."
         ],
         "answer": 3
       },
       {
-        "question": "O que caracteriza o etnocentrismo mencionado no texto no contexto da expansão europeia?",
+        "question": "Segundo os critérios definidos, qual é a característica fundamental de uma alternativa incorreta numa questão de múltipla escolha?",
         "options": [
-          "A visão de superioridade europeia e a desvalorização dos outros povos",
-          "A valorização da diversidade cultural entre diferentes povos",
-          "A compreensão e o respeito pelas diferenças culturais",
-          "A busca por assimilação cultural mútua"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo o texto, qual impacto a expansão marítima europeia teve sobre as representações culturais dos povos africanos, asiáticos e americanos?",
-        "options": [
-          "Respeitou e reforçou as tradições locais desses povos",
-          "Fomentou uma visão etnocêntrica, muitas vezes negativa e inferiorizante",
-          "Eliminou totalmente as visões fantasiosas sobre esses povos",
-          "Promoveu o entendimento mútuo e o respeito cultural"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Por que o uso das palavras 'descobrimento' ou 'descobertas' para se referir à expansão marítima é considerado controverso?",
-        "options": [
-          "Porque esses termos são termos acadêmicos técnicos corretos",
-          "Porque representam uma narrativa de conquista pacífica e livre de conflitos",
-          "Porque não reconhece o papel dos povos indígenas e africanos na história",
-          "Porque os portugueses foram os únicos a explorar esses territórios"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual a importância do contato entre portugueses e povos africanos na formação do comércio de escravizados?",
-        "options": [
-          "Estabeleceu uma relação de igualdade entre os povos",
-          "Contribuiu para o fortalecimento do comércio de escravos e expansão do tráfico",
-          "Foi um contato isolado sem impacto na escravidão",
-          "Eliminou a escravidão nas sociedades africanas"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De que modo as navegações portuguesas influenciaram a cultura e a sociedade na Ásia?",
-        "options": [
-          "Através do estabelecimento de entrepostos comerciais e trocas culturais",
-          "Com a imposição total do cristianismo e da língua portuguesa",
-          "Por meio da conquista militar de territórios asiáticos",
-          "Restringindo o contato apenas ao comércio de especiarias"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual a relação entre o imaginário europeu e as representações do Oriente, segundo o texto?",
-        "options": [
-          "As imagens do Oriente eram idealizadas com elementos míticos e fantasiosos",
-          "O imaginário europeu era baseado na observação direta e real das sociedades orientais",
-          "O europeu tinha uma compreensão científica e objetiva das culturas orientais",
-          "As representações do Oriente eram sempre positivas e respeitosas"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Como a expansão europeia impactou as línguas e culinária dos povos com quem entrou em contato?",
-        "options": [
-          "Eliminou as línguas nativas e substituiu a culinária local",
-          "Respeitou e manteve intactas as línguas e culinária tradicionais",
-          "Restringiu-se à troca de objetos comerciais sem influência cultural",
-          "Permitiu a incorporação de novas palavras e ingredientes, como a batata e o tomate"
+          "Deve ser claramente incorreta para não confundir o candidato.",
+          "Deve conter um erro grosseiro para facilitar a eliminação.",
+          "Deve ser diferente da correta por uma pequena variação de palavras.",
+          "Deve parecer plausível, mas estar incorreta por um erro conceitual ou de interpretação."
         ],
         "answer": 3
       },
       {
-        "question": "Segundo o texto, o que foi o 'périplo africano'?",
+        "question": "Por que é importante evitar alternativas que sejam excessivamente factuais ou de memorização na elaboração das questões?",
         "options": [
-          "Uma rota de navegação pelo Atlântico até a América",
-          "Uma expedição militar ao norte da África",
-          "A travessia do Cabo da Boa Esperança para alcançar a Ásia",
-          "Um avanço costeiro português pelo litoral africano com fins comerciais e de contato"
+          "Para tornar a prova mais longa e desafiadora.",
+          "Porque o objetivo é testar compreensão e aplicação, não apenas memorização.",
+          "Pois questões factuais são consideradas triviais e desinteressantes.",
+          "Porque esse tipo de questão costuma ser mais difícil de responder corretamente."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A tarefa de reformular frases literais do conteúdo para as questões tem como objetivo principal:",
+        "options": [
+          "Reduzir o tempo de preparação do conteúdo original.",
+          "Criar alternativas que pareçam mais técnicas.",
+          "Garantir acessibilidade e clareza, evitando cópias diretas que possam gerar ambiguidades.",
+          "Aumentar a dificuldade da questão pela alteração do vocabulário."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é a vantagem de manter um nível técnico e linguístico uniforme entre as alternativas?",
+        "options": [
+          "Facilitar a leitura, tornando as questões mais acessíveis.",
+          "Assegurar que todas as alternativas sejam igualmente plausíveis.",
+          "Permitir que o candidato escolha facilmente pela alternativa mais longa.",
+          "Evitar que diferenças de linguagem possam indicar a resposta correta por acaso."
         ],
         "answer": 3
       },
       {
-        "question": "Por que a chegada dos portugueses à África intensificou os conflitos locais?",
+        "question": "Segundo as recomendações, qual o nível de desafio adequado para as questões elaboradas?",
         "options": [
-          "Porque o comércio de escravizados e recursos aumentou a competição e os conflitos",
-          "Porque estabeleceram alianças com todas as sociedades africanas",
-          "Porque promoveram a paz entre os reinos africanos",
-          "Porque se limitaram ao comércio de especiarias sem intervenção militar"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o papel do Reino do Congo na expansão portuguesa na África?",
-        "options": [
-          "Não teve qualquer relação com os portugueses",
-          "Foi uma aliança estratégica que facilitou o comércio de escravizados e recursos",
-          "Serviu como uma resistência total ao domínio português",
-          "Foi completamente destruído pelos portugueses"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, qual foi uma consequência da entrada de produtos europeus na África?",
-        "options": [
-          "A eliminação do comércio de escravos",
-          "A total homogeneização das culturas africanas",
-          "O fortalecimento de alguns grupos locais e o aumento de diferenças sociais",
-          "A redução da desigualdade social africana"
+          "Extremamente difíceis, para diferenciar os melhores candidatos.",
+          "Baseado apenas na memorização de conceitos específicos.",
+          "Semelhante ao de provas de concursos de alto nível, como PF, PRF, CESPE ou FCC.",
+          "De fácil compreensão, para garantir acessibilidade a todos os candidatos."
         ],
         "answer": 2
       },
       {
-        "question": "O que caracteriza o processo de colonização da América pelos portugueses?",
+        "question": "Ao criar uma questão, qual estratégia é recomendada para evitar ambiguidades na alternativa correta?",
         "options": [
-          "Apenas uma conquista militar sem influência religiosa",
-          "Uma colonização pacífica e isenta de conflitos",
-          "A preservação das culturas indígenas sem interferência europeia",
-          "A difusão do cristianismo, o estabelecimento de relações comerciais e a imposição cultural"
+          "Incluir termos ambíguos na alternativa correta para testar a atenção do candidato.",
+          "Alternar a colocação da alternativa correta entre diferentes posições ao longo da prova.",
+          "Revisar cuidadosamente a formulação da questão e das alternativas para garantir clareza e precisão.",
+          "Utilizar palavras técnicas para dificultar a compreensão do candidato."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Por que é importante que apenas uma alternativa seja correta na questão de múltipla escolha?",
+        "options": [
+          "Para aumentar a dificuldade, forçando o candidato a pensar mais.",
+          "Porque questões com múltiplas respostas corretas são consideradas inválidas.",
+          "Para facilitar a elaboração de gabaritos automatizados.",
+          "Para garantir a objetividade na correção e evitar confusão na avaliação."
         ],
         "answer": 3
       },
       {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
+        "question": "Como deve ser a linguagem utilizada na elaboração das alternativas, de acordo com os critérios estabelecidos?",
         "options": [
-          "Resistiu à presença europeia e manteve os povos nativos livres",
-          "Não teve influência na vida social ou cultural",
-          "Apenas apoiou o comércio sem envolvimento religioso",
-          "Fundou escolas, universidades e promoveu a conversão forçada ao cristianismo"
+          "Clara, técnica, acessível e sem ambiguidades.",
+          "Complexa, técnica e com vocabulário avançado.",
+          "Simplificada ao extremo, com linguagem coloquial.",
+          "Ambígua para testar a atenção do candidato."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual o objetivo principal de revisar linguisticamente cada questão após sua elaboração?",
+        "options": [
+          "Tornar as alternativas mais semelhantes entre si.",
+          "Aumentar a complexidade do enunciado.",
+          "Reduzir o número de alternativas possíveis.",
+          "Eliminar ambiguidades, erros conceituais e melhorar a clareza da questão."
         ],
         "answer": 3
       },
       {
-        "question": "Como os povos nativos das Américas resistiram à colonização europeia?",
+        "question": "De acordo com os critérios, qual é o papel das alternativas incorretas na questão de múltipla escolha?",
         "options": [
-          "Aceitando a dominação sem resistência",
-          "Migrando para outras regiões sem lutar",
-          "Mantendo suas tradições, línguas e hábitos, apesar da presença europeia",
-          "Perdendo suas línguas e culturas sem reação"
+          "Ser diferentes apenas por pequenas variações de palavras da alternativa correta.",
+          "Servir como respostas de reserva caso a correta seja considerada inválida.",
+          "Servir como distrações plausíveis que desafiem o entendimento do candidato.",
+          "Ser claramente incorretas para facilitar a eliminação rápida."
         ],
         "answer": 2
       },
       {
-        "question": "Qual foi a consequência do contato europeu com os povos indígenas, no aspecto cultural?",
+        "question": "Na elaboração de questões, por que é recomendável que as alternativas tenham uma estrutura semelhante?",
         "options": [
-          "A ausência de influência cultural mútua",
-          "A imposição de hábitos europeus e a depreciação das culturas nativas",
-          "A homogeneização completa das culturas",
-          "A preservação integral das tradições indígenas"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que o termo 'etnocídio' significa no contexto da expansão europeia?",
-        "options": [
-          "A valorização da diversidade cultural",
-          "A destruição ou tentativa de apagar culturas diferentes das europeias",
-          "A preservação das diferenças culturais",
-          "A troca cultural mútua e respeitosa"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é vista atualmente por alguns setores?",
-        "options": [
-          "Como uma narrativa que reconhece todas as violências e conflitos",
-          "Como uma história esquecida e pouco lembrada",
-          "Como uma história que perpetua a glorificação e a ausência de reflexão crítica",
-          "Como uma narrativa completa e imparcial"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo o texto, qual o efeito da expansão marítima na culinária europeia?",
-        "options": [
-          "A manutenção apenas de ingredientes nativos",
-          "A introdução de ingredientes como batata e tomate, que passaram a fazer parte da alimentação",
-          "A proibição de alimentos provenientes de outras regiões",
-          "A substituição total da culinária tradicional europeia"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Por que as ações europeias na África durante a expansão marítima geraram diferenças sociais entre os povos africanos?",
-        "options": [
-          "Porque promoveram a igualdade social e cultural",
-          "Porque aboliram a escravidão e criaram uma sociedade igualitária",
-          "Porque limitaram o comércio a produtos locais",
-          "Porque fortaleceram alguns grupos e aprofundaram desigualdades ao valorizar produtos importados"
+          "Para tornar a prova mais longa e desafiadora.",
+          "Para confundir o candidato com alternativas semelhantes.",
+          "Para garantir que todas as alternativas tenham o mesmo nível de dificuldade.",
+          "Para evitar que o candidato possa eliminar alternativas por diferenças de formato ou comprimento."
         ],
         "answer": 3
       },
       {
-        "question": "Qual foi uma das principais estratégias portuguesas na África na época das navegações?",
+        "question": "Qual das alternativas melhor descreve a relação entre o nível técnico do conteúdo e a elaboração das questões?",
         "options": [
-          "Estabelecimento de entrepostos comerciais e alianças locais",
-          "Apenas ações militares sem comércio",
-          "Invasões militares sem relação com comércio",
-          "Resistência total aos povos locais"
+          "Devem explorar conhecimentos avançados, independentemente do conteúdo abordado.",
+          "As questões devem refletir o mesmo nível técnico do conteúdo, evitando simplificações excessivas ou complexidades desnecessárias.",
+          "Devem ser simplificadas ao máximo para facilitar a compreensão do candidato.",
+          "Devem ser altamente técnicas, mesmo que o conteúdo seja acessível ao público geral."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
-        "question": "De acordo com o texto, qual foi a importância da viagem de circum-navegação de Magalhães?",
+        "question": "Ao criar uma questão que envolve inferência interpretativa, é importante que:",
         "options": [
-          "Descobrir uma rota direta para a China",
-          "Acabar com a hegemonia portuguesa no oceano Atlântico",
-          "Contornar o globo terrestre e abrir novas rotas comerciais",
-          "Confirmar a existência do continente africano"
+          "As alternativas sejam todas corretas, para aumentar a dificuldade.",
+          "O enunciado apresente informações que permitam deduzir a resposta correta a partir do conteúdo fornecido.",
+          "A questão seja baseada apenas na memorização de conceitos específicos.",
+          "Haja uma resposta óbvia para facilitar a resolução."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Segundo os critérios estabelecidos, qual é a principal vantagem de evitar alternativas que parecem corretas por um detalhe menor?",
+        "options": [
+          "Tornar a questão mais longa e complexa.",
+          "Permitir que o examinador escolha a alternativa mais convincente.",
+          "Prevenir que o candidato seja induzido ao erro por semelhanças superficiais.",
+          "Facilitar a identificação da resposta correta pelo candidato."
         ],
         "answer": 2
       },
       {
-        "question": "Como a chegada de Colombo às Américas foi relacionada à expansão europeia?",
+        "question": "Por que é recomendável que as alternativas incorretas também sejam formuladas com cuidado técnico e linguístico?",
         "options": [
-          "Como o início de uma nova fase de exploração e colonização do continente americano",
-          "Como uma viagem isolada sem impacto na história mundial",
-          "Como uma tentativa de conquistar a Ásia por via marítima",
-          "Como uma missão religiosa sem interesse comercial"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
-        "options": [
-          "Apenas apoiou o comércio sem envolvimento religioso",
-          "Fundou escolas e universidades, além de promover a conversão ao cristianismo",
-          "Resistiu à colonização e não participou do processo",
-          "Não teve influência na cultura e na sociedade colonial"
+          "Para confundir o candidato, dificultando a eliminação de alternativas incorretas.",
+          "Para manter o padrão de qualidade e coerência da questão, evitando que qualquer alternativa seja claramente inválida por erros de linguagem ou conceito.",
+          "Porque alternativas incorretas podem ser utilizadas como gabaritos de reserva.",
+          "Para aumentar a dificuldade, tornando todas as alternativas igualmente plausíveis."
         ],
         "answer": 1
       },
       {
-        "question": "O que caracteriza a resistência dos povos indígenas às ações europeias durante a colonização?",
+        "question": "Qual o impacto de uma questão mal formulada, com alternativas ambíguas ou mal escritas, na avaliação do candidato?",
         "options": [
-          "A total submissão sem reação",
-          "A migração para regiões não colonizadas",
-          "A manutenção de suas tradições, línguas e costumes",
-          "A completa aceitação da cultura europeia"
+          "Facilita a identificação da alternativa correta por parte do candidato.",
+          "Não impacta, desde que a questão seja relacionada ao conteúdo.",
+          "Pode comprometer a objetividade da avaliação, prejudicando a justiça e a precisão do resultado.",
+          "Aumenta o desafio, beneficiando os candidatos mais preparados."
         ],
         "answer": 2
       },
       {
-        "question": "Segundo o texto, por que o termo 'descobrimento' é considerado problemático?",
+        "question": "A elaboração de 40 questões objetivas requer atenção especial na elaboração de alternativas porque:",
         "options": [
-          "Porque ignora a presença e a resistência dos povos originários",
-          "Porque é uma expressão científica precisa",
-          "Porque todos concordam com seu uso",
-          "Porque é uma expressão de origem portuguesa"
+          "Assegura que todas as questões sejam de nível técnico elevado.",
+          "Permite garantir a diversidade de conceitos abordados e a uniformidade na qualidade das perguntas.",
+          "Facilita o processo de correção automática, pois todas seguem o mesmo padrão.",
+          "Reduz o tempo de prova, evitando questões demasiado longas."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual das alternativas abaixo melhor explica a importância de revisar cada questão após sua elaboração?",
+        "options": [
+          "Para identificar possíveis ambiguidades, erros conceituais ou linguísticos, garantindo a efetividade da questão.",
+          "Para tornar as alternativas mais semelhantes entre si.",
+          "Para aumentar a complexidade do enunciado.",
+          "Para alterar a posição da alternativa correta ao longo da prova."
         ],
         "answer": 0
       },
       {
-        "question": "Quais elementos culturais foram introduzidos na Europa por meio do contato com outros povos durante as navegações?",
+        "question": "De acordo com as recomendações, uma questão bem formulada deve ser capaz de:",
         "options": [
-          "A introdução de novas línguas, ingredientes alimentícios e conceitos religiosos",
-          "A eliminação de todas as tradições locais",
-          "A substituição completa da cultura europeia",
-          "A ausência de trocas culturais"
+          "Avaliar o entendimento do candidato de forma clara e objetiva, sem ambiguidades.",
+          "Testar somente a memorização de conceitos específicos.",
+          "Confundir o candidato com alternativas semelhantes.",
+          "Utilizar termos técnicos que dificultem a compreensão."
         ],
         "answer": 0
       },
       {
-        "question": "Como o imaginário europeu influenciou suas representações do Oriente na Idade Média?",
+        "question": "O nível de desafio pretendido nas questões deve ser compatível com:",
         "options": [
-          "Baseado na observação direta e realista",
-          "Sempre baseado em relatos científicos",
-          "Respeitando a diversidade cultural do Oriente",
-          "Fundamentado em imagens idealizadas, mitos e fantasias"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual foi uma consequência da expansão marítima no que diz respeito às trocas culturais?",
-        "options": [
-          "A imposição de uma cultura única sem trocas",
-          "A troca de palavras, costumes, alimentos e línguas que enriqueceu as sociedades",
-          "A total homogeneização cultural mundial",
-          "A eliminação das culturas indígenas"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é encarada na contemporaneidade?",
-        "options": [
-          "Como uma história sem impacto na identidade nacional",
-          "Como uma história que necessita de revisão crítica e reconhecimento das violências",
-          "Como uma narrativa imparcial e completa",
-          "Como uma narrativa totalmente esquecida"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual impacto a chegada dos europeus às Américas teve na sociedade indígena?",
-        "options": [
-          "Respeito às tradições indígenas",
-          "A preservação de suas línguas e costumes",
-          "A ausência de conflito ou resistência",
-          "Desqualificação, repressão e tentativa de apagamento de suas culturas"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Segundo o texto, qual foi a consequência do contato europeu com as línguas e a culinária locais?",
-        "options": [
-          "A proibição do uso de ingredientes locais",
-          "A introdução de novas palavras e ingredientes, com impacto duradouro",
-          "A substituição total das línguas indígenas",
-          "A preservação integral das línguas nativas"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual o significado de 'imaginário' no contexto das representações europeias do Oriente?",
-        "options": [
-          "O entendimento profundo e respeitoso das culturas locais",
-          "A narrativa baseada em relatos históricos verificáveis",
-          "As imagens idealizadas, mitos e percepções que moldaram sua compreensão",
-          "A visão objetiva e científica das culturas orientais"
+          "A quantidade de conteúdo a ser estudado pelo candidato.",
+          "A preferência do elaborador pela complexidade ou simplicidade.",
+          "O nível de complexidade do conteúdo e o padrão esperado de conhecimento do candidato em concursos de alto nível.",
+          "O nível de dificuldade do conteúdo, independentemente do público-alvo."
         ],
         "answer": 2
       },
       {
-        "question": "De acordo com o texto, qual a relação entre o comércio europeu na África e o fortalecimento de grupos locais?",
+        "question": "Por que é importante que as alternativas incorretas sejam plausíveis e bem formuladas?",
         "options": [
-          "O comércio promoveu a igualdade social",
-          "O comércio ajudou na destruição total dos reinos africanos",
-          "O comércio não teve impacto na sociedade africana",
-          "O comércio de produtos europeus aumentou o status de certos grupos e aprofundou desigualdades"
+          "Para evitar que o candidato elimine alternativas por motivos óbvios e, assim, aumente o nível de avaliação do entendimento.",
+          "Para ampliar a possibilidade de respostas corretas múltiplas.",
+          "Para facilitar a adivinhação, aumentando o desafio da prova.",
+          "Porque alternativas incorretas mal formuladas podem ser consideradas válidas por erro na elaboração."
         ],
-        "answer": 3
+        "answer": 0
       },
       {
-        "question": "Qual estratégia foi utilizada pelos portugueses para estabelecer o seu domínio na África?",
+        "question": "Segundo as recomendações, qual o efeito de alternativas com diferenças sutis na sua formulação?",
         "options": [
-          "Imporam uma cultura europeia sem negociações",
-          "Criaram entrepostos comerciais e estabeleceram alianças com povos locais",
-          "Resistiram às trocas comerciais",
-          "Construíram posições militares sem alianças"
+          "Podem dificultar a distinção entre as opções corretas e incorretas, tornando a questão mais desafiadora.",
+          "Facilitam a identificação da resposta correta, pois parecem semelhantes.",
+          "Tornam a questão inválida, pois geram ambiguidade.",
+          "Reduzem a necessidade de revisão linguística da questão."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual das alternativas a seguir melhor expressa a relação entre clareza e precisão na elaboração de questões objetivas?",
+        "options": [
+          "Ambas podem ser ignoradas se as alternativas forem plausíveis.",
+          "A clareza e a precisão garantem que o candidato compreenda exatamente o que está sendo perguntado, evitando mal-entendidos.",
+          "Clareza é mais importante que precisão, desde que a questão seja compreendida.",
+          "Precisão pode ser sacrificada para tornar a questão mais desafiadora."
         ],
         "answer": 1
       },
       {
-        "question": "O que foi a viagem de Magalhães e qual sua importância no contexto da expansão marítima?",
+        "question": "Ao elaborar um conjunto de 40 questões, uma estratégia eficiente para manter a coerência é:",
         "options": [
-          "Uma expedição militar na África",
-          "Uma viagem sem impacto na história mundial",
-          "A primeira circum-navegação do globo, que abriu novas rotas comerciais e expansão do conhecimento",
-          "Uma rota de comércio terrestre na Ásia"
+          "Utilizar questões de diferentes autores para diversificar o conteúdo.",
+          "Elaborar uma questão por dia, para evitar desgaste na revisão.",
+          "Seguir um padrão de elaboração, revisão e validação que assegure uniformidade na linguagem, nível de dificuldade e qualidade técnica.",
+          "Variar o nível de dificuldade de forma aleatória para testar diferentes níveis do candidato."
         ],
         "answer": 2
-      },
-      {
-        "question": "Como a narrativa do progresso europeu na expansão marítima é vista atualmente por alguns setores?",
-        "options": [
-          "Como uma história que só valoriza o comércio",
-          "Como uma narrativa esquecida",
-          "Como uma narrativa que também reconhece as violências e o impacto colonial",
-          "Como uma história de heroísmo sem críticas"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual foi a consequência da chegada de portugueses ao Brasil em 1500?",
-        "options": [
-          "Resistência total dos povos indígenas sem conflito",
-          "Estabelecimento de uma relação igualitária",
-          "Apenas exploração econômica sem influência religiosa",
-          "Início da colonização, com difusão do cristianismo, comércio e imposição cultural"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Segundo o texto, qual foi a principal ação das ordens religiosas na América colonial?",
-        "options": [
-          "Resistiram à cultura europeia",
-          "Promoveram a autonomia cultural dos povos indígenas",
-          "Ficaram à margem da colonização",
-          "Fundaram escolas, universidades e promoveram a conversão ao cristianismo"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual a forma de resistência dos povos nativos às ações europeias na colonização?",
-        "options": [
-          "Total submissão sem reação",
-          "Adaptação, manutenção de tradições e resistência cultural",
-          "Aceitação passiva",
-          "Migração para outras regiões sem luta"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Por que o termo 'descobrimento' é considerado problemático na narrativa histórica atual?",
-        "options": [
-          "Porque foi criado na época do descobrimento",
-          "Porque é uma tradução de termos espanhóis",
-          "Porque ignora a presença e resistência dos povos indígenas e africanos",
-          "Porque é uma expressão técnica sem impacto político"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual impacto a expansão marítima teve na cultura europeia, segundo o texto?",
-        "options": [
-          "Introduziu novos ingredientes, línguas e conceitos religiosos",
-          "Apenas aumentou a riqueza financeira",
-          "Eliminou as culturas tradicionais",
-          "Não teve impacto cultural"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o principal objetivo de representar a caravela estilizada no Padrão dos Descobrimentos em Lisboa?",
-        "options": [
-          "Ilustrar a origem do Reino de Portugal",
-          "Homenagear os navegadores portugueses do século XV",
-          "Celebrar as conquistas militares de Portugal",
-          "Reforçar a importância do comércio marítimo europeu"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, como a expansão marítima foi percebida pelos povos não europeus?",
-        "options": [
-          "Como uma invasão militar sem resistência",
-          "Como uma narrativa de glória e heroísmo europeus",
-          "Como uma oportunidade de intercâmbio cultural pacífico",
-          "Como uma iniciativa exclusivamente econômica de Portugal"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza o etnocentrismo mencionado no texto no contexto da expansão europeia?",
-        "options": [
-          "A busca por assimilação cultural mútua",
-          "A visão de superioridade europeia e a desvalorização dos outros povos",
-          "A valorização da diversidade cultural entre diferentes povos",
-          "A compreensão e o respeito pelas diferenças culturais"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o texto, qual impacto a expansão marítima europeia teve sobre as representações culturais dos povos africanos, asiáticos e americanos?",
-        "options": [
-          "Fomentou uma visão etnocêntrica, muitas vezes negativa e inferiorizante",
-          "Eliminou totalmente as visões fantasiosas sobre esses povos",
-          "Promoveu o entendimento mútuo e o respeito cultural",
-          "Respeitou e reforçou as tradições locais desses povos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que o uso das palavras 'descobrimento' ou 'descobertas' para se referir à expansão marítima é considerado controverso?",
-        "options": [
-          "Porque os portugueses foram os únicos a explorar esses territórios",
-          "Porque esses termos são termos acadêmicos técnicos corretos",
-          "Porque representam uma narrativa de conquista pacífica e livre de conflitos",
-          "Porque não reconhece o papel dos povos indígenas e africanos na história"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual a importância do contato entre portugueses e povos africanos na formação do comércio de escravizados?",
-        "options": [
-          "Contribuiu para o fortalecimento do comércio de escravos e expansão do tráfico",
-          "Foi um contato isolado sem impacto na escravidão",
-          "Eliminou a escravidão nas sociedades africanas",
-          "Estabeleceu uma relação de igualdade entre os povos"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "De que modo as navegações portuguesas influenciaram a cultura e a sociedade na Ásia?",
-        "options": [
-          "Através do estabelecimento de entrepostos comerciais e trocas culturais",
-          "Com a imposição total do cristianismo e da língua portuguesa",
-          "Por meio da conquista militar de territórios asiáticos",
-          "Restringindo o contato apenas ao comércio de especiarias"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual a relação entre o imaginário europeu e as representações do Oriente, segundo o texto?",
-        "options": [
-          "As representações do Oriente eram sempre positivas e respeitosas",
-          "As imagens do Oriente eram idealizadas com elementos míticos e fantasiosos",
-          "O imaginário europeu era baseado na observação direta e real das sociedades orientais",
-          "O europeu tinha uma compreensão científica e objetiva das culturas orientais"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Como a expansão europeia impactou as línguas e culinária dos povos com quem entrou em contato?",
-        "options": [
-          "Permitiu a incorporação de novas palavras e ingredientes, como a batata e o tomate",
-          "Eliminou as línguas nativas e substituiu a culinária local",
-          "Respeitou e manteve intactas as línguas e culinária tradicionais",
-          "Restringiu-se à troca de objetos comerciais sem influência cultural"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo o texto, o que foi o 'périplo africano'?",
-        "options": [
-          "Uma rota de navegação pelo Atlântico até a América",
-          "Uma expedição militar ao norte da África",
-          "A travessia do Cabo da Boa Esperança para alcançar a Ásia",
-          "Um avanço costeiro português pelo litoral africano com fins comerciais e de contato"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Por que a chegada dos portugueses à África intensificou os conflitos locais?",
-        "options": [
-          "Porque o comércio de escravizados e recursos aumentou a competição e os conflitos",
-          "Porque estabeleceram alianças com todas as sociedades africanas",
-          "Porque promoveram a paz entre os reinos africanos",
-          "Porque se limitaram ao comércio de especiarias sem intervenção militar"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o papel do Reino do Congo na expansão portuguesa na África?",
-        "options": [
-          "Foi completamente destruído pelos portugueses",
-          "Não teve qualquer relação com os portugueses",
-          "Foi uma aliança estratégica que facilitou o comércio de escravizados e recursos",
-          "Serviu como uma resistência total ao domínio português"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "De acordo com o texto, qual foi uma consequência da entrada de produtos europeus na África?",
-        "options": [
-          "A total homogeneização das culturas africanas",
-          "O fortalecimento de alguns grupos locais e o aumento de diferenças sociais",
-          "A redução da desigualdade social africana",
-          "A eliminação do comércio de escravos"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "O que caracteriza o processo de colonização da América pelos portugueses?",
-        "options": [
-          "A difusão do cristianismo, o estabelecimento de relações comerciais e a imposição cultural",
-          "Apenas uma conquista militar sem influência religiosa",
-          "Uma colonização pacífica e isenta de conflitos",
-          "A preservação das culturas indígenas sem interferência europeia"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
-        "options": [
-          "Apenas apoiou o comércio sem envolvimento religioso",
-          "Fundou escolas, universidades e promoveu a conversão forçada ao cristianismo",
-          "Resistiu à presença europeia e manteve os povos nativos livres",
-          "Não teve influência na vida social ou cultural"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Como os povos nativos das Américas resistiram à colonização europeia?",
-        "options": [
-          "Mantendo suas tradições, línguas e hábitos, apesar da presença europeia",
-          "Perdendo suas línguas e culturas sem reação",
-          "Aceitando a dominação sem resistência",
-          "Migrando para outras regiões sem lutar"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual foi a consequência do contato europeu com os povos indígenas, no aspecto cultural?",
-        "options": [
-          "A homogeneização completa das culturas",
-          "A preservação integral das tradições indígenas",
-          "A ausência de influência cultural mútua",
-          "A imposição de hábitos europeus e a depreciação das culturas nativas"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "O que o termo 'etnocídio' significa no contexto da expansão europeia?",
-        "options": [
-          "A valorização da diversidade cultural",
-          "A destruição ou tentativa de apagar culturas diferentes das europeias",
-          "A preservação das diferenças culturais",
-          "A troca cultural mútua e respeitosa"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é vista atualmente por alguns setores?",
-        "options": [
-          "Como uma narrativa que reconhece todas as violências e conflitos",
-          "Como uma história esquecida e pouco lembrada",
-          "Como uma história que perpetua a glorificação e a ausência de reflexão crítica",
-          "Como uma narrativa completa e imparcial"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo o texto, qual o efeito da expansão marítima na culinária europeia?",
-        "options": [
-          "A substituição total da culinária tradicional europeia",
-          "A manutenção apenas de ingredientes nativos",
-          "A introdução de ingredientes como batata e tomate, que passaram a fazer parte da alimentação",
-          "A proibição de alimentos provenientes de outras regiões"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Por que as ações europeias na África durante a expansão marítima geraram diferenças sociais entre os povos africanos?",
-        "options": [
-          "Porque aboliram a escravidão e criaram uma sociedade igualitária",
-          "Porque limitaram o comércio a produtos locais",
-          "Porque fortaleceram alguns grupos e aprofundaram desigualdades ao valorizar produtos importados",
-          "Porque promoveram a igualdade social e cultural"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual foi uma das principais estratégias portuguesas na África na época das navegações?",
-        "options": [
-          "Resistência total aos povos locais",
-          "Estabelecimento de entrepostos comerciais e alianças locais",
-          "Apenas ações militares sem comércio",
-          "Invasões militares sem relação com comércio"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, qual foi a importância da viagem de circum-navegação de Magalhães?",
-        "options": [
-          "Contornar o globo terrestre e abrir novas rotas comerciais",
-          "Confirmar a existência do continente africano",
-          "Descobrir uma rota direta para a China",
-          "Acabar com a hegemonia portuguesa no oceano Atlântico"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Como a chegada de Colombo às Américas foi relacionada à expansão europeia?",
-        "options": [
-          "Como uma viagem isolada sem impacto na história mundial",
-          "Como uma tentativa de conquistar a Ásia por via marítima",
-          "Como uma missão religiosa sem interesse comercial",
-          "Como o início de uma nova fase de exploração e colonização do continente americano"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Qual o papel da Igreja na colonização das Américas, segundo o texto?",
-        "options": [
-          "Resistiu à colonização e não participou do processo",
-          "Não teve influência na cultura e na sociedade colonial",
-          "Apenas apoiou o comércio sem envolvimento religioso",
-          "Fundou escolas e universidades, além de promover a conversão ao cristianismo"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "O que caracteriza a resistência dos povos indígenas às ações europeias durante a colonização?",
-        "options": [
-          "A manutenção de suas tradições, línguas e costumes",
-          "A completa aceitação da cultura europeia",
-          "A total submissão sem reação",
-          "A migração para regiões não colonizadas"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Segundo o texto, por que o termo 'descobrimento' é considerado problemático?",
-        "options": [
-          "Porque é uma expressão científica precisa",
-          "Porque todos concordam com seu uso",
-          "Porque é uma expressão de origem portuguesa",
-          "Porque ignora a presença e a resistência dos povos originários"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Quais elementos culturais foram introduzidos na Europa por meio do contato com outros povos durante as navegações?",
-        "options": [
-          "A substituição completa da cultura europeia",
-          "A ausência de trocas culturais",
-          "A introdução de novas línguas, ingredientes alimentícios e conceitos religiosos",
-          "A eliminação de todas as tradições locais"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Como o imaginário europeu influenciou suas representações do Oriente na Idade Média?",
-        "options": [
-          "Fundamentado em imagens idealizadas, mitos e fantasias",
-          "Baseado na observação direta e realista",
-          "Sempre baseado em relatos científicos",
-          "Respeitando a diversidade cultural do Oriente"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual foi uma consequência da expansão marítima no que diz respeito às trocas culturais?",
-        "options": [
-          "A troca de palavras, costumes, alimentos e línguas que enriqueceu as sociedades",
-          "A total homogeneização cultural mundial",
-          "A eliminação das culturas indígenas",
-          "A imposição de uma cultura única sem trocas"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "De que forma a narrativa oficial portuguesa sobre os Descobrimentos é encarada na contemporaneidade?",
-        "options": [
-          "Como uma história sem impacto na identidade nacional",
-          "Como uma história que necessita de revisão crítica e reconhecimento das violências",
-          "Como uma narrativa imparcial e completa",
-          "Como uma narrativa totalmente esquecida"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Qual impacto a chegada dos europeus às Américas teve na sociedade indígena?",
-        "options": [
-          "A preservação de suas línguas e costumes",
-          "A ausência de conflito ou resistência",
-          "Desqualificação, repressão e tentativa de apagamento de suas culturas",
-          "Respeito às tradições indígenas"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Segundo o texto, qual foi a consequência do contato europeu com as línguas e a culinária locais?",
-        "options": [
-          "A introdução de novas palavras e ingredientes, com impacto duradouro",
-          "A substituição total das línguas indígenas",
-          "A preservação integral das línguas nativas",
-          "A proibição do uso de ingredientes locais"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual o significado de 'imaginário' no contexto das representações europeias do Oriente?",
-        "options": [
-          "A narrativa baseada em relatos históricos verificáveis",
-          "As imagens idealizadas, mitos e percepções que moldaram sua compreensão",
-          "A visão objetiva e científica das culturas orientais",
-          "O entendimento profundo e respeitoso das culturas locais"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "De acordo com o texto, qual a relação entre o comércio europeu na África e o fortalecimento de grupos locais?",
-        "options": [
-          "O comércio ajudou na destruição total dos reinos africanos",
-          "O comércio não teve impacto na sociedade africana",
-          "O comércio de produtos europeus aumentou o status de certos grupos e aprofundou desigualdades",
-          "O comércio promoveu a igualdade social"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual estratégia foi utilizada pelos portugueses para estabelecer o seu domínio na África?",
-        "options": [
-          "Criaram entrepostos comerciais e estabeleceram alianças com povos locais",
-          "Resistiram às trocas comerciais",
-          "Construíram posições militares sem alianças",
-          "Imporam uma cultura europeia sem negociações"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "O que foi a viagem de Magalhães e qual sua importância no contexto da expansão marítima?",
-        "options": [
-          "Uma rota de comércio terrestre na Ásia",
-          "Uma expedição militar na África",
-          "Uma viagem sem impacto na história mundial",
-          "A primeira circum-navegação do globo, que abriu novas rotas comerciais e expansão do conhecimento"
-        ],
-        "answer": 3
-      },
-      {
-        "question": "Como a narrativa do progresso europeu na expansão marítima é vista atualmente por alguns setores?",
-        "options": [
-          "Como uma narrativa que também reconhece as violências e o impacto colonial",
-          "Como uma história de heroísmo sem críticas",
-          "Como uma história que só valoriza o comércio",
-          "Como uma narrativa esquecida"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Qual foi a consequência da chegada de portugueses ao Brasil em 1500?",
-        "options": [
-          "Apenas exploração econômica sem influência religiosa",
-          "Início da colonização, com difusão do cristianismo, comércio e imposição cultural",
-          "Resistência total dos povos indígenas sem conflito",
-          "Estabelecimento de uma relação igualitária"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "Segundo o texto, qual foi a principal ação das ordens religiosas na América colonial?",
-        "options": [
-          "Promoveram a autonomia cultural dos povos indígenas",
-          "Ficaram à margem da colonização",
-          "Fundaram escolas, universidades e promoveram a conversão ao cristianismo",
-          "Resistiram à cultura europeia"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual a forma de resistência dos povos nativos às ações europeias na colonização?",
-        "options": [
-          "Adaptação, manutenção de tradições e resistência cultural",
-          "Aceitação passiva",
-          "Migração para outras regiões sem luta",
-          "Total submissão sem reação"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Por que o termo 'descobrimento' é considerado problemático na narrativa histórica atual?",
-        "options": [
-          "Porque foi criado na época do descobrimento",
-          "Porque é uma tradução de termos espanhóis",
-          "Porque ignora a presença e resistência dos povos indígenas e africanos",
-          "Porque é uma expressão técnica sem impacto político"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Qual impacto a expansão marítima teve na cultura europeia, segundo o texto?",
-        "options": [
-          "Apenas aumentou a riqueza financeira",
-          "Eliminou as culturas tradicionais",
-          "Não teve impacto cultural",
-          "Introduziu novos ingredientes, línguas e conceitos religiosos"
-        ],
-        "answer": 3
       }
     ]
   }
