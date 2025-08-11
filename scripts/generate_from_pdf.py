@@ -80,6 +80,8 @@ if __name__ == "__main__":
     print("🔍 Extraindo texto do PDF...")
     texto_completo = extract_clean_text(pdf_path)
 
+    print(texto_completo)
+
     print("🤖 Enviando para o OpenAI...")
     resposta = gerar_questoes(texto_completo, qtd=40)
 
