@@ -44,7 +44,7 @@ def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
             {
                 "role": "system",
                 "content": (
-                    "Você é um gerador avançado de questões de altíssima qualidade. "
+                    "Você é um gerador avançado de questões de altíssima qualidade para um quiz. "
                     "Sua missão é interpretar textos com profundidade e gerar questões objetivas de múltipla escolha (4 alternativas), "
                     "As questoes devem ser bem formuladas, desafiadoras e didaticamente eficientes. Suas questões devem seguir critérios técnicos rigorosos, "
                     "com clareza, precisão e coerência pedagógica. Você também é responsável por revisar linguisticamente cada item, "
