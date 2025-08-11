@@ -14,9 +14,9 @@ def extract_clean_text(pdf_path: str) -> str:
             text = page.extract_text()
             if text:
                 full_text.append(text.strip())
-    print("extracao de texto via python")
-    print(full_text)
-    print(erro)
+    #print("extracao de texto via python")
+    #print(full_text)
+    #print(erro)
 
     return "\n".join(full_text)
 
