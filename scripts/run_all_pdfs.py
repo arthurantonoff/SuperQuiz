@@ -52,6 +52,8 @@ def main():
 
         estrutura_completa[tema][subtema].extend(questoes)
 
+    print(estrutura_completa)
+
     return estrutura_completa
 
 if __name__ == "__main__":
