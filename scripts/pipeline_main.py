@@ -24,8 +24,8 @@ def main():
     # ✅ Validação e shuffle com função externa
     estrutura_validada = validar_estrutura(estrutura)
 
-    print("\n📦 Estrutura validada:")
-    print(json.dumps(estrutura_validada, indent=2, ensure_ascii=False))
+    #print("\n📦 Estrutura validada:")
+    #print(json.dumps(estrutura_validada, indent=2, ensure_ascii=False))
 
     output_file = os.path.join(os.path.dirname(__file__), "..", "questions.json")
     salvar_questions_json(estrutura_validada, output_file)
