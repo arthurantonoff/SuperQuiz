@@ -1,0 +1,1106 @@
+{
+  "7ATB-P5": {
+    "7PH12HISTORIA": [
+      {
+        "question": "Qual porto é descrito como o que mais recebeu escravizados africanos na Idade Moderna?",
+        "options": [
+          "Porto de Santos (SP)",
+          "Cais do Valongo (Rio de Janeiro)",
+          "Porto de Salvador",
+          "Porto de Luanda"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quem aprovou, em 2014, a criação da Comissão Nacional da Verdade da Escravidão Negra (CVENB)?",
+        "options": [
+          "Ministério da Educação",
+          "Ordem dos Advogados do Brasil (OAB)",
+          "Ministério da Justiça",
+          "Senado Federal"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que significa o termo 'tumbeiro' no contexto do tráfico de escravizados?",
+        "options": [
+          "Navio de comércio de açúcar",
+          "Navio negreiro utilizado para transporte de escravizados",
+          "Navio de guerra",
+          "Navio de pesca"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Estimativas históricas indicam que, entre os séculos XVI e XIX, aproximadamente quantas pessoas foram traficadas para as Américas?",
+        "options": [
+          "20 milhões",
+          "2 milhões",
+          "12 milhões",
+          "5 milhões"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Dentre esse contingente, qual parcela desembarcou no Brasil?",
+        "options": [
+          "Um terço",
+          "Pouca coisa menos de 10%",
+          "Pouco menos da metade",
+          "A maioria"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual foi a taxa aproximada de mortalidade entre os escravizados durante a travessia atlântica?",
+        "options": [
+          "75%",
+          "12,5%",
+          "1%",
+          "50%"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A região conhecida como 'Pequena África' no Rio de Janeiro está associada a quais bairros na área portuária?",
+        "options": [
+          "Leblon e Ipanema",
+          "Copacabana e Botafogo",
+          "Lapa e Santa Teresa",
+          "Praça Onze e Estácio"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Em 2017, o Cais do Valongo foi reconhecido pela UNESCO como o quê?",
+        "options": [
+          "Sítio Arqueológico Nacional",
+          "Reserva Ambiental da UNESCO",
+          "Patrimônio Mundial da UNESCO",
+          "Patrimônio Cultural da UNESCO na América"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais estratégias de resistência são mencionadas como formas de atuação dos escravizados?",
+        "options": [
+          "Adoção de leis locais de proteção",
+          "Fugas, ataques aos proprietários e redes de sociabilidade",
+          "Conformismo e aceitação passiva",
+          "Deserção em massa para as cidades"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "A Lei 10.639/03 alterou a educação brasileira ao tornar obrigatório o ensino de quê?",
+        "options": [
+          "Educação física e esportes nacionais",
+          "História da Europa Ocidental",
+          "Filosofia grega antiga",
+          "História e cultura afro-brasileira nas escolas públicas e privadas"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual era o principal objetivo da Comissão Nacional da Verdade da Escravidão Negra (CVENB)?",
+        "options": [
+          "Proibir o ensino sobre a escravidão",
+          "Reativar o tráfico de escravizados",
+          "Fazer julgamentos de crimes de guerra atuais",
+          "Promover reparação pelos crimes da escravidão"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual fator histórico facilitou a expansão do tráfico atlântico de escravizados?",
+        "options": [
+          "Mercantilismo e interesses dos Estados modernos",
+          "Absoluta neutralidade entre potências",
+          "Ausência de conflitos entre nações",
+          "Adoção precoce de políticas de reparação"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Por que escravizados de diferentes etnias eram embarcados juntos nos navios negreiros?",
+        "options": [
+          "Por exigir pouca força de trabalho",
+          "Por interesses de lucro e controle como mercadoria",
+          "Para aumentar o custo de fuga",
+          "Para facilitar a comunicação entre eles"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Na Antiguidade grega e romana, a escravização estava associada principalmente a quais caminhos?",
+        "options": [
+          "Escravização por religião",
+          "Escravização apenas por nascimento",
+          "Escravização por idade",
+          "Escravização por dívida, por guerra ou como punição"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Como o sincretismo religioso se expressou no Brasil, conforme o texto sobre o Candomblé?",
+        "options": [
+          "Não houve sincretismo religioso",
+          "O Candomblé substituiu totalmente o catolicismo",
+          "Os santos católicos foram incorporados aos rituais afro-brasileiros",
+          "Os orixás foram expulsos da prática religiosa"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Descreva, de forma sucinta, as condições de transporte nos navios negreiros.",
+        "options": [
+          "Condições de luxo para os escravizados",
+          "Espaços com ventilação e água potável abundante",
+          "Porões minúsculos, acorrentados, sem higiene e alimentação restrita (uma refeição diária)",
+          "Espaços amplos com higiene adequada"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais formas de resistência e organização foram registradas entre os escravizados?",
+        "options": [
+          "Aceitação passiva sem qualquer ação",
+          "Conformidade com todas as leis coloniais",
+          "Fugas, ataques aos proprietários e redes de sociabilidade",
+          "Desistência completa do trabalho"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O IPN, criado em 1996, é dedicado a quê?",
+        "options": [
+          "Preservar a memória do holocausto africano e a memória dos Pretos Novos",
+          "Promover jogos e entretenimento",
+          "Gerir terras públicas",
+          "Publicar revistas de turismo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o papel da região conhecida como Pequena África na formação da cultura brasileira, especialmente no Rio de Janeiro?",
+        "options": [
+          "Foi berço das tradições afro-brasileiras e influenciou a formação do samba",
+          "Não teve qualquer influência cultural",
+          "Apenas área comercial sem expressão cultural",
+          "Afastou a cultura africana do Brasil"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Que violência específica contra as mulheres escravizadas é destacada durante as viagens nos navios negreiros?",
+        "options": [
+          "Violência exclusiva na terra firme",
+          "Violência sexual pela tripulação",
+          "Violência apenas física contra homens",
+          "Nenhuma violência relatada"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Por que o tráfico transatlântico de escravizados era economicamente lucrativo para as elites europeias?",
+        "options": [
+          "Não era lucrativo e servia apenas para caridade",
+          "Era uma prática isolada sem impacto econômico",
+          "Antes tinha efeito somente local",
+          "Atendia à demanda de mão de obra na América e fortalecia as metrópoles"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Como a venda de escravizados impactou as identidades dos povos africanos no Brasil?",
+        "options": [
+          "Não houve mudança de identidades",
+          "As identidades tornaram-se mais fortes graças ao escravagismo",
+          "Foram desconfiguradas: nomes alterados, distância da terra natal e mistura étnica",
+          "Mantiveram suas identidades intactas"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Segundo a Constituição de 1988, o racismo no Brasil é considerado o quê?",
+        "options": [
+          "Crime de alta gravidade, porém punível com pena leve",
+          "Menos relevante que outros crimes",
+          "Questão administrativa sem sanção penal",
+          "Crime inafiançável"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é o alcance da Lei 10.639/03 no que se refere ao ensino escolar?",
+        "options": [
+          "Não se aplica ao ensino público",
+          "Somente para universidades",
+          "Obrigatoriedade de ensino da história e cultura afro-brasileira e africana no ensino básico",
+          "Apenas sugerida como tema opcional"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais regiões africanas foram parceiros de Portugal no comércio de escravizados durante o regime colonial?",
+        "options": [
+          "Egito e Marrocos",
+          "Etiópia e África do Sul",
+          "Níger e Mali",
+          "Reinos sudaneses e Congo-Angola"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quantos escravizados cabiam, aproximadamente, em um típico navio tumbeiro?",
+        "options": [
+          "300-500",
+          "50-100",
+          "1000-1500",
+          "2000-3000"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual foi uma das consequências diretas do tráfico transatlântico para as sociedades africanas?",
+        "options": [
+          "Isolamento total do continente",
+          "Desestruturação econômica e social",
+          "Fortalecimento econômico sem impactos sociais",
+          "Desenvolvimento de democracia local"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual era o papel dos chefes africanos e mercadores locais no comércio de escravizados com os europeus?",
+        "options": [
+          "Estabeleceram alianças com os europeus para ampliar ganhos",
+          "Resistiram ativamente e fecharam relações comerciais",
+          "Celebraram a prática sem participação",
+          "Ignoraram o comércio por completo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o papel contemporâneo do patrimônio ligado ao tráfico de escravos, conforme o texto?",
+        "options": [
+          "Exclusivamente para museus de arte",
+          "Não possui função social atual",
+          "Educação, memória e reconciliação nacional",
+          "Apenas para turismo histórico"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Como o Candomblé se relaciona com o catolicismo no Brasil, segundo o texto?",
+        "options": [
+          "O catolicismo substituiu completamente o Candomblé",
+          "O Candomblé rejeitou toda prática católica",
+          "Há sincretismo, com orixás associados a santos católicos",
+          "Não há relação entre as tradições"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual aspecto do Cais do Valongo é destacado como evidência histórica pela UNESCO?",
+        "options": [
+          "Reserva natural de tráfego de mercadorias",
+          "Lugar de memória da escravidão e resistência",
+          "Um mercado de escravos antiguo",
+          "Centro administrativo da cidade antiga"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual foi a participação aproximada de escravizados vindos da África para o Brasil em relação ao total estimated da África para as Américas?",
+        "options": [
+          "Pouco menos da metade",
+          "A totalidade",
+          "Um terço",
+          "Pouca gente"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual prática financeira era usada pelos capitães para mitigar perdas quando escravizados morriam durante a viagem?",
+        "options": [
+          "Prêmios de performance",
+          "Não havia seguro ou compensação",
+          "Seguro pago em bancos",
+          "Doações voluntárias de tripulação"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual problema persistente foi destacado no Brasil após o fim da escravidão, conforme o texto?",
+        "options": [
+          "Persistência de estruturas racistas e desigualdades",
+          "Ausência de racismo",
+          "Igualdade plena entre raças",
+          "Desuso de políticas de ação afirmativa"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quem popularizou o termo 'Pequena África' para a região do Rio de Janeiro?",
+        "options": [
+          "Daniel de Faria",
+          "Marta Suplicy",
+          "Heitor dos Prazeres",
+          "Serguei Monin"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais espaços foram alvo de visitas da CVENB para coleta de indícios sobre a escravidão?",
+        "options": [
+          "Universidades estrangeiras",
+          "Quilombolas, antigas fazendas e arquivo público",
+          "Parques temáticos apenas",
+          "Shopping centers"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual foi o objetivo das audiências e reuniões públicas promovidas pela CVENB?",
+        "options": [
+          "Ouvir a população local e coletar depoimentos",
+          "Gerar lucro para a OAB",
+          "Exclusivamente para imprensa",
+          "Convencer a população de uma apenas versão histórica"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual relação o texto estabelece entre o tráfico atlântico de escravizados e a desestruturação econômica da África?",
+        "options": [
+          "Não houve relação econômica",
+          "Aumentou apenas o comércio intra-africano",
+          "Desestruturou economias e sociedades africanas",
+          "Contribuiu para o fortalecimento econômico africano"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é uma das consequências diretas da escravização para os escravizados no Brasil, conforme descrito no texto?",
+        "options": [
+          "Conservação fiel das línguas maternas",
+          "Conquista de direitos de propriedade sem violência",
+          "Desconfiguração de identidades: mudanças de nomes, distanciamento da terra natal e mistura étnica",
+          "Retenção de nomes originais e laços familiares"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual o enquadramento constitucional sobre o racismo no Brasil, conforme o texto?",
+        "options": [
+          "Racismo não é crime",
+          "Racismo é crime apenas administrativo",
+          "Racismo é crime apenas em determinadas regiões",
+          "Racismo é crime inafiançável"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A Lei 10.639/03 objetiva a inclusão de qual conteúdo no ensino?",
+        "options": [
+          "Geografia exclusiva da Europa",
+          "História e cultura afro-brasileira e africana",
+          "História da China Antiga",
+          "Física quântica avançada"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais regiões africanas foram parceiras de Portugal na rede de comércio de escravizados?",
+        "options": [
+          "África Oriental apenas",
+          "Reinos sudaneses e Congo-Angola",
+          "África do Sul e Zimbábue",
+          "África Ocidental apenas"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quantas pessoas cabiam, aproximadamente, em um tumorbeiro?",
+        "options": [
+          "100-200",
+          "600-800",
+          "900-1200",
+          "300-500"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quais foram as consequências diretas do comércio escravista para as sociedades africanas?",
+        "options": [
+          "Isolamento total de redes comerciais",
+          "Desestruturação econômica e social",
+          "Fortalecimento econômico sem conflitos",
+          "Aumento de liberdades locais"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual foi o papel dos chefes africanos no tráfico de escravizados?",
+        "options": [
+          "Convocação de resistência coletiva geral",
+          "Alianças com os europeus para ampliar ganhos",
+          "Opposição sem cooperação",
+          "Neutralidade total"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é o papel educativo e social do patrimônio relacionado ao tráfico de escravos, conforme discutido no texto?",
+        "options": [
+          "Exclusivamente para pesquisa acadêmica",
+          "Não tem função prática nos dias atuais",
+          "Educação, memória e reconciliação nacional",
+          "Apenas para turismo histórico"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Como o Candomblé se relaciona com o catolicismo, segundo o texto?",
+        "options": [
+          "Há sincretismo, com orixás associados a santos católicos",
+          "São formas incompatíveis de religião",
+          "O catolicismo substituiu o Candomblé",
+          "O Candomblé expulsou o catolicismo de suas práticas"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o significado histórico da expressão 'Pequena África' para o Rio de Janeiro?",
+        "options": [
+          "Berço das tradições afro-brasileiras e lugar de memória",
+          "Área de comércio sem expressão cultural",
+          "Área de turismo apenas",
+          "Zona residencial de luxo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o tipo de violência relatada contra as mulheres escravizadas nos navios negreiros?",
+        "options": [
+          "Apenas violência física contra homens",
+          "Pouca violência relatada",
+          "Violência apenas na terra firme",
+          "Violência sexual pela tripulação"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Por que as elites coloniais consideravam o tráfico de escravizados lucrativo?",
+        "options": [
+          "Para aumentar a independência econômica africana",
+          "Não havia lucro envolvido",
+          "Para suprir a demanda de mão de obra na América e enriquecer as metrópoles",
+          "Para manter a ordem social"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Como as identidades dos povos africanos foram afetadas pelo tráfico no Brasil?",
+        "options": [
+          "Não houve qualquer impacto identitário",
+          "Foram reconfiguradas com mudanças de nomes, distâncias de terra natal e mistura étnica",
+          "Manteve-se a identidade original sem alterações",
+          "Houve apenas preservação de línguas originais"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a relação entre o racismo institucional e a Constituição de 1988, conforme o texto?",
+        "options": [
+          "Racismo é crime inafiançável",
+          "Racismo não é crime",
+          "Racismo é crime apenas em determinadas regiões",
+          "Racismo foi abolido pela constituição"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual o alcance da Lei 10.639/03 no currículo escolar brasileiro?",
+        "options": [
+          "Reservada apenas a instituições privadas",
+          "Obrigatoriedade de ensino de história e cultura afro-brasileira e africana",
+          "Obrigatoriedade apenas em disciplinas de sociologia",
+          "Não tem alcance prático"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais regiões africanas foram alianças de Portugal na rota de escravização?",
+        "options": [
+          "Egito e Líbia",
+          "África do Sul",
+          "Marrocos e Argélia",
+          "Reinos sudaneses e Congo-Angola"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quantas pessoas cabiam, aproximadamente, em um tumorbeiro típico?",
+        "options": [
+          "1200-1500",
+          "300-500",
+          "50-100",
+          "700-900"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual foi o efeito do tráfico transatlântico sobre as sociedades africanas?",
+        "options": [
+          "Integração harmoniosa com as metrópoles",
+          "Adoção de políticas de comércio local isoladas",
+          "Desestruturação econômica e social",
+          "Fortalecimento econômico sem impacto social"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual foi o papel dos chefs africanos nas redes de comércio de escravizados?",
+        "options": [
+          "Revolta armada contra os europeus",
+          "Neutralidade absoluta",
+          "Adoção de práticas religiosas europeias exclusivas",
+          "Formação de alianças com europeus para ampliar ganhos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a função contemporânea do patrimônio histórico ligado à escravização, conforme discutido?",
+        "options": [
+          "Educação, memória e reconciliação social",
+          "Entretenimento e turismo",
+          "Moeda de troca entre instituições",
+          "Exclusivamente pesquisa científica"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Como o Candomblé exemplifica o sincretismo religioso no Brasil?",
+        "options": [
+          "Associação entre orixás e santos católicos",
+          "Consagração de santos africanos",
+          "Substituição total do catolicismo pelo Candomblé",
+          "Separação radical entre tradições africanas e católicas"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual a função histórica do Cais do Valongo na memória da escravidão?",
+        "options": [
+          "Área de turismo moderno sem significado histórico",
+          "Arquivo de registros portuários exclusivamente técnicos",
+          "Lugar de memória da escravidão e resistência",
+          "Centro de comércio de açúcar"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual fração dos escravizados do Atlântico veio para o Brasil, segundo o texto?",
+        "options": [
+          "Quase nenhum",
+          "Pouco menos da metade",
+          "A maior parte",
+          "Uma pequena minoria"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual prática financeira era usada para cobrir prejuízos quando escravizados morriam na travessia?",
+        "options": [
+          "Não havia compensação",
+          "Seguro pago em bancos",
+          "Doações de caridade dos tripulantes",
+          "A recompensa do prêmio de viagem"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual problema social foi destacado como persistente no Brasil após a abolição?",
+        "options": [
+          "Ausência de discriminação racial",
+          "Igualdade de oportunidades para todos",
+          "Eliminação completa do racismo institucional",
+          "Estruturas racistas e desigualdades persistentes"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quem cunhou o termo 'Pequena África' para a região do Rio de Janeiro?",
+        "options": [
+          "Heitor dos Prazeres",
+          "Serguei Monin",
+          "Moniz de Aragão",
+          "Caetano Veloso"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quais espaços foram citados como locais de coleta de evidências pela CVENB?",
+        "options": [
+          "Escolas de ensino superior estrangeiras",
+          "Quilombolas, antigas fazendas e arquivo público",
+          "Apenas museus nacionais",
+          "Aeroportos e portos internacionais"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual era o objetivo das audiências públicas promovidas pela CVENB?",
+        "options": [
+          "Gerar ações punitivas imediatas",
+          "Apoiar apenas interesses políticos específicos",
+          "Produzir apenas relatórios técnicos sem participação popular",
+          "Ouvir depoimentos da população e fortalecer a memória pública"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual afirmação descreve corretamente a relação entre o tráfico atlântico e a África?",
+        "options": [
+          "O tráfico não afetou a África de forma alguma",
+          "O tráfico impulsionou apenas a indústria de turismo africana",
+          "O tráfico contribuiu para a desestruturação econômica e social da África",
+          "O tráfico fortaleceu a África economicamente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Como as identidades foram afetadas pelo tráfico de escravizados no Brasil?",
+        "options": [
+          "Aprimoramento das línguas maternas",
+          "Retenção de nomes de batismo apenas",
+          "Nomes modificados, terras distantes e mistura étnica",
+          "Manutenção integral das identidades originais"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual afirmação descreve corretamente o tratamento racial previsto pela Constituição de 1988 no Brasil?",
+        "options": [
+          "Racismo não é crime",
+          "Racismo é aceitável em contextos específicos",
+          "Racismo é crime inafiançável",
+          "Racismo é crime com fiança obrigatória"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A Lei 10.639/03 instituiu obrigatoriedade de educação sobre qual temática?",
+        "options": [
+          "História da Europa Ocidental",
+          "Geografia somente da América do Norte",
+          "Física e matemática avançadas",
+          "História e cultura afro-brasileira e africana"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quais regiões africanas estiveram envolvidas com Portugal nesse comércio de escravizados?",
+        "options": [
+          "Egito e Líbia",
+          "África do Sul e Zimbábue",
+          "Etiópia e Quênia",
+          "Reinos sudaneses e Congo-Angola"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Quantas pessoas, aproximadamente, cabiam em um tumorbeiro?",
+        "options": [
+          "100-150",
+          "700-900",
+          "1200-1500",
+          "300-500"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual foi o efeito do tráfico de escravizados na África em termos de desenvolvimento econômico e social?",
+        "options": [
+          "Desestruturação econômica e social",
+          "Aceleração da industrialização africana",
+          "Integração plena entre África e Europa sem conflitos",
+          "Redução de violência social"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual foi o papel histórico dos chefes africanos na rede de escravização com os europeus?",
+        "options": [
+          "Intervenção direta para cancelar o comércio",
+          "Alianças com os europeus para ampliar ganhos",
+          "Conflitos isolados sem cooperação",
+          "Resistência contínua sem acordos"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a função do patrimônio histórico para educação e reconciliação nacional, conforme discutido?",
+        "options": [
+          "Promover apenas turismo",
+          "Gerar lucro para o Estado",
+          "Ocultar a história dolorosa",
+          "Educação, memória e reconciliação social"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Como o Candomblé ilustra o sincretismo religioso no Brasil?",
+        "options": [
+          "Relação direta entre santos africanos e deidades europeias",
+          "Substituição total de práticas africanas por catolicismo",
+          "Adoção de religiões africanas sem contato com o catolicismo",
+          "Associação de orixás com santos católicos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a relação entre o Cais do Valongo e a memória da escravidão, conforme destacado pela UNESCO?",
+        "options": [
+          "É um museu dedicado exclusivamente a arte",
+          "É uma área de comércio moderno sem referência histórica",
+          "É um sítio que funciona como lugar de memória e de resistência",
+          "É apenas uma área portuária sem memória"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual fração do contingente total de escravizados para as Américas veio para o Brasil?",
+        "options": [
+          "Todos chegaram ao Brasil sem exceção",
+          "Pouco menos da metade",
+          "A maior parte",
+          "Menos de 5%"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual prática financeira era comum entre capitães de navios negreiros para cobrir perdas com mortes durante a viagem?",
+        "options": [
+          "Seguro pago em bancos",
+          "Doações de caridade dos passageiros",
+          "Venda de obras de arte",
+          "Créditos especiais do governo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quais problemas sociais foram destacados como persistentes no Brasil após a abolição da escravidão?",
+        "options": [
+          "Estruturas racistas e desigualdades persistentes",
+          "Ausência de racismo e igualdade plena",
+          "Absoluta integração social sem preconceitos",
+          "Isolamento sem memória do passado"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quem popularizou o nome 'Pequena África' para a região portuária do Rio de Janeiro?",
+        "options": [
+          "Heitor dos Prazeres",
+          "Machado de Assis",
+          "Joaquim Nabuco",
+          "Monteiro Lobato"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quais espaços a CVENB visitou para coletar indícios sobre a escravidão?",
+        "options": [
+          "Museus apenas no exterior",
+          "Mercados de turismo",
+          "Quilombolas, antigas fazendas e arquivo público",
+          "Aeroportos internacionais"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual foi o objetivo das audiências públicas promovidas pela CVENB?",
+        "options": [
+          "Promover apenas ações judiciais",
+          "Garantir privilégios políticos",
+          "Construir museus apenas para turismo",
+          "Ouvir as vozes da população e coletar depoimentos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a relação entre o tráfico atlântico de escravizados e a desestruturação econômica da África?",
+        "options": [
+          "Desestruturou as economias e sociedades africanas",
+          "Contribuiu para o fortalecimento econômico africano",
+          "Não houve impacto econômico",
+          "A África ficou economicamente estável"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Como as identidades foram afetadas pelo tráfico de escravizados no Brasil?",
+        "options": [
+          "Nomes originais mantidos e terra natal preservada",
+          "Todas as identidades permaneceram intactas",
+          "Novos nomes religiosos substituíram os nomes civis",
+          "Nomes modificados, distâncias da terra natal e misturas étnicas"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é o enquadramento jurídico-constitucional do racismo no Brasil, conforme o texto?",
+        "options": [
+          "Racismo é crime com fiança",
+          "Racismo não é crime",
+          "Racismo é crime apenas administrativo",
+          "Racismo é crime inafiançável"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "A Lei 10.639/03 estabelece a obrigatoriedade de incluir quais conteúdos no ensino básico?",
+        "options": [
+          "História e cultura afro-brasileira e africana",
+          "História da Grécia antiga",
+          "Física quântica",
+          "Literatura inglesa contemporânea"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quais regiões africanas foram parceiras de Portugal no negócio de escravizados?",
+        "options": [
+          "Reinos sudaneses e Congo-Angola",
+          "África do Sul e Zimbábue",
+          "Egito e Líbia",
+          "Etiópia e Quênia"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Quantas pessoas cabiam, aproximadamente, em um navio tumorbeiro?",
+        "options": [
+          "1500-2000",
+          "300-500",
+          "100",
+          "800-1000"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual foi uma das consequências imediatas do tráfico transatlântico para as sociedades africanas?",
+        "options": [
+          "Desestruturação econômica e social",
+          "Fortalecimento econômico sem impactos sociais",
+          "Aumento da autonomia regional",
+          "Redução de conflitos locais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual o papel dos chefes africanos nas redes de tráfico de escravizados?",
+        "options": [
+          "Resistiram ativamente sem cooperação",
+          "Foram totalmente desconsiderados",
+          "Promoveram a independência africana",
+          "Firmaram alianças com europeus para ampliar lucros"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a função educativa do patrimônio histórico na educação e reconciliação nacional?",
+        "options": [
+          "Gerar lucros para o Estado",
+          "Esconder a história dolorosa",
+          "Educar, manter memória e promover reconciliação",
+          "Promover apenas turismo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Como o Candomblé se relaciona com o catolicismo no Brasil, conforme o texto?",
+        "options": [
+          "Há sincretismo, com orixás associados a santos católicos",
+          "Não há relação entre as tradições",
+          "O catolicismo substituiu completamente o Candomblé",
+          "O Candomblé rejeitou o catolicismo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o papel do Cais do Valongo como lugar de memória, segundo o texto?",
+        "options": [
+          "Área de pesquisa arqueológica apenas",
+          "Parque de lazer histórico",
+          "Lugar de memória da escravidão e resistência",
+          "Lugar de comércio de escravos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual fração dos escravizados do Atlântico desembarcou no Brasil, conforme o texto?",
+        "options": [
+          "Mais da metade em cada década",
+          "Pouco menos da metade",
+          "Praticamente toda a população",
+          "Quase nenhum"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual prática financeira os capitães usavam para cobrir prejuízos com mortes de escravizados durante a viagem?",
+        "options": [
+          "Doações da população local",
+          "Não havia qualquer compensação",
+          "Seguro pago em bancos",
+          "Prêmios de recompensa aos tripulantes"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais problemas sociais persistem no Brasil após a abolição da escravatura, conforme o texto?",
+        "options": [
+          "Igualdade plena de oportunidades",
+          "Redução de desigualdades raciais",
+          "Persistência de estruturas racistas e desigualdades",
+          "Ausência de racismo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quem popularizou o nome 'Pequena África' para a região do Rio de Janeiro?",
+        "options": [
+          "Pedro Álvares Cabral",
+          "Chico Buarque",
+          "Heitor dos Prazeres",
+          "Machado de Assis"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual tipo de violência sexual era relatado com frequência nas embarcações de escravizados?",
+        "options": [
+          "Violência sexual pela tripulação",
+          "Violência apenas física entre escravizados",
+          "Nenhuma violência relatada",
+          "Violência apenas contra homens"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o papel histórico do IPN, conforme o texto?",
+        "options": [
+          "Conduzir pesquisas de turismo histórico",
+          "Gerir arquivos de navegação marítima",
+          "Promover políticas de imigração",
+          "Preservar a memória do holocausto africano e dos Pretos Novos"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a relação entre o tráfico de escravizados e o desenvolvimento de redes de comércio e violência na África?",
+        "options": [
+          "O tráfico ocorreu apenas entre europeus sem envolvimento africano",
+          "Não houve relação entre tráfico e violência local",
+          "O tráfico estimulou capturas e guerras entre grupos rivais para obtenção de cativos",
+          "O tráfico reduziu conflitos entre grupos africanos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é o significado da expressão 'mundo moderno' em relação ao tráfico atlântico, segundo o texto?",
+        "options": [
+          "Sugere que não houve mudanças culturais",
+          "Delimita o mundo moderno apenas à Europa",
+          "Indica rupturas de saberes e práticas entre sociedades",
+          "Enfatiza apenas a conquista territorial europeia"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual afirmação sobre a escravização na África antes da chegada europeia é apresentada no texto?",
+        "options": [
+          "Não havia relação com o comércio interno",
+          "Ocorria de formas domésticas, de conflitos entre grupos e como punição",
+          "Era inexistente na África",
+          "Era restrita apenas ao Oriente"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a relação entre o tráfico africano e a identidade cultural brasileira, conforme o texto?",
+        "options": [
+          "Mantém as identidades africanas inalteradas",
+          "Eliminou a presença africana na cultura brasileira",
+          "Exigiu a reconfiguração de identidades, com mistura de etnias e perda de nomes originais",
+          "Promoveu identidade homogênea entre todos os brasileiros"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é o papel do patrimônio para a memória coletiva e a educação, conforme discutido no material?",
+        "options": [
+          "Gerar apenas lucros turísticos",
+          "Servir apenas para pesquisa acadêmica",
+          "Contribuir para a memória, educação e reconciliação",
+          "Visar apenas a preservação de monumentos"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é a relação entre o sincretismo e a prática religiosa afro-brasileira, no contexto do Candomblé?",
+        "options": [
+          "Sincretismo que amalgama elementos africanos com católicos",
+          "Sincretismo não ocorre na prática religiosa",
+          "Falha total de sincretismo",
+          "Adoção exclusiva de práticas africanas sem influência católica"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é a importância da UNESCO ao valorizar o Cais do Valongo em 2017?",
+        "options": [
+          "Reforçar a ideia de um local de turismo apenas",
+          "Justificar a mobilidade de cargas portuárias modernas",
+          "Não há relevância internacional",
+          "Reconhecer o espaço como sítio de memória da escravidão e da resistência"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual foi a principal virada econômica associada ao tráfico de escravizados no Atlântico?",
+        "options": [
+          "Mercantilismo que favorecia o enriquecimento das metrópoles e elites coloniais",
+          "Desenvolvimento de uma economia de paz",
+          "Autonomia econômica africana",
+          "Isolamento de Portugal do comércio global"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual prática descreve a alimentação e higiene precárias durante a travessia nos navios negreiros?",
+        "options": [
+          "Alimentação suplementar com dieta mediterrânea",
+          "Acesso regular a água potável e ar livre",
+          "Uma refeição por dia, condições de porão insalubres e aglomeração de etnias",
+          "Refeições abundantes e higiene rigorosa"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O que a narrativa sugere sobre a dificuldade de comunicação entre escravizados de diferentes origens?",
+        "options": [
+          "Dificultada pela mistura de etnias e pela necessidade de controle da mercadoria",
+          "Facilitada pela diversidade linguística",
+          "Facilitada pela ausência de diferenças culturais",
+          "Não há menção a comunicação"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
