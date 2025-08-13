@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     print("🤖 Enviando para o OpenAI...")
     resposta = gerar_questoes(texto_completo, qtd=40)
-    print(resposta)
+    #print(resposta)
 
     print("💾 Salvando questões...")
     salvar_questoes_em_json(resposta, output_json)
