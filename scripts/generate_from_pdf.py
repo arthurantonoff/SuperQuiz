@@ -23,8 +23,7 @@ def extract_clean_text(pdf_path: str) -> str:
 def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
     """Envia o texto para a API da OpenAI e solicita questões formatadas em JSON."""
     prompt = (
-        f"[TEXTO]: {texto}\n\n"
-        f"[INSTRUÇÃO]: Com base no conteúdo acima, elabore {qtd} questões objetivas de múltipla escolha com 4 alternativas cada, seguindo rigorosamente os critérios abaixo:\n\n"
+        f"[INSTRUÇÃO]: Com base no conteúdo abaixo, elabore {qtd} questões objetivas de múltipla escolha com 4 alternativas cada, seguindo rigorosamente os critérios abaixo:\n\n"
         f"1. Cada pergunta deve explorar um conceito central, inferência interpretativa ou aplicação prática relevante do texto.\n"
         f"2. As alternativas devem ser claras, plausíveis, bem escritas e no mesmo nível técnico e linguístico.\n"
         f"3. Apenas uma alternativa deve estar correta (sem ambiguidade). As erradas devem parecer críveis.\n"
@@ -40,10 +39,11 @@ def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
         f"  }},"
         f"  ...\n"
         f"]"
+        f"[TEXTO]: {texto}\n\n"
     )
 
     response = client.chat.completions.create(
-        model="gpt-4.1-nano",
+        model="gpt-5-nano",
         messages=[
             {
                 "role": "system",
@@ -57,7 +57,7 @@ def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
             },
             {"role": "user", "content": prompt}
         ],
-        temperature=0.7,
+        temperature=0.5,
         max_tokens=max_tokens
     )
     return response.choices[0].message.content.strip()
