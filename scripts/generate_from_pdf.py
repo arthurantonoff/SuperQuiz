@@ -2,59 +2,14 @@ import os
 import re
 import json
 import openai
-import pdfplumber
+#
+from extract_clean_text import extract_clean_text
 
 # Configuração da API
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-#def extract_clean_text(pdf_path: str) -> str:
-#    """Extrai texto limpo de um PDF inteiro."""
-#    full_text = []
-#    with pdfplumber.open(pdf_path) as pdf:
-#        for page in pdf.pages:
-#            text = page.extract_text()
-#            if text:
-#                full_text.append(text.strip())
-#    #print("extracao de texto via python")
-#    #print(full_text)
-#    #print(erro)
-#
-#    return "\n".join(full_text)
 
-
-def extract_clean_text(pdf_path: str) -> str:
-    """Extrai e limpa texto de um PDF inteiro."""
-    full_text = []
-
-    # Padrões comuns de cabeçalhos/rodapés que podem ser removidos
-    header_footer_patterns = [
-        r'Página\s+\d+',  # Ex: "Página 1"
-        r'\d{2}/\d{2}/\d{4}',  # Datas
-    ]
-
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            text = page.extract_text()
-            if text:
-                # Remove cabeçalhos e rodapés com base nos padrões
-                for pattern in header_footer_patterns:
-                    text = re.sub(pattern, '', text, flags=re.IGNORECASE)
-
-                # Remove caracteres especiais indesejados
-                text = re.sub(r'[^\w\s.,;:!?()-]', '', text)
-
-                # Remove múltiplos espaços e quebras de linha
-                text = re.sub(r'\s+', ' ', text)
-
-                # Remove espaços no início e fim
-                cleaned_text = text.strip()
-
-                full_text.append(cleaned_text)
-
-    return '\n'.join(full_text)
-
-
-def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
+def gerar_questoes(texto: str, qtd: 40) -> str:
     """Envia o texto para a API da OpenAI e solicita questões formatadas em JSON."""
     prompt = (
         f"[INSTRUÇÃO]: Com base no conteúdo abaixo, elabore {qtd} questões objetivas de múltipla escolha com 4 alternativas cada, seguindo rigorosamente os critérios abaixo:\n\n"
@@ -91,8 +46,6 @@ def gerar_questoes(texto: str, qtd: 40, max_tokens: int = 2*2048) -> str:
             },
             {"role": "user", "content": prompt}
         ],
-        #temperature=0.5,
-        #max_tokens=max_tokens
     )
     return response.choices[0].message.content.strip()
 
@@ -118,7 +71,8 @@ if __name__ == "__main__":
     print("🔍 Extraindo texto do PDF...")
     texto_completo = extract_clean_text(pdf_path)
 
-    #print(texto_completo)
+    print(texto_completo)
+    print(erro)
 
     print("🤖 Enviando para o OpenAI...")
     resposta = gerar_questoes(texto_completo, qtd=40)
