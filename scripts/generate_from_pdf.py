@@ -64,7 +64,7 @@ def gerar_questoes(texto: str, qtd: int = 40) -> str:
     system_prompt = _build_system_prompt()
     user_prompt = (
         f"[INSTRUÇÃO] Com base no conteúdo abaixo, gere {qtd} questões objetivas (4 alternativas) "
-    f"em um ÚNICO array JSON minificado de {qtd} objetos. NÃO escreva nada antes ou depois do array e  compacte a redação ".\n"
+    f"em um ÚNICO array JSON minificado de {qtd} objetos. NÃO escreva nada antes ou depois do array e  compacte a redação.\n"
     f"[FORMATO] [{'{'!s}\"question\":\"...\",\"options\":[\"...\",\"...\",\"...\",\"...\"],\"answer\":0..3{'}'!s}] x{qtd}\n"
     f"[TEXTO]\n{texto}"
     )
