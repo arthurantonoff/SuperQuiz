@@ -8,46 +8,81 @@ from extract_clean_text import extract_clean_text
 # Configuração da API
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-
-def gerar_questoes(texto: str, qtd: 40) -> str:
-    """Envia o texto para a API da OpenAI e solicita questões formatadas em JSON."""
-    prompt = (
-        f"[INSTRUÇÃO]: Com base no conteúdo abaixo, elabore {qtd} questões objetivas de múltipla escolha com 4 alternativas cada, seguindo rigorosamente os critérios abaixo:\n\n"
-        f"1. Cada pergunta deve explorar um conceito central, inferência interpretativa ou aplicação prática relevante do texto.\n"
-        f"2. As alternativas devem ser claras, plausíveis, bem escritas e no mesmo nível técnico e linguístico.\n"
-        f"3. Apenas uma alternativa deve estar correta (sem ambiguidade). As erradas devem parecer críveis.\n"
-        f"4. Não copie frases literais. Reformule com linguagem didática, técnica e acessível.\n"
-        f"5. Evite perguntas vagas, genéricas, excessivamente factuais ou puramente memorísticas.\n"
-        f"6. Mantenha um nível adequado de desafio, como em provas da PF, PRF, CESPE ou FCC.\n"
-        f"7. Ao final, o resultado deve estar exatamente neste formato JSON:\n"
-        f"[\n"
-        f"  {{\n"
-        f"    \"question\": \"Enunciado claro e objetivo da pergunta\","
-        f"    \"options\": [\"Alternativa A\", \"Alternativa B\", \"Alternativa C\", \"Alternativa D\"],"
-        f"    \"answer\": índice_da_opção_correta (0 a 3)"
-        f"  }},"
-        f"  ...\n"
-        f"]"
-        f"[TEXTO]: {texto}\n\n"
+def _build_system_prompt():
+    return (
+        "Você é um gerador de questões objetivas de altíssima qualidade.\n"
+        "Regras obrigatórias:\n"
+        "1) Produza EXATAMENTE um array JSON (sem texto fora do array).\n"
+        "2) Cada item: {\"question\": str, \"options\": [str,str,str,str], \"answer\": 0|1|2|3}.\n"
+        "3) UMA única correta por item; as erradas devem ser plausíveis e distintas.\n"
+        "4) Não copie frases literais do texto; reformule com clareza técnica.\n"
+        "5) Evite questões duplicadas ou muito semelhantes.\n"
+        "6) Linguagem objetiva, nível de bancas (PF, PRF, CESPE, FCC), sem ambiguidade.\n"
+        "7) Sem comentários, sem justificativas, sem vírgula final ou chaves extras."
     )
 
-    response = client.chat.completions.create(
+def _few_shot_example():
+    return [
+        {
+            "role": "user",
+            "content": (
+                "[INSTRUÇÃO] Gere 2 questões no formato especificado.\n"
+                "[TEXTO] A 'Navegação de Cabotagem' refere-se ao transporte marítimo entre portos de um mesmo país, "
+                "diferente da navegação de longo curso, que conecta portos de países distintos."
+            )
+        },
+        {
+            "role": "assistant",
+            "content": json.dumps([
+                {
+                    "question": "Qual característica distingue a navegação de cabotagem da de longo curso?",
+                    "options": [
+                        "A cabotagem opera entre portos do mesmo país.",
+                        "A cabotagem utiliza apenas navios de pequeno porte.",
+                        "A cabotagem exige travessia oceânica obrigatória.",
+                        "A cabotagem é exclusiva para cargas perigosas."
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question": "Em qual situação a navegação de longo curso é a alternativa adequada?",
+                    "options": [
+                        "Carga entre dois portos do mesmo litoral.",
+                        "Transporte entre portos de países diferentes.",
+                        "Distribuição entre cidades ribeirinhas.",
+                        "Transporte interno em lagos navegáveis."
+                    ],
+                    "answer": 1
+                }
+            ], ensure_ascii=False)
+        }
+    ]
+
+def gerar_questoes(texto: str, qtd: int = 40) -> str:
+    system_prompt = _build_system_prompt()
+    user_prompt = (
+        f"[INSTRUÇÃO] Com base no conteúdo abaixo, gere {qtd} questões objetivas de múltipla escolha com 4 alternativas.\n"
+        f"Siga rigorosamente as regras do sistema.\n"
+        f"[FORMATO] Um array JSON de {qtd} objetos: "
+        f'{{"question": "...","options":["A","B","C","D"],"answer":0..3}}.\n'
+        f"[TEXTO]\n{texto}"
+    )
+
+    messages = [{"role": "system", "content": system_prompt}]
+    messages += _few_shot_example()
+    messages.append({"role": "user", "content": user_prompt})
+
+    resp = client.chat.completions.create(
         model="gpt-5-nano",
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "Você é um gerador avançado de questões de altíssima qualidade para um quiz. "
-                    "Sua missão é interpretar textos com profundidade e gerar questões objetivas de múltipla escolha (4 alternativas), "
-                    "As questoes devem ser bem formuladas, desafiadoras e didaticamente eficientes. Suas questões devem seguir critérios técnicos rigorosos, "
-                    "com clareza, precisão e coerência pedagógica. Você também é responsável por revisar linguisticamente cada item, "
-                    "evitando ambiguidade, erros conceituais ou alternativas mal escritas. O retorno deve estar 100% no formato JSON especificado."
-                )
-            },
-            {"role": "user", "content": prompt}
-        ],
+        messages=messages
     )
-    return response.choices[0].message.content.strip()
+
+    raw = resp.choices[0].message["content"]
+    # tenta extrair o array JSON
+    m = re.search(r"\[.*\]\s*\Z", raw.strip(), flags=re.S)
+    if m:
+        return m.group(0)
+    return raw.strip()
 
 def salvar_questoes_em_json(questoes_json: str, output_path: str):
     try:
