@@ -77,7 +77,7 @@ def gerar_questoes(texto: str, qtd: int = 40) -> str:
         messages=messages
     )
 
-    raw = resp.choices[0].message["content"]
+    raw = resp.choices[0].message.content
     # tenta extrair o array JSON
     m = re.search(r"\[.*\]\s*\Z", raw.strip(), flags=re.S)
     if m:
