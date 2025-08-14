@@ -1,0 +1,406 @@
+{
+  "7ATB-P5": {
+    "NovoConteudo": [
+      {
+        "question": "Qual característica da Computação em Nuvem permite ao usuário obter recursos sob demanda sem intervenção humana?",
+        "options": [
+          "Autoatendimento sob-demanda",
+          "Amplo acesso à rede",
+          "Elasticidade rápida",
+          "Pool de recursos"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual modelo de serviço de nuvem fornece software acessível pela Internet, mantido pelo provedor?",
+        "options": [
+          "PaaS",
+          "IDaaS",
+          "SaaS",
+          "IaaS"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O que descreve Infrastructure as a Service (IaaS)?",
+        "options": [
+          "Software como Serviço",
+          "Plataforma como Serviço",
+          "Gerenciamento de rede como serviço",
+          "Infraestrutura básica (servidores/armazenamento)"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual modelo de implantação descreve serviços disponíveis ao público mediante pagamento?",
+        "options": [
+          "Nuvem Híbrida",
+          "Nuvem Pública",
+          "Nuvem Privada",
+          "Nuvem Comunitária"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual elemento representa não-repúdio na segurança da nuvem?",
+        "options": [
+          "Confidencialidade",
+          "Disponibilidade",
+          "Não-repúdio",
+          "Integridade"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "VPN significa?",
+        "options": [
+          "Virtual Private Network",
+          "Rede Segura Privada",
+          "Rede Privada Virtual",
+          "Rede Pública Virtual"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Para que serve o DNS?",
+        "options": [
+          "Envio de e-mails",
+          "Transferência de arquivos",
+          "Publicação de conteúdo web",
+          "Resolução de nomes de domínio em IP"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O que o LDAP descreve?",
+        "options": [
+          "Protocolo para atualizar/pesquisar diretórios sobre TCP/IP",
+          "Protocolo de DNS",
+          "Protocolo de HTTP",
+          "Protocolo de e-mail"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é a função principal da camada de transporte?",
+        "options": [
+          "Fornecer serviços de aplicação",
+          "Gerenciar roteamento IP",
+          "Entregar mensagens na ordem com confiabilidade",
+          "Gerenciar nomes de hosts"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Em qual cenário a nuvem pública é a opção adequada?",
+        "options": [
+          "Somente para pesquisa",
+          "Para uso público mediante taxa",
+          "Uso privado",
+          "Acesso restrito a um grupo"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que significa elasticidade rápida na nuvem?",
+        "options": [
+          "Recursos fixos",
+          "Expansão manual anual",
+          "Manutenção de recursos estáticos",
+          "Expansão/retração automática conforme demanda"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Para que serve o OpenID no contexto de identidade na nuvem?",
+        "options": [
+          "Criptografa dados",
+          "Gerencia redes",
+          "Gera chaves de criptografia",
+          "Fornece autenticação federada e SSO"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Segundo o texto, onde deve ficar o gerenciamento de chaves na privacidade em nuvem?",
+        "options": [
+          "Separado do provedor (repositório seguro)",
+          "No provedor apenas",
+          "Na nuvem sem separação",
+          "Em cada dispositivo do usuário"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "KMIP é...",
+        "options": [
+          "Key Management Internal Protocol",
+          "Key Monitoring Interoperability Protocol",
+          "Key Management Interoperability Protocol",
+          "Knowledge Management Interoperability Protocol"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais são os quatro modelos de implantação citados?",
+        "options": [
+          "Pública, Comunitária, Híbrida, Multinuvem",
+          "Pública, Privada, Comunitária, Híbrida",
+          "Pública, Privada, Pública II, Híbrida II",
+          "Privada, Comunitária, Pública, Nuvem de teste"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais são as principais preocupações na adoção da Cloud Computing segundo Carneiro?",
+        "options": [
+          "Confiabilidade de hardware",
+          "Suporte técnico",
+          "Privacidade e Segurança",
+          "Custo e desempenho"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual modelo oferece plataforma para criar aplicações na nuvem?",
+        "options": [
+          "PaaS",
+          "SaaS",
+          "IaaS",
+          "DaaS"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Para que serve a autenticação de múltiplos fatores?",
+        "options": [
+          "Eliminar autenticação",
+          "Aumentar segurança",
+          "Autenticação simples",
+          "Reduzir validação"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que o SSO facilita?",
+        "options": [
+          "Gerenciamento de redes",
+          "Autenticação única para múltiplos serviços",
+          "Autorização em várias camadas",
+          "Criptografia de dados"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que significa autorização granular?",
+        "options": [
+          "Auditoria de sistemas",
+          "Concessão detalhada de privilégios de acesso",
+          "Autenticação de usuário",
+          "Criptografia de dados"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Garantia da privacidade envolve...",
+        "options": [
+          "Rastreamento de uso de rede",
+          "Confiança dos usuários na proteção de dados",
+          "Segurança interna apenas",
+          "Máquina de backup"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que descreve autoatendimento sob-demanda?",
+        "options": [
+          "Aquisição unilateral de recursos conforme necessidade",
+          "Compra de hardware adicional",
+          "Intervenção humana para cada recurso",
+          "Tempo de espera para provisionamento"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Pool de recursos na nuvem implica...",
+        "options": [
+          "Recursos apenas locais",
+          "Recursos agrupados para atender múltiplos clientes",
+          "Recursos dedicados a um único cliente",
+          "Recursos não compartilhados"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "IaaS fornece...",
+        "options": [
+          "Infrastructure as a Service",
+          "Software as a Service",
+          "Platform as a Service",
+          "Networking as a Service"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Medição de uso em nuvem significa...",
+        "options": [
+          "Custo de manutenção",
+          "Avaliação de desempenho",
+          "Cobrança baseada no uso",
+          "Preço fixo"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual é a prática-chave para proteger dados em nuvem?",
+        "options": [
+          "Compressão de dados",
+          "Redundância apenas",
+          "Sem criptografia",
+          "Criptografia"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "O que é nuvem híbrida?",
+        "options": [
+          "Apenas comunitária",
+          "Apenas pública",
+          "Composição de nuvens privadas, públicas e/ou comunitárias conectadas",
+          "Apenas privada"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Em um cluster de computação, um conjunto de computadores é visto como...",
+        "options": [
+          "Um único computador paralelo",
+          "Um único PC",
+          "Um único servidor de armazenamento",
+          "Vários dispositivos não cooperativos"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Grid computing envolve...",
+        "options": [
+          "Uso exclusivo de GPUs",
+          "Recursos distribuídos geograficamente para processamento paralelo",
+          "Recursos locais apenas",
+          "Processamento central único"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais são as principais preocupações de segurança na Cloud segundo estudo da Symantec?",
+        "options": [
+          "Privacidade e Segurança",
+          "Desempenho",
+          "Custos",
+          "Integração com redes locais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Auditoria na segurança da informação serve para...",
+        "options": [
+          "Autenticação",
+          "Autorização",
+          "Criptografia",
+          "Auditoria/Monitoramento de estado de segurança"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual conceito descreve o isolamento de dados entre entidades distintas na nuvem?",
+        "options": [
+          "Autenticação",
+          "Autorização",
+          "Isolamento de dados",
+          "Criptografia"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual protocolo é apontado como padrão para gerenciamento de chaves na nuvem (KMIP)?",
+        "options": [
+          "OpenID",
+          "KMIP",
+          "TLS",
+          "SSH"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual modelo de implantação descreve compartilhamento de infraestrutura entre várias organizações com interesses comuns?",
+        "options": [
+          "Nuvem Híbrida",
+          "Nuvem Comunitária",
+          "Nuvem Pública",
+          "Nuvem Privada"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que a expressão TI verde defende no contexto da computação em nuvem?",
+        "options": [
+          "Mais hardware",
+          "Manter tudo igual",
+          "Mais uso de energia",
+          "Aumento da virtualização para reduzir infraestrutura física"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual é a função do HTTP na Internet?",
+        "options": [
+          "Transferência de arquivos",
+          "DNS lookup",
+          "Publicação de sites na Web",
+          "Envio de e-mails"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual porta padrão do serviço DNS?",
+        "options": [
+          "443",
+          "25",
+          "53",
+          "80"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quem publicou o guia de Segurança para Áreas Críticas Focado em Computação em Nuvem?",
+        "options": [
+          "IEEE",
+          "RSA",
+          "CSA",
+          "NIST"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual afirmação descreve a importância de portabilidade de dados entre provedores?",
+        "options": [
+          "Segurança de dados",
+          "Autenticação",
+          "Portabilidade de dados",
+          "Privacidade"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O guia recomenda criptografar dados em trânsito e em repouso com gerenciamento de chaves.",
+        "options": [
+          "Em trânsito e em repouso",
+          "Apenas em trânsito",
+          "Apenas em repouso",
+          "Não recomendado"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
