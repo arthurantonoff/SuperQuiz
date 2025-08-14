@@ -18,7 +18,9 @@ def _build_system_prompt():
         "4) Não copie frases literais do texto; reformule com clareza técnica.\n"
         "5) Evite questões duplicadas ou muito semelhantes.\n"
         "6) Linguagem objetiva, nível de bancas (PF, PRF, CESPE, FCC), sem ambiguidade.\n"
-        "7) Sem comentários, sem justificativas, sem vírgula final ou chaves extras."
+        "7) Sem comentários, sem justificativas, sem vírgula final ou chaves extras.\n"
+        "8) Use exclusivamente informações do [TEXTO]. Se faltar base, reformule para interpretação/estrutura do texto./n”
+        "9) Se não houver material suficiente, foque em inferência e interpretação do que existe, nunca em conteúdo externo.”
     )
 
 def _few_shot_example():
@@ -63,8 +65,7 @@ def gerar_questoes(texto: str, qtd: int = 40) -> str:
     user_prompt = (
         f"[INSTRUÇÃO] Com base no conteúdo abaixo, gere {qtd} questões objetivas de múltipla escolha com 4 alternativas.\n"
         f"Siga rigorosamente as regras do sistema.\n"
-        f"[FORMATO] Um array JSON de {qtd} objetos: "
-        f'{{"question": "...","options":["A","B","C","D"],"answer":0..3}}.\n'
+        f"[FORMATO] Um array JSON de {qtd} objetos.\n"
         f"[TEXTO]\n{texto}"
     )
 
