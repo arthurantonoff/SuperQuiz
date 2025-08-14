@@ -1,0 +1,346 @@
+{
+  "7ATB-P5": {
+    "NovoConteudo": [
+      {
+        "question": "Sobre TCP/IP e a camada de transporte, qual afirmação é correta? A) A camada de transporte entrega dados de forma confiável na ordem original. B) A camada de transporte manipula endereços físicos. C) O IP executa a segmentação de dados. D) A camada de aplicação lida com hardware.",
+        "options": [
+          "C",
+          "D",
+          "A",
+          "B"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual protocolo resolve nomes de domínio para endereços IP? A) HTTP B) DNS C) FTP D) SMTP",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O LDAP opera sobre TCP/IP e gerencia diretórios hierárquicos. Qual afirmação é correta? A) LDAP gerencia diretórios humanos apenas. B) LDAP é um protocolo para atualizar e pesquisar diretórios em árvore sobre TCP/IP. C) LDAP substitui DNS. D) LDAP não suporta atributos.",
+        "options": [
+          "D",
+          "B",
+          "A",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais serviços pertencem à camada de aplicação? A) HTTP, FTP, SMTP B) IP, TCP C) ARP, NDP D) VLAN, MPLS",
+        "options": [
+          "B",
+          "C",
+          "D",
+          "A"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "Qual a função de uma VPN? A) Fornecer canal não seguro em rede pública B) Fornecer tunelamento e criptografia para proteger tráfego sobre redes públicas C) Substituir firewalls D) Gerenciar nomes de domínio",
+        "options": [
+          "C",
+          "D",
+          "B",
+          "A"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais são modelos de serviço na nuvem segundo NIST/CSA? A) SaaS, PaaS, IaaS B) SaaS, IaaS, DaaS C) PaaS, IaaS, DaaS D) SaaS apenas",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual modelo de implantação envolve compartilhamento entre várias organizações com interesses comuns? A) Pública B) Privada C) Comunitária D) Híbrida",
+        "options": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual característica descreve autoatendimento sob-demanda? A) Usuário adquire recursos de forma unilateral quando necessário sem intervenção humana B) Provedor controla tudo localmente C) Recursos são fixos D) Requer aprovação de SLA",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "O que significa 'multitenancy' na nuvem? A) Um único cliente por recurso B) Vários clientes compartilham recursos de forma isolada C) Recurso só para governos D) Recurso exclusivo para CRM",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Criptografia em nuvem com gestão de chaves garante qual conjunto? A) Confidencialidade apenas B) Confidencialidade, integridade e disponibilidade C) Disponibilidade apenas D) Autenticidade",
+        "options": [
+          "C",
+          "D",
+          "B",
+          "A"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "OpenID está relacionado a: A) Criptografia de dados B) Autenticação federada e SSO C) Gerenciamento de redes D) Armazenamento de dados",
+        "options": [
+          "D",
+          "B",
+          "A",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é o objetivo do SSO? A) Autenticação única para múltiplos serviços B) Geração de chaves C) Faturamento D) Controle de rede",
+        "options": [
+          "B",
+          "C",
+          "D",
+          "A"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "KMIP é? A) Padrão de gerenciamento de chaves B) Protocolo de criptografia de alto nível C) Algoritmo de compressão D) Protocolo de mensagens BGP",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Identidade federada facilita: A) Compartilhamento de identidades entre domínios de confiança com SSO B) Bloqueio completo de uso C) Autenticação apenas local D) Compartilhamento de dados sem proteção",
+        "options": [
+          "C",
+          "D",
+          "A",
+          "B"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual item não compõe as sete áreas políticas da BSA para nuvem? A) Garantia da privacidade B) Promoção da segurança C) Combate ao crime digital D) Governança de redes",
+        "options": [
+          "B",
+          "C",
+          "D",
+          "A"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais são as principais preocupações na migração para a nuvem segundo a Symantec/América Latina? A) Baixos custos B) Equilíbrio de carga C) Privacidade e segurança D) Recomendação de software open source",
+        "options": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "IaaS descreve? A) Software como Serviço B) Infraestrutura básica como serviço (servidores, armazenamento) C) Plataforma para desenvolvimento D) Software de CRM",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "PaaS descreve? A) Infraestrutura B) Plataforma para criar aplicações com gestão de infraestrutura C) Software como serviço D) Serviço de computação de dados",
+        "options": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "SaaS descreve? A) Software disponibilizado pela internet para uso final B) Infraestrutura como serviço C) Plataforma como serviço D) Hardware de rede",
+        "options": [
+          "C",
+          "D",
+          "A",
+          "B"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Medição de uso em nuvem refere-se a: A) Controle de acesso B) Medição do uso dos recursos para cobrança C) Backups D) Criptografia",
+        "options": [
+          "D",
+          "B",
+          "A",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Elasticidade na nuvem significa: A) Aumento de custos B) Capacidade de ampliar/reduzir recursos rapidamente conforme demanda C) Diminuição de rede D) Falha de hardware",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Pay-per-use traz: A) Custos fixos B) Investimentos antecipados C) Custos variáveis conforme uso D) Não se aplica",
+        "options": [
+          "B",
+          "D",
+          "C",
+          "A"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Criptografia em trânsito e em repouso com gerenciamento de chaves tem como resultado principal: A) Aumento de latência B) Proteção de dados confidenciais C) Redução de disponibilidade D) Simplificação de autenticação",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "OpenID facilita? A) Gerenciamento de credenciais para plataformas diferentes por meio de autenticação única B) Criptografia de dados C) Armazenamento de arquivos D) Envio de mensagens",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual descreve corretamente identidade federada? A) Delegação de direitos administrativos entre ambientes, permitindo autenticação entre domínios B) Exclusivamente para redes locais C) Ruim para segurança D) Substitui criptografia",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Quais itens compõem a segurança da informação na nuvem segundo Mourato? A) Isolamento de dados, segurança granular, criptografia em trânsito e repouso, gestão de direitos à informação, conformidade e auditoria B) Apenas disponibilidade C) Gerenciamento de redes D) Backups apenas",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Autenticação sólida envolve: A) Senha fraca B) Autenticação multifator e avaliação de risco C) Não requer credenciais D) Apenas biometria",
+        "options": [
+          "C",
+          "D",
+          "B",
+          "A"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Gestão de identidades na nuvem refere-se a: A) Gerenciar contas de usuário e controle de acesso nos ambientes SaaS/PaaS/IaaS B) Gerenciar apenas hardware C) Gerenciar apenas redes D) Gerenciar apenas DNS",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O que o OpenID permite? A) Gerenciamento de credenciais para plataformas diferentes por meio de autenticação única B) Criptografia de dados C) Armazenamento de arquivos D) Envio de mensagens",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é a função básica de um firewall na rede? A) Reforçar criptografia B) Aplicar políticas de segurança para o tráfego de entrada/saída C) Aumentar a latência D) Gerenciar DOM",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Qual é o papel da privacidade na nuvem? A) Garantir acesso restrito a dados pessoais e anonimato quando aplicável B) Acesso irrestrito a dados C) Armazenar tudo sem controles D) Tornar visível tudo a qualquer usuário",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Identidade federada envolve: A) Delegação de direitos administrativos entre ambientes, permitindo autenticação entre domínios B) Autenticação apenas local C) Não fornecer SSO D) Apenas autenticação de dispositivo",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "No guia CSA, quais temas abrangem a arquitetura da nuvem? A) Arquitetura da nuvem, governança e operações B) Lucro, marketing e suporte C) Hardware de rede e energia D) Desenvolvimento local",
+        "options": [
+          "D",
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "O conceito de TI verde na nuvem está associado a: A) Aumento de consumo de energia B) Maior virtualização para reduzir infraestrutura física C) Geração de calor D) Armazenamento apenas local",
+        "options": [
+          "C",
+          "D",
+          "B",
+          "A"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}
