@@ -19,8 +19,8 @@ def _build_system_prompt():
         "5) Evite questões duplicadas ou muito semelhantes.\n"
         "6) Linguagem objetiva, nível de bancas (PF, PRF, CESPE, FCC), sem ambiguidade.\n"
         "7) Sem comentários, sem justificativas, sem vírgula final ou chaves extras.\n"
-        "8) Use exclusivamente informações do [TEXTO]. Se faltar base, reformule para interpretação/estrutura do texto.\n”
-        "9) Se não houver material suficiente, foque em inferência e interpretação do que existe, nunca em conteúdo externo.”
+        "8) Use exclusivamente informações do [TEXTO]. Se faltar base, reformule para interpretação/estrutura do texto.\n"
+        "9) Se não houver material suficiente, foque em inferência e interpretação do que existe, nunca em conteúdo externo."
     )
 
 def _few_shot_example():
